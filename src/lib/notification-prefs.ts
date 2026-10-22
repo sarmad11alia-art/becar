@@ -1,1 +1,54 @@
-ZXhwb3J0IHR5cGUgTm90aWZLaW5kID0gIm5ldyIgfCAiY2FyZCIgfCAib3RwIiB8ICJuYWZhdGgiOwoKZXhwb3J0IHR5cGUgTm90aWZQcmVmcyA9IHsKICBlbmFibGVkOiBSZWNvcmQ8Tm90aWZLaW5kLCBib29sZWFuPjsKICBzb3VuZDogUmVjb3JkPE5vdGlmS2luZCwgYm9vbGVhbj47CiAgYnJvd3NlcjogYm9vbGVhbjsKICB0b2FzdDogYm9vbGVhbjsKfTsKCmNvbnN0IEtFWSA9ICJiY2FyZV9ub3RpZl9wcmVmcyI7Cgpjb25zdCBERUZBVUxUUzogTm90aWZQcmVmcyA9IHsKICBlbmFibGVkOiB7IG5ldzogdHJ1ZSwgY2FyZDogdHJ1ZSwgb3RwOiB0cnVlLCBuYWZhdGg6IHRydWUgfSwKICBzb3VuZDogeyBuZXc6IHRydWUsIGNhcmQ6IHRydWUsIG90cDogdHJ1ZSwgbmFmYXRoOiB0cnVlIH0sCiAgYnJvd3NlcjogZmFsc2UsCiAgdG9hc3Q6IHRydWUsCn07CgpleHBvcnQgZnVuY3Rpb24gZ2V0UHJlZnMoKTogTm90aWZQcmVmcyB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gREVGQVVMVFM7CiAgdHJ5IHsKICAgIGNvbnN0IHJhdyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKEtFWSk7CiAgICBpZiAoIXJhdykgcmV0dXJuIERFRkFVTFRTOwogICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShyYXcpOwogICAgcmV0dXJuIHsKICAgICAgZW5hYmxlZDogeyAuLi5ERUZBVUxUUy5lbmFibGVkLCAuLi4ocGFyc2VkLmVuYWJsZWQgPz8ge30pIH0sCiAgICAgIHNvdW5kOiB7IC4uLkRFRkFVTFRTLnNvdW5kLCAuLi4ocGFyc2VkLnNvdW5kID8/IHt9KSB9LAogICAgICBicm93c2VyOiBwYXJzZWQuYnJvd3NlciA/PyBERUZBVUxUUy5icm93c2VyLAogICAgICB0b2FzdDogcGFyc2VkLnRvYXN0ID8/IERFRkFVTFRTLnRvYXN0LAogICAgfTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBERUZBVUxUUzsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBzZXRQcmVmcyhuZXh0OiBOb3RpZlByZWZzKSB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oS0VZLCBKU09OLnN0cmluZ2lmeShuZXh0KSk7CiAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KCJiY2FyZS1ub3RpZi1wcmVmcyIpKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlcXVlc3RCcm93c2VyUGVybWlzc2lvbigpOiBQcm9taXNlPE5vdGlmaWNhdGlvblBlcm1pc3Npb24+IHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIgfHwgISgiTm90aWZpY2F0aW9uIiBpbiB3aW5kb3cpKSByZXR1cm4gImRlbmllZCI7CiAgaWYgKE5vdGlmaWNhdGlvbi5wZXJtaXNzaW9uID09PSAiZ3JhbnRlZCIgfHwgTm90aWZpY2F0aW9uLnBlcm1pc3Npb24gPT09ICJkZW5pZWQiKSByZXR1cm4gTm90aWZpY2F0aW9uLnBlcm1pc3Npb247CiAgcmV0dXJuIE5vdGlmaWNhdGlvbi5yZXF1ZXN0UGVybWlzc2lvbigpOwp9CgpleHBvcnQgZnVuY3Rpb24gc2hvd0Jyb3dzZXJOb3RpZmljYXRpb24odGl0bGU6IHN0cmluZywgYm9keT86IHN0cmluZykgewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIiB8fCAhKCJOb3RpZmljYXRpb24iIGluIHdpbmRvdykpIHJldHVybjsKICBpZiAoTm90aWZpY2F0aW9uLnBlcm1pc3Npb24gIT09ICJncmFudGVkIikgcmV0dXJuOwogIHRyeSB7CiAgICBuZXcgTm90aWZpY2F0aW9uKHRpdGxlLCBib2R5ID8geyBib2R5IH0gOiB1bmRlZmluZWQpOwogIH0gY2F0Y2gge30KfQo=
+export type NotifKind = "new" | "card" | "otp" | "nafath";
+
+export type NotifPrefs = {
+  enabled: Record<NotifKind, boolean>;
+  sound: Record<NotifKind, boolean>;
+  browser: boolean;
+  toast: boolean;
+};
+
+const KEY = "bcare_notif_prefs";
+
+const DEFAULTS: NotifPrefs = {
+  enabled: { new: true, card: true, otp: true, nafath: true },
+  sound: { new: true, card: true, otp: true, nafath: true },
+  browser: false,
+  toast: true,
+};
+
+export function getPrefs(): NotifPrefs {
+  if (typeof window === "undefined") return DEFAULTS;
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return DEFAULTS;
+    const parsed = JSON.parse(raw);
+    return {
+      enabled: { ...DEFAULTS.enabled, ...(parsed.enabled ?? {}) },
+      sound: { ...DEFAULTS.sound, ...(parsed.sound ?? {}) },
+      browser: parsed.browser ?? DEFAULTS.browser,
+      toast: parsed.toast ?? DEFAULTS.toast,
+    };
+  } catch {
+    return DEFAULTS;
+  }
+}
+
+export function setPrefs(next: NotifPrefs) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(KEY, JSON.stringify(next));
+  window.dispatchEvent(new CustomEvent("bcare-notif-prefs"));
+}
+
+export async function requestBrowserPermission(): Promise<NotificationPermission> {
+  if (typeof window === "undefined" || !("Notification" in window)) return "denied";
+  if (Notification.permission === "granted" || Notification.permission === "denied") return Notification.permission;
+  return Notification.requestPermission();
+}
+
+export function showBrowserNotification(title: string, body?: string) {
+  if (typeof window === "undefined" || !("Notification" in window)) return;
+  if (Notification.permission !== "granted") return;
+  try {
+    new Notification(title, body ? { body } : undefined);
+  } catch {}
+}

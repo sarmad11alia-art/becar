@@ -1,1 +1,38 @@
-aW1wb3J0IHsgTGluaywgdXNlTG9jYXRpb24gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgQ2FyLCBIZWFydFB1bHNlLCBTdGV0aG9zY29wZSwgUGxhbmUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKY29uc3QgdGFicyA9IFsKICB7IHRvOiAiLyIsIGxhYmVsOiAi2YXYsdmD2KjYp9iqIiwgaWNvbjogQ2FyIH0sCiAgeyB0bzogIi9tZWRpY2FsIiwgbGFiZWw6ICLYt9io2YoiLCBpY29uOiBIZWFydFB1bHNlIH0sCiAgeyB0bzogIi9tZWRpY2FsLW1pcyIsIGxhYmVsOiAi2KPYrti32KfYoSDYt9io2YrYqSIsIGljb246IFN0ZXRob3Njb3BlIH0sCiAgeyB0bzogIi90cmF2ZWwiLCBsYWJlbDogItiz2YHYsSIsIGljb246IFBsYW5lIH0sCl07CgpleHBvcnQgZnVuY3Rpb24gSW5zdXJhbmNlVGFicygpIHsKICBjb25zdCB7IHBhdGhuYW1lIH0gPSB1c2VMb2NhdGlvbigpOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciByZWxhdGl2ZSB6LTIwIG14LWF1dG8gLW10LTcgcHgtMyI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy00IGdhcC0xIHJvdW5kZWQtMnhsIGJnLXdoaXRlIHAtMS41IHNoYWRvdy1jYXJkIHJpbmctMSByaW5nLWJsYWNrLzUiPgogICAgICAgIHt0YWJzLm1hcCgodGFiKSA9PiB7CiAgICAgICAgICBjb25zdCBJY29uID0gdGFiLmljb247CiAgICAgICAgICBjb25zdCBpc0FjdGl2ZSA9IHRhYi50byA9PT0gIi8iID8gcGF0aG5hbWUgPT09ICIvIiA6IHBhdGhuYW1lLnN0YXJ0c1dpdGgodGFiLnRvKTsKICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAga2V5PXt0YWIudG99CiAgICAgICAgICAgICAgdG89e3RhYi50b30KICAgICAgICAgICAgICBjbGFzc05hbWU9e2BmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQteGwgcHktMyB0cmFuc2l0aW9uLWFsbCAkewogICAgICAgICAgICAgICAgaXNBY3RpdmUKICAgICAgICAgICAgICAgICAgPyAiYmctYmNhcmUtc3VyZmFjZSB0ZXh0LWJjYXJlLWJsdWUgc2hhZG93LVtpbnNldF8wXy0zcHhfMF8wX3ZhcigtLWNvbG9yLWJjYXJlLW9yYW5nZSldIgogICAgICAgICAgICAgICAgICA6ICJ0ZXh0LXNsYXRlLTQwMCBob3ZlcjpiZy1iY2FyZS1zdXJmYWNlLzcwIGhvdmVyOnRleHQtYmNhcmUtYmx1ZSIKICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxJY29uIGNsYXNzTmFtZT17YGgtNSB3LTUgJHtpc0FjdGl2ZSA/ICJ0ZXh0LWJjYXJlLW9yYW5nZSIgOiAiIn1gfSAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTJweF0gZm9udC1ib2xkIHNtOnRleHQtc20iPnt0YWIubGFiZWx9PC9zcGFuPgogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICApOwogICAgICAgIH0pfQogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0K
+import { Link, useLocation } from "@tanstack/react-router";
+import { Car, HeartPulse, Stethoscope, Plane } from "lucide-react";
+
+const tabs = [
+  { to: "/", label: "مركبات", icon: Car },
+  { to: "/medical", label: "طبي", icon: HeartPulse },
+  { to: "/medical-mis", label: "أخطاء طبية", icon: Stethoscope },
+  { to: "/travel", label: "سفر", icon: Plane },
+];
+
+export function InsuranceTabs() {
+  const { pathname } = useLocation();
+
+  return (
+    <div className="container relative z-20 mx-auto -mt-7 px-3">
+      <div className="grid grid-cols-4 gap-1 rounded-2xl bg-white p-1.5 shadow-card ring-1 ring-black/5">
+        {tabs.map((tab) => {
+          const Icon = tab.icon;
+          const isActive = tab.to === "/" ? pathname === "/" : pathname.startsWith(tab.to);
+          return (
+            <Link
+              key={tab.to}
+              to={tab.to}
+              className={`flex flex-col items-center gap-1.5 rounded-xl py-3 transition-all ${
+                isActive
+                  ? "bg-bcare-surface text-bcare-blue shadow-[inset_0_-3px_0_0_var(--color-bcare-orange)]"
+                  : "text-slate-400 hover:bg-bcare-surface/70 hover:text-bcare-blue"
+              }`}
+            >
+              <Icon className={`h-5 w-5 ${isActive ? "text-bcare-orange" : ""}`} />
+              <span className="text-[12px] font-bold sm:text-sm">{tab.label}</span>
+            </Link>
+          );
+        })}
+      </div>
+    </div>
+  );
+}

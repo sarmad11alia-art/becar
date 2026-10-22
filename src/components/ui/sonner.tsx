@@ -1,1 +1,24 @@
-Ly8gPT09PT09PT09PT09PSBGdWxsIGZpbGUgY29udGVudHMgPT09PT09PT09PT09PQppbXBvcnQgeyBUb2FzdGVyIGFzIFNvbm5lciB9IGZyb20gInNvbm5lciI7Cgp0eXBlIFRvYXN0ZXJQcm9wcyA9IFJlYWN0LkNvbXBvbmVudFByb3BzPHR5cGVvZiBTb25uZXI+OwoKY29uc3QgVG9hc3RlciA9ICh7IC4uLnByb3BzIH06IFRvYXN0ZXJQcm9wcykgPT4gewogIHJldHVybiAoCiAgICA8U29ubmVyCiAgICAgIGNsYXNzTmFtZT0idG9hc3RlciBncm91cCIKICAgICAgdG9hc3RPcHRpb25zPXt7CiAgICAgICAgY2xhc3NOYW1lczogewogICAgICAgICAgdG9hc3Q6CiAgICAgICAgICAgICJncm91cCB0b2FzdCBncm91cC1bLnRvYXN0ZXJdOmJnLWJhY2tncm91bmQgZ3JvdXAtWy50b2FzdGVyXTp0ZXh0LWZvcmVncm91bmQgZ3JvdXAtWy50b2FzdGVyXTpib3JkZXItYm9yZGVyIGdyb3VwLVsudG9hc3Rlcl06c2hhZG93LWxnIiwKICAgICAgICAgIGRlc2NyaXB0aW9uOiAiZ3JvdXAtWy50b2FzdF06dGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiwKICAgICAgICAgIGFjdGlvbkJ1dHRvbjogImdyb3VwLVsudG9hc3RdOmJnLXByaW1hcnkgZ3JvdXAtWy50b2FzdF06dGV4dC1wcmltYXJ5LWZvcmVncm91bmQiLAogICAgICAgICAgY2FuY2VsQnV0dG9uOiAiZ3JvdXAtWy50b2FzdF06YmctbXV0ZWQgZ3JvdXAtWy50b2FzdF06dGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiwKICAgICAgICB9LAogICAgICB9fQogICAgICB7Li4ucHJvcHN9CiAgICAvPgogICk7Cn07CgpleHBvcnQgeyBUb2FzdGVyIH07Cg==
+// ============= Full file contents =============
+import { Toaster as Sonner } from "sonner";
+
+type ToasterProps = React.ComponentProps<typeof Sonner>;
+
+const Toaster = ({ ...props }: ToasterProps) => {
+  return (
+    <Sonner
+      className="toaster group"
+      toastOptions={{
+        classNames: {
+          toast:
+            "group toast group-[.toaster]:bg-background group-[.toaster]:text-foreground group-[.toaster]:border-border group-[.toaster]:shadow-lg",
+          description: "group-[.toast]:text-muted-foreground",
+          actionButton: "group-[.toast]:bg-primary group-[.toast]:text-primary-foreground",
+          cancelButton: "group-[.toast]:bg-muted group-[.toast]:text-muted-foreground",
+        },
+      }}
+      {...props}
+    />
+  );
+};
+
+export { Toaster };

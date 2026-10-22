@@ -1,1 +1,69 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBNYWlsLCBNYXBQaW4sIFNoaWVsZENoZWNrIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IGJjYXJlTG9nbyBmcm9tICJAL2Fzc2V0cy9iY2FyZS1sb2dvLnBuZyI7CgpleHBvcnQgZnVuY3Rpb24gRm9vdGVyKCkgewogIGNvbnN0IHllYXIgPSBuZXcgRGF0ZSgpLmdldEZ1bGxZZWFyKCk7CiAgcmV0dXJuICgKICAgIDxmb290ZXIgY2xhc3NOYW1lPSJtdC0xNiBiZy1iY2FyZS1pbmsgdGV4dC13aGl0ZSIgZGlyPSJydGwiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gZ3JpZCBnYXAtMTAgcHgtNCBweS0xMiBtZDpncmlkLWNvbHMtNCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMi41Ij4KICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgIHNyYz17YmNhcmVMb2dvfQogICAgICAgICAgICAgIGFsdD0i2LTYudin2LEg2KjZiiDZg9mK2LEg2YTZhNiq2KPZhdmK2YYiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTEyIHctYXV0byByb3VuZGVkLWxnIGJnLXdoaXRlIG9iamVjdC1jb250YWluIHAtMSIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtc20gbGVhZGluZy1yZWxheGVkIG9wYWNpdHktODAiPgogICAgICAgICAgICDZiNiz2YrYtyDYqtij2YXZitmGINil2YTZg9iq2LHZiNmG2Yog2YrZiNmB2ZHYsSDYudmE2YrZgyDYp9mE2YXZgtin2LHZhtipINio2YrZhiDYo9mD2KvYsSDZhdmGIDIwINi02LHZg9ipINiq2KPZhdmK2YYg2YXYudiq2YXYr9ipINmB2Yog2KfZhNmF2YXZhNmD2Kkg2KfZhNi52LHYqNmK2Kkg2KfZhNiz2LnZiNiv2YrYqS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdj4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9Im1iLTMgdGV4dC1zbSBmb250LWJsYWNrIj7ZhdmG2KrYrNin2KrZhtinPC9oMz4KICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiB0ZXh0LXNtIG9wYWNpdHktODUiPgogICAgICAgICAgICA8bGk+PExpbmsgdG89Ii8iIGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1iY2FyZS1vcmFuZ2UiPtiq2KPZhdmK2YYg2KfZhNmF2LHZg9io2KfYqjwvTGluaz48L2xpPgogICAgICAgICAgICA8bGk+PExpbmsgdG89Ii9tZWRpY2FsIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtYmNhcmUtb3JhbmdlIj7Yp9mE2KrYo9mF2YrZhiDYp9mE2LfYqNmKPC9MaW5rPjwvbGk+CiAgICAgICAgICAgIDxsaT48TGluayB0bz0iL3RyYXZlbCIgY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWJjYXJlLW9yYW5nZSI+2KrYo9mF2YrZhiDYp9mE2LPZgdixPC9MaW5rPjwvbGk+CiAgICAgICAgICAgIDxsaT48TGluayB0bz0iL21lZGljYWwtbWlzIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtYmNhcmUtb3JhbmdlIj7Yp9mE2KPYrti32KfYoSDYp9mE2LfYqNmK2Kk8L0xpbms+PC9saT4KICAgICAgICAgIDwvdWw+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXY+CiAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJtYi0zIHRleHQtc20gZm9udC1ibGFjayI+2KfZhNi02LHZg9ipPC9oMz4KICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiB0ZXh0LXNtIG9wYWNpdHktODUiPgogICAgICAgICAgICA8bGk+PGEgaHJlZj0iIyIgY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWJjYXJlLW9yYW5nZSI+2YXZhiDZhtit2YY8L2E+PC9saT4KICAgICAgICAgICAgPGxpPjxhIGhyZWY9IiMiIGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1iY2FyZS1vcmFuZ2UiPtin2YTYo9iz2KbZhNipINin2YTYtNin2KbYudipPC9hPjwvbGk+CiAgICAgICAgICAgIDxsaT48YSBocmVmPSIjIiBjbGFzc05hbWU9ImhvdmVyOnRleHQtYmNhcmUtb3JhbmdlIj7Yp9mE2LTYsdmI2Lcg2YjYp9mE2KPYrdmD2KfZhTwvYT48L2xpPgogICAgICAgICAgICA8bGk+PGEgaHJlZj0iIyIgY2xhc3NOYW1lPSJob3Zlcjp0ZXh0LWJjYXJlLW9yYW5nZSI+2LPZitin2LPYqSDYp9mE2K7YtdmI2LXZitipPC9hPjwvbGk+CiAgICAgICAgICA8L3VsPgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2PgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibWItMyB0ZXh0LXNtIGZvbnQtYmxhY2siPtiq2YjYp9i12YQg2YXYudmG2Kc8L2gzPgogICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0yIHRleHQtc20gb3BhY2l0eS04NSI+CiAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8TWFpbCBjbGFzc05hbWU9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1iY2FyZS1vcmFuZ2UiIC8+CiAgICAgICAgICAgICAgPGEgaHJlZj0ibWFpbHRvOmluZm9AYmNhcmUuc2EiIGNsYXNzTmFtZT0iaG92ZXI6dGV4dC1iY2FyZS1vcmFuZ2UiIGRpcj0ibHRyIj5pbmZvQGJjYXJlLnNhPC9hPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0yIj4KICAgICAgICAgICAgICA8TWFwUGluIGNsYXNzTmFtZT0ibXQtMC41IGgtNCB3LTQgc2hyaW5rLTAgdGV4dC1iY2FyZS1vcmFuZ2UiIC8+CiAgICAgICAgICAgICAgPHNwYW4+2KfZhNix2YrYp9i22Iwg2KfZhNmF2YXZhNmD2Kkg2KfZhNi52LHYqNmK2Kkg2KfZhNiz2LnZiNiv2YrYqTwvc3Bhbj4KICAgICAgICAgICAgPC9saT4KICAgICAgICAgIDwvdWw+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci10IGJvcmRlci13aGl0ZS8xMCBiZy1ibGFjay8yMCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBweC00IHB5LTQgdGV4dC14cyBvcGFjaXR5LTgwIG1kOmZsZXgtcm93Ij4KICAgICAgICAgIDxwPsKpIHt5ZWFyfSDYqNmKINmD2YrYsSDZhNmE2KrYo9mF2YrZhi4g2KzZhdmK2Lkg2KfZhNit2YLZiNmCINmF2K3ZgdmI2LjYqS48L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtYmNhcmUtb3JhbmdlIiAvPgogICAgICAgICAgICA8c3Bhbj7Zhdix2K7Zkdi1INmF2YYg2YLZkNio2YQg2KfZhNio2YbZgyDYp9mE2YXYsdmD2LLZiiDYp9mE2LPYudmI2K/ZiiDigJQgU0FNQTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZm9vdGVyPgogICk7Cn0K
+import { Link } from "@tanstack/react-router";
+import { Mail, MapPin, ShieldCheck } from "lucide-react";
+import bcareLogo from "@/assets/bcare-logo.png";
+
+export function Footer() {
+  const year = new Date().getFullYear();
+  return (
+    <footer className="mt-16 bg-bcare-ink text-white" dir="rtl">
+      <div className="container mx-auto grid gap-10 px-4 py-12 md:grid-cols-4">
+        <div>
+          <div className="flex items-center gap-2.5">
+            <img
+              src={bcareLogo}
+              alt="شعار بي كير للتأمين"
+              className="h-12 w-auto rounded-lg bg-white object-contain p-1"
+            />
+          </div>
+          <p className="mt-4 text-sm leading-relaxed opacity-80">
+            وسيط تأمين إلكتروني يوفّر عليك المقارنة بين أكثر من 20 شركة تأمين معتمدة في المملكة العربية السعودية.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="mb-3 text-sm font-black">منتجاتنا</h3>
+          <ul className="space-y-2 text-sm opacity-85">
+            <li><Link to="/" className="hover:text-bcare-orange">تأمين المركبات</Link></li>
+            <li><Link to="/medical" className="hover:text-bcare-orange">التأمين الطبي</Link></li>
+            <li><Link to="/travel" className="hover:text-bcare-orange">تأمين السفر</Link></li>
+            <li><Link to="/medical-mis" className="hover:text-bcare-orange">الأخطاء الطبية</Link></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="mb-3 text-sm font-black">الشركة</h3>
+          <ul className="space-y-2 text-sm opacity-85">
+            <li><a href="#" className="hover:text-bcare-orange">من نحن</a></li>
+            <li><a href="#" className="hover:text-bcare-orange">الأسئلة الشائعة</a></li>
+            <li><a href="#" className="hover:text-bcare-orange">الشروط والأحكام</a></li>
+            <li><a href="#" className="hover:text-bcare-orange">سياسة الخصوصية</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="mb-3 text-sm font-black">تواصل معنا</h3>
+          <ul className="space-y-2 text-sm opacity-85">
+            <li className="flex items-center gap-2">
+              <Mail className="h-4 w-4 shrink-0 text-bcare-orange" />
+              <a href="mailto:info@bcare.sa" className="hover:text-bcare-orange" dir="ltr">info@bcare.sa</a>
+            </li>
+            <li className="flex items-start gap-2">
+              <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-bcare-orange" />
+              <span>الرياض، المملكة العربية السعودية</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-white/10 bg-black/20">
+        <div className="container mx-auto flex flex-col items-center justify-between gap-3 px-4 py-4 text-xs opacity-80 md:flex-row">
+          <p>© {year} بي كير للتأمين. جميع الحقوق محفوظة.</p>
+          <div className="flex items-center gap-2">
+            <ShieldCheck className="h-4 w-4 text-bcare-orange" />
+            <span>مرخّص من قِبل البنك المركزي السعودي — SAMA</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}

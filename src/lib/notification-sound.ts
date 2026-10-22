@@ -1,1 +1,76 @@
-bGV0IGN0eDogQXVkaW9Db250ZXh0IHwgbnVsbCA9IG51bGw7CmxldCB1bmxvY2tlZCA9IGZhbHNlOwoKZnVuY3Rpb24gZ2V0Q3R4KCkgewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuIG51bGw7CiAgaWYgKCFjdHgpIHsKICAgIGNvbnN0IEFDID0gKHdpbmRvdy5BdWRpb0NvbnRleHQgfHwgKHdpbmRvdyBhcyBhbnkpLndlYmtpdEF1ZGlvQ29udGV4dCkgYXMgdHlwZW9mIEF1ZGlvQ29udGV4dCB8IHVuZGVmaW5lZDsKICAgIGlmICghQUMpIHJldHVybiBudWxsOwogICAgY3R4ID0gbmV3IEFDKCk7CiAgfQogIHJldHVybiBjdHg7Cn0KCi8qKiBNdXN0IGJlIGNhbGxlZCBmcm9tIGEgdXNlciBnZXN0dXJlIHRvIGFsbG93IGF1dG9wbGF5IG9mIGF1ZGlvIGFmdGVyd2FyZHMuICovCmV4cG9ydCBmdW5jdGlvbiB1bmxvY2tBdWRpbygpIHsKICBjb25zdCBhYyA9IGdldEN0eCgpOwogIGlmICghYWMpIHJldHVybjsKICBpZiAoYWMuc3RhdGUgPT09ICJzdXNwZW5kZWQiKSB2b2lkIGFjLnJlc3VtZSgpOwogIGlmICh1bmxvY2tlZCkgcmV0dXJuOwogIHRyeSB7CiAgICBjb25zdCBvc2MgPSBhYy5jcmVhdGVPc2NpbGxhdG9yKCk7CiAgICBjb25zdCBnYWluID0gYWMuY3JlYXRlR2FpbigpOwogICAgZ2Fpbi5nYWluLnZhbHVlID0gMC4wMDAxOwogICAgb3NjLmNvbm5lY3QoZ2FpbikuY29ubmVjdChhYy5kZXN0aW5hdGlvbik7CiAgICBvc2Muc3RhcnQoKTsKICAgIG9zYy5zdG9wKGFjLmN1cnJlbnRUaW1lICsgMC4wMSk7CiAgICB1bmxvY2tlZCA9IHRydWU7CiAgfSBjYXRjaCB7fQp9CgpleHBvcnQgZnVuY3Rpb24gcGxheUJlZXAocGF0dGVybjogIm5ldyIgfCAiY2FyZCIgfCAib3RwIiB8ICJuYWZhdGgiID0gIm5ldyIpIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICBpZiAobG9jYWxTdG9yYWdlLmdldEl0ZW0oImJjYXJlX3NvdW5kX211dGVkIikgPT09ICIxIikgcmV0dXJuOwogIHRyeSB7CiAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgiYmNhcmVfbm90aWZfcHJlZnMiKTsKICAgIGlmIChyYXcpIHsKICAgICAgY29uc3QgcCA9IEpTT04ucGFyc2UocmF3KTsKICAgICAgaWYgKHA/LnNvdW5kICYmIHAuc291bmRbcGF0dGVybl0gPT09IGZhbHNlKSByZXR1cm47CiAgICB9CiAgfSBjYXRjaCB7fQogIGNvbnN0IGFjID0gZ2V0Q3R4KCk7CiAgaWYgKCFhYykgcmV0dXJuOwogIGlmIChhYy5zdGF0ZSA9PT0gInN1c3BlbmRlZCIpIHZvaWQgYWMucmVzdW1lKCk7CiAgY29uc3Qgbm90ZXM6IFJlY29yZDxzdHJpbmcsIG51bWJlcltdPiA9IHsKICAgIG5ldzogWzg4MCwgMTE3NV0sCiAgICBjYXJkOiBbNjYwLCA5OTAsIDEzMjBdLAogICAgb3RwOiBbMTMyMCwgMTA0NiwgMTMyMF0sCiAgICBuYWZhdGg6IFs1MjMsIDc4NCwgMTA0NiwgMTU2OF0sCiAgfTsKICBjb25zdCBzZXE6IG51bWJlcltdID0gbm90ZXNbcGF0dGVybl0gPz8gWzg4MCwgMTE3NV07CiAgY29uc3Qgbm93ID0gYWMuY3VycmVudFRpbWU7CiAgc2VxLmZvckVhY2goKGZyZXEsIGkpID0+IHsKICAgIGNvbnN0IG9zYyA9IGFjLmNyZWF0ZU9zY2lsbGF0b3IoKTsKICAgIGNvbnN0IGdhaW4gPSBhYy5jcmVhdGVHYWluKCk7CiAgICBvc2MudHlwZSA9ICJzaW5lIjsKICAgIG9zYy5mcmVxdWVuY3kudmFsdWUgPSBmcmVxOwogICAgY29uc3Qgc3RhcnQgPSBub3cgKyBpICogMC4xMjsKICAgIGNvbnN0IGVuZCA9IHN0YXJ0ICsgMC4xODsKICAgIGdhaW4uZ2Fpbi5zZXRWYWx1ZUF0VGltZSgwLCBzdGFydCk7CiAgICBnYWluLmdhaW4ubGluZWFyUmFtcFRvVmFsdWVBdFRpbWUoMC4xOCwgc3RhcnQgKyAwLjAyKTsKICAgIGdhaW4uZ2Fpbi5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKDAuMDAwMSwgZW5kKTsKICAgIG9zYy5jb25uZWN0KGdhaW4pLmNvbm5lY3QoYWMuZGVzdGluYXRpb24pOwogICAgb3NjLnN0YXJ0KHN0YXJ0KTsKICAgIG9zYy5zdG9wKGVuZCArIDAuMDIpOwogIH0pOwp9CgpleHBvcnQgZnVuY3Rpb24gaXNNdXRlZCgpIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybiBmYWxzZTsKICByZXR1cm4gbG9jYWxTdG9yYWdlLmdldEl0ZW0oImJjYXJlX3NvdW5kX211dGVkIikgPT09ICIxIjsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNldE11dGVkKG11dGVkOiBib29sZWFuKSB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oImJjYXJlX3NvdW5kX211dGVkIiwgbXV0ZWQgPyAiMSIgOiAiMCIpOwp9Cg==
+let ctx: AudioContext | null = null;
+let unlocked = false;
+
+function getCtx() {
+  if (typeof window === "undefined") return null;
+  if (!ctx) {
+    const AC = (window.AudioContext || (window as any).webkitAudioContext) as typeof AudioContext | undefined;
+    if (!AC) return null;
+    ctx = new AC();
+  }
+  return ctx;
+}
+
+/** Must be called from a user gesture to allow autoplay of audio afterwards. */
+export function unlockAudio() {
+  const ac = getCtx();
+  if (!ac) return;
+  if (ac.state === "suspended") void ac.resume();
+  if (unlocked) return;
+  try {
+    const osc = ac.createOscillator();
+    const gain = ac.createGain();
+    gain.gain.value = 0.0001;
+    osc.connect(gain).connect(ac.destination);
+    osc.start();
+    osc.stop(ac.currentTime + 0.01);
+    unlocked = true;
+  } catch {}
+}
+
+export function playBeep(pattern: "new" | "card" | "otp" | "nafath" = "new") {
+  if (typeof window === "undefined") return;
+  if (localStorage.getItem("bcare_sound_muted") === "1") return;
+  try {
+    const raw = localStorage.getItem("bcare_notif_prefs");
+    if (raw) {
+      const p = JSON.parse(raw);
+      if (p?.sound && p.sound[pattern] === false) return;
+    }
+  } catch {}
+  const ac = getCtx();
+  if (!ac) return;
+  if (ac.state === "suspended") void ac.resume();
+  const notes: Record<string, number[]> = {
+    new: [880, 1175],
+    card: [660, 990, 1320],
+    otp: [1320, 1046, 1320],
+    nafath: [523, 784, 1046, 1568],
+  };
+  const seq: number[] = notes[pattern] ?? [880, 1175];
+  const now = ac.currentTime;
+  seq.forEach((freq, i) => {
+    const osc = ac.createOscillator();
+    const gain = ac.createGain();
+    osc.type = "sine";
+    osc.frequency.value = freq;
+    const start = now + i * 0.12;
+    const end = start + 0.18;
+    gain.gain.setValueAtTime(0, start);
+    gain.gain.linearRampToValueAtTime(0.18, start + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, end);
+    osc.connect(gain).connect(ac.destination);
+    osc.start(start);
+    osc.stop(end + 0.02);
+  });
+}
+
+export function isMuted() {
+  if (typeof window === "undefined") return false;
+  return localStorage.getItem("bcare_sound_muted") === "1";
+}
+
+export function setMuted(muted: boolean) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem("bcare_sound_muted", muted ? "1" : "0");
+}

@@ -1,1 +1,87 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgTWVudSwgU2hpZWxkQ2hlY2ssIFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBjbiB9IGZyb20gIkAvbGliL3V0aWxzIjsKaW1wb3J0IGJjYXJlTG9nbyBmcm9tICJAL2Fzc2V0cy9iY2FyZS1sb2dvLnBuZyI7Cgpjb25zdCBOQVZfTElOS1MgPSBbCiAgeyB0bzogIi8iLCBsYWJlbDogItin2YTYsdim2YrYs9mK2KkiIH0sCiAgeyB0bzogIi9tZWRpY2FsIiwgbGFiZWw6ICLYp9mE2KrYo9mF2YrZhiDYp9mE2LfYqNmKIiB9LAogIHsgdG86ICIvdHJhdmVsIiwgbGFiZWw6ICLYqtij2YXZitmGINin2YTYs9mB2LEiIH0sCiAgeyB0bzogIi9tZWRpY2FsLW1pcyIsIGxhYmVsOiAi2KfZhNij2K7Yt9in2KEg2KfZhNi32KjZitipIiB9LApdIGFzIGNvbnN0OwoKZXhwb3J0IGZ1bmN0aW9uIE5hdmJhcigpIHsKICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIHJldHVybiAoCiAgICA8aGVhZGVyIGNsYXNzTmFtZT0icmVsYXRpdmUgei1bMTAwXSIgZGlyPSJydGwiPgogICAgICB7LyogVHJ1c3Qgc3RyaXAgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJiY2FyZS1ncmFkaWVudC1ibHVlIGhpZGRlbiB0ZXh0LXdoaXRlIG1kOmJsb2NrIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gZmxleCBoLTkgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHB4LTQgdGV4dC1bMTJweF0iPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAg2YjYs9mK2Lcg2KrYo9mF2YrZhiDZhdix2K7Zkdi1IOKAlCDYo9mD2KvYsSDZhdmGIDIwINi02LHZg9ipINmB2Yog2YXZg9in2YYg2YjYp9it2K8KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8bmF2IGNsYXNzTmFtZT0iYm9yZGVyLWIgYm9yZGVyLWJjYXJlLWJvcmRlci83MCBiZy13aGl0ZS85MCBiYWNrZHJvcC1ibHVyLW1kIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gZ3JpZCBncmlkLWNvbHMtW21pbm1heCgwLDFmcilfYXV0b10gaXRlbXMtY2VudGVyIGdhcC0zIHB4LTQgcHktMyBtZDpmbGV4IG1kOmp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICA8TGluayB0bz0iLyIgY2xhc3NOYW1lPSJmbGV4IG1pbi13LTAgaXRlbXMtY2VudGVyIGdhcC0yLjUiPgogICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgc3JjPXtiY2FyZUxvZ299CiAgICAgICAgICAgICAgYWx0PSLYtNi52KfYsSDYqNmKINmD2YrYsSDZhNmE2KrYo9mF2YrZhiIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtMTIgdy1hdXRvIHNocmluay0wIHJvdW5kZWQtbGcgb2JqZWN0LWNvbnRhaW4iCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L0xpbms+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImhpZGRlbiBpdGVtcy1jZW50ZXIgZ2FwLTEgbWQ6ZmxleCI+CiAgICAgICAgICAgIHtOQVZfTElOS1MubWFwKChsKSA9PiAoCiAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgIGtleT17bC50b30KICAgICAgICAgICAgICAgIHRvPXtsLnRvfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIHB4LTMgcHktMiB0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTYwMCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1iY2FyZS1zdXJmYWNlIGhvdmVyOnRleHQtYmNhcmUtYmx1ZSIKICAgICAgICAgICAgICAgIGFjdGl2ZVByb3BzPXt7IGNsYXNzTmFtZTogImJnLWJjYXJlLXN1cmZhY2UgdGV4dC1iY2FyZS1ibHVlIiB9fQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtsLmxhYmVsfQogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgdG89Ii8iCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJiY2FyZS1ncmFkaWVudC1jdGEgbXMtMiByb3VuZGVkLXhsIHB4LTQgcHktMi41IHRleHQtc20gZm9udC1ib2xkIHRleHQtd2hpdGUgc2hhZG93LWdsb3ctb3JhbmdlIHRyYW5zaXRpb24tdHJhbnNmb3JtIGhvdmVyOi10cmFuc2xhdGUteS0wLjUiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICDYp9it2LXZhCDYudmE2Ykg2LnYsdi2CiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICBhcmlhLWxhYmVsPXtvcGVuID8gItil2LrZhNin2YIg2KfZhNmC2KfYptmF2KkiIDogItmB2KrYrSDYp9mE2YLYp9im2YXYqSJ9CiAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE9wZW4oKHYpID0+ICF2KX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJncmlkIGgtMTAgdy0xMCBzaHJpbmstMCBwbGFjZS1pdGVtcy1jZW50ZXIgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJjYXJlLWJvcmRlciB0ZXh0LWJjYXJlLWJsdWUgbWQ6aGlkZGVuIgogICAgICAgICAgPgogICAgICAgICAgICB7b3BlbiA/IDxYIGNsYXNzTmFtZT0iaC01IHctNSIgLz4gOiA8TWVudSBjbGFzc05hbWU9ImgtNSB3LTUiIC8+fQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHtvcGVuICYmICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItYmNhcmUtYm9yZGVyIGJnLXdoaXRlIHB4LTQgcGItNCBwdC0yIG1kOmhpZGRlbiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIj4KICAgICAgICAgICAgICB7TkFWX0xJTktTLm1hcCgobCkgPT4gKAogICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAga2V5PXtsLnRvfQogICAgICAgICAgICAgICAgICB0bz17bC50b30KICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3BlbihmYWxzZSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1sZyBweC0zIHB5LTMgdGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS03MDAgaG92ZXI6YmctYmNhcmUtc3VyZmFjZSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge2wubGFiZWx9CiAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9uYXY+CiAgICA8L2hlYWRlcj4KICApOwp9Cg==
+import { Link } from "@tanstack/react-router";
+import { useState } from "react";
+import { Menu, ShieldCheck, X } from "lucide-react";
+import { cn } from "@/lib/utils";
+import bcareLogo from "@/assets/bcare-logo.png";
+
+const NAV_LINKS = [
+  { to: "/", label: "الرئيسية" },
+  { to: "/medical", label: "التأمين الطبي" },
+  { to: "/travel", label: "تأمين السفر" },
+  { to: "/medical-mis", label: "الأخطاء الطبية" },
+] as const;
+
+export function Navbar() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <header className="relative z-[100]" dir="rtl">
+      {/* Trust strip */}
+      <div className="bcare-gradient-blue hidden text-white md:block">
+        <div className="container mx-auto flex h-9 items-center justify-center px-4 text-[12px]">
+          <span className="flex items-center gap-1.5 font-semibold">
+            <ShieldCheck className="h-3.5 w-3.5" />
+            وسيط تأمين مرخّص — أكثر من 20 شركة في مكان واحد
+          </span>
+        </div>
+      </div>
+
+      <nav className="border-b border-bcare-border/70 bg-white/90 backdrop-blur-md">
+        <div className="container mx-auto grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3 px-4 py-3 md:flex md:justify-between">
+          <Link to="/" className="flex min-w-0 items-center gap-2.5">
+            <img
+              src={bcareLogo}
+              alt="شعار بي كير للتأمين"
+              className="h-12 w-auto shrink-0 rounded-lg object-contain"
+            />
+          </Link>
+
+          <div className="hidden items-center gap-1 md:flex">
+            {NAV_LINKS.map((l) => (
+              <Link
+                key={l.to}
+                to={l.to}
+                className="rounded-lg px-3 py-2 text-sm font-bold text-slate-600 transition-colors hover:bg-bcare-surface hover:text-bcare-blue"
+                activeProps={{ className: "bg-bcare-surface text-bcare-blue" }}
+              >
+                {l.label}
+              </Link>
+            ))}
+            <Link
+              to="/"
+              className="bcare-gradient-cta ms-2 rounded-xl px-4 py-2.5 text-sm font-bold text-white shadow-glow-orange transition-transform hover:-translate-y-0.5"
+            >
+              احصل على عرض
+            </Link>
+          </div>
+
+          <button
+            type="button"
+            aria-label={open ? "إغلاق القائمة" : "فتح القائمة"}
+            onClick={() => setOpen((v) => !v)}
+            className="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-bcare-border text-bcare-blue md:hidden"
+          >
+            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
+
+        {open && (
+          <div className="border-t border-bcare-border bg-white px-4 pb-4 pt-2 md:hidden">
+            <div className="flex flex-col">
+              {NAV_LINKS.map((l) => (
+                <Link
+                  key={l.to}
+                  to={l.to}
+                  onClick={() => setOpen(false)}
+                  className="rounded-lg px-3 py-3 text-sm font-bold text-slate-700 hover:bg-bcare-surface"
+                >
+                  {l.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </nav>
+    </header>
+  );
+}

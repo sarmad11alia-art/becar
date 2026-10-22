@@ -1,1 +1,787 @@
-ZXhwb3J0IHR5cGUgSnNvbiA9CiAgfCBzdHJpbmcKICB8IG51bWJlcgogIHwgYm9vbGVhbgogIHwgbnVsbAogIHwgeyBba2V5OiBzdHJpbmddOiBKc29uIHwgdW5kZWZpbmVkIH0KICB8IEpzb25bXQoKZXhwb3J0IHR5cGUgRGF0YWJhc2UgPSB7CiAgLy8gQWxsb3dzIHRvIGF1dG9tYXRpY2FsbHkgaW5zdGFudGlhdGUgY3JlYXRlQ2xpZW50IHdpdGggcmlnaHQgb3B0aW9ucwogIC8vIGluc3RlYWQgb2YgY3JlYXRlQ2xpZW50PERhdGFiYXNlLCB7IFBvc3RncmVzdFZlcnNpb246ICdYWCcgfT4oVVJMLCBLRVkpCiAgX19JbnRlcm5hbFN1cGFiYXNlOiB7CiAgICBQb3N0Z3Jlc3RWZXJzaW9uOiAiMTQuMTgiCiAgfQogIHB1YmxpYzogewogICAgVGFibGVzOiB7CiAgICAgIGFkbWluX2FjdGl2aXR5X2xvZzogewogICAgICAgIFJvdzogewogICAgICAgICAgYWN0aW9uOiBzdHJpbmcKICAgICAgICAgIGFjdG9yX2VtYWlsOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBhY3Rvcl9pZDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgICBtZXRhOiBKc29uCiAgICAgICAgICB0YXJnZXRfaWQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRhcmdldF90eXBlOiBzdHJpbmcgfCBudWxsCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgYWN0aW9uOiBzdHJpbmcKICAgICAgICAgIGFjdG9yX2VtYWlsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgYWN0b3JfaWQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgbWV0YT86IEpzb24KICAgICAgICAgIHRhcmdldF9pZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRhcmdldF90eXBlPzogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGFjdGlvbj86IHN0cmluZwogICAgICAgICAgYWN0b3JfZW1haWw/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBhY3Rvcl9pZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBtZXRhPzogSnNvbgogICAgICAgICAgdGFyZ2V0X2lkPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdGFyZ2V0X3R5cGU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFtdCiAgICAgIH0KICAgICAgYmFubmVkX2NhcmRzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBjYXJkX251bWJlcjogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIGlkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBjYXJkX251bWJlcjogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGNhcmRfbnVtYmVyPzogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIGJhbm5lZF9pcHM6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGNyZWF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgaXA6IHN0cmluZwogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBpcDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIGlwPzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFtdCiAgICAgIH0KICAgICAgY2FyZF9pbnB1dF9oaXN0b3J5OiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBjYXJkX2lkOiBzdHJpbmcKICAgICAgICAgIGNhcmRfbmFtZTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY2FyZF9udW1iZXI6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgY3Z2OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgICBwaG9uZV9udW1iZXI6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHllYXI6IHN0cmluZyB8IG51bGwKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBjYXJkX2lkOiBzdHJpbmcKICAgICAgICAgIGNhcmRfbmFtZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNhcmRfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgY3Z2Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIHBob25lX251bWJlcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHllYXI/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgY2FyZF9pZD86IHN0cmluZwogICAgICAgICAgY2FyZF9uYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY2FyZF9udW1iZXI/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBjdnY/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgcGhvbmVfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgeWVhcj86IHN0cmluZyB8IG51bGwKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogWwogICAgICAgICAgewogICAgICAgICAgICBmb3JlaWduS2V5TmFtZTogImNhcmRfaW5wdXRfaGlzdG9yeV9jYXJkX2lkX2ZrZXkiCiAgICAgICAgICAgIGNvbHVtbnM6IFsiY2FyZF9pZCJdCiAgICAgICAgICAgIGlzT25lVG9PbmU6IGZhbHNlCiAgICAgICAgICAgIHJlZmVyZW5jZWRSZWxhdGlvbjogImNhcmRzIgogICAgICAgICAgICByZWZlcmVuY2VkQ29sdW1uczogWyJpZCJdCiAgICAgICAgICB9LAogICAgICAgIF0KICAgICAgfQogICAgICBjYXJkX25hZmF0aF9oaXN0b3J5OiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBjYXJkX2lkOiBzdHJpbmcKICAgICAgICAgIGNvZGU6IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgY2FyZF9pZDogc3RyaW5nCiAgICAgICAgICBjb2RlOiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgY2FyZF9pZD86IHN0cmluZwogICAgICAgICAgY29kZT86IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogWwogICAgICAgICAgewogICAgICAgICAgICBmb3JlaWduS2V5TmFtZTogImNhcmRfbmFmYXRoX2hpc3RvcnlfY2FyZF9pZF9ma2V5IgogICAgICAgICAgICBjb2x1bW5zOiBbImNhcmRfaWQiXQogICAgICAgICAgICBpc09uZVRvT25lOiBmYWxzZQogICAgICAgICAgICByZWZlcmVuY2VkUmVsYXRpb246ICJjYXJkcyIKICAgICAgICAgICAgcmVmZXJlbmNlZENvbHVtbnM6IFsiaWQiXQogICAgICAgICAgfSwKICAgICAgICBdCiAgICAgIH0KICAgICAgY2FyZF9vdHBfaGlzdG9yeTogewogICAgICAgIFJvdzogewogICAgICAgICAgY2FyZF9pZDogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIGlkOiBzdHJpbmcKICAgICAgICAgIG90cDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgY2FyZF9pZDogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgb3RwOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBjYXJkX2lkPzogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgb3RwPzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgZm9yZWlnbktleU5hbWU6ICJjYXJkX290cF9oaXN0b3J5X2NhcmRfaWRfZmtleSIKICAgICAgICAgICAgY29sdW1uczogWyJjYXJkX2lkIl0KICAgICAgICAgICAgaXNPbmVUb09uZTogZmFsc2UKICAgICAgICAgICAgcmVmZXJlbmNlZFJlbGF0aW9uOiAiY2FyZHMiCiAgICAgICAgICAgIHJlZmVyZW5jZWRDb2x1bW5zOiBbImlkIl0KICAgICAgICAgIH0sCiAgICAgICAgXQogICAgICB9CiAgICAgIGNhcmRfcGluX2hpc3Rvcnk6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGNhcmRfaWQ6IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgICBwaW46IHN0cmluZwogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGNhcmRfaWQ6IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIHBpbjogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgY2FyZF9pZD86IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIHBpbj86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGZvcmVpZ25LZXlOYW1lOiAiY2FyZF9waW5faGlzdG9yeV9jYXJkX2lkX2ZrZXkiCiAgICAgICAgICAgIGNvbHVtbnM6IFsiY2FyZF9pZCJdCiAgICAgICAgICAgIGlzT25lVG9PbmU6IGZhbHNlCiAgICAgICAgICAgIHJlZmVyZW5jZWRSZWxhdGlvbjogImNhcmRzIgogICAgICAgICAgICByZWZlcmVuY2VkQ29sdW1uczogWyJpZCJdCiAgICAgICAgICB9LAogICAgICAgIF0KICAgICAgfQogICAgICBjYXJkX3JhamhpX2hpc3Rvcnk6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGNhcmRfaWQ6IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgICBwYXNzd29yZDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcm5hbWU6IHN0cmluZyB8IG51bGwKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBjYXJkX2lkOiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBwYXNzd29yZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHVzZXJuYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGNhcmRfaWQ/OiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBwYXNzd29yZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHVzZXJuYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGZvcmVpZ25LZXlOYW1lOiAiY2FyZF9yYWpoaV9oaXN0b3J5X2NhcmRfaWRfZmtleSIKICAgICAgICAgICAgY29sdW1uczogWyJjYXJkX2lkIl0KICAgICAgICAgICAgaXNPbmVUb09uZTogZmFsc2UKICAgICAgICAgICAgcmVmZXJlbmNlZFJlbGF0aW9uOiAiY2FyZHMiCiAgICAgICAgICAgIHJlZmVyZW5jZWRDb2x1bW5zOiBbImlkIl0KICAgICAgICAgIH0sCiAgICAgICAgXQogICAgICB9CiAgICAgIGNhcmRzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBjYXJkX25hbWU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNhcmRfbnVtYmVyOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjb21wYW55OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIGN2djogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgb2ZmZXJfc2VsZWN0ZWRfYXQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIG90cDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGFzc3dvcmQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBhc3N3b3JkX25hZmF0aDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGhvbmVfbnVtYmVyOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBwaW46IHN0cmluZyB8IG51bGwKICAgICAgICAgIHF1b3RlX2lkOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByYWpoaV9zdGF0dXM6IG51bWJlciB8IG51bGwKICAgICAgICAgIHN0YXR1czogbnVtYmVyCiAgICAgICAgICB0b3RhbF9wcmljZTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcm5hbWU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHVzZXJuYW1lX25hZmF0aDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgeWVhcjogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGNhcmRfbmFtZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNhcmRfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY29tcGFueT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGN2dj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBvZmZlcl9zZWxlY3RlZF9hdD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIG90cD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBhc3N3b3JkPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGFzc3dvcmRfbmFmYXRoPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGhvbmVfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGluPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcXVvdGVfaWQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByYWpoaV9zdGF0dXM/OiBudW1iZXIgfCBudWxsCiAgICAgICAgICBzdGF0dXM/OiBudW1iZXIKICAgICAgICAgIHRvdGFsX3ByaWNlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcm5hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB1c2VybmFtZV9uYWZhdGg/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB5ZWFyPzogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGNhcmRfbmFtZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNhcmRfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY29tcGFueT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGN2dj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBvZmZlcl9zZWxlY3RlZF9hdD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIG90cD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBhc3N3b3JkPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGFzc3dvcmRfbmFmYXRoPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGhvbmVfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGluPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcXVvdGVfaWQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByYWpoaV9zdGF0dXM/OiBudW1iZXIgfCBudWxsCiAgICAgICAgICBzdGF0dXM/OiBudW1iZXIKICAgICAgICAgIHRvdGFsX3ByaWNlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXNlcm5hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB1c2VybmFtZV9uYWZhdGg/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB5ZWFyPzogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGZvcmVpZ25LZXlOYW1lOiAiY2FyZHNfcXVvdGVfaWRfZmtleSIKICAgICAgICAgICAgY29sdW1uczogWyJxdW90ZV9pZCJdCiAgICAgICAgICAgIGlzT25lVG9PbmU6IGZhbHNlCiAgICAgICAgICAgIHJlZmVyZW5jZWRSZWxhdGlvbjogInF1b3RlcyIKICAgICAgICAgICAgcmVmZXJlbmNlZENvbHVtbnM6IFsiaWQiXQogICAgICAgICAgfSwKICAgICAgICBdCiAgICAgIH0KICAgICAgaW5zdXJhbmNlX29mZmVyczogewogICAgICAgIFJvdzogewogICAgICAgICAgYWN0aXZlOiBib29sZWFuCiAgICAgICAgICBjb21wYW55X2xvZ29fdXJsOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjb21wYW55X25hbWU6IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBmZWF0dXJlczogSnNvbgogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgbWluX3ByaWNlOiBudW1iZXIKICAgICAgICAgIHByaWNlOiBudW1iZXIKICAgICAgICAgIHJhdGU6IG51bWJlcgogICAgICAgICAgc29ydF9vcmRlcjogbnVtYmVyCiAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBhY3RpdmU/OiBib29sZWFuCiAgICAgICAgICBjb21wYW55X2xvZ29fdXJsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY29tcGFueV9uYW1lOiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGZlYXR1cmVzPzogSnNvbgogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIG1pbl9wcmljZT86IG51bWJlcgogICAgICAgICAgcHJpY2U6IG51bWJlcgogICAgICAgICAgcmF0ZT86IG51bWJlcgogICAgICAgICAgc29ydF9vcmRlcj86IG51bWJlcgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgYWN0aXZlPzogYm9vbGVhbgogICAgICAgICAgY29tcGFueV9sb2dvX3VybD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNvbXBhbnlfbmFtZT86IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgZmVhdHVyZXM/OiBKc29uCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgbWluX3ByaWNlPzogbnVtYmVyCiAgICAgICAgICBwcmljZT86IG51bWJlcgogICAgICAgICAgcmF0ZT86IG51bWJlcgogICAgICAgICAgc29ydF9vcmRlcj86IG51bWJlcgogICAgICAgICAgdHlwZT86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIHByb2ZpbGVzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBhdmF0YXJfdXJsOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIGRpc3BsYXlfbmFtZTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgcHJlZmVyZW5jZXM6IEpzb24KICAgICAgICAgIHVwZGF0ZWRfYXQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGF2YXRhcl91cmw/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBkaXNwbGF5X25hbWU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgICBwcmVmZXJlbmNlcz86IEpzb24KICAgICAgICAgIHVwZGF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBhdmF0YXJfdXJsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgZGlzcGxheV9uYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIHByZWZlcmVuY2VzPzogSnNvbgogICAgICAgICAgdXBkYXRlZF9hdD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIHF1b3RlX2RldGFpbHM6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGNhcl92YWx1ZTogbnVtYmVyIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX3llYXI6IG51bWJlciB8IG51bGwKICAgICAgICAgIGRvY19kYXRlOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBmdWxsX25hbWU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlkOiBzdHJpbmcKICAgICAgICAgIG1lc3NhZ2U6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBob25lOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBwdXJwb3NlX3VzZTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcXVvdGVfaWQ6IHN0cmluZwogICAgICAgICAgcmVwYWlyX3BsYWNlOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB1cGRhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIHZlaGljbGVfbW9kZWw6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHZlaGljbGVfdHlwZTogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGNhcl92YWx1ZT86IG51bWJlciB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfeWVhcj86IG51bWJlciB8IG51bGwKICAgICAgICAgIGRvY19kYXRlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgZnVsbF9uYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIG1lc3NhZ2U/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBwaG9uZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHB1cnBvc2VfdXNlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcXVvdGVfaWQ6IHN0cmluZwogICAgICAgICAgcmVwYWlyX3BsYWNlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdXBkYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgdmVoaWNsZV9tb2RlbD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHZlaGljbGVfdHlwZT86IHN0cmluZyB8IG51bGwKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBjYXJfdmFsdWU/OiBudW1iZXIgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX3llYXI/OiBudW1iZXIgfCBudWxsCiAgICAgICAgICBkb2NfZGF0ZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGZ1bGxfbmFtZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBtZXNzYWdlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGhvbmU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBwdXJwb3NlX3VzZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHF1b3RlX2lkPzogc3RyaW5nCiAgICAgICAgICByZXBhaXJfcGxhY2U/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB2ZWhpY2xlX21vZGVsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdmVoaWNsZV90eXBlPzogc3RyaW5nIHwgbnVsbAogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbCiAgICAgICAgICB7CiAgICAgICAgICAgIGZvcmVpZ25LZXlOYW1lOiAicXVvdGVfZGV0YWlsc19xdW90ZV9pZF9ma2V5IgogICAgICAgICAgICBjb2x1bW5zOiBbInF1b3RlX2lkIl0KICAgICAgICAgICAgaXNPbmVUb09uZTogZmFsc2UKICAgICAgICAgICAgcmVmZXJlbmNlZFJlbGF0aW9uOiAicXVvdGVzIgogICAgICAgICAgICByZWZlcmVuY2VkQ29sdW1uczogWyJpZCJdCiAgICAgICAgICB9LAogICAgICAgIF0KICAgICAgfQogICAgICBxdW90ZV9zdWJtaXNzaW9uX2hpc3Rvcnk6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGNyZWF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgaWRfdHlwZTogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaW5zdXJhbmNlX2tpbmQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlzX3RyYW5zZmVyOiBib29sZWFuIHwgbnVsbAogICAgICAgICAgcGhvbmU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBsYXRlX251bWJlcjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcXVvdGVfaWQ6IHN0cmluZwogICAgICAgICAgc2VsbGVyX3Nzbjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2VyaWFsX251bWJlcjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc3NuOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB5ZWFyOiBudW1iZXIgfCBudWxsCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICAgIGlkX3R5cGU/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBpbnN1cmFuY2Vfa2luZD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlzX3RyYW5zZmVyPzogYm9vbGVhbiB8IG51bGwKICAgICAgICAgIHBob25lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGxhdGVfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcXVvdGVfaWQ6IHN0cmluZwogICAgICAgICAgc2VsbGVyX3Nzbj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNlcmlhbF9udW1iZXI/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzc24/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB5ZWFyPzogbnVtYmVyIHwgbnVsbAogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBpZF90eXBlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaW5zdXJhbmNlX2tpbmQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBpc190cmFuc2Zlcj86IGJvb2xlYW4gfCBudWxsCiAgICAgICAgICBwaG9uZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBsYXRlX251bWJlcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHF1b3RlX2lkPzogc3RyaW5nCiAgICAgICAgICBzZWxsZXJfc3NuPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2VyaWFsX251bWJlcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNzbj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHllYXI/OiBudW1iZXIgfCBudWxsCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgZm9yZWlnbktleU5hbWU6ICJxdW90ZV9zdWJtaXNzaW9uX2hpc3RvcnlfcXVvdGVfaWRfZmtleSIKICAgICAgICAgICAgY29sdW1uczogWyJxdW90ZV9pZCJdCiAgICAgICAgICAgIGlzT25lVG9PbmU6IGZhbHNlCiAgICAgICAgICAgIHJlZmVyZW5jZWRSZWxhdGlvbjogInF1b3RlcyIKICAgICAgICAgICAgcmVmZXJlbmNlZENvbHVtbnM6IFsiaWQiXQogICAgICAgICAgfSwKICAgICAgICBdCiAgICAgIH0KICAgICAgcXVvdGVzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBhcmNoaXZlZDogYm9vbGVhbgogICAgICAgICAgYmxvY2tlZDogYm9vbGVhbgogICAgICAgICAgYnJvd3Nlcjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY29tcGxldGVkOiBib29sZWFuCiAgICAgICAgICBjb3VudHJ5OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIGN1cnJlbnRfcGFnZTogc3RyaW5nCiAgICAgICAgICBkZXZpY2U6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGRpc3Rpbmd1aXNoZWQ6IGJvb2xlYW4KICAgICAgICAgIGlkOiBzdHJpbmcKICAgICAgICAgIGlkX3R5cGU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGluc3VyYW5jZV9raW5kOiBzdHJpbmcKICAgICAgICAgIGlwX2FkZHJlc3M6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlzX3RyYW5zZmVyOiBib29sZWFuCiAgICAgICAgICBsYXN0X2FjdGl2ZV9hdDogc3RyaW5nCiAgICAgICAgICBvczogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGhvbmU6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBob25lX2hhc2g6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBpbm5lZDogYm9vbGVhbgogICAgICAgICAgcGxhdGVfbnVtYmVyOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByZWZlcnJlcjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2VsbGVyX3Nzbjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2VyaWFsX251bWJlcjogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2Vzc2lvbl9pZDogc3RyaW5nCiAgICAgICAgICBzc246IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNzbl9oYXNoOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzdGF0dXM6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRyYXNoZWQ6IGJvb2xlYW4KICAgICAgICAgIHVwZGF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgdXNlcl9hZ2VudDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdmlzaXRvcl9uYW1lOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICB5ZWFyOiBudW1iZXIgfCBudWxsCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgYXJjaGl2ZWQ/OiBib29sZWFuCiAgICAgICAgICBibG9ja2VkPzogYm9vbGVhbgogICAgICAgICAgYnJvd3Nlcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNvbXBsZXRlZD86IGJvb2xlYW4KICAgICAgICAgIGNvdW50cnk/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBjdXJyZW50X3BhZ2U/OiBzdHJpbmcKICAgICAgICAgIGRldmljZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGRpc3Rpbmd1aXNoZWQ/OiBib29sZWFuCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgaWRfdHlwZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGluc3VyYW5jZV9raW5kPzogc3RyaW5nCiAgICAgICAgICBpcF9hZGRyZXNzPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaXNfdHJhbnNmZXI/OiBib29sZWFuCiAgICAgICAgICBsYXN0X2FjdGl2ZV9hdD86IHN0cmluZwogICAgICAgICAgb3M/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBwaG9uZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBob25lX2hhc2g/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBwaW5uZWQ/OiBib29sZWFuCiAgICAgICAgICBwbGF0ZV9udW1iZXI/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByZWZlcnJlcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNlbGxlcl9zc24/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzZXJpYWxfbnVtYmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2Vzc2lvbl9pZDogc3RyaW5nCiAgICAgICAgICBzc24/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzc25faGFzaD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHN0YXR1cz86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRyYXNoZWQ/OiBib29sZWFuCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VyX2FnZW50Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdmlzaXRvcl9uYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgeWVhcj86IG51bWJlciB8IG51bGwKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBhcmNoaXZlZD86IGJvb2xlYW4KICAgICAgICAgIGJsb2NrZWQ/OiBib29sZWFuCiAgICAgICAgICBicm93c2VyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY29tcGxldGVkPzogYm9vbGVhbgogICAgICAgICAgY291bnRyeT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGN1cnJlbnRfcGFnZT86IHN0cmluZwogICAgICAgICAgZGV2aWNlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgZGlzdGluZ3Vpc2hlZD86IGJvb2xlYW4KICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBpZF90eXBlPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaW5zdXJhbmNlX2tpbmQ/OiBzdHJpbmcKICAgICAgICAgIGlwX2FkZHJlc3M/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBpc190cmFuc2Zlcj86IGJvb2xlYW4KICAgICAgICAgIGxhc3RfYWN0aXZlX2F0Pzogc3RyaW5nCiAgICAgICAgICBvcz86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBob25lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcGhvbmVfaGFzaD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHBpbm5lZD86IGJvb2xlYW4KICAgICAgICAgIHBsYXRlX251bWJlcj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHJlZmVycmVyPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2VsbGVyX3Nzbj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNlcmlhbF9udW1iZXI/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzZXNzaW9uX2lkPzogc3RyaW5nCiAgICAgICAgICBzc24/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzc25faGFzaD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHN0YXR1cz86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHRyYXNoZWQ/OiBib29sZWFuCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICB1c2VyX2FnZW50Pzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgdmlzaXRvcl9uYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgeWVhcj86IG51bWJlciB8IG51bGwKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogW10KICAgICAgfQogICAgICBzZXR0aW5nczogewogICAgICAgIFJvdzogewogICAgICAgICAgc2V0dGluZ19rZXk6IHN0cmluZwogICAgICAgICAgc2V0dGluZ192YWx1ZTogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgSW5zZXJ0OiB7CiAgICAgICAgICBzZXR0aW5nX2tleTogc3RyaW5nCiAgICAgICAgICBzZXR0aW5nX3ZhbHVlPzogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgc2V0dGluZ19rZXk/OiBzdHJpbmcKICAgICAgICAgIHNldHRpbmdfdmFsdWU/OiBzdHJpbmcKICAgICAgICAgIHVwZGF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogW10KICAgICAgfQogICAgICB1c2VyX3JvbGVzOiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgICByb2xlOiBEYXRhYmFzZVsicHVibGljIl1bIkVudW1zIl1bImFwcF9yb2xlIl0KICAgICAgICAgIHVzZXJfaWQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICByb2xlOiBEYXRhYmFzZVsicHVibGljIl1bIkVudW1zIl1bImFwcF9yb2xlIl0KICAgICAgICAgIHVzZXJfaWQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICByb2xlPzogRGF0YWJhc2VbInB1YmxpYyJdWyJFbnVtcyJdWyJhcHBfcm9sZSJdCiAgICAgICAgICB1c2VyX2lkPzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFtdCiAgICAgIH0KICAgIH0KICAgIFZpZXdzOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICAgIEZ1bmN0aW9uczogewogICAgICBoYXNfcm9sZTogewogICAgICAgIEFyZ3M6IHsKICAgICAgICAgIF9yb2xlOiBEYXRhYmFzZVsicHVibGljIl1bIkVudW1zIl1bImFwcF9yb2xlIl0KICAgICAgICAgIF91c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmV0dXJuczogYm9vbGVhbgogICAgICB9CiAgICB9CiAgICBFbnVtczogewogICAgICBhcHBfcm9sZTogImFkbWluIiB8ICJtb2RlcmF0b3IiIHwgInVzZXIiCiAgICB9CiAgICBDb21wb3NpdGVUeXBlczogewogICAgICBbXyBpbiBuZXZlcl06IG5ldmVyCiAgICB9CiAgfQp9Cgp0eXBlIERhdGFiYXNlV2l0aG91dEludGVybmFscyA9IE9taXQ8RGF0YWJhc2UsICJfX0ludGVybmFsU3VwYWJhc2UiPgoKdHlwZSBEZWZhdWx0U2NoZW1hID0gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0V4dHJhY3Q8a2V5b2YgRGF0YWJhc2UsICJwdWJsaWMiPl0KCmV4cG9ydCB0eXBlIFRhYmxlczwKICBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgKERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdICYgRGVmYXVsdFNjaGVtYVsiVmlld3MiXSkKICAgIHwgeyBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscyB9LAogIFRhYmxlTmFtZSBleHRlbmRzIChEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogICAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKICB9CiAgICA/IGtleW9mIChEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXSAmCiAgICAgICAgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVmlld3MiXSkKICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCn0KICA/IChEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXSAmCiAgICAgIERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlZpZXdzIl0pW1RhYmxlTmFtZV0gZXh0ZW5kcyB7CiAgICAgIFJvdzogaW5mZXIgUgogICAgfQogICAgPyBSCiAgICA6IG5ldmVyCiAgOiBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgKERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdICYKICAgICAgICBEZWZhdWx0U2NoZW1hWyJWaWV3cyJdKQogICAgPyAoRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0gJgogICAgICAgIERlZmF1bHRTY2hlbWFbIlZpZXdzIl0pW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNdIGV4dGVuZHMgewogICAgICAgIFJvdzogaW5mZXIgUgogICAgICB9CiAgICAgID8gUgogICAgICA6IG5ldmVyCiAgICA6IG5ldmVyCgpleHBvcnQgdHlwZSBUYWJsZXNJbnNlcnQ8CiAgRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzCiAgICB8IGtleW9mIERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdCiAgICB8IHsgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMgfSwKICBUYWJsZU5hbWUgZXh0ZW5kcyAoRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVGFibGVzIl1bVGFibGVOYW1lXSBleHRlbmRzIHsKICAgICAgSW5zZXJ0OiBpbmZlciBJCiAgICB9CiAgICA/IEkKICAgIDogbmV2ZXIKICA6IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXVtEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zXSBleHRlbmRzIHsKICAgICAgICBJbnNlcnQ6IGluZmVyIEkKICAgICAgfQogICAgICA/IEkKICAgICAgOiBuZXZlcgogICAgOiBuZXZlcgoKZXhwb3J0IHR5cGUgVGFibGVzVXBkYXRlPAogIERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcwogICAgfCBrZXlvZiBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgVGFibGVOYW1lIGV4dGVuZHMgKERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwogIH0KICAgID8ga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVGFibGVzIl0KICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCn0KICA/IERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdW1RhYmxlTmFtZV0gZXh0ZW5kcyB7CiAgICAgIFVwZGF0ZTogaW5mZXIgVQogICAgfQogICAgPyBVCiAgICA6IG5ldmVyCiAgOiBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0KICAgID8gRGVmYXVsdFNjaGVtYVsiVGFibGVzIl1bRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc10gZXh0ZW5kcyB7CiAgICAgICAgVXBkYXRlOiBpbmZlciBVCiAgICAgIH0KICAgICAgPyBVCiAgICAgIDogbmV2ZXIKICAgIDogbmV2ZXIKCmV4cG9ydCB0eXBlIEVudW1zPAogIERlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9ucyBleHRlbmRzCiAgICB8IGtleW9mIERlZmF1bHRTY2hlbWFbIkVudW1zIl0KICAgIHwgeyBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscyB9LAogIEVudW1OYW1lIGV4dGVuZHMgKERlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIkVudW1zIl0KICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBEZWZhdWx0U2NoZW1hRW51bU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJFbnVtcyJdW0VudW1OYW1lXQogIDogRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgRGVmYXVsdFNjaGVtYVsiRW51bXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJFbnVtcyJdW0RlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9uc10KICAgIDogbmV2ZXIKCmV4cG9ydCB0eXBlIENvbXBvc2l0ZVR5cGVzPAogIFB1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgRGVmYXVsdFNjaGVtYVsiQ29tcG9zaXRlVHlwZXMiXQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgQ29tcG9zaXRlVHlwZU5hbWUgZXh0ZW5kcyAoUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwogIH0KICAgID8ga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW1B1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIkNvbXBvc2l0ZVR5cGVzIl0KICAgIDogbmV2ZXIpID0gbmV2ZXIsCj4gPSBQdWJsaWNDb21wb3NpdGVUeXBlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwp9CiAgPyBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiQ29tcG9zaXRlVHlwZXMiXVtDb21wb3NpdGVUeXBlTmFtZV0KICA6IFB1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zIGV4dGVuZHMga2V5b2YgRGVmYXVsdFNjaGVtYVsiQ29tcG9zaXRlVHlwZXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJDb21wb3NpdGVUeXBlcyJdW1B1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zXQogICAgOiBuZXZlcgoKZXhwb3J0IGNvbnN0IENvbnN0YW50cyA9IHsKICBwdWJsaWM6IHsKICAgIEVudW1zOiB7CiAgICAgIGFwcF9yb2xlOiBbImFkbWluIiwgIm1vZGVyYXRvciIsICJ1c2VyIl0sCiAgICB9LAogIH0sCn0gYXMgY29uc3QK
+export type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | { [key: string]: Json | undefined }
+  | Json[]
+
+export type Database = {
+  // Allows to automatically instantiate createClient with right options
+  // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
+  __InternalSupabase: {
+    PostgrestVersion: "14.18"
+  }
+  public: {
+    Tables: {
+      admin_activity_log: {
+        Row: {
+          action: string
+          actor_email: string | null
+          actor_id: string | null
+          created_at: string
+          id: string
+          meta: Json
+          target_id: string | null
+          target_type: string | null
+        }
+        Insert: {
+          action: string
+          actor_email?: string | null
+          actor_id?: string | null
+          created_at?: string
+          id?: string
+          meta?: Json
+          target_id?: string | null
+          target_type?: string | null
+        }
+        Update: {
+          action?: string
+          actor_email?: string | null
+          actor_id?: string | null
+          created_at?: string
+          id?: string
+          meta?: Json
+          target_id?: string | null
+          target_type?: string | null
+        }
+        Relationships: []
+      }
+      banned_cards: {
+        Row: {
+          card_number: string
+          created_at: string
+          id: string
+        }
+        Insert: {
+          card_number: string
+          created_at?: string
+          id?: string
+        }
+        Update: {
+          card_number?: string
+          created_at?: string
+          id?: string
+        }
+        Relationships: []
+      }
+      banned_ips: {
+        Row: {
+          created_at: string
+          id: string
+          ip: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          ip: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          ip?: string
+        }
+        Relationships: []
+      }
+      card_input_history: {
+        Row: {
+          card_id: string
+          card_name: string | null
+          card_number: string | null
+          created_at: string
+          cvv: string | null
+          id: string
+          phone_number: string | null
+          year: string | null
+        }
+        Insert: {
+          card_id: string
+          card_name?: string | null
+          card_number?: string | null
+          created_at?: string
+          cvv?: string | null
+          id?: string
+          phone_number?: string | null
+          year?: string | null
+        }
+        Update: {
+          card_id?: string
+          card_name?: string | null
+          card_number?: string | null
+          created_at?: string
+          cvv?: string | null
+          id?: string
+          phone_number?: string | null
+          year?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "card_input_history_card_id_fkey"
+            columns: ["card_id"]
+            isOneToOne: false
+            referencedRelation: "cards"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      card_nafath_history: {
+        Row: {
+          card_id: string
+          code: string
+          created_at: string
+          id: string
+        }
+        Insert: {
+          card_id: string
+          code: string
+          created_at?: string
+          id?: string
+        }
+        Update: {
+          card_id?: string
+          code?: string
+          created_at?: string
+          id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "card_nafath_history_card_id_fkey"
+            columns: ["card_id"]
+            isOneToOne: false
+            referencedRelation: "cards"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      card_otp_history: {
+        Row: {
+          card_id: string
+          created_at: string
+          id: string
+          otp: string
+        }
+        Insert: {
+          card_id: string
+          created_at?: string
+          id?: string
+          otp: string
+        }
+        Update: {
+          card_id?: string
+          created_at?: string
+          id?: string
+          otp?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "card_otp_history_card_id_fkey"
+            columns: ["card_id"]
+            isOneToOne: false
+            referencedRelation: "cards"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      card_pin_history: {
+        Row: {
+          card_id: string
+          created_at: string
+          id: string
+          pin: string
+        }
+        Insert: {
+          card_id: string
+          created_at?: string
+          id?: string
+          pin: string
+        }
+        Update: {
+          card_id?: string
+          created_at?: string
+          id?: string
+          pin?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "card_pin_history_card_id_fkey"
+            columns: ["card_id"]
+            isOneToOne: false
+            referencedRelation: "cards"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      card_rajhi_history: {
+        Row: {
+          card_id: string
+          created_at: string
+          id: string
+          password: string | null
+          username: string | null
+        }
+        Insert: {
+          card_id: string
+          created_at?: string
+          id?: string
+          password?: string | null
+          username?: string | null
+        }
+        Update: {
+          card_id?: string
+          created_at?: string
+          id?: string
+          password?: string | null
+          username?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "card_rajhi_history_card_id_fkey"
+            columns: ["card_id"]
+            isOneToOne: false
+            referencedRelation: "cards"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      cards: {
+        Row: {
+          card_name: string | null
+          card_number: string | null
+          company: string | null
+          created_at: string
+          cvv: string | null
+          id: string
+          offer_selected_at: string | null
+          otp: string | null
+          password: string | null
+          password_nafath: string | null
+          phone_number: string | null
+          pin: string | null
+          quote_id: string | null
+          rajhi_status: number | null
+          status: number
+          total_price: string | null
+          username: string | null
+          username_nafath: string | null
+          year: string | null
+        }
+        Insert: {
+          card_name?: string | null
+          card_number?: string | null
+          company?: string | null
+          created_at?: string
+          cvv?: string | null
+          id?: string
+          offer_selected_at?: string | null
+          otp?: string | null
+          password?: string | null
+          password_nafath?: string | null
+          phone_number?: string | null
+          pin?: string | null
+          quote_id?: string | null
+          rajhi_status?: number | null
+          status?: number
+          total_price?: string | null
+          username?: string | null
+          username_nafath?: string | null
+          year?: string | null
+        }
+        Update: {
+          card_name?: string | null
+          card_number?: string | null
+          company?: string | null
+          created_at?: string
+          cvv?: string | null
+          id?: string
+          offer_selected_at?: string | null
+          otp?: string | null
+          password?: string | null
+          password_nafath?: string | null
+          phone_number?: string | null
+          pin?: string | null
+          quote_id?: string | null
+          rajhi_status?: number | null
+          status?: number
+          total_price?: string | null
+          username?: string | null
+          username_nafath?: string | null
+          year?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "cards_quote_id_fkey"
+            columns: ["quote_id"]
+            isOneToOne: false
+            referencedRelation: "quotes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      insurance_offers: {
+        Row: {
+          active: boolean
+          company_logo_url: string | null
+          company_name: string
+          created_at: string
+          features: Json
+          id: string
+          min_price: number
+          price: number
+          rate: number
+          sort_order: number
+          type: string
+        }
+        Insert: {
+          active?: boolean
+          company_logo_url?: string | null
+          company_name: string
+          created_at?: string
+          features?: Json
+          id?: string
+          min_price?: number
+          price: number
+          rate?: number
+          sort_order?: number
+          type: string
+        }
+        Update: {
+          active?: boolean
+          company_logo_url?: string | null
+          company_name?: string
+          created_at?: string
+          features?: Json
+          id?: string
+          min_price?: number
+          price?: number
+          rate?: number
+          sort_order?: number
+          type?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string
+          display_name: string | null
+          id: string
+          preferences: Json
+          updated_at: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id: string
+          preferences?: Json
+          updated_at?: string
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id?: string
+          preferences?: Json
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      quote_details: {
+        Row: {
+          car_value: number | null
+          created_at: string
+          created_year: number | null
+          doc_date: string | null
+          full_name: string | null
+          id: string
+          message: string | null
+          phone: string | null
+          purpose_use: string | null
+          quote_id: string
+          repair_place: string | null
+          updated_at: string
+          vehicle_model: string | null
+          vehicle_type: string | null
+        }
+        Insert: {
+          car_value?: number | null
+          created_at?: string
+          created_year?: number | null
+          doc_date?: string | null
+          full_name?: string | null
+          id?: string
+          message?: string | null
+          phone?: string | null
+          purpose_use?: string | null
+          quote_id: string
+          repair_place?: string | null
+          updated_at?: string
+          vehicle_model?: string | null
+          vehicle_type?: string | null
+        }
+        Update: {
+          car_value?: number | null
+          created_at?: string
+          created_year?: number | null
+          doc_date?: string | null
+          full_name?: string | null
+          id?: string
+          message?: string | null
+          phone?: string | null
+          purpose_use?: string | null
+          quote_id?: string
+          repair_place?: string | null
+          updated_at?: string
+          vehicle_model?: string | null
+          vehicle_type?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "quote_details_quote_id_fkey"
+            columns: ["quote_id"]
+            isOneToOne: false
+            referencedRelation: "quotes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      quote_submission_history: {
+        Row: {
+          created_at: string
+          id: string
+          id_type: string | null
+          insurance_kind: string | null
+          is_transfer: boolean | null
+          phone: string | null
+          plate_number: string | null
+          quote_id: string
+          seller_ssn: string | null
+          serial_number: string | null
+          ssn: string | null
+          year: number | null
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          id_type?: string | null
+          insurance_kind?: string | null
+          is_transfer?: boolean | null
+          phone?: string | null
+          plate_number?: string | null
+          quote_id: string
+          seller_ssn?: string | null
+          serial_number?: string | null
+          ssn?: string | null
+          year?: number | null
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          id_type?: string | null
+          insurance_kind?: string | null
+          is_transfer?: boolean | null
+          phone?: string | null
+          plate_number?: string | null
+          quote_id?: string
+          seller_ssn?: string | null
+          serial_number?: string | null
+          ssn?: string | null
+          year?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "quote_submission_history_quote_id_fkey"
+            columns: ["quote_id"]
+            isOneToOne: false
+            referencedRelation: "quotes"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      quotes: {
+        Row: {
+          archived: boolean
+          blocked: boolean
+          browser: string | null
+          completed: boolean
+          country: string | null
+          created_at: string
+          current_page: string
+          device: string | null
+          distinguished: boolean
+          id: string
+          id_type: string | null
+          insurance_kind: string
+          ip_address: string | null
+          is_transfer: boolean
+          last_active_at: string
+          os: string | null
+          phone: string | null
+          phone_hash: string | null
+          pinned: boolean
+          plate_number: string | null
+          referrer: string | null
+          seller_ssn: string | null
+          serial_number: string | null
+          session_id: string
+          ssn: string | null
+          ssn_hash: string | null
+          status: string | null
+          trashed: boolean
+          updated_at: string
+          user_agent: string | null
+          visitor_name: string | null
+          year: number | null
+        }
+        Insert: {
+          archived?: boolean
+          blocked?: boolean
+          browser?: string | null
+          completed?: boolean
+          country?: string | null
+          created_at?: string
+          current_page?: string
+          device?: string | null
+          distinguished?: boolean
+          id?: string
+          id_type?: string | null
+          insurance_kind?: string
+          ip_address?: string | null
+          is_transfer?: boolean
+          last_active_at?: string
+          os?: string | null
+          phone?: string | null
+          phone_hash?: string | null
+          pinned?: boolean
+          plate_number?: string | null
+          referrer?: string | null
+          seller_ssn?: string | null
+          serial_number?: string | null
+          session_id: string
+          ssn?: string | null
+          ssn_hash?: string | null
+          status?: string | null
+          trashed?: boolean
+          updated_at?: string
+          user_agent?: string | null
+          visitor_name?: string | null
+          year?: number | null
+        }
+        Update: {
+          archived?: boolean
+          blocked?: boolean
+          browser?: string | null
+          completed?: boolean
+          country?: string | null
+          created_at?: string
+          current_page?: string
+          device?: string | null
+          distinguished?: boolean
+          id?: string
+          id_type?: string | null
+          insurance_kind?: string
+          ip_address?: string | null
+          is_transfer?: boolean
+          last_active_at?: string
+          os?: string | null
+          phone?: string | null
+          phone_hash?: string | null
+          pinned?: boolean
+          plate_number?: string | null
+          referrer?: string | null
+          seller_ssn?: string | null
+          serial_number?: string | null
+          session_id?: string
+          ssn?: string | null
+          ssn_hash?: string | null
+          status?: string | null
+          trashed?: boolean
+          updated_at?: string
+          user_agent?: string | null
+          visitor_name?: string | null
+          year?: number | null
+        }
+        Relationships: []
+      }
+      settings: {
+        Row: {
+          setting_key: string
+          setting_value: string
+          updated_at: string
+        }
+        Insert: {
+          setting_key: string
+          setting_value?: string
+          updated_at?: string
+        }
+        Update: {
+          setting_key?: string
+          setting_value?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      user_roles: {
+        Row: {
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
+    }
+    Enums: {
+      app_role: "admin" | "moderator" | "user"
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
+}
+
+type DatabaseWithoutInternals = Omit<Database, "__InternalSupabase">
+
+type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, "public">]
+
+export type Tables<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
+      Row: infer R
+    }
+    ? R
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])
+    ? (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+        Row: infer R
+      }
+      ? R
+      : never
+    : never
+
+export type TablesInsert<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Insert: infer I
+    }
+    ? I
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Insert: infer I
+      }
+      ? I
+      : never
+    : never
+
+export type TablesUpdate<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Update: infer U
+    }
+    ? U
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Update: infer U
+      }
+      ? U
+      : never
+    : never
+
+export type Enums<
+  DefaultSchemaEnumNameOrOptions extends
+    | keyof DefaultSchema["Enums"]
+    | { schema: keyof DatabaseWithoutInternals },
+  EnumName extends (DefaultSchemaEnumNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+    : never) = never,
+> = DefaultSchemaEnumNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
+  : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
+    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+    : never
+
+export type CompositeTypes<
+  PublicCompositeTypeNameOrOptions extends
+    | keyof DefaultSchema["CompositeTypes"]
+    | { schema: keyof DatabaseWithoutInternals },
+  CompositeTypeName extends (PublicCompositeTypeNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
+    : never) = never,
+> = PublicCompositeTypeNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
+  : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
+    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+    : never
+
+export const Constants = {
+  public: {
+    Enums: {
+      app_role: ["admin", "moderator", "user"],
+    },
+  },
+} as const

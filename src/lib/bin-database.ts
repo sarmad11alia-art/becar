@@ -1,1 +1,231 @@
-Ly8gU2F1ZGkgcGF5bWVudC1jYXJkIGlkZW50aWZpY2F0aW9uLgovLyBMb25nZXN0LXByZWZpeCBtYXRjaGluZyBvdmVyIHRoZSBidW5kbGVkIEJJTi9JSU4gZGF0YWJhc2U6Ci8vIDgtZGlnaXQgbWFkYSAvIElTTyBwcmVmaXhlcyBmaXJzdCwgdGhlbiA2LWRpZ2l0IEJJTnMsIHRoZW4gNC1kaWdpdCBjYW5kaWRhdGVzLgppbXBvcnQgeyBCSU42LCBQUkVGSVg4LCBJU1NVRVJTLCBNQURBX1BSRUZJWEVTLCB0eXBlIEJpblJlY29yZCB9IGZyb20gIi4vc2F1ZGktYmlucy5nZW5lcmF0ZWQiOwoKaW1wb3J0IHJhamhpIGZyb20gIkAvYXNzZXRzL2NhcmRzL2FsLXJhamhpLWJhbmsucG5nIjsKaW1wb3J0IGFsaW5tYSBmcm9tICJAL2Fzc2V0cy9jYXJkcy9hbGlubWEtYmFuay5wbmciOwppbXBvcnQgYW5iIGZyb20gIkAvYXNzZXRzL2NhcmRzL2FyYWItbmF0aW9uYWwtYmFuay5wbmciOwppbXBvcnQgYWxiaWxhZCBmcm9tICJAL2Fzc2V0cy9jYXJkcy9iYW5rLWFsYmlsYWQuanBnIjsKaW1wb3J0IGphemlyYSBmcm9tICJAL2Fzc2V0cy9jYXJkcy9iYW5rLWFsamF6aXJhLnN2ZyI7CmltcG9ydCBic2YgZnJvbSAiQC9hc3NldHMvY2FyZHMvYmFucXVlLXNhdWRpLWZyYW5zaS5wbmciOwppbXBvcnQgZDM2MCBmcm9tICJAL2Fzc2V0cy9jYXJkcy9kLXRocmVlLXNpeHR5LWJhbmsucG5nIjsKaW1wb3J0IGdpYiBmcm9tICJAL2Fzc2V0cy9jYXJkcy9ndWxmLWludGVybmF0aW9uYWwtYmFuay1zYXVkaS1hcmFiaWEucG5nIjsKaW1wb3J0IHJpeWFkIGZyb20gIkAvYXNzZXRzL2NhcmRzL3JpeWFkLWJhbmsucG5nIjsKaW1wb3J0IHNhYiBmcm9tICJAL2Fzc2V0cy9jYXJkcy9zYXVkaS1hd3dhbC1iYW5rLnBuZyI7CmltcG9ydCBzYWliIGZyb20gIkAvYXNzZXRzL2NhcmRzL3NhdWRpLWludmVzdG1lbnQtYmFuay53ZWJwIjsKaW1wb3J0IHNuYiBmcm9tICJAL2Fzc2V0cy9jYXJkcy9zYXVkaS1uYXRpb25hbC1iYW5rLnBuZyI7CmltcG9ydCBzdGMgZnJvbSAiQC9hc3NldHMvY2FyZHMvc3RjLWJhbmsucG5nIjsKaW1wb3J0IHZpc2lvbiBmcm9tICJAL2Fzc2V0cy9jYXJkcy92aXNpb24tYmFuay5wbmciOwppbXBvcnQgYW1leCBmcm9tICJAL2Fzc2V0cy9jYXJkcy9hbWVyaWNhbi1leHByZXNzLXNhdWRpLWFyYWJpYS5wbmciOwoKZXhwb3J0IHR5cGUgQ2FyZEJyYW5kID0gInZpc2EiIHwgIm1hc3RlciIgfCAibWFkYSIgfCAiYW1leCIgfCAiZGlzY292ZXIiIHwgInVuaW9ucGF5IiB8ICJqY2IiIHwgIm1hZXN0cm8iIHwgImRpbmVycyIgfCAidWF0cCIgfCAidW5rbm93biI7CgpleHBvcnQgdHlwZSBCYW5rSW5mbyA9IHsKICBpZDogc3RyaW5nOwogIG5hbWVBcjogc3RyaW5nOwogIG5hbWVFbjogc3RyaW5nOwogIGdyYWRpZW50OiBzdHJpbmc7CiAgYmFja0dyYWRpZW50OiBzdHJpbmc7CiAgYWNjZW50OiBzdHJpbmc7CiAgaW1hZ2VVcmw6IHN0cmluZyB8IG51bGw7Cn07CgovKiogUmVzdWx0IG9mIGlkZW50aWZ5aW5nIGEgY2FyZCBudW1iZXIgcHJlZml4LiAqLwpleHBvcnQgdHlwZSBDYXJkSWRlbnRpdHkgPSB7CiAgYmFuazogQmFua0luZm87CiAgYnJhbmQ6IENhcmRCcmFuZDsKICAvKiogTmV0d29ya3MgdGhlIGlzc3VlciBwdWJsaXNoZXMgZm9yIHRoaXMgcHJlZml4IChlLmcuICJNQURBLFZJU0EiKS4gKi8KICBzY2hlbWVzOiBzdHJpbmdbXTsKICAvKiogREVCSVQgLyBDUkVESVQgLyBQUkVQQUlEIGFzIHB1Ymxpc2hlZC4gKi8KICBjYXJkVHlwZXM6IHN0cmluZ1tdOwogIG1hdGNoZWRMZW5ndGg6IDAgfCA0IHwgNiB8IDg7CiAgY29uZmlkZW5jZTogIm5vbmUiIHwgImNhbmRpZGF0ZSIgfCAicHJvdmlzaW9uYWwiIHwgIm1lZGl1bSIgfCAiaGlnaCI7CiAgLyoqIFRydWUgd2hlbiBzb3VyY2VzIGRpc2FncmVlLCBvciBhIDYtZGlnaXQgaGl0IGhhcyA4LWRpZ2l0IGNoaWxkcmVuLiAqLwogIHByb3Zpc2lvbmFsOiBib29sZWFuOwogIGlzTWFkYTogYm9vbGVhbjsKICAvKiogQXJhYmljIGV4cGxhbmF0aW9uIG9mIHRoZSBtYXRjaCBxdWFsaXR5LCBzYWZlIHRvIHNob3cgaW4gdGhlIFVJLiAqLwogIG5vdGU6IHN0cmluZzsKfTsKCnR5cGUgQmFua1N0eWxlID0geyBncmFkaWVudDogc3RyaW5nOyBiYWNrR3JhZGllbnQ6IHN0cmluZzsgYWNjZW50OiBzdHJpbmc7IGltYWdlVXJsOiBzdHJpbmcgfCBudWxsIH07Cgpjb25zdCBHRU5FUklDOiBCYW5rU3R5bGUgPSB7CiAgZ3JhZGllbnQ6ICJmcm9tLVsjMGYyYzVhXSB2aWEtWyMxMjNhN2FdIHRvLVsjMWU2MGMwXSIsCiAgYmFja0dyYWRpZW50OiAiZnJvbS1bIzBmMmM1YV0gdG8tWyMxZTYwYzBdIiwKICBhY2NlbnQ6ICIjMWU2MGMwIiwKICBpbWFnZVVybDogbnVsbCwKfTsKCi8vIFZpc3VhbCBpZGVudGl0eSArIHJlYWwgY2FyZCBhcnQgZm9yIGlzc3VlcnMgd2UgaGF2ZSBhc3NldHMgZm9yLgpjb25zdCBCQU5LX1NUWUxFUzogUmVjb3JkPHN0cmluZywgQmFua1N0eWxlPiA9IHsKICAiYWwtcmFqaGktYmFuayI6IHsgZ3JhZGllbnQ6ICJmcm9tLVsjMDAzMDVCXSB2aWEtWyMwYTRhODZdIHRvLVsjMGE0YTg2XSIsIGJhY2tHcmFkaWVudDogImZyb20tWyMwMDMwNUJdIHRvLVsjMDYyNjQ3XSIsIGFjY2VudDogIiNGMEIzMjMiLCBpbWFnZVVybDogcmFqaGkgfSwKICAic2F1ZGktbmF0aW9uYWwtYmFuayI6IHsgZ3JhZGllbnQ6ICJmcm9tLVsjMDAzRDMzXSB2aWEtWyMwMDVFNTFdIHRvLVsjMDBBMTlBXSIsIGJhY2tHcmFkaWVudDogImZyb20tWyMwMDNEMzNdIHRvLVsjMDA1RTUxXSIsIGFjY2VudDogIiMwMEExOUEiLCBpbWFnZVVybDogc25iIH0sCiAgInJpeWFkLWJhbmsiOiB7IGdyYWRpZW50OiAiZnJvbS1bIzAwM2I3MV0gdmlhLVsjMGE1YTljXSB0by1bIzEyN2RjMV0iLCBiYWNrR3JhZGllbnQ6ICJmcm9tLVsjMDAyYTUyXSB0by1bIzBhNWE5Y10iLCBhY2NlbnQ6ICIjZjM3MDIxIiwgaW1hZ2VVcmw6IHJpeWFkIH0sCiAgInNhdWRpLWF3d2FsLWJhbmsiOiB7IGdyYWRpZW50OiAiZnJvbS1bIzExMTExMV0gdmlhLVsjMWExYTFhXSB0by1bI2RiMDAxMV0iLCBiYWNrR3JhZGllbnQ6ICJmcm9tLVsjMTExMTExXSB0by1bIzNhMDAwNl0iLCBhY2NlbnQ6ICIjZGIwMDExIiwgaW1hZ2VVcmw6IHNhYiB9LAogICJhbGlubWEtYmFuayI6IHsgZ3JhZGllbnQ6ICJmcm9tLVsjM2IxZTZiXSB2aWEtWyM1MjJEODBdIHRvLVsjN2EzZmIwXSIsIGJhY2tHcmFkaWVudDogImZyb20tWyMyYjE1NTBdIHRvLVsjNTIyRDgwXSIsIGFjY2VudDogIiNmNWE2MjMiLCBpbWFnZVVybDogYWxpbm1hIH0sCiAgImJhbmstYWxiaWxhZCI6IHsgZ3JhZGllbnQ6ICJmcm9tLVsjOEI1QTAwXSB2aWEtWyNjNDdmMGFdIHRvLVsjRjU4MjIwXSIsIGJhY2tHcmFkaWVudDogImZyb20tWyM2YjQ1MDBdIHRvLVsjYzQ3ZjBhXSIsIGFjY2VudDogIiNGNTgyMjAiLCBpbWFnZVVybDogYWxiaWxhZCB9LAogICJhcmFiLW5hdGlvbmFsLWJhbmsiOiB7IGdyYWRpZW50OiAiZnJvbS1bIzAwNGIzZl0gdmlhLVsjMDA2OTVjXSB0by1bIzAwODk3Yl0iLCBiYWNrR3JhZGllbnQ6ICJmcm9tLVsjMDAzYTMwXSB0by1bIzAwNjk1Y10iLCBhY2NlbnQ6ICIjYzlhMjRiIiwgaW1hZ2VVcmw6IGFuYiB9LAogICJiYW5xdWUtc2F1ZGktZnJhbnNpIjogeyBncmFkaWVudDogImZyb20tWyMwMDQyMjVdIHZpYS1bIzAwNmIzY10gdG8tWyMwMDk2MzldIiwgYmFja0dyYWRpZW50OiAiZnJvbS1bIzAwMzAxOF0gdG8tWyMwMDZiM2NdIiwgYWNjZW50OiAiIzAwOTYzOSIsIGltYWdlVXJsOiBic2YgfSwKICAiYmFuay1hbGphemlyYSI6IHsgZ3JhZGllbnQ6ICJmcm9tLVsjNGExZTFlXSB2aWEtWyM3YTJlMmVdIHRvLVsjYTgzMjMyXSIsIGJhY2tHcmFkaWVudDogImZyb20tWyMzYTE0MTRdIHRvLVsjN2EyZTJlXSIsIGFjY2VudDogIiNjOWEyNGIiLCBpbWFnZVVybDogamF6aXJhIH0sCiAgInNhdWRpLWludmVzdG1lbnQtYmFuayI6IHsgZ3JhZGllbnQ6ICJmcm9tLVsjMGIzZDkxXSB2aWEtWyMxMjUyYjhdIHRvLVsjMmE2ZmQ2XSIsIGJhY2tHcmFkaWVudDogImZyb20tWyMwODJhNjZdIHRvLVsjMTI1MmI4XSIsIGFjY2VudDogIiNlOGE4MzgiLCBpbWFnZVVybDogc2FpYiB9LAogICJndWxmLWludGVybmF0aW9uYWwtYmFuay1zYXVkaS1hcmFiaWEiOiB7IGdyYWRpZW50OiAiZnJvbS1bIzBhM2QyZl0gdmlhLVsjMTA2NDQ2XSB0by1bIzE4OTA2M10iLCBiYWNrR3JhZGllbnQ6ICJmcm9tLVsjMDYyYTIwXSB0by1bIzEwNjQ0Nl0iLCBhY2NlbnQ6ICIjYzlhMjRiIiwgaW1hZ2VVcmw6IGdpYiB9LAogICJkMzYwLWJhbmsiOiB7IGdyYWRpZW50OiAiZnJvbS1bIzJhMWE1ZV0gdmlhLVsjNGIyZmE4XSB0by1bIzdhNGZlMF0iLCBiYWNrR3JhZGllbnQ6ICJmcm9tLVsjMWExMDQwXSB0by1bIzRiMmZhOF0iLCBhY2NlbnQ6ICIjZjU4MjIwIiwgaW1hZ2VVcmw6IGQzNjAgfSwKICAic3RjLWJhbmsiOiB7IGdyYWRpZW50OiAiZnJvbS1bIzRhMDA3Ml0gdmlhLVsjNmIwZDk0XSB0by1bIzhhMWViMF0iLCBiYWNrR3JhZGllbnQ6ICJmcm9tLVsjMmYwMDQ4XSB0by1bIzZiMGQ5NF0iLCBhY2NlbnQ6ICIjZTExZTZhIiwgaW1hZ2VVcmw6IHN0YyB9LAogICJ2aXNpb24tYmFuayI6IHsgZ3JhZGllbnQ6ICJmcm9tLVsjMGIyZTRmXSB2aWEtWyMxMjUwN2ZdIHRvLVsjMWI3OGI4XSIsIGJhY2tHcmFkaWVudDogImZyb20tWyMwODIyM2NdIHRvLVsjMTI1MDdmXSIsIGFjY2VudDogIiMzMWM2YzYiLCBpbWFnZVVybDogdmlzaW9uIH0sCiAgImFtZXJpY2FuLWV4cHJlc3Mtc2F1ZGktYXJhYmlhIjogeyBncmFkaWVudDogImZyb20tWyMwMDE3NWFdIHZpYS1bIzBhMmY3YV0gdG8tWyMyZTc3YmNdIiwgYmFja0dyYWRpZW50OiAiZnJvbS1bIzAwMTc1YV0gdG8tWyMwYTJmN2FdIiwgYWNjZW50OiAiIzJlNzdiYyIsIGltYWdlVXJsOiBhbWV4IH0sCiAgLy8g2KjYt9in2YLYqSDYp9mE2YHYsdiz2KfZhiAo2KfZhNiu2LfZiNi3INin2YTYs9i52YjYr9mK2KkpINiq2LXYr9ixINio2KfZhNi02LHYp9mD2Kkg2YXYuSDYp9mE2KPZh9mE2Yog4oCUINmG2LPYqtiu2K/ZhSDZh9mI2YrYqSDYp9mE2KPZh9mE2Yog2KjYtdix2YrZi9inCiAgInNhdWRpLWFyYWJpYW4tYWlybGluZXMiOiB7IGdyYWRpZW50OiAiZnJvbS1bIzAwM0QzM10gdmlhLVsjMDA1RTUxXSB0by1bIzAwQTE5QV0iLCBiYWNrR3JhZGllbnQ6ICJmcm9tLVsjMDAzRDMzXSB0by1bIzAwNUU1MV0iLCBhY2NlbnQ6ICIjMDBBMTlBIiwgaW1hZ2VVcmw6IHNuYiB9LAp9OwoKZXhwb3J0IGNvbnN0IFVOS05PV05fQkFOSzogQmFua0luZm8gPSB7CiAgaWQ6ICJnZW5lcmljIiwKICBuYW1lQXI6ICLYqNi32KfZgtipINio2YbZg9mK2KkiLAogIG5hbWVFbjogIkJBTksiLAogIC4uLkdFTkVSSUMsCn07CgpmdW5jdGlvbiBiYW5rRnJvbUlzc3Vlcihpc3N1ZXJJZDogc3RyaW5nKTogQmFua0luZm8gewogIGNvbnN0IGlzc3VlciA9IElTU1VFUlNbaXNzdWVySWRdOwogIGNvbnN0IHN0eWxlID0gQkFOS19TVFlMRVNbaXNzdWVySWRdIHx8IEdFTkVSSUM7CiAgaWYgKCFpc3N1ZXIpIHJldHVybiB7IC4uLlVOS05PV05fQkFOSywgLi4uc3R5bGUsIGlkOiBpc3N1ZXJJZCB9OwogIHJldHVybiB7CiAgICBpZDogaXNzdWVySWQsCiAgICBuYW1lQXI6IGlzc3Vlci5hciB8fCBpc3N1ZXIuZW4gfHwgVU5LTk9XTl9CQU5LLm5hbWVBciwKICAgIG5hbWVFbjogaXNzdWVyLmVuIHx8IFVOS05PV05fQkFOSy5uYW1lRW4sCiAgICAuLi5zdHlsZSwKICB9Owp9Cgpjb25zdCBNQURBX1NFVCA9IG5ldyBTZXQoTUFEQV9QUkVGSVhFUyk7CgovLyBiaW40IC0+IGlzc3VlciBpZHMgKGNhbmRpZGF0ZSBuYXJyb3dpbmcgb25seSwgbmV2ZXIgYSBmaW5hbCBhbnN3ZXIpLgpjb25zdCBCSU40OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmdbXT4gPSAoKCkgPT4gewogIGNvbnN0IG1hcDogUmVjb3JkPHN0cmluZywgU2V0PHN0cmluZz4+ID0ge307CiAgZm9yIChjb25zdCBbYmluLCByZWNdIG9mIE9iamVjdC5lbnRyaWVzKEJJTjYpKSB7CiAgICBjb25zdCBrID0gYmluLnNsaWNlKDAsIDQpOwogICAgKG1hcFtrXSB8fD0gbmV3IFNldCgpKS5hZGQocmVjLmlzc3Vlcik7CiAgfQogIGNvbnN0IG91dDogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+ID0ge307CiAgZm9yIChjb25zdCBbaywgdl0gb2YgT2JqZWN0LmVudHJpZXMobWFwKSkgb3V0W2tdID0gWy4uLnZdOwogIHJldHVybiBvdXQ7Cn0pKCk7Cgpjb25zdCBkaWdpdHMgPSAodjogc3RyaW5nKSA9PiAodiB8fCAiIikucmVwbGFjZSgvXEQvZywgIiIpOwpjb25zdCBzcGxpdCA9ICh2OiBzdHJpbmcpID0+ICh2ID8gdi5zcGxpdCgvWyw7L10vKS5tYXAoKHMpID0+IHMudHJpbSgpKS5maWx0ZXIoQm9vbGVhbikgOiBbXSk7CgovKiogTmV0d29yayBmcm9tIHRoZSBzY2hlbWUgbGlzdCwgZmFsbGluZyBiYWNrIHRvIHN0YW5kYXJkIElJTiByYW5nZXMuICovCmV4cG9ydCBmdW5jdGlvbiBkZXRlY3RCcmFuZChudW06IHN0cmluZyk6IENhcmRCcmFuZCB7CiAgY29uc3QgbiA9IGRpZ2l0cyhudW0pOwogIGlmICghbikgcmV0dXJuICJ1bmtub3duIjsKICBjb25zdCBpZCA9IGlkZW50aWZ5Q2FyZChuKTsKICBpZiAoaWQubWF0Y2hlZExlbmd0aCA+PSA2ICYmIGlkLmJyYW5kICE9PSAidW5rbm93biIpIHJldHVybiBpZC5icmFuZDsKICBpZiAoaXNNYWRhUHJlZml4KG4pKSByZXR1cm4gIm1hZGEiOwogIGlmICgvXjQvLnRlc3QobikpIHJldHVybiAidmlzYSI7CiAgaWYgKC9eKDVbMS01XXwyWzItN10pLy50ZXN0KG4pKSByZXR1cm4gIm1hc3RlciI7CiAgaWYgKC9eM1s0N10vLnRlc3QobikpIHJldHVybiAiYW1leCI7CiAgaWYgKC9eKDYwMTF8NjRbNC05XXw2NSkvLnRlc3QobikpIHJldHVybiAiZGlzY292ZXIiOwogIGlmICgvXjYyLy50ZXN0KG4pKSByZXR1cm4gInVuaW9ucGF5IjsKICBpZiAoL14zNS8udGVzdChuKSkgcmV0dXJuICJqY2IiOwogIGlmICgvXigzMFswLTVdfDM2fDM4fDM5KS8udGVzdChuKSkgcmV0dXJuICJkaW5lcnMiOwogIHJldHVybiAidW5rbm93biI7Cn0KCmZ1bmN0aW9uIGJyYW5kRnJvbVNjaGVtZXMoc2NoZW1lczogc3RyaW5nW10sIG46IHN0cmluZyk6IENhcmRCcmFuZCB7CiAgY29uc3QgcyA9IHNjaGVtZXMubWFwKCh4KSA9PiB4LnRvVXBwZXJDYXNlKCkpOwogIGlmIChzLmluY2x1ZGVzKCJNQURBIikgfHwgaXNNYWRhUHJlZml4KG4pKSByZXR1cm4gIm1hZGEiOwogIGlmIChzLmluY2x1ZGVzKCJWSVNBIikpIHJldHVybiAidmlzYSI7CiAgaWYgKHMuc29tZSgoeCkgPT4geC5pbmNsdWRlcygiTUFTVEVSIikpKSByZXR1cm4gIm1hc3RlciI7CiAgaWYgKHMuaW5jbHVkZXMoIk1BRVNUUk8iKSkgcmV0dXJuICJtYWVzdHJvIjsKICBpZiAocy5zb21lKCh4KSA9PiB4LmluY2x1ZGVzKCJBTUVSSUNBTiIpIHx8IHggPT09ICJBTUVYIikpIHJldHVybiAiYW1leCI7CiAgaWYgKHMuaW5jbHVkZXMoIkRJU0NPVkVSIikpIHJldHVybiAiZGlzY292ZXIiOwogIGlmIChzLnNvbWUoKHgpID0+IHguaW5jbHVkZXMoIlVOSU9OIikpKSByZXR1cm4gInVuaW9ucGF5IjsKICBpZiAocy5pbmNsdWRlcygiSkNCIikpIHJldHVybiAiamNiIjsKICBpZiAocy5zb21lKCh4KSA9PiB4LmluY2x1ZGVzKCJESU5FUlMiKSkpIHJldHVybiAiZGluZXJzIjsKICBpZiAocy5pbmNsdWRlcygiVUFUUCIpKSByZXR1cm4gInVhdHAiOwogIHJldHVybiAidW5rbm93biI7Cn0KCmV4cG9ydCBmdW5jdGlvbiBpc01hZGFQcmVmaXgobnVtOiBzdHJpbmcpOiBib29sZWFuIHsKICBjb25zdCBuID0gZGlnaXRzKG51bSk7CiAgcmV0dXJuIE1BREFfU0VULmhhcyhuLnNsaWNlKDAsIDgpKSB8fCBNQURBX1NFVC5oYXMobi5zbGljZSgwLCA2KSk7Cn0KCi8qKiBGdWxsIGlkZW50aWZpY2F0aW9uOiA4IOKGkiA2IOKGkiA0IGRpZ2l0IGxvbmdlc3QtcHJlZml4IG1hdGNoLiAqLwpleHBvcnQgZnVuY3Rpb24gaWRlbnRpZnlDYXJkKG51bTogc3RyaW5nKTogQ2FyZElkZW50aXR5IHsKICBjb25zdCBuID0gZGlnaXRzKG51bSkuc2xpY2UoMCwgOCk7CgogIGNvbnN0IGJ1aWxkID0gKHJlYzogQmluUmVjb3JkLCBtYXRjaGVkTGVuZ3RoOiA2IHwgOCk6IENhcmRJZGVudGl0eSA9PiB7CiAgICBjb25zdCBzY2hlbWVzID0gc3BsaXQocmVjLnNjaGVtZXMpOwogICAgY29uc3QgcHJvdmlzaW9uYWwgPSByZWMuYW1iaWd1b3VzIHx8IHJlYy5jb25maWRlbmNlID09PSAibG93IiB8fCAobWF0Y2hlZExlbmd0aCA9PT0gNiAmJiByZWMuaGFzQ2hpbGRyZW44KTsKICAgIHJldHVybiB7CiAgICAgIGJhbms6IGJhbmtGcm9tSXNzdWVyKHJlYy5pc3N1ZXIpLAogICAgICBicmFuZDogYnJhbmRGcm9tU2NoZW1lcyhzY2hlbWVzLCBuKSwKICAgICAgc2NoZW1lcywKICAgICAgY2FyZFR5cGVzOiBzcGxpdChyZWMuY2FyZFR5cGVzKSwKICAgICAgbWF0Y2hlZExlbmd0aCwKICAgICAgY29uZmlkZW5jZTogcHJvdmlzaW9uYWwgPyAicHJvdmlzaW9uYWwiIDogbWF0Y2hlZExlbmd0aCA9PT0gOCB8fCByZWMuY29uZmlkZW5jZSA9PT0gImhpZ2giID8gImhpZ2giIDogIm1lZGl1bSIsCiAgICAgIHByb3Zpc2lvbmFsLAogICAgICBpc01hZGE6IHNjaGVtZXMuc29tZSgocykgPT4gcy50b1VwcGVyQ2FzZSgpID09PSAiTUFEQSIpIHx8IGlzTWFkYVByZWZpeChuKSwKICAgICAgbm90ZToKICAgICAgICBwcm92aXNpb25hbAogICAgICAgICAgPyAi2KfZhNiq2LXZhtmK2YEg2YXYqNiv2KbZiiDigJQg2YLYryDYqtiu2KrZhNmBINin2YTYrNmH2Kkg2KPZiCDZhtmI2Lkg2KfZhNio2LfYp9mC2KkiCiAgICAgICAgICA6IG1hdGNoZWRMZW5ndGggPT09IDgKICAgICAgICAgICAgPyAi2KrYt9in2KjZgiDYr9mC2YrZgiDYudmE2YkgOCDYo9ix2YLYp9mFIgogICAgICAgICAgICA6ICLYqti32KfYqNmCINi52YTZiSA2INij2LHZgtin2YUiLAogICAgfTsKICB9OwoKICBpZiAobi5sZW5ndGggPj0gOCAmJiBQUkVGSVg4W24uc2xpY2UoMCwgOCldKSByZXR1cm4gYnVpbGQoUFJFRklYOFtuLnNsaWNlKDAsIDgpXSEsIDgpOwogIGlmIChuLmxlbmd0aCA+PSA2ICYmIEJJTjZbbi5zbGljZSgwLCA2KV0pIHJldHVybiBidWlsZChCSU42W24uc2xpY2UoMCwgNildISwgNik7CgogIGlmIChuLmxlbmd0aCA+PSA0KSB7CiAgICBjb25zdCBjYW5kaWRhdGVzID0gQklONFtuLnNsaWNlKDAsIDQpXSB8fCBbXTsKICAgIGlmIChjYW5kaWRhdGVzLmxlbmd0aCA9PT0gMSkgewogICAgICByZXR1cm4gewogICAgICAgIC8vIEZvdXIgZGlnaXRzIG5hcnJvdyB0aGUgcG9zc2liaWxpdGllcywgYnV0IGRvIG5vdCBlc3RhYmxpc2ggYW4gaXNzdWVyLgogICAgICAgIGJhbms6IFVOS05PV05fQkFOSywKICAgICAgICBicmFuZDogYnJhbmRGcm9tU2NoZW1lcyhbXSwgbiksCiAgICAgICAgc2NoZW1lczogW10sCiAgICAgICAgY2FyZFR5cGVzOiBbXSwKICAgICAgICBtYXRjaGVkTGVuZ3RoOiA0LAogICAgICAgIGNvbmZpZGVuY2U6ICJjYW5kaWRhdGUiLAogICAgICAgIHByb3Zpc2lvbmFsOiB0cnVlLAogICAgICAgIGlzTWFkYTogaXNNYWRhUHJlZml4KG4pLAogICAgICAgIG5vdGU6ICLZhdix2LTYrSDZhdio2K/YptmKINi52YTZiSA0INij2LHZgtin2YUg4oCUINij2YPZhdmEIDYg2KPYsdmC2KfZhSDZhNiq2KPZg9mK2K8g2KfZhNio2YbZgyIsCiAgICAgIH07CiAgICB9CiAgICBpZiAoY2FuZGlkYXRlcy5sZW5ndGggPiAxKSB7CiAgICAgIHJldHVybiB7CiAgICAgICAgYmFuazogVU5LTk9XTl9CQU5LLAogICAgICAgIGJyYW5kOiBicmFuZEZyb21TY2hlbWVzKFtdLCBuKSwKICAgICAgICBzY2hlbWVzOiBbXSwKICAgICAgICBjYXJkVHlwZXM6IFtdLAogICAgICAgIG1hdGNoZWRMZW5ndGg6IDQsCiAgICAgICAgY29uZmlkZW5jZTogImNhbmRpZGF0ZSIsCiAgICAgICAgcHJvdmlzaW9uYWw6IHRydWUsCiAgICAgICAgaXNNYWRhOiBpc01hZGFQcmVmaXgobiksCiAgICAgICAgbm90ZTogYCR7Y2FuZGlkYXRlcy5sZW5ndGh9INis2YfYp9iqINmF2K3YqtmF2YTYqSDigJQg2KPZg9mF2YQgNiDYo9ix2YLYp9mFYCwKICAgICAgfTsKICAgIH0KICB9CgogIHJldHVybiB7CiAgICBiYW5rOiBVTktOT1dOX0JBTkssCiAgICBicmFuZDogInVua25vd24iLAogICAgc2NoZW1lczogW10sCiAgICBjYXJkVHlwZXM6IFtdLAogICAgbWF0Y2hlZExlbmd0aDogMCwKICAgIGNvbmZpZGVuY2U6ICJub25lIiwKICAgIHByb3Zpc2lvbmFsOiBmYWxzZSwKICAgIGlzTWFkYTogZmFsc2UsCiAgICBub3RlOiAi2YTZhSDZitiq2YUg2KfZhNiq2LnYsdmBINi52YTZiSDYp9mE2KzZh9ipINin2YTZhdi12K/YsdipIiwKICB9Owp9CgovKiogQmFja3dhcmRzLWNvbXBhdGlibGUgaGVscGVyIHVzZWQgYWNyb3NzIHRoZSBhcHAuICovCmV4cG9ydCBmdW5jdGlvbiBkZXRlY3RCYW5rKG51bTogc3RyaW5nKTogQmFua0luZm8gewogIHJldHVybiBpZGVudGlmeUNhcmQobnVtKS5iYW5rOwp9CgpleHBvcnQgY29uc3QgQUxMX0JBTktTOiBCYW5rSW5mb1tdID0gT2JqZWN0LmtleXMoQkFOS19TVFlMRVMpLm1hcChiYW5rRnJvbUlzc3Vlcik7Cg==
+// Saudi payment-card identification.
+// Longest-prefix matching over the bundled BIN/IIN database:
+// 8-digit mada / ISO prefixes first, then 6-digit BINs, then 4-digit candidates.
+import { BIN6, PREFIX8, ISSUERS, MADA_PREFIXES, type BinRecord } from "./saudi-bins.generated";
+
+import rajhi from "@/assets/cards/al-rajhi-bank.png";
+import alinma from "@/assets/cards/alinma-bank.png";
+import anb from "@/assets/cards/arab-national-bank.png";
+import albilad from "@/assets/cards/bank-albilad.jpg";
+import jazira from "@/assets/cards/bank-aljazira.svg";
+import bsf from "@/assets/cards/banque-saudi-fransi.png";
+import d360 from "@/assets/cards/d-three-sixty-bank.png";
+import gib from "@/assets/cards/gulf-international-bank-saudi-arabia.png";
+import riyad from "@/assets/cards/riyad-bank.png";
+import sab from "@/assets/cards/saudi-awwal-bank.png";
+import saib from "@/assets/cards/saudi-investment-bank.webp";
+import snb from "@/assets/cards/saudi-national-bank.png";
+import stc from "@/assets/cards/stc-bank.png";
+import vision from "@/assets/cards/vision-bank.png";
+import amex from "@/assets/cards/american-express-saudi-arabia.png";
+
+export type CardBrand = "visa" | "master" | "mada" | "amex" | "discover" | "unionpay" | "jcb" | "maestro" | "diners" | "uatp" | "unknown";
+
+export type BankInfo = {
+  id: string;
+  nameAr: string;
+  nameEn: string;
+  gradient: string;
+  backGradient: string;
+  accent: string;
+  imageUrl: string | null;
+};
+
+/** Result of identifying a card number prefix. */
+export type CardIdentity = {
+  bank: BankInfo;
+  brand: CardBrand;
+  /** Networks the issuer publishes for this prefix (e.g. "MADA,VISA"). */
+  schemes: string[];
+  /** DEBIT / CREDIT / PREPAID as published. */
+  cardTypes: string[];
+  matchedLength: 0 | 4 | 6 | 8;
+  confidence: "none" | "candidate" | "provisional" | "medium" | "high";
+  /** True when sources disagree, or a 6-digit hit has 8-digit children. */
+  provisional: boolean;
+  isMada: boolean;
+  /** Arabic explanation of the match quality, safe to show in the UI. */
+  note: string;
+};
+
+type BankStyle = { gradient: string; backGradient: string; accent: string; imageUrl: string | null };
+
+const GENERIC: BankStyle = {
+  gradient: "from-[#0f2c5a] via-[#123a7a] to-[#1e60c0]",
+  backGradient: "from-[#0f2c5a] to-[#1e60c0]",
+  accent: "#1e60c0",
+  imageUrl: null,
+};
+
+// Visual identity + real card art for issuers we have assets for.
+const BANK_STYLES: Record<string, BankStyle> = {
+  "al-rajhi-bank": { gradient: "from-[#00305B] via-[#0a4a86] to-[#0a4a86]", backGradient: "from-[#00305B] to-[#062647]", accent: "#F0B323", imageUrl: rajhi },
+  "saudi-national-bank": { gradient: "from-[#003D33] via-[#005E51] to-[#00A19A]", backGradient: "from-[#003D33] to-[#005E51]", accent: "#00A19A", imageUrl: snb },
+  "riyad-bank": { gradient: "from-[#003b71] via-[#0a5a9c] to-[#127dc1]", backGradient: "from-[#002a52] to-[#0a5a9c]", accent: "#f37021", imageUrl: riyad },
+  "saudi-awwal-bank": { gradient: "from-[#111111] via-[#1a1a1a] to-[#db0011]", backGradient: "from-[#111111] to-[#3a0006]", accent: "#db0011", imageUrl: sab },
+  "alinma-bank": { gradient: "from-[#3b1e6b] via-[#522D80] to-[#7a3fb0]", backGradient: "from-[#2b1550] to-[#522D80]", accent: "#f5a623", imageUrl: alinma },
+  "bank-albilad": { gradient: "from-[#8B5A00] via-[#c47f0a] to-[#F58220]", backGradient: "from-[#6b4500] to-[#c47f0a]", accent: "#F58220", imageUrl: albilad },
+  "arab-national-bank": { gradient: "from-[#004b3f] via-[#00695c] to-[#00897b]", backGradient: "from-[#003a30] to-[#00695c]", accent: "#c9a24b", imageUrl: anb },
+  "banque-saudi-fransi": { gradient: "from-[#004225] via-[#006b3c] to-[#009639]", backGradient: "from-[#003018] to-[#006b3c]", accent: "#009639", imageUrl: bsf },
+  "bank-aljazira": { gradient: "from-[#4a1e1e] via-[#7a2e2e] to-[#a83232]", backGradient: "from-[#3a1414] to-[#7a2e2e]", accent: "#c9a24b", imageUrl: jazira },
+  "saudi-investment-bank": { gradient: "from-[#0b3d91] via-[#1252b8] to-[#2a6fd6]", backGradient: "from-[#082a66] to-[#1252b8]", accent: "#e8a838", imageUrl: saib },
+  "gulf-international-bank-saudi-arabia": { gradient: "from-[#0a3d2f] via-[#106446] to-[#189063]", backGradient: "from-[#062a20] to-[#106446]", accent: "#c9a24b", imageUrl: gib },
+  "d360-bank": { gradient: "from-[#2a1a5e] via-[#4b2fa8] to-[#7a4fe0]", backGradient: "from-[#1a1040] to-[#4b2fa8]", accent: "#f58220", imageUrl: d360 },
+  "stc-bank": { gradient: "from-[#4a0072] via-[#6b0d94] to-[#8a1eb0]", backGradient: "from-[#2f0048] to-[#6b0d94]", accent: "#e11e6a", imageUrl: stc },
+  "vision-bank": { gradient: "from-[#0b2e4f] via-[#12507f] to-[#1b78b8]", backGradient: "from-[#08223c] to-[#12507f]", accent: "#31c6c6", imageUrl: vision },
+  "american-express-saudi-arabia": { gradient: "from-[#00175a] via-[#0a2f7a] to-[#2e77bc]", backGradient: "from-[#00175a] to-[#0a2f7a]", accent: "#2e77bc", imageUrl: amex },
+  // بطاقة الفرسان (الخطوط السعودية) تصدر بالشراكة مع الأهلي — نستخدم هوية الأهلي بصريًا
+  "saudi-arabian-airlines": { gradient: "from-[#003D33] via-[#005E51] to-[#00A19A]", backGradient: "from-[#003D33] to-[#005E51]", accent: "#00A19A", imageUrl: snb },
+};
+
+export const UNKNOWN_BANK: BankInfo = {
+  id: "generic",
+  nameAr: "بطاقة بنكية",
+  nameEn: "BANK",
+  ...GENERIC,
+};
+
+function bankFromIssuer(issuerId: string): BankInfo {
+  const issuer = ISSUERS[issuerId];
+  const style = BANK_STYLES[issuerId] || GENERIC;
+  if (!issuer) return { ...UNKNOWN_BANK, ...style, id: issuerId };
+  return {
+    id: issuerId,
+    nameAr: issuer.ar || issuer.en || UNKNOWN_BANK.nameAr,
+    nameEn: issuer.en || UNKNOWN_BANK.nameEn,
+    ...style,
+  };
+}
+
+const MADA_SET = new Set(MADA_PREFIXES);
+
+// bin4 -> issuer ids (candidate narrowing only, never a final answer).
+const BIN4: Record<string, string[]> = (() => {
+  const map: Record<string, Set<string>> = {};
+  for (const [bin, rec] of Object.entries(BIN6)) {
+    const k = bin.slice(0, 4);
+    (map[k] ||= new Set()).add(rec.issuer);
+  }
+  const out: Record<string, string[]> = {};
+  for (const [k, v] of Object.entries(map)) out[k] = [...v];
+  return out;
+})();
+
+const digits = (v: string) => (v || "").replace(/\D/g, "");
+const split = (v: string) => (v ? v.split(/[,;/]/).map((s) => s.trim()).filter(Boolean) : []);
+
+/** Network from the scheme list, falling back to standard IIN ranges. */
+export function detectBrand(num: string): CardBrand {
+  const n = digits(num);
+  if (!n) return "unknown";
+  const id = identifyCard(n);
+  if (id.matchedLength >= 6 && id.brand !== "unknown") return id.brand;
+  if (isMadaPrefix(n)) return "mada";
+  if (/^4/.test(n)) return "visa";
+  if (/^(5[1-5]|2[2-7])/.test(n)) return "master";
+  if (/^3[47]/.test(n)) return "amex";
+  if (/^(6011|64[4-9]|65)/.test(n)) return "discover";
+  if (/^62/.test(n)) return "unionpay";
+  if (/^35/.test(n)) return "jcb";
+  if (/^(30[0-5]|36|38|39)/.test(n)) return "diners";
+  return "unknown";
+}
+
+function brandFromSchemes(schemes: string[], n: string): CardBrand {
+  const s = schemes.map((x) => x.toUpperCase());
+  if (s.includes("MADA") || isMadaPrefix(n)) return "mada";
+  if (s.includes("VISA")) return "visa";
+  if (s.some((x) => x.includes("MASTER"))) return "master";
+  if (s.includes("MAESTRO")) return "maestro";
+  if (s.some((x) => x.includes("AMERICAN") || x === "AMEX")) return "amex";
+  if (s.includes("DISCOVER")) return "discover";
+  if (s.some((x) => x.includes("UNION"))) return "unionpay";
+  if (s.includes("JCB")) return "jcb";
+  if (s.some((x) => x.includes("DINERS"))) return "diners";
+  if (s.includes("UATP")) return "uatp";
+  return "unknown";
+}
+
+export function isMadaPrefix(num: string): boolean {
+  const n = digits(num);
+  return MADA_SET.has(n.slice(0, 8)) || MADA_SET.has(n.slice(0, 6));
+}
+
+/** Full identification: 8 → 6 → 4 digit longest-prefix match. */
+export function identifyCard(num: string): CardIdentity {
+  const n = digits(num).slice(0, 8);
+
+  const build = (rec: BinRecord, matchedLength: 6 | 8): CardIdentity => {
+    const schemes = split(rec.schemes);
+    const provisional = rec.ambiguous || rec.confidence === "low" || (matchedLength === 6 && rec.hasChildren8);
+    return {
+      bank: bankFromIssuer(rec.issuer),
+      brand: brandFromSchemes(schemes, n),
+      schemes,
+      cardTypes: split(rec.cardTypes),
+      matchedLength,
+      confidence: provisional ? "provisional" : matchedLength === 8 || rec.confidence === "high" ? "high" : "medium",
+      provisional,
+      isMada: schemes.some((s) => s.toUpperCase() === "MADA") || isMadaPrefix(n),
+      note:
+        provisional
+          ? "التصنيف مبدئي — قد تختلف الجهة أو نوع البطاقة"
+          : matchedLength === 8
+            ? "تطابق دقيق على 8 أرقام"
+            : "تطابق على 6 أرقام",
+    };
+  };
+
+  if (n.length >= 8 && PREFIX8[n.slice(0, 8)]) return build(PREFIX8[n.slice(0, 8)]!, 8);
+  if (n.length >= 6 && BIN6[n.slice(0, 6)]) return build(BIN6[n.slice(0, 6)]!, 6);
+
+  if (n.length >= 4) {
+    const candidates = BIN4[n.slice(0, 4)] || [];
+    if (candidates.length === 1) {
+      return {
+        // Four digits narrow the possibilities, but do not establish an issuer.
+        bank: UNKNOWN_BANK,
+        brand: brandFromSchemes([], n),
+        schemes: [],
+        cardTypes: [],
+        matchedLength: 4,
+        confidence: "candidate",
+        provisional: true,
+        isMada: isMadaPrefix(n),
+        note: "مرشح مبدئي على 4 أرقام — أكمل 6 أرقام لتأكيد البنك",
+      };
+    }
+    if (candidates.length > 1) {
+      return {
+        bank: UNKNOWN_BANK,
+        brand: brandFromSchemes([], n),
+        schemes: [],
+        cardTypes: [],
+        matchedLength: 4,
+        confidence: "candidate",
+        provisional: true,
+        isMada: isMadaPrefix(n),
+        note: `${candidates.length} جهات محتملة — أكمل 6 أرقام`,
+      };
+    }
+  }
+
+  return {
+    bank: UNKNOWN_BANK,
+    brand: "unknown",
+    schemes: [],
+    cardTypes: [],
+    matchedLength: 0,
+    confidence: "none",
+    provisional: false,
+    isMada: false,
+    note: "لم يتم التعرف على الجهة المصدرة",
+  };
+}
+
+/** Backwards-compatible helper used across the app. */
+export function detectBank(num: string): BankInfo {
+  return identifyCard(num).bank;
+}
+
+export const ALL_BANKS: BankInfo[] = Object.keys(BANK_STYLES).map(bankFromIssuer);

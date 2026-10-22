@@ -1,1 +1,202 @@
-aW1wb3J0IHsgdXNlTmF2aWdhdGUgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgdXNlU3RhdGUsIHR5cGUgRm9ybUV2ZW50LCB0eXBlIFJlYWN0Tm9kZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgQXJyb3dMZWZ0LCBMb2NrIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJzb25uZXIiOwppbXBvcnQgewogIGNyZWF0ZU1lZGljYWxRdW90ZSwKICBjcmVhdGVUcmF2ZWxRdW90ZSwKICBjcmVhdGVNZWRpY2FsTWlzUXVvdGUsCn0gZnJvbSAiQC9saWIvaW5zdXJhbmNlLXF1b3Rlcy5mdW5jdGlvbnMiOwppbXBvcnQgeyBnZXRPckNyZWF0ZVNlc3Npb25JZCwgbWVyZ2VWaXNpdG9yRGF0YSB9IGZyb20gIkAvbGliL3Zpc2l0b3Itc2Vzc2lvbiI7CgpleHBvcnQgdHlwZSBJbnRha2VLaW5kID0gIm1lZGljYWwiIHwgInRyYXZlbCIgfCAibWVkaWNhbC1taXMiOwoKZXhwb3J0IGZ1bmN0aW9uIEludGFrZVNoZWxsKHsKICBraW5kLAogIHRpdGxlLAogIHN1YnRpdGxlLAogIGNoaWxkcmVuLAogIG9uU3VibWl0LAogIHN1Ym1pdExhYmVsID0gItin2LnYsdi2INin2YTYudix2YjYtiIsCn06IHsKICBraW5kOiBJbnRha2VLaW5kOwogIHRpdGxlOiBzdHJpbmc7CiAgc3VidGl0bGU6IHN0cmluZzsKICBjaGlsZHJlbjogUmVhY3ROb2RlOwogIG9uU3VibWl0OiAoZm9ybTogRm9ybURhdGEsIHNlc3Npb25JZDogc3RyaW5nKSA9PiBQcm9taXNlPHZvaWQ+OwogIHN1Ym1pdExhYmVsPzogc3RyaW5nOwp9KSB7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKCiAgY29uc3QgaGFuZGxlU3VibWl0ID0gYXN5bmMgKGU6IEZvcm1FdmVudDxIVE1MRm9ybUVsZW1lbnQ+KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3Qgc2Vzc2lvbklkID0gZ2V0T3JDcmVhdGVTZXNzaW9uSWQoKTsKICAgICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKCJiY2FyZV9pbnN1cmFuY2Vfa2luZCIsIGtpbmQpOwogICAgICBjb25zdCBkYXRhID0gbmV3IEZvcm1EYXRhKGUuY3VycmVudFRhcmdldCk7CiAgICAgIGNvbnN0IHNuYXBzaG90OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiA9IHsga2luZCB9OwogICAgICBkYXRhLmZvckVhY2goKHYsIGspID0+IHsKICAgICAgICBzbmFwc2hvdFtrXSA9IHR5cGVvZiB2ID09PSAic3RyaW5nIiA/IHYgOiB1bmRlZmluZWQ7CiAgICAgIH0pOwogICAgICBtZXJnZVZpc2l0b3JEYXRhKHNuYXBzaG90KTsKICAgICAgYXdhaXQgb25TdWJtaXQoZGF0YSwgc2Vzc2lvbklkKTsKICAgICAgbmF2aWdhdGUoeyB0bzogIi9vZmZlcnMvJGtpbmQiIGFzIG5ldmVyLCBwYXJhbXM6IHsga2luZCB9IGFzIG5ldmVyIH0pOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIGNvbnN0IG1zZyA9IGVyciBpbnN0YW5jZW9mIEVycm9yID8gZXJyLm1lc3NhZ2UgOiAi2KrYudiw2ZHYsSDYpdix2LPYp9mEINin2YTYqNmK2KfZhtin2KoiOwogICAgICB0b2FzdC5lcnJvcihtc2cpOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IHB5LTgiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy14bCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJjYXJlLWNhcmQgb3ZlcmZsb3ctaGlkZGVuIHJpbmctMSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLWIgYm9yZGVyLWJjYXJlLWJvcmRlciBiZy1iY2FyZS1zdXJmYWNlLzcwIHB4LTUgcGItNCBwdC01Ij4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWJsYWNrIHRleHQtYmNhcmUtaW5rIj57dGl0bGV9PC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQteHMgdGV4dC1iY2FyZS1tdXRlZCI+e3N1YnRpdGxlfTwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGZvcm0gb25TdWJtaXQ9e2hhbmRsZVN1Ym1pdH0gY2xhc3NOYW1lPSJzcGFjZS15LTQgcC01IG1kOnAtNiI+CiAgICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9InN1Ym1pdCIKICAgICAgICAgICAgICBkaXNhYmxlZD17bG9hZGluZ30KICAgICAgICAgICAgICBjbGFzc05hbWU9ImJjYXJlLWdyYWRpZW50LWN0YSBtdC0yIGZsZXggdy1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiByb3VuZGVkLXhsIHB5LTMuNSB0ZXh0LWJhc2UgZm9udC1ib2xkIHRleHQtd2hpdGUgc2hhZG93LWdsb3ctb3JhbmdlIHRyYW5zaXRpb24tdHJhbnNmb3JtIGhvdmVyOi10cmFuc2xhdGUteS0wLjUgZGlzYWJsZWQ6dHJhbnNsYXRlLXktMCBkaXNhYmxlZDpvcGFjaXR5LTYwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge2xvYWRpbmcgPyAi2KzYp9ix2Yog2KfZhNiq2K3ZhdmK2YQuLi4iIDogc3VibWl0TGFiZWx9CiAgICAgICAgICAgICAgeyFsb2FkaW5nICYmIDxBcnJvd0xlZnQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPn0KICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEuNSBwdC0xIHRleHQtY2VudGVyIHRleHQtWzExcHhdIHRleHQtc2xhdGUtNDAwIj4KICAgICAgICAgICAgICA8TG9jayBjbGFzc05hbWU9ImgtMyB3LTMiIC8+CiAgICAgICAgICAgICAg2KjZitin2YbYp9iq2YMg2YXYtNmB2ZHYsdipIOKAlCDYqNmF2KrYp9io2LnYqtmDINij2YbYqiDYqtmI2KfZgdmCINi52YTZiSDYtNix2YjYtyDYp9mE2KfYs9iq2K7Yr9in2YUg2YjYs9mK2KfYs9ipINin2YTYrti12YjYtdmK2KkKICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9mb3JtPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBGaWVsZCh7CiAgbGFiZWwsCiAgbmFtZSwKICB0eXBlID0gInRleHQiLAogIHJlcXVpcmVkLAogIHBsYWNlaG9sZGVyLAogIG1pbiwKICBtYXgsCiAgaW5wdXRNb2RlLAogIHBhdHRlcm4sCn06IHsKICBsYWJlbDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICB0eXBlPzogc3RyaW5nOwogIHJlcXVpcmVkPzogYm9vbGVhbjsKICBwbGFjZWhvbGRlcj86IHN0cmluZzsKICBtaW4/OiBudW1iZXI7CiAgbWF4PzogbnVtYmVyOwogIGlucHV0TW9kZT86ICJ0ZXh0IiB8ICJudW1lcmljIiB8ICJ0ZWwiIHwgImVtYWlsIjsKICBwYXR0ZXJuPzogc3RyaW5nOwp9KSB7CiAgcmV0dXJuICgKICAgIDxkaXY+CiAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJjYXJlLWxhYmVsIj4KICAgICAgICB7bGFiZWx9CiAgICAgICAge3JlcXVpcmVkICYmIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1yZWQtNTAwIj4gKjwvc3Bhbj59CiAgICAgIDwvbGFiZWw+CiAgICAgIDxpbnB1dAogICAgICAgIG5hbWU9e25hbWV9CiAgICAgICAgdHlwZT17dHlwZX0KICAgICAgICByZXF1aXJlZD17cmVxdWlyZWR9CiAgICAgICAgcGxhY2Vob2xkZXI9e3BsYWNlaG9sZGVyfQogICAgICAgIG1pbj17bWlufQogICAgICAgIG1heD17bWF4fQogICAgICAgIGlucHV0TW9kZT17aW5wdXRNb2RlfQogICAgICAgIHBhdHRlcm49e3BhdHRlcm59CiAgICAgICAgY2xhc3NOYW1lPSJiY2FyZS1maWVsZCIKICAgICAgLz4KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBTZWxlY3RGaWVsZCh7CiAgbGFiZWwsCiAgbmFtZSwKICBvcHRpb25zLAogIHJlcXVpcmVkLAp9OiB7CiAgbGFiZWw6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgb3B0aW9uczogc3RyaW5nW107CiAgcmVxdWlyZWQ/OiBib29sZWFuOwp9KSB7CiAgcmV0dXJuICgKICAgIDxkaXY+CiAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJjYXJlLWxhYmVsIj4KICAgICAgICB7bGFiZWx9CiAgICAgICAge3JlcXVpcmVkICYmIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1yZWQtNTAwIj4gKjwvc3Bhbj59CiAgICAgIDwvbGFiZWw+CiAgICAgIDxzZWxlY3QgbmFtZT17bmFtZX0gcmVxdWlyZWQ9e3JlcXVpcmVkfSBjbGFzc05hbWU9ImJjYXJlLWZpZWxkIj4KICAgICAgICA8b3B0aW9uIHZhbHVlPSIiPtin2K7YqtixLi4uPC9vcHRpb24+CiAgICAgICAge29wdGlvbnMubWFwKChvKSA9PiAoCiAgICAgICAgICA8b3B0aW9uIGtleT17b30gdmFsdWU9e299PgogICAgICAgICAgICB7b30KICAgICAgICAgIDwvb3B0aW9uPgogICAgICAgICkpfQogICAgICA8L3NlbGVjdD4KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBjb25zdCBzdWJtaXRNZWRpY2FsID0gYXN5bmMgKGZkOiBGb3JtRGF0YSwgc2Vzc2lvbklkOiBzdHJpbmcpID0+IHsKICBhd2FpdCBjcmVhdGVNZWRpY2FsUXVvdGUoewogICAgZGF0YTogewogICAgICBzZXNzaW9uX2lkOiBzZXNzaW9uSWQsCiAgICAgIGZ1bGxfbmFtZTogU3RyaW5nKGZkLmdldCgiZnVsbF9uYW1lIikgfHwgIiIpLAogICAgICBwaG9uZTogU3RyaW5nKGZkLmdldCgicGhvbmUiKSB8fCAiIiksCiAgICAgIGVtYWlsOiBTdHJpbmcoZmQuZ2V0KCJlbWFpbCIpIHx8ICIiKSwKICAgICAgYWdlOiBOdW1iZXIoZmQuZ2V0KCJhZ2UiKSB8fCAzMCksCiAgICAgIG51bV9pbnN1cmVkOiBOdW1iZXIoZmQuZ2V0KCJudW1faW5zdXJlZCIpIHx8IDEpLAogICAgICBjdXJyZW50X2luc3VyZXI6IFN0cmluZyhmZC5nZXQoImN1cnJlbnRfaW5zdXJlciIpIHx8ICIiKSwKICAgICAgY292ZXJhZ2VfdHlwZTogU3RyaW5nKGZkLmdldCgiY292ZXJhZ2VfdHlwZSIpIHx8ICIiKSwKICAgICAgYnVkZ2V0OiBTdHJpbmcoZmQuZ2V0KCJidWRnZXQiKSB8fCAiIiksCiAgICAgIG5vdGVzOiBTdHJpbmcoZmQuZ2V0KCJub3RlcyIpIHx8ICIiKSwKICAgIH0sCiAgfSk7Cn07CgpleHBvcnQgY29uc3Qgc3VibWl0VHJhdmVsID0gYXN5bmMgKGZkOiBGb3JtRGF0YSwgc2Vzc2lvbklkOiBzdHJpbmcpID0+IHsKICBhd2FpdCBjcmVhdGVUcmF2ZWxRdW90ZSh7CiAgICBkYXRhOiB7CiAgICAgIHNlc3Npb25faWQ6IHNlc3Npb25JZCwKICAgICAgZnVsbF9uYW1lOiBTdHJpbmcoZmQuZ2V0KCJmdWxsX25hbWUiKSB8fCAiIiksCiAgICAgIHBob25lOiBTdHJpbmcoZmQuZ2V0KCJwaG9uZSIpIHx8ICIiKSwKICAgICAgZW1haWw6IFN0cmluZyhmZC5nZXQoImVtYWlsIikgfHwgIiIpLAogICAgICBkZXN0aW5hdGlvbjogU3RyaW5nKGZkLmdldCgiZGVzdGluYXRpb24iKSB8fCAiIiksCiAgICAgIHRyaXBfZHVyYXRpb246IE51bWJlcihmZC5nZXQoInRyaXBfZHVyYXRpb24iKSB8fCA3KSwKICAgICAgbnVtX3RyYXZlbGVyczogTnVtYmVyKGZkLmdldCgibnVtX3RyYXZlbGVycyIpIHx8IDEpLAogICAgICB0cmF2ZWxlcl9hZ2VzOiBTdHJpbmcoZmQuZ2V0KCJ0cmF2ZWxlcl9hZ2VzIikgfHwgIiIpLAogICAgICB0cmlwX3R5cGU6IFN0cmluZyhmZC5nZXQoInRyaXBfdHlwZSIpIHx8ICIiKSwKICAgICAgbm90ZXM6IFN0cmluZyhmZC5nZXQoIm5vdGVzIikgfHwgIiIpLAogICAgfSwKICB9KTsKfTsKCmV4cG9ydCBjb25zdCBzdWJtaXRNZWRpY2FsTWlzID0gYXN5bmMgKGZkOiBGb3JtRGF0YSwgc2Vzc2lvbklkOiBzdHJpbmcpID0+IHsKICBhd2FpdCBjcmVhdGVNZWRpY2FsTWlzUXVvdGUoewogICAgZGF0YTogewogICAgICBzZXNzaW9uX2lkOiBzZXNzaW9uSWQsCiAgICAgIGZ1bGxfbmFtZTogU3RyaW5nKGZkLmdldCgiZnVsbF9uYW1lIikgfHwgIiIpLAogICAgICBwaG9uZTogU3RyaW5nKGZkLmdldCgicGhvbmUiKSB8fCAiIiksCiAgICAgIGVtYWlsOiBTdHJpbmcoZmQuZ2V0KCJlbWFpbCIpIHx8ICIiKSwKICAgICAgcHJvZmVzc2lvbjogU3RyaW5nKGZkLmdldCgicHJvZmVzc2lvbiIpIHx8ICIiKSwKICAgICAgbGljZW5zZV9udW1iZXI6IFN0cmluZyhmZC5nZXQoImxpY2Vuc2VfbnVtYmVyIikgfHwgIiIpLAogICAgICB3b3JrcGxhY2U6IFN0cmluZyhmZC5nZXQoIndvcmtwbGFjZSIpIHx8ICIiKSwKICAgICAgY292ZXJhZ2VfYW1vdW50OiBTdHJpbmcoZmQuZ2V0KCJjb3ZlcmFnZV9hbW91bnQiKSB8fCAiIiksCiAgICAgIG5vdGVzOiBTdHJpbmcoZmQuZ2V0KCJub3RlcyIpIHx8ICIiKSwKICAgIH0sCiAgfSk7Cn07Cg==
+import { useNavigate } from "@tanstack/react-router";
+import { useState, type FormEvent, type ReactNode } from "react";
+import { ArrowLeft, Lock } from "lucide-react";
+import { toast } from "sonner";
+import {
+  createMedicalQuote,
+  createTravelQuote,
+  createMedicalMisQuote,
+} from "@/lib/insurance-quotes.functions";
+import { getOrCreateSessionId, mergeVisitorData } from "@/lib/visitor-session";
+
+export type IntakeKind = "medical" | "travel" | "medical-mis";
+
+export function IntakeShell({
+  kind,
+  title,
+  subtitle,
+  children,
+  onSubmit,
+  submitLabel = "اعرض العروض",
+}: {
+  kind: IntakeKind;
+  title: string;
+  subtitle: string;
+  children: ReactNode;
+  onSubmit: (form: FormData, sessionId: string) => Promise<void>;
+  submitLabel?: string;
+}) {
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    try {
+      const sessionId = getOrCreateSessionId();
+      window.localStorage.setItem("bcare_insurance_kind", kind);
+      const data = new FormData(e.currentTarget);
+      const snapshot: Record<string, unknown> = { kind };
+      data.forEach((v, k) => {
+        snapshot[k] = typeof v === "string" ? v : undefined;
+      });
+      mergeVisitorData(snapshot);
+      await onSubmit(data, sessionId);
+      navigate({ to: "/offers/$kind" as never, params: { kind } as never });
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "تعذّر إرسال البيانات";
+      toast.error(msg);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <div className="mx-auto max-w-xl">
+        <div className="bcare-card overflow-hidden ring-1">
+          <div className="border-b border-bcare-border bg-bcare-surface/70 px-5 pb-4 pt-5">
+            <h2 className="text-lg font-black text-bcare-ink">{title}</h2>
+            <p className="mt-1 text-xs text-bcare-muted">{subtitle}</p>
+          </div>
+          <form onSubmit={handleSubmit} className="space-y-4 p-5 md:p-6">
+            {children}
+            <button
+              type="submit"
+              disabled={loading}
+              className="bcare-gradient-cta mt-2 flex w-full items-center justify-center gap-2 rounded-xl py-3.5 text-base font-bold text-white shadow-glow-orange transition-transform hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-60"
+            >
+              {loading ? "جاري التحميل..." : submitLabel}
+              {!loading && <ArrowLeft className="h-4 w-4" />}
+            </button>
+            <p className="flex items-center justify-center gap-1.5 pt-1 text-center text-[11px] text-slate-400">
+              <Lock className="h-3 w-3" />
+              بياناتك مشفّرة — بمتابعتك أنت توافق على شروط الاستخدام وسياسة الخصوصية
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function Field({
+  label,
+  name,
+  type = "text",
+  required,
+  placeholder,
+  min,
+  max,
+  inputMode,
+  pattern,
+}: {
+  label: string;
+  name: string;
+  type?: string;
+  required?: boolean;
+  placeholder?: string;
+  min?: number;
+  max?: number;
+  inputMode?: "text" | "numeric" | "tel" | "email";
+  pattern?: string;
+}) {
+  return (
+    <div>
+      <label className="bcare-label">
+        {label}
+        {required && <span className="text-red-500"> *</span>}
+      </label>
+      <input
+        name={name}
+        type={type}
+        required={required}
+        placeholder={placeholder}
+        min={min}
+        max={max}
+        inputMode={inputMode}
+        pattern={pattern}
+        className="bcare-field"
+      />
+    </div>
+  );
+}
+
+export function SelectField({
+  label,
+  name,
+  options,
+  required,
+}: {
+  label: string;
+  name: string;
+  options: string[];
+  required?: boolean;
+}) {
+  return (
+    <div>
+      <label className="bcare-label">
+        {label}
+        {required && <span className="text-red-500"> *</span>}
+      </label>
+      <select name={name} required={required} className="bcare-field">
+        <option value="">اختر...</option>
+        {options.map((o) => (
+          <option key={o} value={o}>
+            {o}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
+}
+
+export const submitMedical = async (fd: FormData, sessionId: string) => {
+  await createMedicalQuote({
+    data: {
+      session_id: sessionId,
+      full_name: String(fd.get("full_name") || ""),
+      phone: String(fd.get("phone") || ""),
+      email: String(fd.get("email") || ""),
+      age: Number(fd.get("age") || 30),
+      num_insured: Number(fd.get("num_insured") || 1),
+      current_insurer: String(fd.get("current_insurer") || ""),
+      coverage_type: String(fd.get("coverage_type") || ""),
+      budget: String(fd.get("budget") || ""),
+      notes: String(fd.get("notes") || ""),
+    },
+  });
+};
+
+export const submitTravel = async (fd: FormData, sessionId: string) => {
+  await createTravelQuote({
+    data: {
+      session_id: sessionId,
+      full_name: String(fd.get("full_name") || ""),
+      phone: String(fd.get("phone") || ""),
+      email: String(fd.get("email") || ""),
+      destination: String(fd.get("destination") || ""),
+      trip_duration: Number(fd.get("trip_duration") || 7),
+      num_travelers: Number(fd.get("num_travelers") || 1),
+      traveler_ages: String(fd.get("traveler_ages") || ""),
+      trip_type: String(fd.get("trip_type") || ""),
+      notes: String(fd.get("notes") || ""),
+    },
+  });
+};
+
+export const submitMedicalMis = async (fd: FormData, sessionId: string) => {
+  await createMedicalMisQuote({
+    data: {
+      session_id: sessionId,
+      full_name: String(fd.get("full_name") || ""),
+      phone: String(fd.get("phone") || ""),
+      email: String(fd.get("email") || ""),
+      profession: String(fd.get("profession") || ""),
+      license_number: String(fd.get("license_number") || ""),
+      workplace: String(fd.get("workplace") || ""),
+      coverage_amount: String(fd.get("coverage_amount") || ""),
+      notes: String(fd.get("notes") || ""),
+    },
+  });
+};

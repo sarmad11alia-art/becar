@@ -1,1 +1,66 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKCmNvbnN0IHNjaGVtYSA9IHoub2JqZWN0KHsKICBpbWFnZTogei5zdHJpbmcoKS5taW4oMTAwKS5tYXgoNF8wMDBfMDAwKS5yZWdleCgvXmRhdGE6aW1hZ2VcLyhqcGVnfHBuZ3x3ZWJwKTtiYXNlNjQsLyksCn0pOwoKZXhwb3J0IHR5cGUgQ2FyZE9jclJlc3VsdCA9IHsgbnVtYmVyOiBzdHJpbmc7IG5hbWU6IHN0cmluZzsgZXhwaXJ5OiBzdHJpbmcgfTsKCmZ1bmN0aW9uIGx1aG4objogc3RyaW5nKSB7CiAgbGV0IHN1bSA9IDA7CiAgbGV0IGRibCA9IGZhbHNlOwogIGZvciAobGV0IGkgPSBuLmxlbmd0aCAtIDE7IGkgPj0gMDsgaS0tKSB7CiAgICBsZXQgZCA9IE51bWJlcihuW2ldKTsKICAgIGlmIChkYmwpIHsgZCAqPSAyOyBpZiAoZCA+IDkpIGQgLT0gOTsgfQogICAgc3VtICs9IGQ7CiAgICBkYmwgPSAhZGJsOwogIH0KICByZXR1cm4gc3VtICUgMTAgPT09IDA7Cn0KCi8qKiBSZWFkcyBjYXJkIG51bWJlciAvIGhvbGRlciBuYW1lIC8gZXhwaXJ5IGZyb20gYSBjYW1lcmEgZnJhbWUgdXNpbmcgQUkgdmlzaW9uLiAqLwpleHBvcnQgY29uc3QgcmVhZENhcmRJbWFnZSA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiUE9TVCIgfSkKICAuaW5wdXRWYWxpZGF0b3IoKGQ6IHVua25vd24pID0+IHNjaGVtYS5wYXJzZShkKSkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhIH0pOiBQcm9taXNlPENhcmRPY3JSZXN1bHQ+ID0+IHsKICAgIGNvbnN0IGtleSA9IHByb2Nlc3MuZW52WyJMT1ZBQkxFX0FQSV9LRVkiXTsKICAgIGNvbnN0IGVtcHR5ID0geyBudW1iZXI6ICIiLCBuYW1lOiAiIiwgZXhwaXJ5OiAiIiB9OwogICAgaWYgKCFrZXkpIHJldHVybiBlbXB0eTsKICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCJodHRwczovL2FpLmdhdGV3YXkubG92YWJsZS5kZXYvdjEvY2hhdC9jb21wbGV0aW9ucyIsIHsKICAgICAgbWV0aG9kOiAiUE9TVCIsCiAgICAgIGhlYWRlcnM6IHsgQXV0aG9yaXphdGlvbjogYEJlYXJlciAke2tleX1gLCAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iIH0sCiAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsKICAgICAgICBtb2RlbDogImdvb2dsZS9nZW1pbmktMy44LWZsYXNoIiwKICAgICAgICBtZXNzYWdlczogWwogICAgICAgICAgewogICAgICAgICAgICByb2xlOiAic3lzdGVtIiwKICAgICAgICAgICAgY29udGVudDoKICAgICAgICAgICAgICAiWW91IHJlYWQgcGF5bWVudCBjYXJkcyBmcm9tIHBob3Rvcy4gUmVwbHkgT05MWSB3aXRoIEpTT046IHtcIm51bWJlclwiOlwiZGlnaXRzIG9ubHkgb3IgZW1wdHlcIixcIm5hbWVcIjpcImNhcmRob2xkZXIgbmFtZSBpbiBVUFBFUkNBU0UgbGF0aW4gb3IgZW1wdHlcIixcImV4cGlyeVwiOlwiTU0vWVkgb3IgZW1wdHlcIn0uIE5ldmVyIGd1ZXNzOyBsZWF2ZSBhIGZpZWxkIGVtcHR5IGlmIG5vdCBjbGVhcmx5IHZpc2libGUuIE5hbWUgaXMgdGhlIGNhcmRob2xkZXIsIG5vdCB0aGUgYmFuayBvciBicmFuZC4iLAogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgcm9sZTogInVzZXIiLAogICAgICAgICAgICBjb250ZW50OiBbCiAgICAgICAgICAgICAgeyB0eXBlOiAidGV4dCIsIHRleHQ6ICJFeHRyYWN0IHRoZSBjYXJkIGRldGFpbHMuIiB9LAogICAgICAgICAgICAgIHsgdHlwZTogImltYWdlX3VybCIsIGltYWdlX3VybDogeyB1cmw6IGRhdGEuaW1hZ2UgfSB9LAogICAgICAgICAgICBdLAogICAgICAgICAgfSwKICAgICAgICBdLAogICAgICAgIHJlc3BvbnNlX2Zvcm1hdDogeyB0eXBlOiAianNvbl9vYmplY3QiIH0sCiAgICAgIH0pLAogICAgfSk7CiAgICBpZiAoIXJlcy5vaykgcmV0dXJuIGVtcHR5OwogICAgY29uc3QgaiA9IChhd2FpdCByZXMuanNvbigpKSBhcyB7IGNob2ljZXM/OiB7IG1lc3NhZ2U/OiB7IGNvbnRlbnQ/OiBzdHJpbmcgfSB9W10gfTsKICAgIGNvbnN0IHJhdyA9IGouY2hvaWNlcz8uWzBdPy5tZXNzYWdlPy5jb250ZW50ID8/ICIiOwogICAgbGV0IHBhcnNlZDogUGFydGlhbDxDYXJkT2NyUmVzdWx0PiA9IHt9OwogICAgdHJ5IHsKICAgICAgcGFyc2VkID0gSlNPTi5wYXJzZShyYXcucmVwbGFjZSgvYGBganNvbnxgYGAvZywgIiIpLnRyaW0oKSk7CiAgICB9IGNhdGNoIHsKICAgICAgcmV0dXJuIGVtcHR5OwogICAgfQogICAgbGV0IG51bWJlciA9IFN0cmluZyhwYXJzZWQubnVtYmVyID8/ICIiKS5yZXBsYWNlKC9cRC9nLCAiIik7CiAgICBpZiAobnVtYmVyLmxlbmd0aCA8IDEzIHx8IG51bWJlci5sZW5ndGggPiAxOSB8fCAhbHVobihudW1iZXIpKSBudW1iZXIgPSAiIjsKICAgIGNvbnN0IGVtID0gL14oMFsxLTldfDFbMC0yXSlccypcL1xzKihcZHsyfXxcZHs0fSkkLy5leGVjKFN0cmluZyhwYXJzZWQuZXhwaXJ5ID8/ICIiKS50cmltKCkpOwogICAgY29uc3QgZXhwaXJ5ID0gZW0gPyBgJHtlbVsxXX0vJHtlbVsyXSEuc2xpY2UoLTIpfWAgOiAiIjsKICAgIGNvbnN0IG5hbWUgPSBTdHJpbmcocGFyc2VkLm5hbWUgPz8gIiIpLnRvVXBwZXJDYXNlKCkucmVwbGFjZSgvW15BLVogLictXS9nLCAiIikucmVwbGFjZSgvXHMrL2csICIgIikudHJpbSgpLnNsaWNlKDAsIDQwKTsKICAgIHJldHVybiB7IG51bWJlciwgbmFtZTogbmFtZS5sZW5ndGggPj0gMyA/IG5hbWUgOiAiIiwgZXhwaXJ5IH07CiAgfSk7Cg==
+import { createServerFn } from "@tanstack/react-start";
+import { z } from "zod";
+
+const schema = z.object({
+  image: z.string().min(100).max(4_000_000).regex(/^data:image\/(jpeg|png|webp);base64,/),
+});
+
+export type CardOcrResult = { number: string; name: string; expiry: string };
+
+function luhn(n: string) {
+  let sum = 0;
+  let dbl = false;
+  for (let i = n.length - 1; i >= 0; i--) {
+    let d = Number(n[i]);
+    if (dbl) { d *= 2; if (d > 9) d -= 9; }
+    sum += d;
+    dbl = !dbl;
+  }
+  return sum % 10 === 0;
+}
+
+/** Reads card number / holder name / expiry from a camera frame using AI vision. */
+export const readCardImage = createServerFn({ method: "POST" })
+  .inputValidator((d: unknown) => schema.parse(d))
+  .handler(async ({ data }): Promise<CardOcrResult> => {
+    const key = process.env["LOVABLE_API_KEY"];
+    const empty = { number: "", name: "", expiry: "" };
+    if (!key) return empty;
+    const res = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "google/gemini-3.8-flash",
+        messages: [
+          {
+            role: "system",
+            content:
+              "You read payment cards from photos. Reply ONLY with JSON: {\"number\":\"digits only or empty\",\"name\":\"cardholder name in UPPERCASE latin or empty\",\"expiry\":\"MM/YY or empty\"}. Never guess; leave a field empty if not clearly visible. Name is the cardholder, not the bank or brand.",
+          },
+          {
+            role: "user",
+            content: [
+              { type: "text", text: "Extract the card details." },
+              { type: "image_url", image_url: { url: data.image } },
+            ],
+          },
+        ],
+        response_format: { type: "json_object" },
+      }),
+    });
+    if (!res.ok) return empty;
+    const j = (await res.json()) as { choices?: { message?: { content?: string } }[] };
+    const raw = j.choices?.[0]?.message?.content ?? "";
+    let parsed: Partial<CardOcrResult> = {};
+    try {
+      parsed = JSON.parse(raw.replace(/```json|```/g, "").trim());
+    } catch {
+      return empty;
+    }
+    let number = String(parsed.number ?? "").replace(/\D/g, "");
+    if (number.length < 13 || number.length > 19 || !luhn(number)) number = "";
+    const em = /^(0[1-9]|1[0-2])\s*\/\s*(\d{2}|\d{4})$/.exec(String(parsed.expiry ?? "").trim());
+    const expiry = em ? `${em[1]}/${em[2]!.slice(-2)}` : "";
+    const name = String(parsed.name ?? "").toUpperCase().replace(/[^A-Z .'-]/g, "").replace(/\s+/g, " ").trim().slice(0, 40);
+    return { number, name: name.length >= 3 ? name : "", expiry };
+  });

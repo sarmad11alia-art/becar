@@ -1,1 +1,45 @@
-aW1wb3J0IHsgQ2hlY2sgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKY29uc3QgU1RFUFMgPSBbItin2YTYqNmK2KfZhtin2KoiLCAi2KfZhNiq2YHYp9i12YrZhCIsICLYp9mE2LnYsdmI2LYiLCAi2KfZhNmF2YTYrti1IiwgItin2YTYr9mB2LkiXTsKCmV4cG9ydCBmdW5jdGlvbiBTdGVwcGVyKHsgY3VycmVudCB9OiB7IGN1cnJlbnQ6IG51bWJlciB9KSB7CiAgcmV0dXJuICgKICAgIDxuYXYgYXJpYS1sYWJlbD0i2K7Yt9mI2KfYqiDYp9mE2LfZhNioIiBjbGFzc05hbWU9Im1iLTUiIGRpcj0icnRsIj4KICAgICAgPG9sIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgICAge1NURVBTLm1hcCgobGFiZWwsIGkpID0+IHsKICAgICAgICAgIGNvbnN0IGRvbmUgPSBpIDwgY3VycmVudDsKICAgICAgICAgIGNvbnN0IGFjdGl2ZSA9IGkgPT09IGN1cnJlbnQ7CiAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICA8bGkga2V5PXtsYWJlbH0gY2xhc3NOYW1lPSJmbGV4IG1pbi13LTAgZmxleC0xIGZsZXgtY29sIGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGdhcC0xLjUiPgogICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgZ3JpZCBoLTcgdy03IHNocmluay0wIHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLWZ1bGwgdGV4dC1bMTFweF0gZm9udC1ibGFjayB0cmFuc2l0aW9uLWNvbG9ycyAkewogICAgICAgICAgICAgICAgICAgIGRvbmUKICAgICAgICAgICAgICAgICAgICAgID8gImJnLWVtZXJhbGQtNTAwIHRleHQtd2hpdGUiCiAgICAgICAgICAgICAgICAgICAgICA6IGFjdGl2ZQogICAgICAgICAgICAgICAgICAgICAgICA/ICJiY2FyZS1ncmFkaWVudC1jdGEgdGV4dC13aGl0ZSBzaGFkb3ctZ2xvdy1vcmFuZ2UiCiAgICAgICAgICAgICAgICAgICAgICAgIDogImJnLXdoaXRlIHRleHQtc2xhdGUtNDAwIHJpbmctMSByaW5nLWJjYXJlLWJvcmRlciIKICAgICAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHtkb25lID8gPENoZWNrIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUiIHN0cm9rZVdpZHRoPXszfSAvPiA6IGkgKyAxfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAge2kgPCBTVEVQUy5sZW5ndGggLSAxICYmICgKICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BoLTEgZmxleC0xIHJvdW5kZWQtZnVsbCAke2RvbmUgPyAiYmctZW1lcmFsZC00MDAiIDogImJnLWJjYXJlLWJvcmRlciJ9YH0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHctZnVsbCB0cnVuY2F0ZSB0ZXh0LWNlbnRlciB0ZXh0LVsxMHB4XSBmb250LWJvbGQgc206dGV4dC1bMTFweF0gJHsKICAgICAgICAgICAgICAgICAgYWN0aXZlID8gInRleHQtYmNhcmUtYmx1ZSIgOiAidGV4dC1zbGF0ZS00MDAiCiAgICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7bGFiZWx9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2xpPgogICAgICAgICAgKTsKICAgICAgICB9KX0KICAgICAgPC9vbD4KICAgIDwvbmF2PgogICk7Cn0K
+import { Check } from "lucide-react";
+
+const STEPS = ["البيانات", "التفاصيل", "العروض", "الملخص", "الدفع"];
+
+export function Stepper({ current }: { current: number }) {
+  return (
+    <nav aria-label="خطوات الطلب" className="mb-5" dir="rtl">
+      <ol className="flex items-center gap-1.5">
+        {STEPS.map((label, i) => {
+          const done = i < current;
+          const active = i === current;
+          return (
+            <li key={label} className="flex min-w-0 flex-1 flex-col items-center gap-1.5">
+              <div className="flex w-full items-center gap-1.5">
+                <span
+                  className={`grid h-7 w-7 shrink-0 place-items-center rounded-full text-[11px] font-black transition-colors ${
+                    done
+                      ? "bg-emerald-500 text-white"
+                      : active
+                        ? "bcare-gradient-cta text-white shadow-glow-orange"
+                        : "bg-white text-slate-400 ring-1 ring-bcare-border"
+                  }`}
+                >
+                  {done ? <Check className="h-3.5 w-3.5" strokeWidth={3} /> : i + 1}
+                </span>
+                {i < STEPS.length - 1 && (
+                  <span
+                    className={`h-1 flex-1 rounded-full ${done ? "bg-emerald-400" : "bg-bcare-border"}`}
+                  />
+                )}
+              </div>
+              <span
+                className={`w-full truncate text-center text-[10px] font-bold sm:text-[11px] ${
+                  active ? "text-bcare-blue" : "text-slate-400"
+                }`}
+              >
+                {label}
+              </span>
+            </li>
+          );
+        })}
+      </ol>
+    </nav>
+  );
+}

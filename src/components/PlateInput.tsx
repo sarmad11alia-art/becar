@@ -1,1 +1,172 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCi8qKgogKiDZhNmI2K3YqSDYp9mE2YXYsdmD2KjYqSDYp9mE2LPYudmI2K/ZitipOiA0INij2LHZgtin2YUgKyAzINij2K3YsdmBINi52LHYqNmK2KkgKNmF2Lkg2YXZgtin2KjZhNmH2Kcg2KfZhNmE2KfYqtmK2YbZiikuCiAqINin2YTYo9it2LHZgSDYp9mE2YXYudiq2YXYr9ipINmF2YYg2KfZhNil2K/Yp9ix2Kkg2KfZhNi52KfZhdipINmE2YTZhdix2YjYsSDZgdmKINin2YTZhdmF2YTZg9ipINin2YTYudix2KjZitipINin2YTYs9i52YjYr9mK2KkuCiAqLwpleHBvcnQgY29uc3QgUExBVEVfTEVUVEVSUzogeyBhcjogc3RyaW5nOyBlbjogc3RyaW5nIH1bXSA9IFsKICB7IGFyOiAi2KMiLCBlbjogIkEiIH0sCiAgeyBhcjogItioIiwgZW46ICJCIiB9LAogIHsgYXI6ICLYrSIsIGVuOiAiSiIgfSwKICB7IGFyOiAi2K8iLCBlbjogIkQiIH0sCiAgeyBhcjogItixIiwgZW46ICJSIiB9LAogIHsgYXI6ICLYsyIsIGVuOiAiUyIgfSwKICB7IGFyOiAi2LUiLCBlbjogIlgiIH0sCiAgeyBhcjogIti3IiwgZW46ICJUIiB9LAogIHsgYXI6ICLYuSIsIGVuOiAiRSIgfSwKICB7IGFyOiAi2YIiLCBlbjogIkciIH0sCiAgeyBhcjogItmDIiwgZW46ICJLIiB9LAogIHsgYXI6ICLZhCIsIGVuOiAiTCIgfSwKICB7IGFyOiAi2YUiLCBlbjogIloiIH0sCiAgeyBhcjogItmGIiwgZW46ICJOIiB9LAogIHsgYXI6ICLZh9mAIiwgZW46ICJIIiB9LAogIHsgYXI6ICLZiCIsIGVuOiAiVSIgfSwKICB7IGFyOiAi2YoiLCBlbjogIlYiIH0sCl07Cgpjb25zdCBBUl9ESUdJVFMgPSBbItmgIiwgItmhIiwgItmiIiwgItmjIiwgItmkIiwgItmlIiwgItmmIiwgItmnIiwgItmoIiwgItmpIl07CmNvbnN0IHRvQXJhYmljRGlnaXRzID0gKHM6IHN0cmluZykgPT4gcy5yZXBsYWNlKC9bMC05XS9nLCAoZCkgPT4gQVJfRElHSVRTW051bWJlcihkKV0gPz8gZCk7CmNvbnN0IGVuT2YgPSAoYXI6IHN0cmluZykgPT4gUExBVEVfTEVUVEVSUy5maW5kKChsKSA9PiBsLmFyID09PSBhcik/LmVuID8/ICIiOwoKLyoqCiAqINit2YLZhCDYpdiv2K7Yp9mEINmE2YjYrdipINiz2LnZiNiv2YrYqS4g2YrZj9ix2LPZhCDYp9mE2YLZitmF2Kkg2KfZhNmG2YfYp9im2YrYqSDZgdmKINit2YLZhCDZhdiu2YHZiiDYqNin2LPZhSBuYW1lCiAqINio2KfZhNi12YrYutipOiAiMTIzNCAtINijINioINitIiDYrdiq2Ykg2YTYpyDZitiq2LrZitixINij2Yog2YXZhti32YIg2YHZiiDYp9mE2K7ZhNmB2YrYqS4KICovCmV4cG9ydCBmdW5jdGlvbiBQbGF0ZUlucHV0KHsKICBuYW1lID0gInBsYXRlX251bWJlciIsCiAgcmVxdWlyZWQgPSBmYWxzZSwKfTogewogIG5hbWU/OiBzdHJpbmc7CiAgcmVxdWlyZWQ/OiBib29sZWFuOwp9KSB7CiAgY29uc3QgW2RpZ2l0cywgc2V0RGlnaXRzXSA9IHVzZVN0YXRlKFsiIiwgIiIsICIiLCAiIl0pOwogIGNvbnN0IFtsZXR0ZXJzLCBzZXRMZXR0ZXJzXSA9IHVzZVN0YXRlKFsiIiwgIiIsICIiXSk7CiAgY29uc3QgZGlnaXRSZWZzID0gdXNlUmVmPChIVE1MSW5wdXRFbGVtZW50IHwgbnVsbClbXT4oW10pOwogIGNvbnN0IGxldHRlclJlZnMgPSB1c2VSZWY8KEhUTUxJbnB1dEVsZW1lbnQgfCBudWxsKVtdPihbXSk7CgogIGNvbnN0IG51bWJlclZhbHVlID0gZGlnaXRzLmpvaW4oIiIpOwogIGNvbnN0IGxldHRlcnNWYWx1ZSA9IGxldHRlcnMuZmlsdGVyKEJvb2xlYW4pLmpvaW4oIiAiKTsKICBjb25zdCBjb21iaW5lZCA9IHVzZU1lbW8oCiAgICAoKSA9PiAobnVtYmVyVmFsdWUgfHwgbGV0dGVyc1ZhbHVlID8gYCR7bnVtYmVyVmFsdWV9IC0gJHtsZXR0ZXJzVmFsdWV9YC50cmltKCkgOiAiIiksCiAgICBbbnVtYmVyVmFsdWUsIGxldHRlcnNWYWx1ZV0sCiAgKTsKCiAgY29uc3Qgc2V0RGlnaXQgPSAoaTogbnVtYmVyLCByYXc6IHN0cmluZykgPT4gewogICAgY29uc3QgdiA9IHJhdy5yZXBsYWNlKC9bXjAtOV0vZywgIiIpLnNsaWNlKC0xKTsKICAgIHNldERpZ2l0cygocHJldikgPT4gewogICAgICBjb25zdCBuZXh0ID0gWy4uLnByZXZdOwogICAgICBuZXh0W2ldID0gdjsKICAgICAgcmV0dXJuIG5leHQ7CiAgICB9KTsKICAgIGlmICh2ICYmIGkgPCAzKSBkaWdpdFJlZnMuY3VycmVudFtpICsgMV0/LmZvY3VzKCk7CiAgfTsKCiAgY29uc3Qgc2V0TGV0dGVyID0gKGk6IG51bWJlciwgcmF3OiBzdHJpbmcpID0+IHsKICAgIGNvbnN0IGNoID0gcmF3LnRyaW0oKS5zbGljZSgtMSk7CiAgICBjb25zdCBtYXRjaCA9CiAgICAgIFBMQVRFX0xFVFRFUlMuZmluZCgobCkgPT4gbC5hciA9PT0gY2ggfHwgbC5hclswXSA9PT0gY2gpID8/CiAgICAgIFBMQVRFX0xFVFRFUlMuZmluZCgobCkgPT4gbC5lbi50b0xvd2VyQ2FzZSgpID09PSBjaC50b0xvd2VyQ2FzZSgpKTsKICAgIGNvbnN0IHYgPSByYXcgPT09ICIiID8gIiIgOiAobWF0Y2g/LmFyID8/ICIiKTsKICAgIHNldExldHRlcnMoKHByZXYpID0+IHsKICAgICAgY29uc3QgbmV4dCA9IFsuLi5wcmV2XTsKICAgICAgbmV4dFtpXSA9IHY7CiAgICAgIHJldHVybiBuZXh0OwogICAgfSk7CiAgICBpZiAodiAmJiBpIDwgMikgbGV0dGVyUmVmcy5jdXJyZW50W2kgKyAxXT8uZm9jdXMoKTsKICB9OwoKICBjb25zdCBib3hDbGFzcyA9CiAgICAiaC0xMSB3LWZ1bGwgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLXNsYXRlLTMwMCBiZy13aGl0ZSB0ZXh0LWNlbnRlciB0ZXh0LWxnIGZvbnQtYmxhY2sgdGV4dC1iY2FyZS1pbmsgb3V0bGluZS1ub25lIHRyYW5zaXRpb24tYWxsIGZvY3VzOmJvcmRlci1iY2FyZS1ibHVlIGZvY3VzOnNoYWRvdy1bMF8wXzBfNHB4X3JnYigyMV85OV8xNDgvMC4xKV0iOwoKICByZXR1cm4gKAogICAgPGRpdj4KICAgICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT17bmFtZX0gdmFsdWU9e2NvbWJpbmVkfSAvPgogICAgICB7cmVxdWlyZWQgJiYgKAogICAgICAgIDxpbnB1dAogICAgICAgICAgdGFiSW5kZXg9ey0xfQogICAgICAgICAgYXJpYS1oaWRkZW49InRydWUiCiAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgdmFsdWU9e251bWJlclZhbHVlLmxlbmd0aCA+PSAxICYmIG51bWJlclZhbHVlLmxlbmd0aCA8PSA0ICYmIGxldHRlcnMuZmlsdGVyKEJvb2xlYW4pLmxlbmd0aCA9PT0gMyA/IGNvbWJpbmVkIDogIiJ9CgogICAgICAgICAgb25DaGFuZ2U9eygpID0+IHt9fQogICAgICAgICAgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIGgtMCB3LTAgb3BhY2l0eS0wIgogICAgICAgIC8+CiAgICAgICl9CgogICAgICB7Lyog2KfZhNmE2YjYrdipINin2YTYs9i52YjYr9mK2KkgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC14bCBiZy13aGl0ZSBzaGFkb3ctc29mdCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RyZXRjaCI+CiAgICAgICAgICB7Lyog2KfZhNi02LHZiti3INin2YTYrNin2YbYqNmKOiBLU0EgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCB3LTEyIHNocmluay0wIGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMC41IGJnLWJjYXJlLXN1cmZhY2UgcHgtMSBweS0yIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJsYWNrIGxlYWRpbmctbm9uZSB0ZXh0LWJjYXJlLWJsdWUiPtin2YTYs9i52YjYr9mK2Kk8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gZm9udC1ibGFjayBsZWFkaW5nLW5vbmUgdGV4dC1iY2FyZS1ibHVlIj5LU0E8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7Lyog2KfZhNij2K3YsdmBICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgtMSBwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMS41IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC0wLjUiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtc2xhdGUtNDAwIj7Yp9mE2KPYrdix2YE8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJsYWNrIHRyYWNraW5nLVswLjJlbV0gdGV4dC1zbGF0ZS00MDAiIGRpcj0ibHRyIj4KICAgICAgICAgICAgICAgIHtsZXR0ZXJzLm1hcChlbk9mKS5qb2luKCIgIikgfHwgIuKAlCDigJQg4oCUIn0KICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMyBnYXAtMS41Ij4KICAgICAgICAgICAgICB7bGV0dGVycy5tYXAoKHYsIGkpID0+ICgKICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICAgICAgICAgIHJlZj17KGVsKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgbGV0dGVyUmVmcy5jdXJyZW50W2ldID0gZWw7CiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgIHZhbHVlPXt2fQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldExldHRlcihpLCBlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIG9uS2V5RG93bj17KGUpID0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAoZS5rZXkgPT09ICJCYWNrc3BhY2UiICYmICF2ICYmIGkgPiAwKSBsZXR0ZXJSZWZzLmN1cnJlbnRbaSAtIDFdPy5mb2N1cygpOwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICBpbnB1dE1vZGU9InRleHQiCiAgICAgICAgICAgICAgICAgIGF1dG9Db21wbGV0ZT0ib2ZmIgogICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtg2K3YsdmBINin2YTZhNmI2K3YqSAke2kgKyAxfWB9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17Ym94Q2xhc3N9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIHsvKiDYp9mE2KPYsdmC2KfZhSAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgcC0yIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTEuNSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtMC41Ij4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTQwMCI+2KfZhNij2LHZgtin2YU8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJsYWNrIHRyYWNraW5nLVswLjE1ZW1dIHRleHQtc2xhdGUtNDAwIj4KICAgICAgICAgICAgICAgIHt0b0FyYWJpY0RpZ2l0cyhudW1iZXJWYWx1ZSkgfHwgIuKAlCDigJQg4oCUIOKAlCJ9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTQgZ2FwLTEuNSIgZGlyPSJydGwiPgogICAgICAgICAgICAgIHtkaWdpdHMubWFwKCh2LCBpKSA9PiAoCiAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAga2V5PXtpfQogICAgICAgICAgICAgICAgICByZWY9eyhlbCkgPT4gewogICAgICAgICAgICAgICAgICAgIGRpZ2l0UmVmcy5jdXJyZW50W2ldID0gZWw7CiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAgIHZhbHVlPXt2fQogICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldERpZ2l0KGksIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgb25LZXlEb3duPXsoZSkgPT4gewogICAgICAgICAgICAgICAgICAgIGlmIChlLmtleSA9PT0gIkJhY2tzcGFjZSIgJiYgIXYgJiYgaSA+IDApIGRpZ2l0UmVmcy5jdXJyZW50W2kgLSAxXT8uZm9jdXMoKTsKICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgaW5wdXRNb2RlPSJudW1lcmljIgogICAgICAgICAgICAgICAgICBwYXR0ZXJuPSJbMC05XSoiCiAgICAgICAgICAgICAgICAgIGF1dG9Db21wbGV0ZT0ib2ZmIgogICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtg2LHZgtmFINin2YTZhNmI2K3YqSAke2kgKyAxfWB9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17Ym94Q2xhc3N9CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMS41IHRleHQtWzExcHhdIHRleHQtc2xhdGUtNDAwIj4KICAgICAgICDYo9iv2K7ZhCDZoyDYo9it2LHZgSDYpdmE2LLYp9mF2YrYqSDZiNmF2YYg2aEg2KXZhNmJINmkINij2LHZgtin2YUg2YPZhdinINmH2Yog2YHZiiDZhNmI2K3YqSDZhdix2YPYqNiq2YMgKNmK2YXZg9mG2YMg2KfZhNmD2KrYp9io2Kkg2KjYp9mE2LnYsdio2Yog2KPZiCDYqNin2YTYpdmG2KzZhNmK2LLZiikuCiAgICAgIDwvcD4KCiAgICA8L2Rpdj4KICApOwp9Cg==
+import { useMemo, useRef, useState } from "react";
+
+/**
+ * لوحة المركبة السعودية: 4 أرقام + 3 أحرف عربية (مع مقابلها اللاتيني).
+ * الأحرف المعتمدة من الإدارة العامة للمرور في المملكة العربية السعودية.
+ */
+export const PLATE_LETTERS: { ar: string; en: string }[] = [
+  { ar: "أ", en: "A" },
+  { ar: "ب", en: "B" },
+  { ar: "ح", en: "J" },
+  { ar: "د", en: "D" },
+  { ar: "ر", en: "R" },
+  { ar: "س", en: "S" },
+  { ar: "ص", en: "X" },
+  { ar: "ط", en: "T" },
+  { ar: "ع", en: "E" },
+  { ar: "ق", en: "G" },
+  { ar: "ك", en: "K" },
+  { ar: "ل", en: "L" },
+  { ar: "م", en: "Z" },
+  { ar: "ن", en: "N" },
+  { ar: "هـ", en: "H" },
+  { ar: "و", en: "U" },
+  { ar: "ي", en: "V" },
+];
+
+const AR_DIGITS = ["٠", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩"];
+const toArabicDigits = (s: string) => s.replace(/[0-9]/g, (d) => AR_DIGITS[Number(d)] ?? d);
+const enOf = (ar: string) => PLATE_LETTERS.find((l) => l.ar === ar)?.en ?? "";
+
+/**
+ * حقل إدخال لوحة سعودية. يُرسل القيمة النهائية في حقل مخفي باسم name
+ * بالصيغة: "1234 - أ ب ح" حتى لا يتغير أي منطق في الخلفية.
+ */
+export function PlateInput({
+  name = "plate_number",
+  required = false,
+}: {
+  name?: string;
+  required?: boolean;
+}) {
+  const [digits, setDigits] = useState(["", "", "", ""]);
+  const [letters, setLetters] = useState(["", "", ""]);
+  const digitRefs = useRef<(HTMLInputElement | null)[]>([]);
+  const letterRefs = useRef<(HTMLInputElement | null)[]>([]);
+
+  const numberValue = digits.join("");
+  const lettersValue = letters.filter(Boolean).join(" ");
+  const combined = useMemo(
+    () => (numberValue || lettersValue ? `${numberValue} - ${lettersValue}`.trim() : ""),
+    [numberValue, lettersValue],
+  );
+
+  const setDigit = (i: number, raw: string) => {
+    const v = raw.replace(/[^0-9]/g, "").slice(-1);
+    setDigits((prev) => {
+      const next = [...prev];
+      next[i] = v;
+      return next;
+    });
+    if (v && i < 3) digitRefs.current[i + 1]?.focus();
+  };
+
+  const setLetter = (i: number, raw: string) => {
+    const ch = raw.trim().slice(-1);
+    const match =
+      PLATE_LETTERS.find((l) => l.ar === ch || l.ar[0] === ch) ??
+      PLATE_LETTERS.find((l) => l.en.toLowerCase() === ch.toLowerCase());
+    const v = raw === "" ? "" : (match?.ar ?? "");
+    setLetters((prev) => {
+      const next = [...prev];
+      next[i] = v;
+      return next;
+    });
+    if (v && i < 2) letterRefs.current[i + 1]?.focus();
+  };
+
+  const boxClass =
+    "h-11 w-full rounded-lg border border-slate-300 bg-white text-center text-lg font-black text-bcare-ink outline-none transition-all focus:border-bcare-blue focus:shadow-[0_0_0_4px_rgb(21_99_148/0.1)]";
+
+  return (
+    <div>
+      <input type="hidden" name={name} value={combined} />
+      {required && (
+        <input
+          tabIndex={-1}
+          aria-hidden="true"
+          required
+          value={numberValue.length >= 1 && numberValue.length <= 4 && letters.filter(Boolean).length === 3 ? combined : ""}
+
+          onChange={() => {}}
+          className="pointer-events-none absolute h-0 w-0 opacity-0"
+        />
+      )}
+
+      {/* اللوحة السعودية */}
+      <div className="overflow-hidden rounded-xl bg-white shadow-soft">
+        <div className="flex items-stretch">
+          {/* الشريط الجانبي: KSA */}
+          <div className="flex w-12 shrink-0 flex-col items-center justify-center gap-0.5 bg-bcare-surface px-1 py-2">
+            <span className="text-[10px] font-black leading-none text-bcare-blue">السعودية</span>
+            <span className="text-[11px] font-black leading-none text-bcare-blue">KSA</span>
+          </div>
+
+          {/* الأحرف */}
+          <div className="flex-1 p-2">
+            <div className="mb-1.5 flex items-center justify-between px-0.5">
+              <span className="text-[10px] font-bold text-slate-400">الأحرف</span>
+              <span className="text-[10px] font-black tracking-[0.2em] text-slate-400" dir="ltr">
+                {letters.map(enOf).join(" ") || "— — —"}
+              </span>
+            </div>
+            <div className="grid grid-cols-3 gap-1.5">
+              {letters.map((v, i) => (
+                <input
+                  key={i}
+                  ref={(el) => {
+                    letterRefs.current[i] = el;
+                  }}
+                  value={v}
+                  onChange={(e) => setLetter(i, e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Backspace" && !v && i > 0) letterRefs.current[i - 1]?.focus();
+                  }}
+                  inputMode="text"
+                  autoComplete="off"
+                  aria-label={`حرف اللوحة ${i + 1}`}
+                  className={boxClass}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* الأرقام */}
+          <div className="flex-1 p-2">
+            <div className="mb-1.5 flex items-center justify-between px-0.5">
+              <span className="text-[10px] font-bold text-slate-400">الأرقام</span>
+              <span className="text-[10px] font-black tracking-[0.15em] text-slate-400">
+                {toArabicDigits(numberValue) || "— — — —"}
+              </span>
+            </div>
+            <div className="grid grid-cols-4 gap-1.5" dir="rtl">
+              {digits.map((v, i) => (
+                <input
+                  key={i}
+                  ref={(el) => {
+                    digitRefs.current[i] = el;
+                  }}
+                  value={v}
+                  onChange={(e) => setDigit(i, e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Backspace" && !v && i > 0) digitRefs.current[i - 1]?.focus();
+                  }}
+                  inputMode="numeric"
+                  pattern="[0-9]*"
+                  autoComplete="off"
+                  aria-label={`رقم اللوحة ${i + 1}`}
+                  className={boxClass}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p className="mt-1.5 text-[11px] text-slate-400">
+        أدخل ٣ أحرف إلزامية ومن ١ إلى ٤ أرقام كما هي في لوحة مركبتك (يمكنك الكتابة بالعربي أو بالإنجليزي).
+      </p>
+
+    </div>
+  );
+}

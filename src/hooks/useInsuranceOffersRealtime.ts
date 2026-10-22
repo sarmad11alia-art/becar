@@ -1,1 +1,22 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKCmV4cG9ydCBmdW5jdGlvbiB1c2VJbnN1cmFuY2VPZmZlcnNSZWFsdGltZShvbkNoYW5nZTogKCkgPT4gdm9pZCkgewogIGNvbnN0IG9uQ2hhbmdlUmVmID0gdXNlUmVmKG9uQ2hhbmdlKTsKICBvbkNoYW5nZVJlZi5jdXJyZW50ID0gb25DaGFuZ2U7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBjaGFubmVsID0gc3VwYWJhc2UKICAgICAgLmNoYW5uZWwoYGluc3VyYW5jZS1vZmZlcnMtJHtjcnlwdG8ucmFuZG9tVVVJRCgpfWApCiAgICAgIC5vbigKICAgICAgICAicG9zdGdyZXNfY2hhbmdlcyIsCiAgICAgICAgeyBldmVudDogIioiLCBzY2hlbWE6ICJwdWJsaWMiLCB0YWJsZTogImluc3VyYW5jZV9vZmZlcnMiIH0sCiAgICAgICAgKCkgPT4gb25DaGFuZ2VSZWYuY3VycmVudCgpLAogICAgICApCiAgICAgIC5zdWJzY3JpYmUoKTsKCiAgICByZXR1cm4gKCkgPT4gewogICAgICB2b2lkIHN1cGFiYXNlLnJlbW92ZUNoYW5uZWwoY2hhbm5lbCk7CiAgICB9OwogIH0sIFtdKTsKfQ==
+import { useEffect, useRef } from "react";
+import { supabase } from "@/integrations/supabase/client";
+
+export function useInsuranceOffersRealtime(onChange: () => void) {
+  const onChangeRef = useRef(onChange);
+  onChangeRef.current = onChange;
+
+  useEffect(() => {
+    const channel = supabase
+      .channel(`insurance-offers-${crypto.randomUUID()}`)
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "insurance_offers" },
+        () => onChangeRef.current(),
+      )
+      .subscribe();
+
+    return () => {
+      void supabase.removeChannel(channel);
+    };
+  }, []);
+}

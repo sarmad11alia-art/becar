@@ -1,1 +1,276 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgZW5jcnlwdEZpZWxkLCBkZWNyeXB0RGVlcCB9IGZyb20gIi4vY3J5cHRvLnNlcnZlciI7Cgphc3luYyBmdW5jdGlvbiBwdWIoKSB7CiAgY29uc3QgeyBjcmVhdGVDbGllbnQgfSA9IGF3YWl0IGltcG9ydCgiQHN1cGFiYXNlL3N1cGFiYXNlLWpzIik7CiAgY29uc3QgdXJsID0gcHJvY2Vzcy5lbnZbIlNVUEFCQVNFX1VSTCJdITsKICBjb25zdCBrZXkgPSBwcm9jZXNzLmVudlsiU1VQQUJBU0VfUFVCTElTSEFCTEVfS0VZIl0hOwogIHJldHVybiBjcmVhdGVDbGllbnQodXJsLCBrZXksIHsKICAgIGF1dGg6IHsgc3RvcmFnZTogdW5kZWZpbmVkLCBwZXJzaXN0U2Vzc2lvbjogZmFsc2UsIGF1dG9SZWZyZXNoVG9rZW46IGZhbHNlIH0sCiAgICBnbG9iYWw6IHsKICAgICAgZmV0Y2g6IChpbnB1dDogUmVxdWVzdEluZm8gfCBVUkwsIGluaXQ/OiBSZXF1ZXN0SW5pdCkgPT4gewogICAgICAgIGNvbnN0IGggPSBuZXcgSGVhZGVycyhpbml0Py5oZWFkZXJzKTsKICAgICAgICBpZiAoa2V5LnN0YXJ0c1dpdGgoInNiXyIpICYmIGguZ2V0KCJBdXRob3JpemF0aW9uIikgPT09IGBCZWFyZXIgJHtrZXl9YCkgaC5kZWxldGUoIkF1dGhvcml6YXRpb24iKTsKICAgICAgICBoLnNldCgiYXBpa2V5Iiwga2V5KTsKICAgICAgICByZXR1cm4gZmV0Y2goaW5wdXQsIHsgLi4uaW5pdCwgaGVhZGVyczogaCB9KTsKICAgICAgfSwKICAgIH0sCiAgfSk7Cn0KCi8qKiBFbnN1cmUgYSBtYXRjaGluZyByb3cgZXhpc3RzIGluIHB1YmxpYy5xdW90ZXMgZm9yIHRoZSBkYXNoYm9hcmQvdHJhY2tpbmcuICovCmFzeW5jIGZ1bmN0aW9uIGVuc3VyZVF1b3RlTWlycm9yKAogIHN1cDogQXdhaXRlZDxSZXR1cm5UeXBlPHR5cGVvZiBwdWI+PiwKICBhcmdzOiB7IHNlc3Npb25faWQ6IHN0cmluZzsga2luZDogIm1lZGljYWwiIHwgInRyYXZlbCIgfCAibWVkaWNhbC1taXMiOyBwaG9uZT86IHN0cmluZzsgdmlzaXRvcl9uYW1lPzogc3RyaW5nIH0sCikgewogIGNvbnN0IGxhYmVsID0gYXJncy5raW5kID09PSAibWVkaWNhbCIgPyAi2LfYqNmKIiA6IGFyZ3Mua2luZCA9PT0gInRyYXZlbCIgPyAi2LPZgdixIiA6ICLYo9iu2LfYp9ihINi32KjZitipIjsKICBhd2FpdCBzdXAKICAgIC5mcm9tKCJxdW90ZXMiKQogICAgLnVwc2VydCgKICAgICAgewogICAgICAgIHNlc3Npb25faWQ6IGFyZ3Muc2Vzc2lvbl9pZCwKICAgICAgICBwaG9uZTogZW5jcnlwdEZpZWxkKGFyZ3MucGhvbmUpLAogICAgICAgIHZpc2l0b3JfbmFtZTogZW5jcnlwdEZpZWxkKGFyZ3MudmlzaXRvcl9uYW1lKSwKICAgICAgICBpbnN1cmFuY2Vfa2luZDogYXJncy5raW5kLAogICAgICAgIGN1cnJlbnRfcGFnZTogYNio2YrYp9mG2KfYqiAke2xhYmVsfWAsCiAgICAgICAgbGFzdF9hY3RpdmVfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgICAgICB0cmFzaGVkOiBmYWxzZSwKICAgICAgfSwKICAgICAgeyBvbkNvbmZsaWN0OiAic2Vzc2lvbl9pZCIgfSwKICAgICk7Cn0KCmV4cG9ydCBjb25zdCBjcmVhdGVNZWRpY2FsUXVvdGUgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChkKSA9PgogICAgegogICAgICAub2JqZWN0KHsKICAgICAgICBzZXNzaW9uX2lkOiB6LnN0cmluZygpLm1pbig0KSwKICAgICAgICBmdWxsX25hbWU6IHouc3RyaW5nKCkubWluKDEpLAogICAgICAgIHBob25lOiB6LnN0cmluZygpLm1pbig2KSwKICAgICAgICBlbWFpbDogei5zdHJpbmcoKS5lbWFpbCgpLm9wdGlvbmFsKCkub3Ioei5saXRlcmFsKCIiKSkudHJhbnNmb3JtKCh2KSA9PiB2IHx8IHVuZGVmaW5lZCksCiAgICAgICAgYWdlOiB6LmNvZXJjZS5udW1iZXIoKS5taW4oMCkubWF4KDEyMCkub3B0aW9uYWwoKSwKICAgICAgICBudW1faW5zdXJlZDogei5jb2VyY2UubnVtYmVyKCkubWluKDEpLm1heCg1MCkuZGVmYXVsdCgxKSwKICAgICAgICBjdXJyZW50X2luc3VyZXI6IHouc3RyaW5nKCkub3B0aW9uYWwoKSwKICAgICAgICBjb3ZlcmFnZV90eXBlOiB6LnN0cmluZygpLm9wdGlvbmFsKCksCiAgICAgICAgYnVkZ2V0OiB6LnN0cmluZygpLm9wdGlvbmFsKCksCiAgICAgICAgbm90ZXM6IHouc3RyaW5nKCkub3B0aW9uYWwoKSwKICAgICAgfSkKICAgICAgLnBhcnNlKGQpLAogICkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhIH0pID0+IHsKICAgIGNvbnN0IHN1cCA9IGF3YWl0IHB1YigpOwogICAgYXdhaXQgZW5zdXJlUXVvdGVNaXJyb3Ioc3VwLCB7IHNlc3Npb25faWQ6IGRhdGEuc2Vzc2lvbl9pZCwga2luZDogIm1lZGljYWwiLCBwaG9uZTogZGF0YS5waG9uZSwgdmlzaXRvcl9uYW1lOiBkYXRhLmZ1bGxfbmFtZSB9KTsKICAgIGNvbnN0IHsgZGF0YTogcm93LCBlcnJvciB9ID0gYXdhaXQgc3VwCiAgICAgIC5mcm9tKCJtZWRpY2FsX3F1b3RlcyIpCiAgICAgIC51cHNlcnQoewogICAgICAgIHNlc3Npb25faWQ6IGRhdGEuc2Vzc2lvbl9pZCwKICAgICAgICBmdWxsX25hbWU6IGVuY3J5cHRGaWVsZChkYXRhLmZ1bGxfbmFtZSksCiAgICAgICAgcGhvbmU6IGVuY3J5cHRGaWVsZChkYXRhLnBob25lKSwKICAgICAgICBlbWFpbDogZW5jcnlwdEZpZWxkKGRhdGEuZW1haWwpLAogICAgICAgIGFnZTogZGF0YS5hZ2UgPz8gbnVsbCwKICAgICAgICBudW1faW5zdXJlZDogZGF0YS5udW1faW5zdXJlZCwKICAgICAgICBjdXJyZW50X2luc3VyZXI6IGVuY3J5cHRGaWVsZChkYXRhLmN1cnJlbnRfaW5zdXJlciksCiAgICAgICAgY292ZXJhZ2VfdHlwZTogZGF0YS5jb3ZlcmFnZV90eXBlID8/IG51bGwsCiAgICAgICAgYnVkZ2V0OiBkYXRhLmJ1ZGdldCA/PyBudWxsLAogICAgICAgIG5vdGVzOiBlbmNyeXB0RmllbGQoZGF0YS5ub3RlcyksCiAgICAgICAgY3VycmVudF9wYWdlOiAi2YXZgtin2LHZhtipINi52LHZiNi2INin2YTYt9io2YoiLAogICAgICAgIGxhc3RfYWN0aXZlX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgICAgIH0sIHsgb25Db25mbGljdDogInNlc3Npb25faWQiIH0pCiAgICAgIC5zZWxlY3QoKQogICAgICAuc2luZ2xlKCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiBkZWNyeXB0RGVlcChyb3cpOwogIH0pOwoKZXhwb3J0IGNvbnN0IGNyZWF0ZVRyYXZlbFF1b3RlID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5pbnB1dFZhbGlkYXRvcigoZCkgPT4KICAgIHoKICAgICAgLm9iamVjdCh7CiAgICAgICAgc2Vzc2lvbl9pZDogei5zdHJpbmcoKS5taW4oNCksCiAgICAgICAgZnVsbF9uYW1lOiB6LnN0cmluZygpLm1pbigxKSwKICAgICAgICBwaG9uZTogei5zdHJpbmcoKS5taW4oNiksCiAgICAgICAgZW1haWw6IHouc3RyaW5nKCkuZW1haWwoKS5vcHRpb25hbCgpLm9yKHoubGl0ZXJhbCgiIikpLnRyYW5zZm9ybSgodikgPT4gdiB8fCB1bmRlZmluZWQpLAogICAgICAgIGRlc3RpbmF0aW9uOiB6LnN0cmluZygpLm1pbigxKSwKICAgICAgICB0cmlwX2R1cmF0aW9uOiB6LmNvZXJjZS5udW1iZXIoKS5taW4oMSkubWF4KDM2NSkuZGVmYXVsdCg3KSwKICAgICAgICBudW1fdHJhdmVsZXJzOiB6LmNvZXJjZS5udW1iZXIoKS5taW4oMSkubWF4KDIwKS5kZWZhdWx0KDEpLAogICAgICAgIHRyYXZlbGVyX2FnZXM6IHouc3RyaW5nKCkub3B0aW9uYWwoKSwKICAgICAgICB0cmlwX3R5cGU6IHouc3RyaW5nKCkub3B0aW9uYWwoKSwKICAgICAgICBub3Rlczogei5zdHJpbmcoKS5vcHRpb25hbCgpLAogICAgICB9KQogICAgICAucGFyc2UoZCksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgY29uc3Qgc3VwID0gYXdhaXQgcHViKCk7CiAgICBhd2FpdCBlbnN1cmVRdW90ZU1pcnJvcihzdXAsIHsgc2Vzc2lvbl9pZDogZGF0YS5zZXNzaW9uX2lkLCBraW5kOiAidHJhdmVsIiwgcGhvbmU6IGRhdGEucGhvbmUsIHZpc2l0b3JfbmFtZTogZGF0YS5mdWxsX25hbWUgfSk7CiAgICBjb25zdCB7IGRhdGE6IHJvdywgZXJyb3IgfSA9IGF3YWl0IHN1cAogICAgICAuZnJvbSgidHJhdmVsX3F1b3RlcyIpCiAgICAgIC51cHNlcnQoewogICAgICAgIHNlc3Npb25faWQ6IGRhdGEuc2Vzc2lvbl9pZCwKICAgICAgICBmdWxsX25hbWU6IGVuY3J5cHRGaWVsZChkYXRhLmZ1bGxfbmFtZSksCiAgICAgICAgcGhvbmU6IGVuY3J5cHRGaWVsZChkYXRhLnBob25lKSwKICAgICAgICBlbWFpbDogZW5jcnlwdEZpZWxkKGRhdGEuZW1haWwpLAogICAgICAgIGRlc3RpbmF0aW9uOiBlbmNyeXB0RmllbGQoZGF0YS5kZXN0aW5hdGlvbiksCiAgICAgICAgdHJpcF9kdXJhdGlvbjogZGF0YS50cmlwX2R1cmF0aW9uLAogICAgICAgIG51bV90cmF2ZWxlcnM6IGRhdGEubnVtX3RyYXZlbGVycywKICAgICAgICB0cmF2ZWxlcl9hZ2VzOiBlbmNyeXB0RmllbGQoZGF0YS50cmF2ZWxlcl9hZ2VzKSwKICAgICAgICB0cmlwX3R5cGU6IGRhdGEudHJpcF90eXBlID8/IG51bGwsCiAgICAgICAgbm90ZXM6IGVuY3J5cHRGaWVsZChkYXRhLm5vdGVzKSwKICAgICAgICBjdXJyZW50X3BhZ2U6ICLZhdmC2KfYsdmG2Kkg2LnYsdmI2LYg2KfZhNiz2YHYsSIsCiAgICAgICAgbGFzdF9hY3RpdmVfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgICAgfSwgeyBvbkNvbmZsaWN0OiAic2Vzc2lvbl9pZCIgfSkKICAgICAgLnNlbGVjdCgpCiAgICAgIC5zaW5nbGUoKTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgcmV0dXJuIGRlY3J5cHREZWVwKHJvdyk7CiAgfSk7CgpleHBvcnQgY29uc3QgY3JlYXRlTWVkaWNhbE1pc1F1b3RlID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJQT1NUIiB9KQogIC5pbnB1dFZhbGlkYXRvcigoZCkgPT4KICAgIHoKICAgICAgLm9iamVjdCh7CiAgICAgICAgc2Vzc2lvbl9pZDogei5zdHJpbmcoKS5taW4oNCksCiAgICAgICAgZnVsbF9uYW1lOiB6LnN0cmluZygpLm1pbigxKSwKICAgICAgICBwaG9uZTogei5zdHJpbmcoKS5taW4oNiksCiAgICAgICAgZW1haWw6IHouc3RyaW5nKCkuZW1haWwoKS5vcHRpb25hbCgpLm9yKHoubGl0ZXJhbCgiIikpLnRyYW5zZm9ybSgodikgPT4gdiB8fCB1bmRlZmluZWQpLAogICAgICAgIHByb2Zlc3Npb246IHouc3RyaW5nKCkub3B0aW9uYWwoKSwKICAgICAgICBsaWNlbnNlX251bWJlcjogei5zdHJpbmcoKS5vcHRpb25hbCgpLAogICAgICAgIHdvcmtwbGFjZTogei5zdHJpbmcoKS5vcHRpb25hbCgpLAogICAgICAgIGNvdmVyYWdlX2Ftb3VudDogei5zdHJpbmcoKS5vcHRpb25hbCgpLAogICAgICAgIG5vdGVzOiB6LnN0cmluZygpLm9wdGlvbmFsKCksCiAgICAgIH0pCiAgICAgIC5wYXJzZShkKSwKICApCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSB9KSA9PiB7CiAgICBjb25zdCBzdXAgPSBhd2FpdCBwdWIoKTsKICAgIGF3YWl0IGVuc3VyZVF1b3RlTWlycm9yKHN1cCwgeyBzZXNzaW9uX2lkOiBkYXRhLnNlc3Npb25faWQsIGtpbmQ6ICJtZWRpY2FsLW1pcyIsIHBob25lOiBkYXRhLnBob25lLCB2aXNpdG9yX25hbWU6IGRhdGEuZnVsbF9uYW1lIH0pOwogICAgY29uc3QgeyBkYXRhOiByb3csIGVycm9yIH0gPSBhd2FpdCBzdXAKICAgICAgLmZyb20oIm1lZGljYWxfbWlzX3F1b3RlcyIpCiAgICAgIC51cHNlcnQoewogICAgICAgIHNlc3Npb25faWQ6IGRhdGEuc2Vzc2lvbl9pZCwKICAgICAgICBmdWxsX25hbWU6IGVuY3J5cHRGaWVsZChkYXRhLmZ1bGxfbmFtZSksCiAgICAgICAgcGhvbmU6IGVuY3J5cHRGaWVsZChkYXRhLnBob25lKSwKICAgICAgICBlbWFpbDogZW5jcnlwdEZpZWxkKGRhdGEuZW1haWwpLAogICAgICAgIHByb2Zlc3Npb246IGVuY3J5cHRGaWVsZChkYXRhLnByb2Zlc3Npb24pLAogICAgICAgIGxpY2Vuc2VfbnVtYmVyOiBlbmNyeXB0RmllbGQoZGF0YS5saWNlbnNlX251bWJlciksCiAgICAgICAgd29ya3BsYWNlOiBlbmNyeXB0RmllbGQoZGF0YS53b3JrcGxhY2UpLAogICAgICAgIGNvdmVyYWdlX2Ftb3VudDogZGF0YS5jb3ZlcmFnZV9hbW91bnQgPz8gbnVsbCwKICAgICAgICBub3RlczogZW5jcnlwdEZpZWxkKGRhdGEubm90ZXMpLAogICAgICAgIGN1cnJlbnRfcGFnZTogItmF2YLYp9ix2YbYqSDYudix2YjYtiDYp9mE2KPYrti32KfYoSDYp9mE2LfYqNmK2KkiLAogICAgICAgIGxhc3RfYWN0aXZlX2F0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgICAgIH0sIHsgb25Db25mbGljdDogInNlc3Npb25faWQiIH0pCiAgICAgIC5zZWxlY3QoKQogICAgICAuc2luZ2xlKCk7CiAgICBpZiAoZXJyb3IpIHRocm93IG5ldyBFcnJvcihlcnJvci5tZXNzYWdlKTsKICAgIHJldHVybiBkZWNyeXB0RGVlcChyb3cpOwogIH0pOwoKY29uc3Qga2luZEVudW0gPSB6LmVudW0oWyJtZWRpY2FsIiwgInRyYXZlbCIsICJtZWRpY2FsLW1pcyJdKTsKCi8qKiBDb21wdXRlIGEgcHJpY2UgZm9yIGEgZ2l2ZW4gaW5zdXJhbmNlLXR5cGUgb2ZmZXIgYmFzZWQgb24gdXNlciBpbnB1dHMuICovCmV4cG9ydCBjb25zdCBjb21wdXRlSW5zdXJhbmNlUHJpY2UgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChkKSA9PgogICAgei5vYmplY3QoeyBzZXNzaW9uX2lkOiB6LnN0cmluZygpLm1pbig0KSwga2luZDoga2luZEVudW0sIG9mZmVyX2lkOiB6LnN0cmluZygpLnV1aWQoKSB9KS5wYXJzZShkKSwKICApCiAgLmhhbmRsZXIoYXN5bmMgKHsgZGF0YSB9KSA9PiB7CiAgICBjb25zdCBzdXAgPSBhd2FpdCBwdWIoKTsKICAgIGNvbnN0IHsgZGF0YTogb2ZmZXIsIGVycm9yIH0gPSBhd2FpdCBzdXAKICAgICAgLmZyb20oImluc3VyYW5jZV9vZmZlcnMiKQogICAgICAuc2VsZWN0KCJpZCwgY29tcGFueV9uYW1lLCBjb21wYW55X2xvZ29fdXJsLCB0eXBlLCBwcmljZSwgcmF0ZSwgbWluX3ByaWNlLCBmZWF0dXJlcywgYWN0aXZlIikKICAgICAgLmVxKCJpZCIsIGRhdGEub2ZmZXJfaWQpCiAgICAgIC5tYXliZVNpbmdsZSgpOwogICAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7CiAgICBpZiAoIW9mZmVyIHx8ICFvZmZlci5hY3RpdmUpIHRocm93IG5ldyBFcnJvcigiT0ZGRVJfTk9UX0ZPVU5EIik7CgogICAgY29uc3QgcmF0ZSA9IE51bWJlcihvZmZlci5yYXRlID8/IDApOwogICAgY29uc3QgbWluID0gTnVtYmVyKG9mZmVyLm1pbl9wcmljZSA/PyAwKTsKICAgIGxldCB0b3RhbCA9IE51bWJlcihvZmZlci5wcmljZSk7CgogICAgaWYgKGRhdGEua2luZCA9PT0gIm1lZGljYWwiKSB7CiAgICAgIGNvbnN0IHsgZGF0YTogcSB9ID0gYXdhaXQgc3VwCiAgICAgICAgLmZyb20oIm1lZGljYWxfcXVvdGVzIikKICAgICAgICAuc2VsZWN0KCJudW1faW5zdXJlZCwgYWdlIikKICAgICAgICAuZXEoInNlc3Npb25faWQiLCBkYXRhLnNlc3Npb25faWQpCiAgICAgICAgLm1heWJlU2luZ2xlKCk7CiAgICAgIGNvbnN0IG4gPSBNYXRoLm1heCgxLCBOdW1iZXIocT8ubnVtX2luc3VyZWQgPz8gMSkpOwogICAgICBjb25zdCBhZ2UgPSBOdW1iZXIocT8uYWdlID8/IDMwKTsKICAgICAgY29uc3QgYWdlRmFjdG9yID0gYWdlID49IDYwID8gMS42IDogYWdlID49IDQ1ID8gMS4yNSA6IGFnZSA+PSAzMCA/IDEuMSA6IDE7CiAgICAgIHRvdGFsID0gTWF0aC5tYXgobWluLCBOdW1iZXIob2ZmZXIucHJpY2UpICogbiAqIHJhdGUgKiBhZ2VGYWN0b3IpOwogICAgfSBlbHNlIGlmIChkYXRhLmtpbmQgPT09ICJ0cmF2ZWwiKSB7CiAgICAgIGNvbnN0IHsgZGF0YTogcSB9ID0gYXdhaXQgc3VwCiAgICAgICAgLmZyb20oInRyYXZlbF9xdW90ZXMiKQogICAgICAgIC5zZWxlY3QoInRyaXBfZHVyYXRpb24sIG51bV90cmF2ZWxlcnMiKQogICAgICAgIC5lcSgic2Vzc2lvbl9pZCIsIGRhdGEuc2Vzc2lvbl9pZCkKICAgICAgICAubWF5YmVTaW5nbGUoKTsKICAgICAgY29uc3QgZGF5cyA9IE1hdGgubWF4KDEsIE51bWJlcihxPy50cmlwX2R1cmF0aW9uID8/IDcpKTsKICAgICAgY29uc3QgdHJhdiA9IE1hdGgubWF4KDEsIE51bWJlcihxPy5udW1fdHJhdmVsZXJzID8/IDEpKTsKICAgICAgdG90YWwgPSBNYXRoLm1heChtaW4sIHJhdGUgKiBkYXlzICogdHJhdik7CiAgICB9IGVsc2UgewogICAgICBjb25zdCB7IGRhdGE6IHEgfSA9IGF3YWl0IHN1cAogICAgICAgIC5mcm9tKCJtZWRpY2FsX21pc19xdW90ZXMiKQogICAgICAgIC5zZWxlY3QoImNvdmVyYWdlX2Ftb3VudCIpCiAgICAgICAgLmVxKCJzZXNzaW9uX2lkIiwgZGF0YS5zZXNzaW9uX2lkKQogICAgICAgIC5tYXliZVNpbmdsZSgpOwogICAgICBjb25zdCBhbXQgPSBOdW1iZXIoU3RyaW5nKHE/LmNvdmVyYWdlX2Ftb3VudCA/PyAiMCIpLnJlcGxhY2UoL1teXGQuXS9nLCAiIikpIHx8IDA7CiAgICAgIHRvdGFsID0gTWF0aC5tYXgobWluLCBhbXQgPiAwID8gYW10ICogcmF0ZSA6IE51bWJlcihvZmZlci5wcmljZSkpOwogICAgfQoKICAgIHJldHVybiB7CiAgICAgIG9mZmVyX2lkOiBvZmZlci5pZCwKICAgICAgY29tcGFueV9uYW1lOiBvZmZlci5jb21wYW55X25hbWUsCiAgICAgIGNvbXBhbnlfbG9nb191cmw6IG9mZmVyLmNvbXBhbnlfbG9nb191cmwsCiAgICAgIHR5cGU6IG9mZmVyLnR5cGUsCiAgICAgIHRvdGFsLAogICAgICBvcmlnaW5hbDogdG90YWwsCiAgICAgIGRpc2NvdW50ZWQ6IHRvdGFsLAogICAgICBleHRyYXM6IFtdIGFzIHsgbGFiZWw6IHN0cmluZzsgcHJpY2U6IG51bWJlciB9W10sCiAgICB9OwogIH0pOwoKZXhwb3J0IGNvbnN0IGdldEluc3VyYW5jZVF1b3RlID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChkKSA9PgogICAgei5vYmplY3QoeyBzZXNzaW9uX2lkOiB6LnN0cmluZygpLm1pbig0KSwga2luZDoga2luZEVudW0gfSkucGFyc2UoZCksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgY29uc3Qgc3VwID0gYXdhaXQgcHViKCk7CiAgICBjb25zdCB0YWJsZSA9CiAgICAgIGRhdGEua2luZCA9PT0gIm1lZGljYWwiID8gIm1lZGljYWxfcXVvdGVzIiA6IGRhdGEua2luZCA9PT0gInRyYXZlbCIgPyAidHJhdmVsX3F1b3RlcyIgOiAibWVkaWNhbF9taXNfcXVvdGVzIjsKICAgIGNvbnN0IHsgZGF0YTogcm93LCBlcnJvciB9ID0gYXdhaXQgc3VwCiAgICAgIC5mcm9tKHRhYmxlKQogICAgICAuc2VsZWN0KCIqIikKICAgICAgLmVxKCJzZXNzaW9uX2lkIiwgZGF0YS5zZXNzaW9uX2lkKQogICAgICAubWF5YmVTaW5nbGUoKTsKICAgIGlmIChlcnJvcikgdGhyb3cgbmV3IEVycm9yKGVycm9yLm1lc3NhZ2UpOwogICAgcmV0dXJuIGRlY3J5cHREZWVwKHJvdyk7CiAgfSk7CgpleHBvcnQgY29uc3Qgc2VsZWN0SW5zdXJhbmNlT2ZmZXIgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIlBPU1QiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChkKSA9PgogICAgegogICAgICAub2JqZWN0KHsKICAgICAgICBzZXNzaW9uX2lkOiB6LnN0cmluZygpLm1pbig0KSwKICAgICAgICBraW5kOiBraW5kRW51bSwKICAgICAgICBvZmZlcl9pZDogei5zdHJpbmcoKS51dWlkKCksCiAgICAgICAgcHJpY2U6IHouY29lcmNlLm51bWJlcigpLAogICAgICB9KQogICAgICAucGFyc2UoZCksCiAgKQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGEgfSkgPT4gewogICAgY29uc3Qgc3VwID0gYXdhaXQgcHViKCk7CiAgICBjb25zdCB0YWJsZSA9CiAgICAgIGRhdGEua2luZCA9PT0gIm1lZGljYWwiID8gIm1lZGljYWxfcXVvdGVzIiA6IGRhdGEua2luZCA9PT0gInRyYXZlbCIgPyAidHJhdmVsX3F1b3RlcyIgOiAibWVkaWNhbF9taXNfcXVvdGVzIjsKICAgIGF3YWl0IHN1cAogICAgICAuZnJvbSh0YWJsZSkKICAgICAgLnVwZGF0ZSh7CiAgICAgICAgc2VsZWN0ZWRfb2ZmZXJfaWQ6IGRhdGEub2ZmZXJfaWQsCiAgICAgICAgc2VsZWN0ZWRfcHJpY2U6IGRhdGEucHJpY2UsCiAgICAgICAgY3VycmVudF9wYWdlOiAi2YXYudin2YrZhtipINin2YTYqtij2YXZitmGIiwKICAgICAgICBsYXN0X2FjdGl2ZV9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgICB9KQogICAgICAuZXEoInNlc3Npb25faWQiLCBkYXRhLnNlc3Npb25faWQpOwogICAgYXdhaXQgc3VwCiAgICAgIC5mcm9tKCJxdW90ZXMiKQogICAgICAudXBkYXRlKHsgY3VycmVudF9wYWdlOiAi2YXYudin2YrZhtipINin2YTYqtij2YXZitmGIiwgbGFzdF9hY3RpdmVfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9KQogICAgICAuZXEoInNlc3Npb25faWQiLCBkYXRhLnNlc3Npb25faWQpOwogICAgcmV0dXJuIHsgb2s6IHRydWUgfTsKICB9KTsK
+import { createServerFn } from "@tanstack/react-start";
+import { z } from "zod";
+import { encryptField, decryptDeep } from "./crypto.server";
+
+async function pub() {
+  const { createClient } = await import("@supabase/supabase-js");
+  const url = process.env["SUPABASE_URL"]!;
+  const key = process.env["SUPABASE_PUBLISHABLE_KEY"]!;
+  return createClient(url, key, {
+    auth: { storage: undefined, persistSession: false, autoRefreshToken: false },
+    global: {
+      fetch: (input: RequestInfo | URL, init?: RequestInit) => {
+        const h = new Headers(init?.headers);
+        if (key.startsWith("sb_") && h.get("Authorization") === `Bearer ${key}`) h.delete("Authorization");
+        h.set("apikey", key);
+        return fetch(input, { ...init, headers: h });
+      },
+    },
+  });
+}
+
+/** Ensure a matching row exists in public.quotes for the dashboard/tracking. */
+async function ensureQuoteMirror(
+  sup: Awaited<ReturnType<typeof pub>>,
+  args: { session_id: string; kind: "medical" | "travel" | "medical-mis"; phone?: string; visitor_name?: string },
+) {
+  const label = args.kind === "medical" ? "طبي" : args.kind === "travel" ? "سفر" : "أخطاء طبية";
+  await sup
+    .from("quotes")
+    .upsert(
+      {
+        session_id: args.session_id,
+        phone: encryptField(args.phone),
+        visitor_name: encryptField(args.visitor_name),
+        insurance_kind: args.kind,
+        current_page: `بيانات ${label}`,
+        last_active_at: new Date().toISOString(),
+        trashed: false,
+      },
+      { onConflict: "session_id" },
+    );
+}
+
+export const createMedicalQuote = createServerFn({ method: "POST" })
+  .inputValidator((d) =>
+    z
+      .object({
+        session_id: z.string().min(4),
+        full_name: z.string().min(1),
+        phone: z.string().min(6),
+        email: z.string().email().optional().or(z.literal("")).transform((v) => v || undefined),
+        age: z.coerce.number().min(0).max(120).optional(),
+        num_insured: z.coerce.number().min(1).max(50).default(1),
+        current_insurer: z.string().optional(),
+        coverage_type: z.string().optional(),
+        budget: z.string().optional(),
+        notes: z.string().optional(),
+      })
+      .parse(d),
+  )
+  .handler(async ({ data }) => {
+    const sup = await pub();
+    await ensureQuoteMirror(sup, { session_id: data.session_id, kind: "medical", phone: data.phone, visitor_name: data.full_name });
+    const { data: row, error } = await sup
+      .from("medical_quotes")
+      .upsert({
+        session_id: data.session_id,
+        full_name: encryptField(data.full_name),
+        phone: encryptField(data.phone),
+        email: encryptField(data.email),
+        age: data.age ?? null,
+        num_insured: data.num_insured,
+        current_insurer: encryptField(data.current_insurer),
+        coverage_type: data.coverage_type ?? null,
+        budget: data.budget ?? null,
+        notes: encryptField(data.notes),
+        current_page: "مقارنة عروض الطبي",
+        last_active_at: new Date().toISOString(),
+      }, { onConflict: "session_id" })
+      .select()
+      .single();
+    if (error) throw new Error(error.message);
+    return decryptDeep(row);
+  });
+
+export const createTravelQuote = createServerFn({ method: "POST" })
+  .inputValidator((d) =>
+    z
+      .object({
+        session_id: z.string().min(4),
+        full_name: z.string().min(1),
+        phone: z.string().min(6),
+        email: z.string().email().optional().or(z.literal("")).transform((v) => v || undefined),
+        destination: z.string().min(1),
+        trip_duration: z.coerce.number().min(1).max(365).default(7),
+        num_travelers: z.coerce.number().min(1).max(20).default(1),
+        traveler_ages: z.string().optional(),
+        trip_type: z.string().optional(),
+        notes: z.string().optional(),
+      })
+      .parse(d),
+  )
+  .handler(async ({ data }) => {
+    const sup = await pub();
+    await ensureQuoteMirror(sup, { session_id: data.session_id, kind: "travel", phone: data.phone, visitor_name: data.full_name });
+    const { data: row, error } = await sup
+      .from("travel_quotes")
+      .upsert({
+        session_id: data.session_id,
+        full_name: encryptField(data.full_name),
+        phone: encryptField(data.phone),
+        email: encryptField(data.email),
+        destination: encryptField(data.destination),
+        trip_duration: data.trip_duration,
+        num_travelers: data.num_travelers,
+        traveler_ages: encryptField(data.traveler_ages),
+        trip_type: data.trip_type ?? null,
+        notes: encryptField(data.notes),
+        current_page: "مقارنة عروض السفر",
+        last_active_at: new Date().toISOString(),
+      }, { onConflict: "session_id" })
+      .select()
+      .single();
+    if (error) throw new Error(error.message);
+    return decryptDeep(row);
+  });
+
+export const createMedicalMisQuote = createServerFn({ method: "POST" })
+  .inputValidator((d) =>
+    z
+      .object({
+        session_id: z.string().min(4),
+        full_name: z.string().min(1),
+        phone: z.string().min(6),
+        email: z.string().email().optional().or(z.literal("")).transform((v) => v || undefined),
+        profession: z.string().optional(),
+        license_number: z.string().optional(),
+        workplace: z.string().optional(),
+        coverage_amount: z.string().optional(),
+        notes: z.string().optional(),
+      })
+      .parse(d),
+  )
+  .handler(async ({ data }) => {
+    const sup = await pub();
+    await ensureQuoteMirror(sup, { session_id: data.session_id, kind: "medical-mis", phone: data.phone, visitor_name: data.full_name });
+    const { data: row, error } = await sup
+      .from("medical_mis_quotes")
+      .upsert({
+        session_id: data.session_id,
+        full_name: encryptField(data.full_name),
+        phone: encryptField(data.phone),
+        email: encryptField(data.email),
+        profession: encryptField(data.profession),
+        license_number: encryptField(data.license_number),
+        workplace: encryptField(data.workplace),
+        coverage_amount: data.coverage_amount ?? null,
+        notes: encryptField(data.notes),
+        current_page: "مقارنة عروض الأخطاء الطبية",
+        last_active_at: new Date().toISOString(),
+      }, { onConflict: "session_id" })
+      .select()
+      .single();
+    if (error) throw new Error(error.message);
+    return decryptDeep(row);
+  });
+
+const kindEnum = z.enum(["medical", "travel", "medical-mis"]);
+
+/** Compute a price for a given insurance-type offer based on user inputs. */
+export const computeInsurancePrice = createServerFn({ method: "POST" })
+  .inputValidator((d) =>
+    z.object({ session_id: z.string().min(4), kind: kindEnum, offer_id: z.string().uuid() }).parse(d),
+  )
+  .handler(async ({ data }) => {
+    const sup = await pub();
+    const { data: offer, error } = await sup
+      .from("insurance_offers")
+      .select("id, company_name, company_logo_url, type, price, rate, min_price, features, active")
+      .eq("id", data.offer_id)
+      .maybeSingle();
+    if (error) throw new Error(error.message);
+    if (!offer || !offer.active) throw new Error("OFFER_NOT_FOUND");
+
+    const rate = Number(offer.rate ?? 0);
+    const min = Number(offer.min_price ?? 0);
+    let total = Number(offer.price);
+
+    if (data.kind === "medical") {
+      const { data: q } = await sup
+        .from("medical_quotes")
+        .select("num_insured, age")
+        .eq("session_id", data.session_id)
+        .maybeSingle();
+      const n = Math.max(1, Number(q?.num_insured ?? 1));
+      const age = Number(q?.age ?? 30);
+      const ageFactor = age >= 60 ? 1.6 : age >= 45 ? 1.25 : age >= 30 ? 1.1 : 1;
+      total = Math.max(min, Number(offer.price) * n * rate * ageFactor);
+    } else if (data.kind === "travel") {
+      const { data: q } = await sup
+        .from("travel_quotes")
+        .select("trip_duration, num_travelers")
+        .eq("session_id", data.session_id)
+        .maybeSingle();
+      const days = Math.max(1, Number(q?.trip_duration ?? 7));
+      const trav = Math.max(1, Number(q?.num_travelers ?? 1));
+      total = Math.max(min, rate * days * trav);
+    } else {
+      const { data: q } = await sup
+        .from("medical_mis_quotes")
+        .select("coverage_amount")
+        .eq("session_id", data.session_id)
+        .maybeSingle();
+      const amt = Number(String(q?.coverage_amount ?? "0").replace(/[^\d.]/g, "")) || 0;
+      total = Math.max(min, amt > 0 ? amt * rate : Number(offer.price));
+    }
+
+    return {
+      offer_id: offer.id,
+      company_name: offer.company_name,
+      company_logo_url: offer.company_logo_url,
+      type: offer.type,
+      total,
+      original: total,
+      discounted: total,
+      extras: [] as { label: string; price: number }[],
+    };
+  });
+
+export const getInsuranceQuote = createServerFn({ method: "GET" })
+  .inputValidator((d) =>
+    z.object({ session_id: z.string().min(4), kind: kindEnum }).parse(d),
+  )
+  .handler(async ({ data }) => {
+    const sup = await pub();
+    const table =
+      data.kind === "medical" ? "medical_quotes" : data.kind === "travel" ? "travel_quotes" : "medical_mis_quotes";
+    const { data: row, error } = await sup
+      .from(table)
+      .select("*")
+      .eq("session_id", data.session_id)
+      .maybeSingle();
+    if (error) throw new Error(error.message);
+    return decryptDeep(row);
+  });
+
+export const selectInsuranceOffer = createServerFn({ method: "POST" })
+  .inputValidator((d) =>
+    z
+      .object({
+        session_id: z.string().min(4),
+        kind: kindEnum,
+        offer_id: z.string().uuid(),
+        price: z.coerce.number(),
+      })
+      .parse(d),
+  )
+  .handler(async ({ data }) => {
+    const sup = await pub();
+    const table =
+      data.kind === "medical" ? "medical_quotes" : data.kind === "travel" ? "travel_quotes" : "medical_mis_quotes";
+    await sup
+      .from(table)
+      .update({
+        selected_offer_id: data.offer_id,
+        selected_price: data.price,
+        current_page: "معاينة التأمين",
+        last_active_at: new Date().toISOString(),
+      })
+      .eq("session_id", data.session_id);
+    await sup
+      .from("quotes")
+      .update({ current_page: "معاينة التأمين", last_active_at: new Date().toISOString() })
+      .eq("session_id", data.session_id);
+    return { ok: true };
+  });

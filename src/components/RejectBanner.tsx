@@ -1,1 +1,20 @@
-aW1wb3J0IHsgdXNlUm91dGVyU3RhdGUgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgQWxlcnRDaXJjbGUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKLyoqCiAqIFNob3dzIGEgcmVkICJpbnZhbGlkIGluZm8iIGJhbm5lciB3aGVuIHRoZSBVUkwgY2FycmllcyA/ZXJyb3I9MQogKiAoc2V0IGJ5IHVzZVZpc2l0b3JUcmFja2luZyB3aGVuIHRoZSBhZG1pbiByZWplY3RzIHRoZSBzdWJtaXR0ZWQgZGF0YSkuCiAqLwpleHBvcnQgZnVuY3Rpb24gUmVqZWN0QmFubmVyKHsgbWVzc2FnZSB9OiB7IG1lc3NhZ2U/OiBzdHJpbmcgfSkgewogIGNvbnN0IHNlYXJjaCA9IHVzZVJvdXRlclN0YXRlKHsgc2VsZWN0OiAocykgPT4gcy5sb2NhdGlvbi5zZWFyY2ggYXMgeyBlcnJvcj86IHN0cmluZyB9IH0pOwogIGlmICghc2VhcmNoPy5lcnJvcikgcmV0dXJuIG51bGw7CiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgcm9sZT0iYWxlcnQiCiAgICAgIGNsYXNzTmFtZT0ibWItNCBmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0yIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItcmVkLTIwMCBiZy1yZWQtNTAgcC0zIHRleHQtc20gZm9udC1ib2xkIHRleHQtcmVkLTcwMCIKICAgID4KICAgICAgPEFsZXJ0Q2lyY2xlIGNsYXNzTmFtZT0ibXQtMC41IGgtNCB3LTQgc2hyaW5rLTAiIC8+CiAgICAgIDxzcGFuPnttZXNzYWdlID8/ICLYp9mE2YXYudmE2YjZhdin2Kog2KfZhNmF2K/YrtmE2Kkg2LrZitixINi12K3Zitit2KnYjCDZitix2KzZiSDYp9mE2YXYrdin2YjZhNipINmF2LHYqSDYo9iu2LHZiS4ifTwvc3Bhbj4KICAgIDwvZGl2PgogICk7Cn0K
+import { useRouterState } from "@tanstack/react-router";
+import { AlertCircle } from "lucide-react";
+
+/**
+ * Shows a red "invalid info" banner when the URL carries ?error=1
+ * (set by useVisitorTracking when the admin rejects the submitted data).
+ */
+export function RejectBanner({ message }: { message?: string }) {
+  const search = useRouterState({ select: (s) => s.location.search as { error?: string } });
+  if (!search?.error) return null;
+  return (
+    <div
+      role="alert"
+      className="mb-4 flex items-start gap-2 rounded-2xl border border-red-200 bg-red-50 p-3 text-sm font-bold text-red-700"
+    >
+      <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" />
+      <span>{message ?? "المعلومات المدخلة غير صحيحة، يرجى المحاولة مرة أخرى."}</span>
+    </div>
+  );
+}
