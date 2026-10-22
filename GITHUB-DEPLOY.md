@@ -1,1 +1,89 @@
-IyDYr9mE2YrZhCDZhti02LEg2YXZiNmC2Lkg2KjZiiDZg9mK2LEgKEJjYXJlKSDYudio2LEgR2l0SHViCgrZh9iw2Kcg2KfZhNmF2YjZgti5INiq2LfYqNmK2YIg2YPYp9mF2YQgKNmI2KfYrNmH2KkgKyDYrtin2K/ZhSArINmC2KfYudiv2Kkg2KjZitin2YbYp9iqKSDZhdio2YbZiiDYudmE2YkgVGFuU3RhY2sgU3RhcnTYjCDZhNiw2YTZgyDZitit2KrYp9isINin2LPYqti22KfZgdipINiq2K/YudmFINiq2LTYutmK2YQg2KfZhNmD2YjYryDYp9mE2K7Yp9iv2YXZiiDigJQg2YjZhNmK2LMg2YXYrNix2K8g2KfYs9iq2LbYp9mB2Kkg2YXZhNmB2KfYqiDYq9in2KjYqtipLgoKIyMg2KPZiNmE2KfZizog2LHYqNi3INin2YTZhdi02LHZiNi5INio2YAgR2l0SHViCgrYp9mE2LHYqNi3INmK2KrZhSDZhdmGINiv2KfYrtmEINmF2K3YsdixIExvdmFibGUgKNiu2LfZiNipINmK2K/ZiNmK2Kkg2YTYpyDZitmC2YjZhSDYqNmH2Kcg2KfZhNiw2YPYp9ihINin2YTYp9i12LfZhtin2LnZiik6CgoxLiDYp9mB2KrYrSAqKtil2LnYr9in2K/Yp9iqINin2YTZhdi02LHZiNi5IOKGkCBHaXQqKiAo2KPZiCDZhdmGINmC2KfYptmF2KkgKiorKiog2KjYrNin2YbYqCDZhdix2KjYuSDYp9mE2YXYrdin2K/Yq9ipIOKGkCBQcm9qZWN0IOKGkCBHaXRIdWIpLgoyLiDYp9iu2KrYsSAqKkNvbm5lY3QqKiDZiNmI2KfZgdmCINi52YTZiSDYp9mE2KPYsNmI2YbYp9iqIOKAlCDYs9mK2Y/Zhti02KMg2YXYs9iq2YjYr9i5INiu2KfYtSDYrNiv2YrYryDYqNin2LPZhSDYp9mE2YXYtNix2YjYuS4KMy4g2YXZhiDZh9mG2KfZgyDZgdi12KfYudiv2YvYpyDZitmP2LLYp9mF2Y7ZhiDZg9mEINiq2LnYr9mK2YQg2KrZhNmC2KfYptmK2YvYpyDZhdi5INin2YTZhdiz2KrZiNiv2LkuCgrZhdmE2KfYrdi42KfYqjoKLSDYp9mE2LHYqNi3INmK2YbYtNimINmF2LPYqtmI2K/YudmL2Kcg2KzYr9mK2K/Zi9inINmB2YLYt9ibINmE2Kcg2YrZhdmD2YYg2LHYqNi3INmF2LPYqtmI2K/YuSDZhdmI2KzZiNivINmF2LPYqNmC2YvYpy4KLSDYp9mE2YXYstin2YXZhtipINiq2LnZhdmEINmF2Lkg2KfZhNmB2LHYuSDYp9mE2KfZgdiq2LHYp9i22Yog2YHZgti3LgotINit2LDZgSDYp9mE2YXYs9iq2YjYr9i5INi52YTZiSBHaXRIdWIg2YrZiNmC2YEg2KfZhNmF2LLYp9mF2YbYqS4KCiMjINmF2K3YqtmI2YrYp9iqINin2YTZhdiz2KrZiNiv2LkKCnwg2KfZhNmF2LPYp9ixIHwg2KfZhNmI2LXZgSB8CnwtLS18LS0tfAp8IGBzcmMvYCB8INmD2YjYryDYp9mE2YXZiNmC2Lkg2YPYp9mF2YTZi9inIChSZWFjdCArIFRhblN0YWNrIFN0YXJ0KSB8CnwgYHB1YmxpYy9gIHwg2YXZhNmB2KfYqiDYq9in2KjYqtipICjYtNi52KfYsdin2Kog2KfZhNi02LHZg9in2KrYjCBmYXZpY29u2Iwgcm9ib3RzKSB8CnwgYHNyYy9hc3NldHMvYCB8INin2YTYtdmI2LEg2YjYp9mE2LTYudin2LHYp9iqIHwKfCBgZHJpenpsZS9taWdyYXRpb25zL2AgfCDZh9is2LHYp9iqINmC2KfYudiv2Kkg2KfZhNio2YrYp9mG2KfYqiAo2KfZhNmH2YrZg9mEINin2YTZhdi52KrZhdivKSB8CnwgYGRhdGFiYXNlL3NjaGVtYS5zcWxgLCBgc2VlZF9kYXRhLnNxbGAsIGBpbnN1cmFuY2Vfb2ZmZXJzX2N1cnJlbnQuc3FsYCB8INmG2LPYriDZhdix2KzYudmK2Kkg2YXZhiDZgtin2LnYr9ipINin2YTYqNmK2KfZhtin2KogfAp8IGAuZW52LmV4YW1wbGVgIHwg2YLYp9mE2Kgg2YXYqti62YrYsdin2Kog2KfZhNio2YrYptipIHwKCj4g2KrZhtio2YrZhyDYo9mF2YbZijog2KjZitin2YbYp9iqINin2YTYudmF2YTYp9ihINmI2KfZhNio2LfYp9mC2KfYqiDZiNiz2KzZhNin2Kog2KfZhNiy2YrYp9ix2KfYqiDYutmK2LEg2YXYtNmF2YjZhNipINi52YXYr9mL2KcuINmE2Kcg2KrYsdmB2Lkg2KPYqNiv2YvYpyDZhdmB2KrYp9itIGBTVVBBQkFTRV9TRVJWSUNFX1JPTEVfS0VZYCDYo9mIIGBEQVRBX0VOQ1JZUFRJT05fS0VZYCDYr9in2K7ZhCDYp9mE2YPZiNivIOKAlCDYqtmP2LbYp9mBINmD2YXYqti62YrYsdin2Kog2KjZitim2Kkg2LPYsdmK2Kkg2YHZgti3LgoKIyMg2KvYp9mG2YrZi9inOiDYpdi52K/Yp9iv2KfYqiDYp9mE2KjZhtin2KEKCtin2YTZhdiq2LfZhNio2KfYqjogTm9kZS5qcyAyMCsg2KPZiCBCdW4uCgpgYGBiYXNoCmJ1biBpbnN0YWxsICAgICAjINij2YggbnBtIGluc3RhbGwKYnVuIHJ1biBkZXYgICAgICMg2KrYtNi62YrZhCDZhdit2YTZiiDYudmE2YkgaHR0cDovL2xvY2FsaG9zdDo4MDgwCmJ1biBydW4gYnVpbGQgICAjINio2YbYp9ihINin2YTYpdmG2KrYp9isCmJ1biBydW4gdGVzdCAgICAjINin2K7Yqtio2KfYsdin2Kog2KfZhNmF2LTYsdmI2LkgKDE3INin2K7Yqtio2KfYsdmL2KcpCmBgYAoK2YXYqti62YrYsdin2Kog2KfZhNio2YrYptipINin2YTZhdi32YTZiNio2Kkg2YLYqNmEINin2YTYqti02LrZitmEICjYp9mG2LPYrtmH2Kcg2YXZhiBgLmVudi5leGFtcGxlYCk6CgpgYGBlbnYKVklURV9TVVBBQkFTRV9VUkw9aHR0cHM6Ly88cHJvamVjdD4uc3VwYWJhc2UuY28KVklURV9TVVBBQkFTRV9QVUJMSVNIQUJMRV9LRVk9PHB1Ymxpc2hhYmxlLWtleT4KVklURV9TVVBBQkFTRV9QUk9KRUNUX0lEPTxwcm9qZWN0LWlkPgpTVVBBQkFTRV9VUkw9aHR0cHM6Ly88cHJvamVjdD4uc3VwYWJhc2UuY28KU1VQQUJBU0VfUFVCTElTSEFCTEVfS0VZPTxwdWJsaXNoYWJsZS1rZXk+ClNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVk9PHNlcnZpY2Utcm9sZS1rZXk+ICAgIyDYs9ixIOKAlCDZhNinINmK2YjYtti5INmB2Yog2KfZhNmD2YjYrwpEQVRBX0VOQ1JZUFRJT05fS0VZPTw2NC1oZXgtY2hhcnM+ICAgICAgICAgICAgICMg2LPYsSDigJQg2YTYpyDZitmI2LbYuSDZgdmKINin2YTZg9mI2K8KYGBgCgrZhdmE2KfYrdi42Kk6INmF2YHYqtin2K0g2KfZhNmG2LTYsSAocHVibGlzaGFibGUpINi52YTZhtmKINio2LfYqNmK2LnYqtmH2Iwg2KPZhdinINmF2YHYqtin2K0g2KfZhNiu2K/ZhdipINmI2YXZgdiq2KfYrSDYp9mE2KrYtNmB2YrYsSDZgdmH2YXYpyDYs9ix2YrYp9mGLgoKIyMg2KvYp9mE2KvZi9inOiDYo9mK2YYg2YrZj9iz2KrYttin2YHYnwoKfCDYp9mE2K7Zitin2LEgfCDZhdiv2LnZiNmF2J8gfCDZhdmE2KfYrdi42KfYqiB8CnwtLS18LS0tfC0tLXwKfCAqKkxvdmFibGUgUHVibGlzaCoqIHwg4pyFINin2YTYo9mB2LbZhCB8INio2LbYuti32Kkg2LLYsdiMINmI2YrYq9io2ZHYqiDZgtin2LnYr9ipINin2YTYqNmK2KfZhtin2Kog2YjYp9mE2YXZgdin2KrZititINiq2YTZgtin2KbZitmL2KcgfAp8IENsb3VkZmxhcmUgV29ya2VycyB8IOKchSB8INin2YTYpdi52K/Yp9ivINin2YTYp9mB2KrYsdin2LbZiiDZhNmE2KjZhtin2KEg2YHZiiDZh9iw2Kcg2KfZhNmC2KfZhNioIChOaXRybykgfAp8IFZlcmNlbCAvIE5ldGxpZnkgfCDinIUgfCDZitiv2LnZhdin2YYgTml0cm8g2LnYqNixINmF2K3ZiNmEIHwgCnwgR2l0SHViIFBhZ2VzIHwg4p2MIHwg2KfYs9iq2LbYp9mB2Kkg2YXZhNmB2KfYqiDYq9in2KjYqtipINmB2YLYtyDigJQg2YTZhiDYqti52YXZhCDYr9mI2KfZhCDYp9mE2K7Yp9iv2YUg2YjZhNinIFNTUiB8CgojIyMg2KfZhNmG2LTYsSDYudmE2YkgQ2xvdWRmbGFyZSDYqNi52K8g2KfZhNmF2LLYp9mF2YbYqQoKYGBgYmFzaApidW4gcnVuIGJ1aWxkCm5weCB3cmFuZ2xlciBkZXBsb3kKYGBgCgrYq9mFINij2LbZgSDZhdiq2LrZitix2KfYqiDYp9mE2KjZitim2Kkg2KfZhNiz2LHZitipINmB2Yog2YTZiNit2KkgQ2xvdWRmbGFyZSAoV29ya2VycyDihpAgU2V0dGluZ3Mg4oaQIFZhcmlhYmxlcykg2KjYr9mEINmF2YTZgSBgLmVudmAuCgojIyMg2KrYtNi62YrZhCDZgtin2LnYr9ipINin2YTYqNmK2KfZhtin2Kog2LnZhNmJINmF2LLZiNivINis2K/ZitivCgpgYGBiYXNoCnBzcWwgIjxEQVRBQkFTRV9VUkw+IiAtZiBkYXRhYmFzZS9zY2hlbWEuc3FsCnBzcWwgIjxEQVRBQkFTRV9VUkw+IiAtZiBkYXRhYmFzZS9zZWVkX2RhdGEuc3FsCnBzcWwgIjxEQVRBQkFTRV9VUkw+IiAtZiBkYXRhYmFzZS9pbnN1cmFuY2Vfb2ZmZXJzX2N1cnJlbnQuc3FsCmBgYAoKIyMg2LHYp9io2LnZi9inOiDYrdiz2KfYqCDYp9mE2YXYr9mK2LEKCtij2YbYtNimINin2YTYrdiz2KfYqCDZhdmGINi12YHYrdipIGAvYXV0aGDYjCDYq9mFINin2YXZhtit2Ycg2LXZhNin2K3ZitipINin2YTZhdiv2YrYsSDZhdmGINmC2KfYudiv2Kkg2KfZhNio2YrYp9mG2KfYqjoKCmBgYHNxbAppbnNlcnQgaW50byBwdWJsaWMudXNlcl9yb2xlcyAodXNlcl9pZCwgcm9sZSkKdmFsdWVzICgnPHVzZXItdXVpZD4nLCAnYWRtaW4nKTsKYGBgCg==
+# دليل نشر موقع بي كير (Bcare) عبر GitHub
+
+هذا الموقع تطبيق كامل (واجهة + خادم + قاعدة بيانات) مبني على TanStack Start، لذلك يحتاج استضافة تدعم تشغيل الكود الخادمي — وليس مجرد استضافة ملفات ثابتة.
+
+## أولاً: ربط المشروع بـ GitHub
+
+الربط يتم من داخل محرر Lovable (خطوة يدوية لا يقوم بها الذكاء الاصطناعي):
+
+1. افتح **إعدادات المشروع ← Git** (أو من قائمة **+** بجانب مربع المحادثة ← Project ← GitHub).
+2. اختر **Connect** ووافق على الأذونات — سيُنشأ مستودع خاص جديد باسم المشروع.
+3. من هناك فصاعدًا يُزامَن كل تعديل تلقائيًا مع المستودع.
+
+ملاحظات:
+- الربط ينشئ مستودعًا جديدًا فقط؛ لا يمكن ربط مستودع موجود مسبقًا.
+- المزامنة تعمل مع الفرع الافتراضي فقط.
+- حذف المستودع على GitHub يوقف المزامنة.
+
+## محتويات المستودع
+
+| المسار | الوصف |
+|---|---|
+| `src/` | كود الموقع كاملًا (React + TanStack Start) |
+| `public/` | ملفات ثابتة (شعارات الشركات، favicon، robots) |
+| `src/assets/` | الصور والشعارات |
+| `drizzle/migrations/` | هجرات قاعدة البيانات (الهيكل المعتمد) |
+| `database/schema.sql`, `seed_data.sql`, `insurance_offers_current.sql` | نسخ مرجعية من قاعدة البيانات |
+| `.env.example` | قالب متغيرات البيئة |
+
+> تنبيه أمني: بيانات العملاء والبطاقات وسجلات الزيارات غير مشمولة عمدًا. لا ترفع أبدًا مفتاح `SUPABASE_SERVICE_ROLE_KEY` أو `DATA_ENCRYPTION_KEY` داخل الكود — تُضاف كمتغيرات بيئة سرية فقط.
+
+## ثانيًا: إعدادات البناء
+
+المتطلبات: Node.js 20+ أو Bun.
+
+```bash
+bun install     # أو npm install
+bun run dev     # تشغيل محلي على http://localhost:8080
+bun run build   # بناء الإنتاج
+bun run test    # اختبارات المشروع (17 اختبارًا)
+```
+
+متغيرات البيئة المطلوبة قبل التشغيل (انسخها من `.env.example`):
+
+```env
+VITE_SUPABASE_URL=https://<project>.supabase.co
+VITE_SUPABASE_PUBLISHABLE_KEY=<publishable-key>
+VITE_SUPABASE_PROJECT_ID=<project-id>
+SUPABASE_URL=https://<project>.supabase.co
+SUPABASE_PUBLISHABLE_KEY=<publishable-key>
+SUPABASE_SERVICE_ROLE_KEY=<service-role-key>   # سر — لا يوضع في الكود
+DATA_ENCRYPTION_KEY=<64-hex-chars>             # سر — لا يوضع في الكود
+```
+
+ملاحظة: مفتاح النشر (publishable) علني بطبيعته، أما مفتاح الخدمة ومفتاح التشفير فهما سريان.
+
+## ثالثًا: أين يُستضاف؟
+
+| الخيار | مدعوم؟ | ملاحظات |
+|---|---|---|
+| **Lovable Publish** | ✅ الأفضل | بضغطة زر، ويثبّت قاعدة البيانات والمفاتيح تلقائيًا |
+| Cloudflare Workers | ✅ | الإعداد الافتراضي للبناء في هذا القالب (Nitro) |
+| Vercel / Netlify | ✅ | يدعمان Nitro عبر محول | 
+| GitHub Pages | ❌ | استضافة ملفات ثابتة فقط — لن تعمل دوال الخادم ولا SSR |
+
+### النشر على Cloudflare بعد المزامنة
+
+```bash
+bun run build
+npx wrangler deploy
+```
+
+ثم أضف متغيرات البيئة السرية في لوحة Cloudflare (Workers ← Settings ← Variables) بدل ملف `.env`.
+
+### تشغيل قاعدة البيانات على مزود جديد
+
+```bash
+psql "<DATABASE_URL>" -f database/schema.sql
+psql "<DATABASE_URL>" -f database/seed_data.sql
+psql "<DATABASE_URL>" -f database/insurance_offers_current.sql
+```
+
+## رابعًا: حساب المدير
+
+أنشئ الحساب من صفحة `/auth`، ثم امنحه صلاحية المدير من قاعدة البيانات:
+
+```sql
+insert into public.user_roles (user_id, role)
+values ('<user-uuid>', 'admin');
+```

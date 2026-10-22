@@ -1,1 +1,80 @@
-IyDZhdmI2YLYuSDYqNmKINmD2YrYsSAoQmNhcmUpIOKAlCDYrdiy2YXYqSDYp9mE2KrYq9io2YrYqiDYp9mE2YPYp9mF2YTYqQoK2YfYsNmHINin2YTYrdiy2YXYqSDYqtit2KrZiNmKINmD2YQg2YXYpyDZitmE2LLZhSDZhNil2LnYp9iv2Kkg2YbYtNixINin2YTZhdmI2YLYuSDZgdmKINij2Yog2YjZgtiqLgoKIyMg2KfZhNmF2K3YqtmI2YrYp9iqCgp8INin2YTZhdiz2KfYsSB8INin2YTZiNi12YEgfAp8LS0tfC0tLXwKfCBgc3JjL2AgfCDZg9mI2K8g2KfZhNmF2YjZgti5IChSZWFjdCArIFRhblN0YWNrIFN0YXJ0KSB8CnwgYHB1YmxpYy9gIHwg2YXZhNmB2KfYqiDYq9in2KjYqtipIChmYXZpY29u2Iwgcm9ib3RzKSB8CnwgYGltYWdlcy9gIHwgKirYrNmF2YrYuSDYtdmI2LEg2KfZhNmF2YjZgti5INin2YTYrdmC2YrZgtmK2KkqKiAo2LTYudin2LHYp9iqINi02LHZg9in2Kog2KfZhNiq2KPZhdmK2YYg2YjYp9mE2KjZhtmI2YMg2YjZhtmB2KfYsCDZiNio2Yog2YPZitix4oCmKSB8CnwgYGRhdGFiYXNlL3NjaGVtYS5zcWxgIHwg2KjZhtmK2Kkg2YLYp9i52K/YqSDYp9mE2KjZitin2YbYp9iqICjYrNiv2KfZiNmE2Iwg2LXZhNin2K3Zitin2KrYjCDYs9mK2KfYs9in2KogUkxT2IwgUmVhbHRpbWUpIHwKfCBgZGF0YWJhc2Uvc2VlZF9kYXRhLnNxbGAgfCDYqNmK2KfZhtin2Kog2KfZhNil2LnYr9in2K/Yp9iqINin2YTYo9mI2YTZitipIHwKfCBgZGF0YWJhc2UvaW5zdXJhbmNlX29mZmVyc19jdXJyZW50LnNxbGAgfCAxMTgg2LnYsdi2INiq2KPZhdmK2YYg2YPZhdinINmH2Yog2KfZhNii2YYg2YHZiiDZgtin2LnYr9ipINin2YTYqNmK2KfZhtin2KogfAp8IGBkcml6emxlL2AsIGBzdXBhYmFzZS9gIHwg2YXZhNmB2KfYqiDYp9mE2YfYrNix2KfYqiDZiNin2YTYpdi52K/Yp9iv2KfYqiB8CnwgYHBhY2thZ2UuanNvbmAsIGBidW5maWcudG9tbGAsIGB2aXRlLmNvbmZpZy50c2AgfCDZhdmE2YHYp9iqINin2YTYqNmG2KfYoSB8Cgo+INmF2YTYp9it2LjYqSDYo9mF2YbZitipOiDYqNmK2KfZhtin2Kog2KfZhNi52YXZhNin2KEg2YjYp9mE2KjYt9in2YLYp9iqINmI2LPYrNmE2KfYqiDYp9mE2LLZitin2LHYp9iqICoq2LrZitixINmF2LTZhdmI2YTYqSoqINi52YXYr9mL2KcuCgojIyDYp9mE2YXYqti32YTYqNin2KoKLSBOb2RlLmpzIDIwKyDYo9mIIEJ1bgotINmF2LTYsdmI2LkgU3VwYWJhc2UgKNij2YggTG92YWJsZSBDbG91ZCkKCiMjINiu2LfZiNin2Kog2KfZhNiq2KvYqNmK2KoKCiMjIyAxLiDYqtir2KjZitiqINin2YTYrdiy2YUKYGBgYmFzaApjZCBiY2FyZQpidW4gaW5zdGFsbCAgICAjINij2YggbnBtIGluc3RhbGwKYGBgCgojIyMgMi4g2YXYqti62YrYsdin2Kog2KfZhNio2YrYptipCtij2YbYtNimINmF2YTZgSBgLmVudmAg2YHZiiDYp9mE2KzYsNixOgpgYGBlbnYKVklURV9TVVBBQkFTRV9VUkw9aHR0cHM6Ly88cHJvamVjdD4uc3VwYWJhc2UuY28KVklURV9TVVBBQkFTRV9QVUJMSVNIQUJMRV9LRVk9PHB1Ymxpc2hhYmxlLWtleT4KVklURV9TVVBBQkFTRV9QUk9KRUNUX0lEPTxwcm9qZWN0LWlkPgpTVVBBQkFTRV9VUkw9aHR0cHM6Ly88cHJvamVjdD4uc3VwYWJhc2UuY28KU1VQQUJBU0VfUFVCTElTSEFCTEVfS0VZPTxwdWJsaXNoYWJsZS1rZXk+ClNVUEFCQVNFX1NFUlZJQ0VfUk9MRV9LRVk9PHNlcnZpY2Utcm9sZS1rZXk+CmBgYAoKIyMjIDMuINiq2YfZitim2Kkg2YLYp9i52K/YqSDYp9mE2KjZitin2YbYp9iqCmBgYGJhc2gKcHNxbCAiPERBVEFCQVNFX1VSTD4iIC1mIGRhdGFiYXNlL3NjaGVtYS5zcWwKcHNxbCAiPERBVEFCQVNFX1VSTD4iIC1mIGRhdGFiYXNlL3NlZWRfZGF0YS5zcWwKcHNxbCAiPERBVEFCQVNFX1VSTD4iIC1mIGRhdGFiYXNlL2luc3VyYW5jZV9vZmZlcnNfY3VycmVudC5zcWwKYGBgCgojIyMgNC4g2LHZgdi5INin2YTYtdmI2LEK2LXZiNixINin2YTZhdmI2YLYuSDZgdmKINmF2KzZhNivIGBpbWFnZXMvYC4g2KfYsdmB2LnZh9inINil2YTZiSDZhdiy2YjZkdivINin2YTYtdmI2LEg2KfZhNiw2Yog2KrYs9iq2K7Yr9mF2YcgKFIy2IwgUzPYjApTdXBhYmFzZSBTdG9yYWdl4oCmKSDYq9mFINit2K/ZkdirINix2YjYp9io2LfZh9inINmB2Yog2YXZhNmB2KfYqiBgc3JjL2Fzc2V0cy8qKi5hc3NldC5qc29uYCAo2YPZhArZhdmE2YEg2YrYrdiq2YjZiiDYrdmC2YQgYHVybGApLgoK2KXZhiDZg9mG2Kog2KrZhti02LEg2LnZhNmJIExvdmFibGUg2YHYs9iq2Y/YsdmB2Lkg2KrZhNmC2KfYptmK2YvYpyDZhdmGINmF2KzZhNivIGBzcmMvYXNzZXRzL2Ag2K/ZiNmGINij2Yog2LnZhdmEINmK2K/ZiNmKLgoKIyMjIDUuINit2LPYp9ioINin2YTZhdiv2YrYsQrYo9mG2LTYpiDYrdiz2KfYqNmL2Kcg2YXZhiBgL2F1dGhg2Iwg2KvZhSDZhdmGINmC2KfYudiv2Kkg2KfZhNio2YrYp9mG2KfYqjoKYGBgc3FsCmluc2VydCBpbnRvIHB1YmxpYy51c2VyX3JvbGVzICh1c2VyX2lkLCByb2xlKQp2YWx1ZXMgKCc8dXNlci11dWlkPicsICdhZG1pbicpOwpgYGAKCiMjIyA2LiDYp9mE2KrYtNi62YrZhCDZhdit2YTZitmL2KcKYGBgYmFzaApidW4gcnVuIGRldiAgICAgICAgICAjIGh0dHA6Ly9sb2NhbGhvc3Q6ODA4MApgYGAKCiMjIyA3LiDYp9mE2KjZhtin2KEg2YTZhNil2YbYqtin2KwKYGBgYmFzaApidW4gcnVuIGJ1aWxkCmBgYAoKIyMg2KfZhNmF2LLYp9mK2KcKLSDYtdmB2K3Yp9iqINiq2KPZhdmK2YYgKNi02KfZhdmEIC8g2LbYryDYp9mE2LrZitixIC8g2LfYqNmKIC8g2LPZgdixKSDYqNij2LPYudin2LEg2YLYp9im2YXYqSDYudmE2Ykg2YLZitmF2Kkg2KfZhNmF2LHZg9io2KkuCi0g2K7YtdmFINio2Yog2YPZitixIDEwJdiMINmI2K7YtdmFINil2LbYp9mB2YogMzAlINi52YbYryDYp9mE2K/Zgdi5INio2KfZhNio2LfYp9mC2KkuCi0g2YXYs9itINin2YTYqNi32KfZgtipINio2KfZhNmD2KfZhdmK2LHYpyDYqtmE2YLYp9im2YrZi9inIChPQ1Ig2LnYqNixIHRlc3NlcmFjdC5qcykuCi0g2KfZhNiq2LnYsdmBINi52YTZiSDYp9mE2KjZhtmI2YMg2KfZhNiz2LnZiNiv2YrYqSDZhdmGINij2LHZgtin2YUgQklOLgotINmE2YjYrdipINiq2K3Zg9mFINmE2K3YuNmK2Kkg2YTYpdiv2KfYsdipINin2YTYstmI2KfYsSDZiNin2YTYt9mE2KjYp9iqINmI2KfZhNit2LjYsS4KLSDYp9mE2KrYrdiv2YrYqyDYp9mE2YTYrdi42YogKFJlYWx0aW1lKSDZgdmKINis2YXZiti5INi12YHYrdin2Kog2KfZhNiy2KfYptixLgo=
+# موقع بي كير (Bcare) — حزمة التثبيت الكاملة
+
+هذه الحزمة تحتوي كل ما يلزم لإعادة نشر الموقع في أي وقت.
+
+## المحتويات
+
+| المسار | الوصف |
+|---|---|
+| `src/` | كود الموقع (React + TanStack Start) |
+| `public/` | ملفات ثابتة (favicon، robots) |
+| `images/` | **جميع صور الموقع الحقيقية** (شعارات شركات التأمين والبنوك ونفاذ وبي كير…) |
+| `database/schema.sql` | بنية قاعدة البيانات (جداول، صلاحيات، سياسات RLS، Realtime) |
+| `database/seed_data.sql` | بيانات الإعدادات الأولية |
+| `database/insurance_offers_current.sql` | 118 عرض تأمين كما هي الآن في قاعدة البيانات |
+| `drizzle/`, `supabase/` | ملفات الهجرات والإعدادات |
+| `package.json`, `bunfig.toml`, `vite.config.ts` | ملفات البناء |
+
+> ملاحظة أمنية: بيانات العملاء والبطاقات وسجلات الزيارات **غير مشمولة** عمدًا.
+
+## المتطلبات
+- Node.js 20+ أو Bun
+- مشروع Supabase (أو Lovable Cloud)
+
+## خطوات التثبيت
+
+### 1. تثبيت الحزم
+```bash
+cd bcare
+bun install    # أو npm install
+```
+
+### 2. متغيرات البيئة
+أنشئ ملف `.env` في الجذر:
+```env
+VITE_SUPABASE_URL=https://<project>.supabase.co
+VITE_SUPABASE_PUBLISHABLE_KEY=<publishable-key>
+VITE_SUPABASE_PROJECT_ID=<project-id>
+SUPABASE_URL=https://<project>.supabase.co
+SUPABASE_PUBLISHABLE_KEY=<publishable-key>
+SUPABASE_SERVICE_ROLE_KEY=<service-role-key>
+```
+
+### 3. تهيئة قاعدة البيانات
+```bash
+psql "<DATABASE_URL>" -f database/schema.sql
+psql "<DATABASE_URL>" -f database/seed_data.sql
+psql "<DATABASE_URL>" -f database/insurance_offers_current.sql
+```
+
+### 4. رفع الصور
+صور الموقع في مجلد `images/`. ارفعها إلى مزوّد الصور الذي تستخدمه (R2، S3،
+Supabase Storage…) ثم حدّث روابطها في ملفات `src/assets/**.asset.json` (كل
+ملف يحتوي حقل `url`).
+
+إن كنت تنشر على Lovable فستُرفع تلقائيًا من مجلد `src/assets/` دون أي عمل يدوي.
+
+### 5. حساب المدير
+أنشئ حسابًا من `/auth`، ثم من قاعدة البيانات:
+```sql
+insert into public.user_roles (user_id, role)
+values ('<user-uuid>', 'admin');
+```
+
+### 6. التشغيل محليًا
+```bash
+bun run dev          # http://localhost:8080
+```
+
+### 7. البناء للإنتاج
+```bash
+bun run build
+```
+
+## المزايا
+- صفحات تأمين (شامل / ضد الغير / طبي / سفر) بأسعار قائمة على قيمة المركبة.
+- خصم بي كير 10%، وخصم إضافي 30% عند الدفع بالبطاقة.
+- مسح البطاقة بالكاميرا تلقائيًا (OCR عبر tesseract.js).
+- التعرف على البنوك السعودية من أرقام BIN.
+- لوحة تحكم لحظية لإدارة الزوار والطلبات والحظر.
+- التحديث اللحظي (Realtime) في جميع صفحات الزائر.

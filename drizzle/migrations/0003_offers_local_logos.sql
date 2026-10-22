@@ -1,1 +1,1 @@
-VVBEQVRFIHB1YmxpYy5pbnN1cmFuY2Vfb2ZmZXJzIFNFVCBjb21wYW55X2xvZ29fdXJsID0gJy9sb2dvcy8nIHx8IHJlZ2V4cF9yZXBsYWNlKGNvbXBhbnlfbG9nb191cmwsICdeLiovJywgJycpIFdIRVJFIGNvbXBhbnlfbG9nb191cmwgTElLRSAnL19fbDVlLyUnOw==
+UPDATE public.insurance_offers SET company_logo_url = '/logos/' || regexp_replace(company_logo_url, '^.*/', '') WHERE company_logo_url LIKE '/__l5e/%';

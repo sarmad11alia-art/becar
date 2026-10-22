@@ -1,1 +1,34 @@
-ewogICJ2ZXJzaW9uIjogIjciLAogICJkaWFsZWN0IjogInBvc3RncmVzcWwiLAogICJlbnRyaWVzIjogWwogICAgewogICAgICAiaWR4IjogMCwKICAgICAgInZlcnNpb24iOiAiNyIsCiAgICAgICJ3aGVuIjogMTc5MjY3MzQ5NTUzNiwKICAgICAgInRhZyI6ICIwMDAwX2JjYXJlX3NjaGVtYSIsCiAgICAgICJicmVha3BvaW50cyI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJpZHgiOiAxLAogICAgICAidmVyc2lvbiI6ICI3IiwKICAgICAgIndoZW4iOiAxNzkyNjczNjMxNTM5LAogICAgICAidGFnIjogIjAwMDFfYmNhcmVfc2VlZF9vZmZlcnMiLAogICAgICAiYnJlYWtwb2ludHMiOiB0cnVlCiAgICB9LAogICAgewogICAgICAiaWR4IjogMiwKICAgICAgInZlcnNpb24iOiAiNyIsCiAgICAgICJ3aGVuIjogMTc5MjY3MzY1NTY1NiwKICAgICAgInRhZyI6ICIwMDAyX3F1b3Rlc19oYXNoX2NvbHVtbnMiLAogICAgICAiYnJlYWtwb2ludHMiOiB0cnVlCiAgICB9LAogICAgewogICAgICAiaWR4IjogMywKICAgICAgInZlcnNpb24iOiAiNyIsCiAgICAgICJ3aGVuIjogMTc5MjY3NDMzNTM5OSwKICAgICAgInRhZyI6ICIwMDAzX29mZmVyc19sb2NhbF9sb2dvcyIsCiAgICAgICJicmVha3BvaW50cyI6IHRydWUKICAgIH0KICBdCn0K
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792673495536,
+      "tag": "0000_bcare_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792673631539,
+      "tag": "0001_bcare_seed_offers",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792673655656,
+      "tag": "0002_quotes_hash_columns",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792674335399,
+      "tag": "0003_offers_local_logos",
+      "breakpoints": true
+    }
+  ]
+}
