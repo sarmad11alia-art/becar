@@ -1,1 +1,48 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IFB1YmxpY0xheW91dCB9IGZyb20gIkAvY29tcG9uZW50cy9QdWJsaWNMYXlvdXQiOwppbXBvcnQgeyB1c2VWaXNpdG9yVHJhY2tpbmcgfSBmcm9tICJAL2hvb2tzL3VzZVZpc2l0b3JUcmFja2luZyI7CmltcG9ydCB7IEludGFrZVNoZWxsLCBGaWVsZCwgU2VsZWN0RmllbGQsIHN1Ym1pdE1lZGljYWwgfSBmcm9tICJAL2NvbXBvbmVudHMvSW5zdXJhbmNlSW50YWtlRm9ybSI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9tZWRpY2FsIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLYp9mE2KrYo9mF2YrZhiDYp9mE2LfYqNmKIHwg2KjZiiDZg9mK2LEiIH0sCiAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogItmC2KfYsdmGINio2YrZhiDYudix2YjYtiDYp9mE2KrYo9mF2YrZhiDYp9mE2LfYqNmKINmF2YYg2YPYqNix2Ykg2KfZhNi02LHZg9in2Kog2KfZhNiz2LnZiNiv2YrYqSIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogItin2YTYqtij2YXZitmGINin2YTYt9io2YogfCDYqNmKINmD2YrYsSIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogItmC2KfYsdmGINio2YrZhiDYudix2YjYtiDYp9mE2KrYo9mF2YrZhiDYp9mE2LfYqNmKINmF2YYg2YPYqNix2Ykg2KfZhNi02LHZg9in2Kog2KfZhNiz2LnZiNiv2YrYqSIgfSwKICAgIF0sCiAgfSksCiAgY29tcG9uZW50OiBNZWRpY2FsUGFnZSwKfSk7CgpmdW5jdGlvbiBNZWRpY2FsUGFnZSgpIHsKICB1c2VWaXNpdG9yVHJhY2tpbmcoItio2YrYp9mG2KfYqiDYt9io2YoiKTsKICByZXR1cm4gKAogICAgPFB1YmxpY0xheW91dCBzaG93SGVybyB0aXRsZT0i2KfZhNiq2KPZhdmK2YYg2KfZhNi32KjZiiIgc3VidGl0bGU9Iti52KjZkdimINin2YTYqNmK2KfZhtin2Kog2YTYqti42YfYsSDZhNmDINij2YHYttmEINin2YTYudix2YjYtiI+CiAgICAgIDxJbnRha2VTaGVsbAogICAgICAgIGtpbmQ9Im1lZGljYWwiCiAgICAgICAgdGl0bGU9Itio2YrYp9mG2KfYqiDYp9mE2KrYo9mF2YrZhiDYp9mE2LfYqNmKIgogICAgICAgIHN1YnRpdGxlPSLYqNmK2KfZhtin2Kog2YXYrtiq2LXYsdipINmE2YTYrdi12YjZhCDYudmE2Ykg2LnYsdi2INmF2YbYp9iz2KgiCiAgICAgICAgb25TdWJtaXQ9e3N1Ym1pdE1lZGljYWx9CiAgICAgID4KICAgICAgICA8RmllbGQgbGFiZWw9Itin2YTYp9iz2YUg2KfZhNmD2KfZhdmEIiBuYW1lPSJmdWxsX25hbWUiIHJlcXVpcmVkIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgICAgPEZpZWxkIGxhYmVsPSLYp9mE2KzZiNin2YQiIG5hbWU9InBob25lIiByZXF1aXJlZCBpbnB1dE1vZGU9InRlbCIgcGxhY2Vob2xkZXI9IjA1eHh4eHh4eHgiIC8+CiAgICAgICAgICA8RmllbGQgbGFiZWw9Itin2YTYqNix2YrYryDYp9mE2KXZhNmD2KrYsdmI2YbZiiIgbmFtZT0iZW1haWwiIHR5cGU9ImVtYWlsIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0zIj4KICAgICAgICAgIDxGaWVsZCBsYWJlbD0i2KfZhNi52YXYsSIgbmFtZT0iYWdlIiB0eXBlPSJudW1iZXIiIG1pbj17MH0gbWF4PXsxMjB9IHJlcXVpcmVkIC8+CiAgICAgICAgICA8RmllbGQgbGFiZWw9Iti52K/YryDYp9mE2YXYpNmF2ZHZhtmK2YYiIG5hbWU9Im51bV9pbnN1cmVkIiB0eXBlPSJudW1iZXIiIG1pbj17MX0gbWF4PXs1MH0gcmVxdWlyZWQgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8RmllbGQgbGFiZWw9Iti02LHZg9ipINin2YTYqtij2YXZitmGINin2YTYrdin2YTZitipICjYp9iu2KrZitin2LHZiikiIG5hbWU9ImN1cnJlbnRfaW5zdXJlciIgLz4KICAgICAgICA8U2VsZWN0RmllbGQKICAgICAgICAgIGxhYmVsPSLZhtmI2Lkg2KfZhNiq2LrYt9mK2KkiCiAgICAgICAgICBuYW1lPSJjb3ZlcmFnZV90eXBlIgogICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgIG9wdGlvbnM9e1si2KPYs9in2LPZiiIsICLZhdiq2YjYs9i3IiwgIti02KfZhdmEIiwgIlZJUCJdfQogICAgICAgIC8+CiAgICAgICAgPEZpZWxkIGxhYmVsPSLYp9mE2YXZitiy2KfZhtmK2Kkg2KfZhNiq2YLYsdmK2KjZitipICjYp9iu2KrZitin2LHZiikiIG5hbWU9ImJ1ZGdldCIgaW5wdXRNb2RlPSJudW1lcmljIiBwbGFjZWhvbGRlcj0i2LEu2LMiIC8+CiAgICAgIDwvSW50YWtlU2hlbGw+CiAgICA8L1B1YmxpY0xheW91dD4KICApOwp9Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import { PublicLayout } from "@/components/PublicLayout";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { IntakeShell, Field, SelectField, submitMedical } from "@/components/InsuranceIntakeForm";
+
+export const Route = createFileRoute("/medical")({
+  head: () => ({
+    meta: [
+      { title: "التأمين الطبي | بي كير" },
+      { name: "description", content: "قارن بين عروض التأمين الطبي من كبرى الشركات السعودية" },
+      { property: "og:title", content: "التأمين الطبي | بي كير" },
+      { property: "og:description", content: "قارن بين عروض التأمين الطبي من كبرى الشركات السعودية" },
+    ],
+  }),
+  component: MedicalPage,
+});
+
+function MedicalPage() {
+  useVisitorTracking("بيانات طبي");
+  return (
+    <PublicLayout showHero title="التأمين الطبي" subtitle="عبّئ البيانات لتظهر لك أفضل العروض">
+      <IntakeShell
+        kind="medical"
+        title="بيانات التأمين الطبي"
+        subtitle="بيانات مختصرة للحصول على عرض مناسب"
+        onSubmit={submitMedical}
+      >
+        <Field label="الاسم الكامل" name="full_name" required />
+        <div className="grid grid-cols-2 gap-3">
+          <Field label="الجوال" name="phone" required inputMode="tel" placeholder="05xxxxxxxx" />
+          <Field label="البريد الإلكتروني" name="email" type="email" />
+        </div>
+        <div className="grid grid-cols-2 gap-3">
+          <Field label="العمر" name="age" type="number" min={0} max={120} required />
+          <Field label="عدد المؤمّنين" name="num_insured" type="number" min={1} max={50} required />
+        </div>
+        <Field label="شركة التأمين الحالية (اختياري)" name="current_insurer" />
+        <SelectField
+          label="نوع التغطية"
+          name="coverage_type"
+          required
+          options={["أساسي", "متوسط", "شامل", "VIP"]}
+        />
+        <Field label="الميزانية التقريبية (اختياري)" name="budget" inputMode="numeric" placeholder="ر.س" />
+      </IntakeShell>
+    </PublicLayout>
+  );
+}

@@ -1,1 +1,48 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IFB1YmxpY0xheW91dCB9IGZyb20gIkAvY29tcG9uZW50cy9QdWJsaWNMYXlvdXQiOwppbXBvcnQgeyB1c2VWaXNpdG9yVHJhY2tpbmcgfSBmcm9tICJAL2hvb2tzL3VzZVZpc2l0b3JUcmFja2luZyI7CmltcG9ydCB7IEludGFrZVNoZWxsLCBGaWVsZCwgc3VibWl0TWVkaWNhbE1pcyB9IGZyb20gIkAvY29tcG9uZW50cy9JbnN1cmFuY2VJbnRha2VGb3JtIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL21lZGljYWwtbWlzIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLYqtij2YXZitmGINin2YTYo9iu2LfYp9ihINin2YTYt9io2YrYqSB8INio2Yog2YPZitixIiB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLYqtij2YXZitmGINmF2LPYpNmI2YTZitipINin2YTYo9iu2LfYp9ihINin2YTYt9io2YrYqSDZhNmE2YXZh9mG2YrZitmGINin2YTYtdit2YrZitmGIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiAi2KrYo9mF2YrZhiDYp9mE2KPYrti32KfYoSDYp9mE2LfYqNmK2KkgfCDYqNmKINmD2YrYsSIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogItiq2KPZhdmK2YYg2YXYs9ik2YjZhNmK2Kkg2KfZhNij2K7Yt9in2KEg2KfZhNi32KjZitipINmE2YTZhdmH2YbZitmK2YYg2KfZhNi12K3ZitmK2YYiIH0sCiAgICBdLAogIH0pLAogIGNvbXBvbmVudDogTWVkaWNhbE1pc1BhZ2UsCn0pOwoKZnVuY3Rpb24gTWVkaWNhbE1pc1BhZ2UoKSB7CiAgdXNlVmlzaXRvclRyYWNraW5nKCLYqNmK2KfZhtin2Kog2KPYrti32KfYoSDYt9io2YrYqSIpOwogIHJldHVybiAoCiAgICA8UHVibGljTGF5b3V0IHNob3dIZXJvIHRpdGxlPSLYqtij2YXZitmGINin2YTYo9iu2LfYp9ihINin2YTYt9io2YrYqSIgc3VidGl0bGU9Itit2YXYp9mK2Kkg2YXZh9mG2YrYqSDZhNmE2YXYstin2YjZhNmK2YYg2KfZhNi12K3ZitmK2YYiPgogICAgICA8SW50YWtlU2hlbGwKICAgICAgICBraW5kPSJtZWRpY2FsLW1pcyIKICAgICAgICB0aXRsZT0i2KjZitin2YbYp9iqINiq2KPZhdmK2YYg2KfZhNij2K7Yt9in2KEg2KfZhNi32KjZitipIgogICAgICAgIHN1YnRpdGxlPSLZhdi32YTZiNioINmF2YYg2YfZitim2Kkg2KfZhNiq2K7Ytdi12KfYqiDYp9mE2LXYrdmK2KkiCiAgICAgICAgb25TdWJtaXQ9e3N1Ym1pdE1lZGljYWxNaXN9CiAgICAgID4KICAgICAgICA8RmllbGQgbGFiZWw9Itin2YTYp9iz2YUg2KfZhNmD2KfZhdmEIiBuYW1lPSJmdWxsX25hbWUiIHJlcXVpcmVkIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgICAgPEZpZWxkIGxhYmVsPSLYp9mE2KzZiNin2YQiIG5hbWU9InBob25lIiByZXF1aXJlZCBpbnB1dE1vZGU9InRlbCIgcGxhY2Vob2xkZXI9IjA1eHh4eHh4eHgiIC8+CiAgICAgICAgICA8RmllbGQgbGFiZWw9Itin2YTYqNix2YrYryDYp9mE2KXZhNmD2KrYsdmI2YbZiiIgbmFtZT0iZW1haWwiIHR5cGU9ImVtYWlsIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxGaWVsZCBsYWJlbD0i2KfZhNmF2YfZhtipIC8g2KfZhNiq2K7Ytdi1IiBuYW1lPSJwcm9mZXNzaW9uIiByZXF1aXJlZCBwbGFjZWhvbGRlcj0i2YXYq9in2YQ6INi32KjZitioINij2LPZhtin2YYiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTMiPgogICAgICAgICAgPEZpZWxkIGxhYmVsPSLYsdmC2YUg2KfZhNiq2LHYrtmK2LUiIG5hbWU9ImxpY2Vuc2VfbnVtYmVyIiByZXF1aXJlZCAvPgogICAgICAgICAgPEZpZWxkIGxhYmVsPSLYrNmH2Kkg2KfZhNi52YXZhCIgbmFtZT0id29ya3BsYWNlIiByZXF1aXJlZCAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxGaWVsZAogICAgICAgICAgbGFiZWw9ItmF2KjZhNi6INin2YTYqti62LfZitipINin2YTZhdi32YTZiNioICjYsS7YsykiCiAgICAgICAgICBuYW1lPSJjb3ZlcmFnZV9hbW91bnQiCiAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgaW5wdXRNb2RlPSJudW1lcmljIgogICAgICAgICAgcGxhY2Vob2xkZXI9ItmF2KvYp9mEOiA1MDAwMDAiCiAgICAgICAgLz4KICAgICAgPC9JbnRha2VTaGVsbD4KICAgIDwvUHVibGljTGF5b3V0PgogICk7Cn0K
+import { createFileRoute } from "@tanstack/react-router";
+import { PublicLayout } from "@/components/PublicLayout";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { IntakeShell, Field, submitMedicalMis } from "@/components/InsuranceIntakeForm";
+
+export const Route = createFileRoute("/medical-mis")({
+  head: () => ({
+    meta: [
+      { title: "تأمين الأخطاء الطبية | بي كير" },
+      { name: "description", content: "تأمين مسؤولية الأخطاء الطبية للمهنيين الصحيين" },
+      { property: "og:title", content: "تأمين الأخطاء الطبية | بي كير" },
+      { property: "og:description", content: "تأمين مسؤولية الأخطاء الطبية للمهنيين الصحيين" },
+    ],
+  }),
+  component: MedicalMisPage,
+});
+
+function MedicalMisPage() {
+  useVisitorTracking("بيانات أخطاء طبية");
+  return (
+    <PublicLayout showHero title="تأمين الأخطاء الطبية" subtitle="حماية مهنية للمزاولين الصحيين">
+      <IntakeShell
+        kind="medical-mis"
+        title="بيانات تأمين الأخطاء الطبية"
+        subtitle="مطلوب من هيئة التخصصات الصحية"
+        onSubmit={submitMedicalMis}
+      >
+        <Field label="الاسم الكامل" name="full_name" required />
+        <div className="grid grid-cols-2 gap-3">
+          <Field label="الجوال" name="phone" required inputMode="tel" placeholder="05xxxxxxxx" />
+          <Field label="البريد الإلكتروني" name="email" type="email" />
+        </div>
+        <Field label="المهنة / التخصص" name="profession" required placeholder="مثال: طبيب أسنان" />
+        <div className="grid grid-cols-2 gap-3">
+          <Field label="رقم الترخيص" name="license_number" required />
+          <Field label="جهة العمل" name="workplace" required />
+        </div>
+        <Field
+          label="مبلغ التغطية المطلوب (ر.س)"
+          name="coverage_amount"
+          required
+          inputMode="numeric"
+          placeholder="مثال: 500000"
+        />
+      </IntakeShell>
+    </PublicLayout>
+  );
+}

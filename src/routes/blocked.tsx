@@ -1,1 +1,13 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9ibG9ja2VkIikoewogIGhlYWQ6ICgpID0+ICh7IG1ldGE6IFt7IHRpdGxlOiAi2LrZitixINmF2KrYp9itIiB9XSB9KSwKICBjb21wb25lbnQ6ICgpID0+ICgKICAgIDxkaXYgZGlyPSJydGwiIGNsYXNzTmFtZT0iZmxleCBtaW4taC1zY3JlZW4gaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLXNsYXRlLTUwIHAtNiB0ZXh0LWNlbnRlciI+CiAgICAgIDxkaXY+CiAgICAgICAgPGgxIGNsYXNzTmFtZT0ibWItMiB0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1yZWQtNjAwIj7YqtmFINix2YHYtiDYp9mE2YjYtdmI2YQ8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS02MDAiPtmE2Kcg2YrZhdmD2YbZgyDYp9mE2YjYtdmI2YQg2KXZhNmJINmH2LDYpyDYp9mE2YXZiNmC2LkuPC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICksCn0pOwo=
+import { createFileRoute } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/blocked")({
+  head: () => ({ meta: [{ title: "غير متاح" }] }),
+  component: () => (
+    <div dir="rtl" className="flex min-h-screen items-center justify-center bg-slate-50 p-6 text-center">
+      <div>
+        <h1 className="mb-2 text-2xl font-bold text-red-600">تم رفض الوصول</h1>
+        <p className="text-slate-600">لا يمكنك الوصول إلى هذا الموقع.</p>
+      </div>
+    </div>
+  ),
+});

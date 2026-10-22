@@ -1,1 +1,103 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IFB1YmxpY0xheW91dCB9IGZyb20gIkAvY29tcG9uZW50cy9QdWJsaWNMYXlvdXQiOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB1c2VWaXNpdG9yVHJhY2tpbmcgfSBmcm9tICJAL2hvb2tzL3VzZVZpc2l0b3JUcmFja2luZyI7CmltcG9ydCB7IENoZWNrQ2lyY2xlMiwgRG93bmxvYWQsIEhvbWUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvY29uZmlybWF0aW9uIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLYqtmFINil2LXYr9in2LEg2KfZhNmI2KvZitmC2KkgfCDYqNmKINmD2YrYsSIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAi2KrZhSDYp9mE2K/Zgdi5INio2YbYrNin2K0g2YjYpdi12K/Yp9ixINmI2KvZitmC2Kkg2KfZhNiq2KPZhdmK2YYiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICLYqtmFINil2LXYr9in2LEg2KfZhNmI2KvZitmC2KkgfCDYqNmKINmD2YrYsSIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogItiq2YUg2KfZhNiv2YHYuSDYqNmG2KzYp9itINmI2KXYtdiv2KfYsSDZiNir2YrZgtipINin2YTYqtij2YXZitmGIiB9LAogICAgXSwKICB9KSwKICBjb21wb25lbnQ6IENvbmZpcm1hdGlvblBhZ2UsCn0pOwoKdHlwZSBTZWxlY3RlZE9mZmVyID0gewogIGNvbXBhbnlfbmFtZTogc3RyaW5nOwogIGNvbXBhbnlfbG9nb191cmw6IHN0cmluZyB8IG51bGw7CiAgdHlwZTogc3RyaW5nOwogIHRvdGFsOiBudW1iZXI7Cn07Cgpjb25zdCBtb25leSA9IChuOiBudW1iZXIpID0+CiAgbi50b0xvY2FsZVN0cmluZygiZW4tVVMiLCB7IG1pbmltdW1GcmFjdGlvbkRpZ2l0czogMiwgbWF4aW11bUZyYWN0aW9uRGlnaXRzOiAyIH0pOwoKZnVuY3Rpb24gQ29uZmlybWF0aW9uUGFnZSgpIHsKICB1c2VWaXNpdG9yVHJhY2tpbmcoItiq2KPZg9mK2K8g2KXYtdiv2KfYsSDYp9mE2YjYq9mK2YLYqSIpOwogIGNvbnN0IFtvZmZlciwgc2V0T2ZmZXJdID0gdXNlU3RhdGU8U2VsZWN0ZWRPZmZlciB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtwb2xpY3lObywgc2V0UG9saWN5Tm9dID0gdXNlU3RhdGUoIiIpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgcmF3ID0gd2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKCJiY2FyZV9zZWxlY3RlZF9vZmZlciIpOwogICAgICBpZiAocmF3KSBzZXRPZmZlcihKU09OLnBhcnNlKHJhdykgYXMgU2VsZWN0ZWRPZmZlcik7CiAgICB9IGNhdGNoIHsKICAgICAgLyogaWdub3JlICovCiAgICB9CiAgICBzZXRQb2xpY3lObyhgQkMtJHtNYXRoLmZsb29yKDEwMDAwMCArIE1hdGgucmFuZG9tKCkgKiA5MDAwMDApfWApOwogIH0sIFtdKTsKCiAgcmV0dXJuICgKICAgIDxQdWJsaWNMYXlvdXQ+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBtYXgtdy14bCBweC0zIHB5LTEwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ib3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtM3hsIGJnLXdoaXRlIHAtNiB0ZXh0LWNlbnRlciBzaGFkb3ctc20gcmluZy0xIHJpbmctc2xhdGUtMTAwIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1iLTQgZ3JpZCBoLTE2IHctMTYgcGxhY2UtaXRlbXMtY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1lbWVyYWxkLTUwIj4KICAgICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9ImgtOSB3LTkgdGV4dC1lbWVyYWxkLTUwMCIgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0ibWItMSB0ZXh0LXhsIGZvbnQtYmxhY2sgdGV4dC1iY2FyZS1pbmsiPtiq2YUg2KXYtdiv2KfYsSDYp9mE2YjYq9mK2YLYqSDYqNmG2KzYp9itPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibWItNSB0ZXh0LXNtIHRleHQtc2xhdGUtNTAwIj4KICAgICAgICAgICAg2LTZg9ix2KfZiyDZhNir2YLYqtmDINmB2Yog2KjZiiDZg9mK2LEuINiq2YUg2KrYo9mD2YrYryDYudmF2YTZitipINin2YTYr9mB2Lkg2YjYpdi12K/Yp9ixINmI2KvZitmC2Kkg2KfZhNiq2KPZhdmK2YYg2KfZhNiu2KfYtdipINio2YMuCiAgICAgICAgICA8L3A+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTUgcm91bmRlZC0yeGwgYmctYmNhcmUtc3VyZmFjZSBwLTQgdGV4dC1zbSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBweS0xLjUiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPtix2YLZhSDYp9mE2YjYq9mK2YLYqTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtYmxhY2sgdGV4dC1iY2FyZS1ibHVlIiBkaXI9Imx0ciI+e3BvbGljeU5vfTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIHtvZmZlciAmJiAoCiAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBweS0xLjUiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNTAwIj7YtNix2YPYqSDYp9mE2KrYo9mF2YrZhjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1iY2FyZS1ibHVlIj57b2ZmZXIuY29tcGFueV9uYW1lfTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHB5LTEuNSI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPtmG2YjYuSDYp9mE2KrYo9mF2YrZhjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1iY2FyZS1ibHVlIj57b2ZmZXIudHlwZX08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBib3JkZXItdCBib3JkZXItYmNhcmUtYm9yZGVyIHB5LTEuNSI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc2xhdGUtNjAwIj7Yp9mE2YXYqNmE2Log2KfZhNmF2K/ZgdmI2Lk8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ibGFjayB0ZXh0LWJjYXJlLW9yYW5nZSI+e21vbmV5KG9mZmVyLnRvdGFsKX0g2LHZitin2YQ8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibWItNSB0ZXh0LXhzIHRleHQtc2xhdGUtNDAwIj4KICAgICAgICAgICAg2LPYqti12YTZgyDZhtiz2K7YqSDZhdmGINin2YTZiNir2YrZgtipINi52YTZiSDYrNmI2KfZhNmDINmI2KjYsdmK2K/ZgyDYp9mE2KXZhNmD2KrYsdmI2YbZiiDYrtmE2KfZhCDYr9mC2KfYptmCLgogICAgICAgICAgPC9wPgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC0yIj4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaC0xMiB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtbGcgYmctYmNhcmUtYmx1ZSBmb250LWJvbGQgdGV4dC13aGl0ZSBob3ZlcjpiZy1iY2FyZS1ibHVlLWRhcmsiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8RG93bmxvYWQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPgogICAgICAgICAgICAgINiq2K3ZhdmK2YQg2KfZhNmI2KvZitmC2KkKICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgdG89Ii8iCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGgtMTIgdy1mdWxsIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiByb3VuZGVkLWxnIGJnLWJjYXJlLXN1cmZhY2UgZm9udC1ib2xkIHRleHQtYmNhcmUtYmx1ZSBob3ZlcjpiZy1iY2FyZS1ib3JkZXIiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8SG9tZSBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAg2KfZhNi52YjYr9ipINmE2YTYsdim2YrYs9mK2KkKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9QdWJsaWNMYXlvdXQ+CiAgKTsKfQo=
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { PublicLayout } from "@/components/PublicLayout";
+import { useEffect, useState } from "react";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { CheckCircle2, Download, Home } from "lucide-react";
+
+export const Route = createFileRoute("/confirmation")({
+  head: () => ({
+    meta: [
+      { title: "تم إصدار الوثيقة | بي كير" },
+      { name: "description", content: "تم الدفع بنجاح وإصدار وثيقة التأمين" },
+      { property: "og:title", content: "تم إصدار الوثيقة | بي كير" },
+      { property: "og:description", content: "تم الدفع بنجاح وإصدار وثيقة التأمين" },
+    ],
+  }),
+  component: ConfirmationPage,
+});
+
+type SelectedOffer = {
+  company_name: string;
+  company_logo_url: string | null;
+  type: string;
+  total: number;
+};
+
+const money = (n: number) =>
+  n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+function ConfirmationPage() {
+  useVisitorTracking("تأكيد إصدار الوثيقة");
+  const [offer, setOffer] = useState<SelectedOffer | null>(null);
+  const [policyNo, setPolicyNo] = useState("");
+
+  useEffect(() => {
+    try {
+      const raw = window.localStorage.getItem("bcare_selected_offer");
+      if (raw) setOffer(JSON.parse(raw) as SelectedOffer);
+    } catch {
+      /* ignore */
+    }
+    setPolicyNo(`BC-${Math.floor(100000 + Math.random() * 900000)}`);
+  }, []);
+
+  return (
+    <PublicLayout>
+      <div className="container mx-auto max-w-xl px-3 py-10">
+        <div className="overflow-hidden rounded-3xl bg-white p-6 text-center shadow-sm ring-1 ring-slate-100">
+          <div className="mx-auto mb-4 grid h-16 w-16 place-items-center rounded-full bg-emerald-50">
+            <CheckCircle2 className="h-9 w-9 text-emerald-500" />
+          </div>
+          <h1 className="mb-1 text-xl font-black text-bcare-ink">تم إصدار الوثيقة بنجاح</h1>
+          <p className="mb-5 text-sm text-slate-500">
+            شكراً لثقتك في بي كير. تم تأكيد عملية الدفع وإصدار وثيقة التأمين الخاصة بك.
+          </p>
+
+          <div className="mb-5 rounded-2xl bg-bcare-surface p-4 text-sm">
+            <div className="flex justify-between py-1.5">
+              <span className="text-slate-500">رقم الوثيقة</span>
+              <span className="font-black text-bcare-blue" dir="ltr">{policyNo}</span>
+            </div>
+            {offer && (
+              <>
+                <div className="flex justify-between py-1.5">
+                  <span className="text-slate-500">شركة التأمين</span>
+                  <span className="font-bold text-bcare-blue">{offer.company_name}</span>
+                </div>
+                <div className="flex justify-between py-1.5">
+                  <span className="text-slate-500">نوع التأمين</span>
+                  <span className="font-bold text-bcare-blue">{offer.type}</span>
+                </div>
+                <div className="flex justify-between border-t border-bcare-border py-1.5">
+                  <span className="font-bold text-slate-600">المبلغ المدفوع</span>
+                  <span className="font-black text-bcare-orange">{money(offer.total)} ريال</span>
+                </div>
+              </>
+            )}
+          </div>
+
+          <p className="mb-5 text-xs text-slate-400">
+            ستصلك نسخة من الوثيقة على جوالك وبريدك الإلكتروني خلال دقائق.
+          </p>
+
+          <div className="flex flex-col gap-2">
+            <button
+              type="button"
+              className="flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-bcare-blue font-bold text-white hover:bg-bcare-blue-dark"
+            >
+              <Download className="h-4 w-4" />
+              تحميل الوثيقة
+            </button>
+            <Link
+              to="/"
+              className="flex h-12 w-full items-center justify-center gap-2 rounded-lg bg-bcare-surface font-bold text-bcare-blue hover:bg-bcare-border"
+            >
+              <Home className="h-4 w-4" />
+              العودة للرئيسية
+            </Link>
+          </div>
+        </div>
+      </div>
+    </PublicLayout>
+  );
+}

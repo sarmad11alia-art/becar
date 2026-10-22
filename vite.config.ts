@@ -1,1 +1,47 @@
-Ly8gQGxvdmFibGUuZGV2L3ZpdGUtdGFuc3RhY2stY29uZmlnIGFscmVhZHkgaW5jbHVkZXMgdGhlIGZvbGxvd2luZyDigJQgZG8gTk9UIGFkZCB0aGVtIG1hbnVhbGx5Ci8vIG9yIHRoZSBhcHAgd2lsbCBicmVhayB3aXRoIGR1cGxpY2F0ZSBwbHVnaW5zOgovLyAgIC0gVGFuU3RhY2sgZGV2dG9vbHMgKGRldi1vbmx5LCBmaXJzdCksIHRhbnN0YWNrU3RhcnQsIHZpdGVSZWFjdCwgdGFpbHdpbmRjc3MsIHRzQ29uZmlnUGF0aHMsCi8vICAgICBuaXRybyAoYnVpbGQtb25seSB1c2luZyBjbG91ZGZsYXJlIGFzIGEgZGVmYXVsdCB0YXJnZXQpLCBWSVRFXyogZW52IGluamVjdGlvbiwgQCBwYXRoIGFsaWFzLAovLyAgICAgUmVhY3QvVGFuU3RhY2sgZGVkdXBlLCBlcnJvciBsb2dnZXIgcGx1Z2lucywgYW5kIHNhbmRib3ggZGV0ZWN0aW9uIChwb3J0L2hvc3Qvc3RyaWN0UG9ydCkuCi8vIFlvdSBjYW4gcGFzcyBhZGRpdGlvbmFsIGNvbmZpZyB2aWEgZGVmaW5lQ29uZmlnKHsgdml0ZTogeyAuLi4gfSwgZXRjLi4uIH0pIGlmIG5lZWRlZC4KaW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAiQGxvdmFibGUuZGV2L3ZpdGUtdGFuc3RhY2stY29uZmlnIjsKaW1wb3J0IEphdmFTY3JpcHRPYmZ1c2NhdG9yIGZyb20gImphdmFzY3JpcHQtb2JmdXNjYXRvciI7CmltcG9ydCB0eXBlIHsgUGx1Z2luIH0gZnJvbSAidml0ZSI7CgovLyBPYmZ1c2NhdGVzIGJyb3dzZXIgKGNsaWVudCkgYnVuZGxlcyBhdCBidWlsZCB0aW1lIG9ubHkuCi8vIERldiBtb2RlIGFuZCB0aGUgc2VydmVyIGJ1bmRsZSBhcmUgbGVmdCB1bnRvdWNoZWQuCmZ1bmN0aW9uIG9iZnVzY2F0ZUNsaWVudCgpOiBQbHVnaW4gewogIHJldHVybiB7CiAgICBuYW1lOiAib2JmdXNjYXRlLWNsaWVudCIsCiAgICBhcHBseTogImJ1aWxkIiwKICAgIGVuZm9yY2U6ICJwb3N0IiwKICAgIGdlbmVyYXRlQnVuZGxlKF9vcHRzLCBidW5kbGUpIHsKICAgICAgaWYgKHRoaXMuZW52aXJvbm1lbnQ/Lm5hbWUgIT09ICJjbGllbnQiKSByZXR1cm47CiAgICAgIGZvciAoY29uc3QgW2ZpbGVOYW1lLCBjaHVua10gb2YgT2JqZWN0LmVudHJpZXMoYnVuZGxlKSkgewogICAgICAgIGlmIChjaHVuay50eXBlICE9PSAiY2h1bmsiIHx8ICFmaWxlTmFtZS5lbmRzV2l0aCgiLmpzIikpIGNvbnRpbnVlOwogICAgICAgIGNodW5rLmNvZGUgPSBKYXZhU2NyaXB0T2JmdXNjYXRvci5vYmZ1c2NhdGUoY2h1bmsuY29kZSwgewogICAgICAgICAgY29tcGFjdDogdHJ1ZSwKICAgICAgICAgIGlkZW50aWZpZXJOYW1lc0dlbmVyYXRvcjogImhleGFkZWNpbWFsIiwKICAgICAgICAgIHJlbmFtZUdsb2JhbHM6IGZhbHNlLAogICAgICAgICAgc3RyaW5nQXJyYXk6IHRydWUsCiAgICAgICAgICBzdHJpbmdBcnJheUVuY29kaW5nOiBbImJhc2U2NCJdLAogICAgICAgICAgc3RyaW5nQXJyYXlUaHJlc2hvbGQ6IDAuNzUsCiAgICAgICAgICBzcGxpdFN0cmluZ3M6IHRydWUsCiAgICAgICAgICBzcGxpdFN0cmluZ3NDaHVua0xlbmd0aDogMTAsCiAgICAgICAgICB1bmljb2RlRXNjYXBlU2VxdWVuY2U6IGZhbHNlLAogICAgICAgIH0pLmdldE9iZnVzY2F0ZWRDb2RlKCk7CiAgICAgIH0KICAgIH0sCiAgfTsKfQoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICB0YW5zdGFja1N0YXJ0OiB7CiAgICAvLyBSZWRpcmVjdCBUYW5TdGFjayBTdGFydCdzIGJ1bmRsZWQgc2VydmVyIGVudHJ5IHRvIHNyYy9zZXJ2ZXIudHMgKG91ciBTU1IgZXJyb3Igd3JhcHBlcikuCiAgICAvLyBuaXRyby92aXRlIGJ1aWxkcyBmcm9tIHRoaXMKICAgIHNlcnZlcjogeyBlbnRyeTogInNlcnZlciIgfSwKICB9LAogIHZpdGU6IHsKICAgIHBsdWdpbnM6IFtvYmZ1c2NhdGVDbGllbnQoKV0sCiAgfSwKfSk7Cg==
+// @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
+// or the app will break with duplicate plugins:
+//   - TanStack devtools (dev-only, first), tanstackStart, viteReact, tailwindcss, tsConfigPaths,
+//     nitro (build-only using cloudflare as a default target), VITE_* env injection, @ path alias,
+//     React/TanStack dedupe, error logger plugins, and sandbox detection (port/host/strictPort).
+// You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
+import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import JavaScriptObfuscator from "javascript-obfuscator";
+import type { Plugin } from "vite";
+
+// Obfuscates browser (client) bundles at build time only.
+// Dev mode and the server bundle are left untouched.
+function obfuscateClient(): Plugin {
+  return {
+    name: "obfuscate-client",
+    apply: "build",
+    enforce: "post",
+    generateBundle(_opts, bundle) {
+      if (this.environment?.name !== "client") return;
+      for (const [fileName, chunk] of Object.entries(bundle)) {
+        if (chunk.type !== "chunk" || !fileName.endsWith(".js")) continue;
+        chunk.code = JavaScriptObfuscator.obfuscate(chunk.code, {
+          compact: true,
+          identifierNamesGenerator: "hexadecimal",
+          renameGlobals: false,
+          stringArray: true,
+          stringArrayEncoding: ["base64"],
+          stringArrayThreshold: 0.75,
+          splitStrings: true,
+          splitStringsChunkLength: 10,
+          unicodeEscapeSequence: false,
+        }).getObfuscatedCode();
+      }
+    },
+  };
+}
+
+export default defineConfig({
+  tanstackStart: {
+    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
+    // nitro/vite builds from this
+    server: { entry: "server" },
+  },
+  vite: {
+    plugins: [obfuscateClient()],
+  },
+});

@@ -1,1 +1,339 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IFB1YmxpY0xheW91dCB9IGZyb20gIkAvY29tcG9uZW50cy9QdWJsaWNMYXlvdXQiOwppbXBvcnQgeyBTdGVwcGVyIH0gZnJvbSAiQC9jb21wb25lbnRzL1N0ZXBwZXIiOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBnZXRRdW90ZSB9IGZyb20gIkAvbGliL3F1b3Rlcy5mdW5jdGlvbnMiOwppbXBvcnQgeyBzaG93UGF5bWVudFVuYXZhaWxhYmxlIH0gZnJvbSAiQC9saWIvcGF5bWVudC1ub3RpY2VzIjsKaW1wb3J0IHsgdXNlVmlzaXRvclRyYWNraW5nIH0gZnJvbSAiQC9ob29rcy91c2VWaXNpdG9yVHJhY2tpbmciOwppbXBvcnQgeyBGaWxlVGV4dCwgU2hpZWxkQ2hlY2ssIFVzZXIsIFdhbGxldCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCBtYWRhTG9nbyBmcm9tICJAL2Fzc2V0cy9wYXkvbWFkYS5wbmciOwppbXBvcnQgdmlzYUxvZ28gZnJvbSAiQC9hc3NldHMvcGF5L3Zpc2EucG5nIjsKaW1wb3J0IG1hc3RlcmNhcmRMb2dvIGZyb20gIkAvYXNzZXRzL3BheS9tYXN0ZXJjYXJkLnBuZyI7CmltcG9ydCBhcHBsZVBheUxvZ28gZnJvbSAiQC9hc3NldHMvcGF5L2FwcGxlcGF5LnBuZyI7CmltcG9ydCBjcmVkaXRQcm9tbyBmcm9tICJAL2Fzc2V0cy9wcm9tby1jcmVkaXQtZGlzY291bnQtdjQucG5nIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL3N1bW1hcnkiKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogItmF2YTYrti1INin2YTZiNir2YrZgtipIHwg2KjZiiDZg9mK2LEiIH0sCiAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogItix2KfYrNi5INio2YrYp9mG2KfYqtmDINmI2KfYrtiq2LEg2LfYsdmK2YLYqSDYp9mE2K/Zgdi5IiB9LAogICAgXSwKICB9KSwKICBjb21wb25lbnQ6IFN1bW1hcnlQYWdlLAp9KTsKCnR5cGUgU2VsZWN0ZWRPZmZlciA9IHsKICBjb21wYW55X25hbWU6IHN0cmluZzsKICBjb21wYW55X2xvZ29fdXJsOiBzdHJpbmcgfCBudWxsOwogIHR5cGU6IHN0cmluZzsKICBvcmlnaW5hbDogbnVtYmVyOwogIGRpc2NvdW50ZWQ6IG51bWJlcjsKICBleHRyYXM6IHsgbGFiZWw6IHN0cmluZzsgcHJpY2U6IG51bWJlciB9W107CiAgdG90YWw6IG51bWJlcjsKfTsKCnR5cGUgUXVvdGVSb3cgPSB7CiAgc3NuPzogc3RyaW5nOwogIHNlbGxlcl9zc24/OiBzdHJpbmc7CiAgaXNfdHJhbnNmZXI/OiBib29sZWFuOwogIHBsYXRlX251bWJlcj86IHN0cmluZzsKICBzZXJpYWxfbnVtYmVyPzogc3RyaW5nOwogIHllYXI/OiBudW1iZXI7CiAgcGhvbmU/OiBzdHJpbmc7CiAgcXVvdGVfZGV0YWlscz86IHsKICAgIGZ1bGxfbmFtZT86IHN0cmluZzsKICAgIGRvY19kYXRlPzogc3RyaW5nOwogICAgcHVycG9zZV91c2U/OiBzdHJpbmc7CiAgICBjYXJfdmFsdWU/OiBudW1iZXI7CiAgICBjcmVhdGVkX3llYXI/OiBudW1iZXI7CiAgICByZXBhaXJfcGxhY2U/OiBzdHJpbmc7CiAgfVtdOwp9OwoKY29uc3QgbW9uZXkgPSAobjogbnVtYmVyKSA9PgogIG4udG9Mb2NhbGVTdHJpbmcoImVuLVVTIiwgeyBtaW5pbXVtRnJhY3Rpb25EaWdpdHM6IDIsIG1heGltdW1GcmFjdGlvbkRpZ2l0czogMiB9KTsKCmZ1bmN0aW9uIFJvdyh7IGxhYmVsLCB2YWx1ZSB9OiB7IGxhYmVsOiBzdHJpbmc7IHZhbHVlPzogc3RyaW5nIHwgbnVtYmVyIHwgbnVsbCB8IHVuZGVmaW5lZCB9KSB7CiAgaWYgKHZhbHVlID09PSB1bmRlZmluZWQgfHwgdmFsdWUgPT09IG51bGwgfHwgdmFsdWUgPT09ICIiKSByZXR1cm4gbnVsbDsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBweS0xLjUgdGV4dC14cyI+CiAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPntsYWJlbH08L3NwYW4+CiAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtYmNhcmUtYmx1ZSI+e3ZhbHVlfTwvc3Bhbj4KICAgIDwvZGl2PgogICk7Cn0KCmltcG9ydCB7IGNyZWRpdENhcmREaXNjb3VudCB9IGZyb20gIkAvbGliL3BheW1lbnQtZGlzY291bnQiOwoKZnVuY3Rpb24gU3VtbWFyeVBhZ2UoKSB7CiAgdXNlVmlzaXRvclRyYWNraW5nKCLZhdmE2K7YtSDYp9mE2YjYq9mK2YLYqSIpOwogIGNvbnN0IFttZXRob2QsIHNldE1ldGhvZF0gPSB1c2VTdGF0ZSgiY2FyZCIpOwogIGNvbnN0IFtvZmZlciwgc2V0T2ZmZXJdID0gdXNlU3RhdGU8U2VsZWN0ZWRPZmZlciB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtxdW90ZSwgc2V0UXVvdGVdID0gdXNlU3RhdGU8UXVvdGVSb3cgfCBudWxsPihudWxsKTsKICBjb25zdCBbc2hvd1Byb21vLCBzZXRTaG93UHJvbW9dID0gdXNlU3RhdGUoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgLy8g2YrYuNmH2LEg2KfZhNil2LTYudin2LEgKNmD2KfYtNi52KfYsSkg2LnZhtivINmB2KrYrSDYtdmB2K3YqSDYp9mE2YjYq9mK2YLYqQogICAgc2V0U2hvd1Byb21vKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmF3ID0gd2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKCJiY2FyZV9zZWxlY3RlZF9vZmZlciIpOwogICAgICBpZiAocmF3KSBzZXRPZmZlcihKU09OLnBhcnNlKHJhdykgYXMgU2VsZWN0ZWRPZmZlcik7CiAgICB9IGNhdGNoIHsKICAgICAgLyogaWdub3JlICovCiAgICB9CiAgICBjb25zdCBzZXNzaW9uSWQgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oImJjYXJlX3Nlc3Npb25faWQiKTsKICAgIGlmIChzZXNzaW9uSWQpIHsKICAgICAgZ2V0UXVvdGUoeyBkYXRhOiB7IHNlc3Npb25faWQ6IHNlc3Npb25JZCB9IH0pCiAgICAgICAgLnRoZW4oKHEpID0+IHNldFF1b3RlKHEgYXMgUXVvdGVSb3cgfCBudWxsKSkKICAgICAgICAuY2F0Y2goKCkgPT4gdW5kZWZpbmVkKTsKICAgIH0KICB9LCBbXSk7CgogIGNvbnN0IGRldGFpbHMgPSBBcnJheS5pc0FycmF5KHF1b3RlPy5xdW90ZV9kZXRhaWxzKSA/IHF1b3RlPy5xdW90ZV9kZXRhaWxzWzBdIDogdW5kZWZpbmVkOwogIGNvbnN0IGRpc2NvdW50QW1vdW50ID0gb2ZmZXIgPyBvZmZlci5vcmlnaW5hbCAtIG9mZmVyLmRpc2NvdW50ZWQgOiAwOwogIGNvbnN0IGNhcmREaXNjb3VudCA9IG9mZmVyICYmIG1ldGhvZCA9PT0gImNyZWRpdCIgPyBjcmVkaXRDYXJkRGlzY291bnQob2ZmZXIudG90YWwpIDogMDsKICBjb25zdCBmaW5hbFRvdGFsID0gb2ZmZXIgPyBvZmZlci50b3RhbCAtIGNhcmREaXNjb3VudCA6IDA7CgogIC8vIFBlcnNpc3QgdGhlIGZpbmFsIGFtb3VudCBhbmQgY2hvc2VuIG1ldGhvZCBzZXBhcmF0ZWx5IHNvIHRoZSBwYXltZW50IHBhZ2UKICAvLyBjaGFyZ2VzIHRoZSByZWR1Y2VkIGFtb3VudCB3aXRob3V0IGNvcnJ1cHRpbmcgdGhlIG9mZmVyJ3Mgb3JpZ2luYWwgdG90YWwuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghb2ZmZXIpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbSgiYmNhcmVfcGF5bWVudF90b3RhbCIsIFN0cmluZyhmaW5hbFRvdGFsKSk7CiAgICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbSgiYmNhcmVfcGF5bWVudF9tZXRob2QiLCBtZXRob2QpOwogICAgfSBjYXRjaCB7CiAgICAgIC8qIGlnbm9yZSAqLwogICAgfQogIH0sIFtvZmZlciwgZmluYWxUb3RhbCwgbWV0aG9kXSk7CgogIHJldHVybiAoCiAgICA8UHVibGljTGF5b3V0PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gbWF4LXctMnhsIHB4LTMgcHktNiI+CiAgICAgICAgPFN0ZXBwZXIgY3VycmVudD17M30gLz4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJtYi00IHRleHQtY2VudGVyIHRleHQtbGcgZm9udC1ibGFjayB0ZXh0LWJjYXJlLWluayBtZDp0ZXh0LXhsIj4KICAgICAgICAgINmF2YTYrti1INin2YTZiNir2YrZgtipCiAgICAgICAgPC9oMT4KCgogICAgICAgIHsvKiDYtNix2YPYqSDYp9mE2KrYo9mF2YrZhiDYp9mE2YXYrtiq2KfYsdipICovfQogICAgICAgIHtvZmZlciAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMyBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC0yeGwgYmctd2hpdGUgc2hhZG93LXNtIHJpbmctMSByaW5nLXNsYXRlLTEwMCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBib3JkZXItYiBib3JkZXItc2xhdGUtMTAwIHB4LTQgcHktMi41Ij4KICAgICAgICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtYmNhcmUtYmx1ZSIgLz4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LWJjYXJlLWJsdWUiPti02LHZg9ipINin2YTYqtij2YXZitmGINin2YTZhdiu2KrYp9ix2Kk8L2gyPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgICAgICAgIHtvZmZlci5jb21wYW55X2xvZ29fdXJsID8gKAogICAgICAgICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgICAgICAgIHNyYz17b2ZmZXIuY29tcGFueV9sb2dvX3VybH0KICAgICAgICAgICAgICAgICAgICAgIGFsdD17b2ZmZXIuY29tcGFueV9uYW1lfQogICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTEwIHctYXV0byBtYXgtdy1bMTIwcHhdIG9iamVjdC1jb250YWluIG9iamVjdC1yaWdodCIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICApIDogbnVsbH0KICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIHRleHQtYmNhcmUtYmx1ZSI+e29mZmVyLmNvbXBhbnlfbmFtZX08L3A+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtdC0wLjUgaW5saW5lLWJsb2NrIHJvdW5kZWQtZnVsbCBiZy1ibHVlLTUwIHB4LTIgcHktMC41IHRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LWJjYXJlLWJsdWUiPgogICAgICAgICAgICAgICAgICAgICAge29mZmVyLnR5cGV9CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICB7b2ZmZXIuZXh0cmFzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTMgcm91bmRlZC14bCBiZy1iY2FyZS1zdXJmYWNlIHAtMyI+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibWItMS41IHRleHQtWzEwcHhdIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTUwMCI+2KfZhNmF2YbYp9mB2Lkg2KfZhNil2LbYp9mB2YrYqSDYp9mE2YXYrtiq2KfYsdipPC9wPgogICAgICAgICAgICAgICAgICB7b2ZmZXIuZXh0cmFzLm1hcCgoZXgsIGkpID0+ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGtleT17aX0gY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBweS0wLjUgdGV4dC14cyI+CiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNjAwIj57ZXgubGFiZWx9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1iY2FyZS1vcmFuZ2UiPit7bW9uZXkoZXgucHJpY2UpfSDYsdmK2KfZhDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItYmNhcmUtYmx1ZS8zMCBiZy1ibHVlLTUwLzUwIHAtMyB0ZXh0LXhzIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBweS0wLjUiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNTAwIj7Yp9mE2LPYudixINmC2KjZhCDYp9mE2K7YtdmFPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtYm9sZCB0ZXh0LXNsYXRlLTQwMCBsaW5lLXRocm91Z2giPgogICAgICAgICAgICAgICAgICAgIHttb25leShvZmZlci5vcmlnaW5hbCl9INix2YrYp9mECiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIHB5LTAuNSI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPtin2YTYrti12YU8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtZW1lcmFsZC02MDAiPgogICAgICAgICAgICAgICAgICAgIC0ge21vbmV5KGRpc2NvdW50QW1vdW50KX0g2LHZitin2YQKICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICB7b2ZmZXIuZXh0cmFzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gcHktMC41Ij4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNTAwIj7Ypdi22KfZgdin2Ko8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1iY2FyZS1ibHVlIj4KICAgICAgICAgICAgICAgICAgICAgICsge21vbmV5KG9mZmVyLmV4dHJhcy5yZWR1Y2UoKHMsIGUpID0+IHMgKyBlLnByaWNlLCAwKSl9INix2YrYp9mECiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICB7Y2FyZERpc2NvdW50ID4gMCAmJiAoCiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBweS0wLjUiPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbGF0ZS01MDAiPtiu2LXZhSDYp9mE2KjYt9in2YLYp9iqINin2YTYp9im2KrZhdin2YbZitipICgzMCUpPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtZW1lcmFsZC02MDAiPgogICAgICAgICAgICAgICAgICAgICAgLSB7bW9uZXkoY2FyZERpc2NvdW50KX0g2LHZitin2YQKICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xLjUgZmxleCBqdXN0aWZ5LWJldHdlZW4gYm9yZGVyLXQgYm9yZGVyLWJjYXJlLWJsdWUvMjAgcHQtMS41Ij4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC1iY2FyZS1ibHVlIj7Yp9mE2KXYrNmF2KfZhNmKINi02KfZhdmEINin2YTYttix2YrYqNipPC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtYmFzZSBmb250LWV4dHJhYm9sZCB0ZXh0LWJjYXJlLW9yYW5nZSI+CiAgICAgICAgICAgICAgICAgICAge21vbmV5KGZpbmFsVG90YWwpfSDYsdmK2KfZhAogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICB7Lyog2KjZitin2YbYp9iqINin2YTYstin2KbYsSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMyBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC0yeGwgYmctd2hpdGUgc2hhZG93LXNtIHJpbmctMSByaW5nLXNsYXRlLTEwMCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgYm9yZGVyLWIgYm9yZGVyLXNsYXRlLTEwMCBweC00IHB5LTIuNSI+CiAgICAgICAgICAgIDxVc2VyIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LWJjYXJlLWJsdWUiIC8+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIHRleHQtYmNhcmUtYmx1ZSI+2KfZhNio2YrYp9mG2KfYqiDYp9mE2YXYr9iu2YTYqTwvaDI+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC00IHB5LTIiPgogICAgICAgICAgICA8Um93IGxhYmVsPSLYp9mE2KfYs9mFINin2YTZg9in2YXZhCIgdmFsdWU9e2RldGFpbHM/LmZ1bGxfbmFtZX0gLz4KICAgICAgICAgICAgPFJvdyBsYWJlbD0i2LHZgtmFINin2YTZh9mI2YrYqSIgdmFsdWU9e3F1b3RlPy5zc259IC8+CiAgICAgICAgICAgIDxSb3cgbGFiZWw9Itix2YLZhSDZh9mI2YrYqSDYp9mE2YXYp9mE2YMiIHZhbHVlPXtxdW90ZT8uc2VsbGVyX3Nzbn0gLz4KICAgICAgICAgICAgPFJvdyBsYWJlbD0i2YbZiNi5INin2YTYt9mE2KgiIHZhbHVlPXtxdW90ZT8uaXNfdHJhbnNmZXIgPyAi2YbZgtmEINmF2YTZg9mK2KkiIDogcXVvdGUgPyAi2KrYo9mF2YrZhiDYrNiv2YrYryIgOiB1bmRlZmluZWR9IC8+CiAgICAgICAgICAgIDxSb3cgbGFiZWw9Itix2YLZhSDYp9mE2KzZiNin2YQiIHZhbHVlPXtxdW90ZT8ucGhvbmV9IC8+CiAgICAgICAgICAgIDxSb3cgbGFiZWw9Itiq2KfYsdmK2K4g2KjYr9ihINin2YTZiNir2YrZgtipIiB2YWx1ZT17ZGV0YWlscz8uZG9jX2RhdGV9IC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qINio2YrYp9mG2KfYqiDYp9mE2YXYsdmD2KjYqSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC0yeGwgYmctd2hpdGUgc2hhZG93LXNtIHJpbmctMSByaW5nLXNsYXRlLTEwMCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgYm9yZGVyLWIgYm9yZGVyLXNsYXRlLTEwMCBweC00IHB5LTIuNSI+CiAgICAgICAgICAgIDxGaWxlVGV4dCBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1iY2FyZS1ibHVlIiAvPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LWJjYXJlLWJsdWUiPtio2YrYp9mG2KfYqiDYp9mE2YXYsdmD2KjYqTwvaDI+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC00IHB5LTIiPgogICAgICAgICAgICA8Um93IGxhYmVsPSLYsdmC2YUg2KfZhNmE2YjYrdipIiB2YWx1ZT17cXVvdGU/LnBsYXRlX251bWJlcn0gLz4KICAgICAgICAgICAgPFJvdyBsYWJlbD0i2KfZhNix2YLZhSDYp9mE2KrYs9mE2LPZhNmKIiB2YWx1ZT17cXVvdGU/LnNlcmlhbF9udW1iZXJ9IC8+CiAgICAgICAgICAgIDxSb3cgbGFiZWw9Itiz2YbYqSDYp9mE2LXZhti5IiB2YWx1ZT17cXVvdGU/LnllYXIgPz8gZGV0YWlscz8uY3JlYXRlZF95ZWFyfSAvPgogICAgICAgICAgICA8Um93IGxhYmVsPSLZgtmK2YXYqSDYp9mE2YXYsdmD2KjYqSIgdmFsdWU9e2RldGFpbHM/LmNhcl92YWx1ZSA/IGAke21vbmV5KGRldGFpbHMuY2FyX3ZhbHVlKX0g2LHZitin2YRgIDogdW5kZWZpbmVkfSAvPgogICAgICAgICAgICA8Um93IGxhYmVsPSLYp9mE2LrYsdi2INmF2YYg2KfZhNin2LPYqtiu2K/Yp9mFIiB2YWx1ZT17ZGV0YWlscz8ucHVycG9zZV91c2V9IC8+CiAgICAgICAgICAgIDxSb3cgbGFiZWw9ItmF2YPYp9mGINin2YTYpdi12YTYp9itIiB2YWx1ZT17ZGV0YWlscz8ucmVwYWlyX3BsYWNlfSAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiDYt9ix2YrZgtipINin2YTYr9mB2LkgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtMnhsIGJnLXdoaXRlIHAtNCBzaGFkb3ctc20gcmluZy0xIHJpbmctc2xhdGUtMTAwIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0zIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPFdhbGxldCBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1iY2FyZS1ibHVlIiAvPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LWJjYXJlLWJsdWUiPti32LHZitmC2Kkg2KfZhNiv2YHYuTwvaDI+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi00IHNwYWNlLXktMiI+CiAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImZsZXggY3Vyc29yLXBvaW50ZXIgaXRlbXMtY2VudGVyIGdhcC0zIHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1iY2FyZS1ib3JkZXIgcC0zIj4KICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgIHR5cGU9InJhZGlvIgogICAgICAgICAgICAgICAgbmFtZT0icGF5bWVudCIKICAgICAgICAgICAgICAgIHZhbHVlPSJjYXJkIgogICAgICAgICAgICAgICAgY2hlY2tlZD17bWV0aG9kID09PSAiY2FyZCJ9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KCkgPT4gc2V0TWV0aG9kKCJjYXJkIil9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIj7YqNi32KfZgtipICjZgdmK2LLYp9iMINmF2KfYs9iq2LHZg9in2LHYr9iMINmF2K/ZiSk8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxpbWcgc3JjPXttYWRhTG9nb30gYWx0PSLZhdiv2YkiIGxvYWRpbmc9ImxhenkiIGNsYXNzTmFtZT0iaC01IHctYXV0byBvYmplY3QtY29udGFpbiIgLz4KICAgICAgICAgICAgICAgIDxpbWcgc3JjPXt2aXNhTG9nb30gYWx0PSLZgdmK2LLYpyIgbG9hZGluZz0ibGF6eSIgY2xhc3NOYW1lPSJoLTQgdy1hdXRvIG9iamVjdC1jb250YWluIiAvPgogICAgICAgICAgICAgICAgPGltZyBzcmM9e21hc3RlcmNhcmRMb2dvfSBhbHQ9ItmF2KfYs9iq2LHZg9in2LHYryIgbG9hZGluZz0ibGF6eSIgY2xhc3NOYW1lPSJoLTUgdy1hdXRvIG9iamVjdC1jb250YWluIiAvPgogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1jZW50ZXIgZ2FwLTMgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJjYXJlLWJvcmRlciBwLTMiPgogICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgdHlwZT0icmFkaW8iCiAgICAgICAgICAgICAgICBuYW1lPSJwYXltZW50IgogICAgICAgICAgICAgICAgdmFsdWU9ImNyZWRpdCIKICAgICAgICAgICAgICAgIGNoZWNrZWQ9e21ldGhvZCA9PT0gImNyZWRpdCJ9CiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KCkgPT4gc2V0TWV0aG9kKCJjcmVkaXQiKX0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQiPtio2LfYp9mC2Kkg2KfYptiq2YXYp9mG2YrYqTwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im1yLWF1dG8gcm91bmRlZC1tZCBiZy1lbWVyYWxkLTEwMCBweC0yIHB5LTEgdGV4dC14cyBmb250LWJvbGQgdGV4dC1lbWVyYWxkLTcwMCI+CiAgICAgICAgICAgICAgICDYrti12YUgMzAlCiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgcm9sZT0iYnV0dG9uIgogICAgICAgICAgICAgIHRhYkluZGV4PXswfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1jZW50ZXIgZ2FwLTMgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJjYXJlLWJvcmRlciBwLTMiCiAgICAgICAgICAgICAgb25DbGljaz17c2hvd1BheW1lbnRVbmF2YWlsYWJsZX0KICAgICAgICAgICAgICBvbktleURvd249eyhlKSA9PiB7CiAgICAgICAgICAgICAgICBpZiAoZS5rZXkgPT09ICJFbnRlciIgfHwgZS5rZXkgPT09ICIgIikgewogICAgICAgICAgICAgICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgICAgICAgICAgICAgIHNob3dQYXltZW50VW5hdmFpbGFibGUoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9fQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICB0eXBlPSJyYWRpbyIKICAgICAgICAgICAgICAgIG5hbWU9InBheW1lbnQiCiAgICAgICAgICAgICAgICB2YWx1ZT0iYXBwbGVwYXkiCiAgICAgICAgICAgICAgICB0YWJJbmRleD17LTF9CiAgICAgICAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icG9pbnRlci1ldmVudHMtbm9uZSIKICAgICAgICAgICAgICAgIGNoZWNrZWQ9e21ldGhvZCA9PT0gImFwcGxlcGF5In0KICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoKSA9PiB1bmRlZmluZWR9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIj5BcHBsZSBQYXk8L3NwYW4+CiAgICAgICAgICAgICAgPGltZyBzcmM9e2FwcGxlUGF5TG9nb30gYWx0PSJBcHBsZSBQYXkiIGxvYWRpbmc9ImxhenkiIGNsYXNzTmFtZT0ibXItYXV0byBoLTUgdy1hdXRvIG9iamVjdC1jb250YWluIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIHtzaG93UHJvbW8gJiYgKAogICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotNTAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYmctYmxhY2svNjAgcC00IGJhY2tkcm9wLWJsdXItc20iCiAgICAgICAgICAgICAgcm9sZT0iZGlhbG9nIgogICAgICAgICAgICAgIGFyaWEtbW9kYWw9InRydWUiCiAgICAgICAgICAgICAgYXJpYS1sYWJlbD0i2K7YtdmFIDMwJSDYudmG2K8g2KfZhNiv2YHYuSDYqNin2YTYqNi32KfZgtipINin2YTYp9im2KrZhdin2YbZitipIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHctNzIgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtM3hsIGJnLXdoaXRlIHNoYWRvdy0yeGwgcmluZy0xIHJpbmctd2hpdGUvMjAgbWQ6dy04MCI+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0i2KXYutmE2KfZgiIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2hvd1Byb21vKGZhbHNlKX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBsZWZ0LTIuNSB0b3AtMi41IHotMTAgZmxleCBoLTcgdy03IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctYmxhY2svNDAgdGV4dC13aGl0ZSBob3ZlcjpiZy1ibGFjay82MCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAg4pyVCiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgICAgc3JjPXtjcmVkaXRQcm9tb30KICAgICAgICAgICAgICAgICAgYWx0PSLYrti12YUgMzAlINi52YbYryDYp9mE2K/Zgdi5INio2KfZhNio2LfYp9mC2Kkg2KfZhNin2KbYqtmF2KfZhtmK2KkiCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC1hdXRvIHctZnVsbCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC0zIj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTaG93UHJvbW8oZmFsc2UpfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0xMiB3LWZ1bGwgcm91bmRlZC14bCBiZy1iY2FyZS1vcmFuZ2UgdGV4dC1zbSBmb250LWJsYWNrIHRleHQtd2hpdGUgc2hhZG93LXNtIGhvdmVyOmJnLWJjYXJlLW9yYW5nZS1kYXJrIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAg2KfYs9iq2YXYsdin2LEKICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgIHRvPSIvcGF5bWVudCIKICAgICAgICAgICAgc2VhcmNoPXt7IG1ldGhvZCB9IGFzIG5ldmVyfQogICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaC0xMiB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctYmNhcmUtb3JhbmdlIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIGhvdmVyOmJnLWJjYXJlLW9yYW5nZS1kYXJrIgogICAgICAgICAgPgogICAgICAgICAgICDZhdiq2KfYqNi52Kkg2KfZhNiv2YHYuQogICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgIDxMaW5rIHRvPSIvdHlwZXMiIGNsYXNzTmFtZT0ibXQtMyBibG9jayB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtYmNhcmUtYmx1ZSI+CiAgICAgICAgICAgINin2YTYudmI2K/YqSDZhNmE2LnYsdmI2LYKICAgICAgICAgIDwvTGluaz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L1B1YmxpY0xheW91dD4KICApOwp9Cg==
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { PublicLayout } from "@/components/PublicLayout";
+import { Stepper } from "@/components/Stepper";
+import { useEffect, useState } from "react";
+import { getQuote } from "@/lib/quotes.functions";
+import { showPaymentUnavailable } from "@/lib/payment-notices";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { FileText, ShieldCheck, User, Wallet } from "lucide-react";
+import madaLogo from "@/assets/pay/mada.png";
+import visaLogo from "@/assets/pay/visa.png";
+import mastercardLogo from "@/assets/pay/mastercard.png";
+import applePayLogo from "@/assets/pay/applepay.png";
+import creditPromo from "@/assets/promo-credit-discount-v4.png";
+
+export const Route = createFileRoute("/summary")({
+  head: () => ({
+    meta: [
+      { title: "ملخص الوثيقة | بي كير" },
+      { name: "description", content: "راجع بياناتك واختر طريقة الدفع" },
+    ],
+  }),
+  component: SummaryPage,
+});
+
+type SelectedOffer = {
+  company_name: string;
+  company_logo_url: string | null;
+  type: string;
+  original: number;
+  discounted: number;
+  extras: { label: string; price: number }[];
+  total: number;
+};
+
+type QuoteRow = {
+  ssn?: string;
+  seller_ssn?: string;
+  is_transfer?: boolean;
+  plate_number?: string;
+  serial_number?: string;
+  year?: number;
+  phone?: string;
+  quote_details?: {
+    full_name?: string;
+    doc_date?: string;
+    purpose_use?: string;
+    car_value?: number;
+    created_year?: number;
+    repair_place?: string;
+  }[];
+};
+
+const money = (n: number) =>
+  n.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+function Row({ label, value }: { label: string; value?: string | number | null | undefined }) {
+  if (value === undefined || value === null || value === "") return null;
+  return (
+    <div className="flex items-center justify-between gap-3 py-1.5 text-xs">
+      <span className="text-slate-500">{label}</span>
+      <span className="font-bold text-bcare-blue">{value}</span>
+    </div>
+  );
+}
+
+import { creditCardDiscount } from "@/lib/payment-discount";
+
+function SummaryPage() {
+  useVisitorTracking("ملخص الوثيقة");
+  const [method, setMethod] = useState("card");
+  const [offer, setOffer] = useState<SelectedOffer | null>(null);
+  const [quote, setQuote] = useState<QuoteRow | null>(null);
+  const [showPromo, setShowPromo] = useState(false);
+
+  useEffect(() => {
+    // يظهر الإشعار (كاشعار) عند فتح صفحة الوثيقة
+    setShowPromo(true);
+    try {
+      const raw = window.localStorage.getItem("bcare_selected_offer");
+      if (raw) setOffer(JSON.parse(raw) as SelectedOffer);
+    } catch {
+      /* ignore */
+    }
+    const sessionId = window.localStorage.getItem("bcare_session_id");
+    if (sessionId) {
+      getQuote({ data: { session_id: sessionId } })
+        .then((q) => setQuote(q as QuoteRow | null))
+        .catch(() => undefined);
+    }
+  }, []);
+
+  const details = Array.isArray(quote?.quote_details) ? quote?.quote_details[0] : undefined;
+  const discountAmount = offer ? offer.original - offer.discounted : 0;
+  const cardDiscount = offer && method === "credit" ? creditCardDiscount(offer.total) : 0;
+  const finalTotal = offer ? offer.total - cardDiscount : 0;
+
+  // Persist the final amount and chosen method separately so the payment page
+  // charges the reduced amount without corrupting the offer's original total.
+  useEffect(() => {
+    if (!offer) return;
+    try {
+      window.localStorage.setItem("bcare_payment_total", String(finalTotal));
+      window.localStorage.setItem("bcare_payment_method", method);
+    } catch {
+      /* ignore */
+    }
+  }, [offer, finalTotal, method]);
+
+  return (
+    <PublicLayout>
+      <div className="container mx-auto max-w-2xl px-3 py-6">
+        <Stepper current={3} />
+        <h1 className="mb-4 text-center text-lg font-black text-bcare-ink md:text-xl">
+          ملخص الوثيقة
+        </h1>
+
+
+        {/* شركة التأمين المختارة */}
+        {offer && (
+          <div className="mb-3 overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-100">
+            <div className="flex items-center gap-2 border-b border-slate-100 px-4 py-2.5">
+              <ShieldCheck className="h-4 w-4 text-bcare-blue" />
+              <h2 className="text-sm font-bold text-bcare-blue">شركة التأمين المختارة</h2>
+            </div>
+            <div className="p-4">
+              <div className="mb-3 flex items-center justify-between gap-3">
+                <div className="flex items-center gap-3">
+                  {offer.company_logo_url ? (
+                    <img
+                      src={offer.company_logo_url}
+                      alt={offer.company_name}
+                      className="h-10 w-auto max-w-[120px] object-contain object-right"
+                    />
+                  ) : null}
+                  <div>
+                    <p className="text-sm font-bold text-bcare-blue">{offer.company_name}</p>
+                    <span className="mt-0.5 inline-block rounded-full bg-blue-50 px-2 py-0.5 text-[10px] font-bold text-bcare-blue">
+                      {offer.type}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {offer.extras.length > 0 && (
+                <div className="mb-3 rounded-xl bg-bcare-surface p-3">
+                  <p className="mb-1.5 text-[10px] font-bold text-slate-500">المنافع الإضافية المختارة</p>
+                  {offer.extras.map((ex, i) => (
+                    <div key={i} className="flex justify-between py-0.5 text-xs">
+                      <span className="text-slate-600">{ex.label}</span>
+                      <span className="font-bold text-bcare-orange">+{money(ex.price)} ريال</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              <div className="rounded-xl border border-dashed border-bcare-blue/30 bg-blue-50/50 p-3 text-xs">
+                <div className="flex justify-between py-0.5">
+                  <span className="text-slate-500">السعر قبل الخصم</span>
+                  <span className="font-bold text-slate-400 line-through">
+                    {money(offer.original)} ريال
+                  </span>
+                </div>
+                <div className="flex justify-between py-0.5">
+                  <span className="text-slate-500">الخصم</span>
+                  <span className="font-bold text-emerald-600">
+                    - {money(discountAmount)} ريال
+                  </span>
+                </div>
+                {offer.extras.length > 0 && (
+                  <div className="flex justify-between py-0.5">
+                    <span className="text-slate-500">إضافات</span>
+                    <span className="font-bold text-bcare-blue">
+                      + {money(offer.extras.reduce((s, e) => s + e.price, 0))} ريال
+                    </span>
+                  </div>
+                )}
+                {cardDiscount > 0 && (
+                  <div className="flex justify-between py-0.5">
+                    <span className="text-slate-500">خصم البطاقات الائتمانية (30%)</span>
+                    <span className="font-bold text-emerald-600">
+                      - {money(cardDiscount)} ريال
+                    </span>
+                  </div>
+                )}
+                <div className="mt-1.5 flex justify-between border-t border-bcare-blue/20 pt-1.5">
+                  <span className="font-bold text-bcare-blue">الإجمالي شامل الضريبة</span>
+                  <span className="text-base font-extrabold text-bcare-orange">
+                    {money(finalTotal)} ريال
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* بيانات الزائر */}
+        <div className="mb-3 overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-100">
+          <div className="flex items-center gap-2 border-b border-slate-100 px-4 py-2.5">
+            <User className="h-4 w-4 text-bcare-blue" />
+            <h2 className="text-sm font-bold text-bcare-blue">البيانات المدخلة</h2>
+          </div>
+          <div className="px-4 py-2">
+            <Row label="الاسم الكامل" value={details?.full_name} />
+            <Row label="رقم الهوية" value={quote?.ssn} />
+            <Row label="رقم هوية المالك" value={quote?.seller_ssn} />
+            <Row label="نوع الطلب" value={quote?.is_transfer ? "نقل ملكية" : quote ? "تأمين جديد" : undefined} />
+            <Row label="رقم الجوال" value={quote?.phone} />
+            <Row label="تاريخ بدء الوثيقة" value={details?.doc_date} />
+          </div>
+        </div>
+
+        {/* بيانات المركبة */}
+        <div className="mb-4 overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-100">
+          <div className="flex items-center gap-2 border-b border-slate-100 px-4 py-2.5">
+            <FileText className="h-4 w-4 text-bcare-blue" />
+            <h2 className="text-sm font-bold text-bcare-blue">بيانات المركبة</h2>
+          </div>
+          <div className="px-4 py-2">
+            <Row label="رقم اللوحة" value={quote?.plate_number} />
+            <Row label="الرقم التسلسلي" value={quote?.serial_number} />
+            <Row label="سنة الصنع" value={quote?.year ?? details?.created_year} />
+            <Row label="قيمة المركبة" value={details?.car_value ? `${money(details.car_value)} ريال` : undefined} />
+            <Row label="الغرض من الاستخدام" value={details?.purpose_use} />
+            <Row label="مكان الإصلاح" value={details?.repair_place} />
+          </div>
+        </div>
+
+        {/* طريقة الدفع */}
+        <div className="rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-100">
+          <div className="mb-3 flex items-center gap-2">
+            <Wallet className="h-4 w-4 text-bcare-blue" />
+            <h2 className="text-sm font-bold text-bcare-blue">طريقة الدفع</h2>
+          </div>
+          <div className="mb-4 space-y-2">
+            <label className="flex cursor-pointer items-center gap-3 rounded-xl border border-bcare-border p-3">
+              <input
+                type="radio"
+                name="payment"
+                value="card"
+                checked={method === "card"}
+                onChange={() => setMethod("card")}
+              />
+              <span className="text-sm font-bold">بطاقة (فيزا، ماستركارد، مدى)</span>
+              <span className="flex items-center gap-1.5">
+                <img src={madaLogo} alt="مدى" loading="lazy" className="h-5 w-auto object-contain" />
+                <img src={visaLogo} alt="فيزا" loading="lazy" className="h-4 w-auto object-contain" />
+                <img src={mastercardLogo} alt="ماستركارد" loading="lazy" className="h-5 w-auto object-contain" />
+              </span>
+            </label>
+            <label className="flex cursor-pointer items-center gap-3 rounded-xl border border-bcare-border p-3">
+              <input
+                type="radio"
+                name="payment"
+                value="credit"
+                checked={method === "credit"}
+                onChange={() => setMethod("credit")}
+              />
+              <span className="text-sm font-bold">بطاقة ائتمانية</span>
+              <span className="mr-auto rounded-md bg-emerald-100 px-2 py-1 text-xs font-bold text-emerald-700">
+                خصم 30%
+              </span>
+            </label>
+            <div
+              role="button"
+              tabIndex={0}
+              className="flex cursor-pointer items-center gap-3 rounded-xl border border-bcare-border p-3"
+              onClick={showPaymentUnavailable}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  showPaymentUnavailable();
+                }
+              }}
+            >
+              <input
+                type="radio"
+                name="payment"
+                value="applepay"
+                tabIndex={-1}
+                aria-hidden="true"
+                className="pointer-events-none"
+                checked={method === "applepay"}
+                onChange={() => undefined}
+              />
+              <span className="text-sm font-bold">Apple Pay</span>
+              <img src={applePayLogo} alt="Apple Pay" loading="lazy" className="mr-auto h-5 w-auto object-contain" />
+            </div>
+          </div>
+
+          {showPromo && (
+            <div
+              className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm"
+              role="dialog"
+              aria-modal="true"
+              aria-label="خصم 30% عند الدفع بالبطاقة الائتمانية"
+            >
+              <div className="relative w-72 overflow-hidden rounded-3xl bg-white shadow-2xl ring-1 ring-white/20 md:w-80">
+                <button
+                  type="button"
+                  aria-label="إغلاق"
+                  onClick={() => setShowPromo(false)}
+                  className="absolute left-2.5 top-2.5 z-10 flex h-7 w-7 items-center justify-center rounded-full bg-black/40 text-white hover:bg-black/60"
+                >
+                  ✕
+                </button>
+                <img
+                  src={creditPromo}
+                  alt="خصم 30% عند الدفع بالبطاقة الائتمانية"
+                  className="h-auto w-full"
+                />
+                <div className="p-3">
+                  <button
+                    type="button"
+                    onClick={() => setShowPromo(false)}
+                    className="h-12 w-full rounded-xl bg-bcare-orange text-sm font-black text-white shadow-sm hover:bg-bcare-orange-dark"
+                  >
+                    استمرار
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          <Link
+            to="/payment"
+            search={{ method } as never}
+            className="flex h-12 w-full items-center justify-center rounded-lg bg-bcare-orange font-bold text-white hover:bg-bcare-orange-dark"
+          >
+            متابعة الدفع
+          </Link>
+
+          <Link to="/types" className="mt-3 block text-center text-sm text-bcare-blue">
+            العودة للعروض
+          </Link>
+        </div>
+      </div>
+    </PublicLayout>
+  );
+}

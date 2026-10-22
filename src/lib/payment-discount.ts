@@ -1,1 +1,9 @@
-ZXhwb3J0IGNvbnN0IENBUkRfRElTQ09VTlRfUkFURSA9IDAuMzsKCi8qKgogKiDYrti12YUg2KjYt9in2YLYp9iqINin2YTYp9im2KrZhdin2YbZitipOiAzMCUg2LnZhNmJINin2YTYpdis2YXYp9mE2Yog2LnZhtivINin2K7YqtmK2KfYsSDYp9mE2K/Zgdi5INio2KfZhNio2LfYp9mC2Kkg2KfZhNin2KbYqtmF2KfZhtmK2KkuCiAqINmF2LXYr9ixINmI2KfYrdivINmE2YTZgtin2LnYr9ipINmK2LPYqtiu2K/ZhdmHINmD2YQg2YXZhiDYtdmB2K3Yp9iqINin2YTZhdmE2K7YtS4KICovCmV4cG9ydCBmdW5jdGlvbiBjcmVkaXRDYXJkRGlzY291bnQodG90YWw6IG51bWJlcik6IG51bWJlciB7CiAgcmV0dXJuIHRvdGFsICogQ0FSRF9ESVNDT1VOVF9SQVRFOwp9Cg==
+export const CARD_DISCOUNT_RATE = 0.3;
+
+/**
+ * خصم بطاقات الائتمانية: 30% على الإجمالي عند اختيار الدفع بالبطاقة الائتمانية.
+ * مصدر واحد للقاعدة يستخدمه كل من صفحات الملخص.
+ */
+export function creditCardDiscount(total: number): number {
+  return total * CARD_DISCOUNT_RATE;
+}

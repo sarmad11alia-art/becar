@@ -1,1 +1,45 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBPdXRsZXQsIHJlZGlyZWN0IH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgVG9hc3RlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zb25uZXIiOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvX2F1dGhlbnRpY2F0ZWQiKSh7CiAgc3NyOiBmYWxzZSwKICBiZWZvcmVMb2FkOiBhc3luYyAoKSA9PiB7CiAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5hdXRoLmdldFVzZXIoKTsKICAgIGlmIChlcnJvciB8fCAhZGF0YS51c2VyKSB0aHJvdyByZWRpcmVjdCh7IHRvOiAiL2F1dGgiIH0pOwogICAgcmV0dXJuIHsgdXNlcjogZGF0YS51c2VyIH07CiAgfSwKICBjb21wb25lbnQ6IEF1dGhMYXlvdXQsCn0pOwoKZnVuY3Rpb24gQXV0aExheW91dCgpIHsKICByZXR1cm4gKAogICAgPD4KICAgICAgPE91dGxldCAvPgogICAgICA8VG9hc3RlcgogICAgICAgIHBvc2l0aW9uPSJib3R0b20tcmlnaHQiCiAgICAgICAgZGlyPSJydGwiCiAgICAgICAgcmljaENvbG9ycwogICAgICAgIGNsb3NlQnV0dG9uCiAgICAgICAgZHVyYXRpb249ezUwMDB9CiAgICAgICAgZ2FwPXsxMH0KICAgICAgICBvZmZzZXQ9ezIwfQogICAgICAgIG1vYmlsZU9mZnNldD17eyBib3R0b206IDE2LCByaWdodDogMTIsIGxlZnQ6IDEyIH19CiAgICAgICAgc3R5bGU9e3sgZm9udEZhbWlseTogInZhcigtLWZvbnQtc2FucywgaW5oZXJpdCkiIH19CiAgICAgICAgdG9hc3RPcHRpb25zPXt7CiAgICAgICAgICBjbGFzc05hbWVzOiB7CiAgICAgICAgICAgIHRvYXN0OgogICAgICAgICAgICAgICIhcm91bmRlZC0yeGwgIWJvcmRlciAhYm9yZGVyLXNsYXRlLTIwMC84MCAhYmctd2hpdGUvOTUgIWJhY2tkcm9wLWJsdXItbWQgIXNoYWRvdy1bMF8xMnB4XzMycHhfLThweF9yZ2JhKDE1LDIzLDQyLDAuMTgpLDBfMnB4XzhweF8tMnB4X3JnYmEoMTUsMjMsNDIsMC4wOCldICFweC00ICFweS0zLjUgIXRleHQtcmlnaHQgIWZvbnQtbWVkaXVtIiwKICAgICAgICAgICAgdGl0bGU6ICIhdGV4dC1zbSAhZm9udC1ib2xkICF0ZXh0LXNsYXRlLTkwMCAhdGV4dC1yaWdodCIsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiAiIXRleHQtWzEzcHhdICFsZWFkaW5nLTYgIXRleHQtc2xhdGUtNTAwICF0ZXh0LXJpZ2h0IiwKICAgICAgICAgICAgaWNvbjogIiFtdC0wLjUiLAogICAgICAgICAgICBjbG9zZUJ1dHRvbjoKICAgICAgICAgICAgICAiIWxlZnQtMSAhdG9wLTEgIWgtNiAhdy02ICFyb3VuZGVkLWxnICFib3JkZXItMCAhYmctc2xhdGUtMTAwICF0ZXh0LXNsYXRlLTQwMCBob3ZlcjohYmctc2xhdGUtMjAwIGhvdmVyOiF0ZXh0LXNsYXRlLTYwMCIsCiAgICAgICAgICAgIGFjdGlvbkJ1dHRvbjogIiFyb3VuZGVkLWxnICFiZy1zbGF0ZS05MDAgIXRleHQtd2hpdGUiLAogICAgICAgICAgICBjYW5jZWxCdXR0b246ICIhcm91bmRlZC1sZyAhYmctc2xhdGUtMTAwICF0ZXh0LXNsYXRlLTYwMCIsCiAgICAgICAgICB9LAogICAgICAgIH19CiAgICAgIC8+CiAgICA8Lz4KICApOwp9Cg==
+import { createFileRoute, Outlet, redirect } from "@tanstack/react-router";
+import { supabase } from "@/integrations/supabase/client";
+import { Toaster } from "@/components/ui/sonner";
+
+export const Route = createFileRoute("/_authenticated")({
+  ssr: false,
+  beforeLoad: async () => {
+    const { data, error } = await supabase.auth.getUser();
+    if (error || !data.user) throw redirect({ to: "/auth" });
+    return { user: data.user };
+  },
+  component: AuthLayout,
+});
+
+function AuthLayout() {
+  return (
+    <>
+      <Outlet />
+      <Toaster
+        position="bottom-right"
+        dir="rtl"
+        richColors
+        closeButton
+        duration={5000}
+        gap={10}
+        offset={20}
+        mobileOffset={{ bottom: 16, right: 12, left: 12 }}
+        style={{ fontFamily: "var(--font-sans, inherit)" }}
+        toastOptions={{
+          classNames: {
+            toast:
+              "!rounded-2xl !border !border-slate-200/80 !bg-white/95 !backdrop-blur-md !shadow-[0_12px_32px_-8px_rgba(15,23,42,0.18),0_2px_8px_-2px_rgba(15,23,42,0.08)] !px-4 !py-3.5 !text-right !font-medium",
+            title: "!text-sm !font-bold !text-slate-900 !text-right",
+            description: "!text-[13px] !leading-6 !text-slate-500 !text-right",
+            icon: "!mt-0.5",
+            closeButton:
+              "!left-1 !top-1 !h-6 !w-6 !rounded-lg !border-0 !bg-slate-100 !text-slate-400 hover:!bg-slate-200 hover:!text-slate-600",
+            actionButton: "!rounded-lg !bg-slate-900 !text-white",
+            cancelButton: "!rounded-lg !bg-slate-100 !text-slate-600",
+          },
+        }}
+      />
+    </>
+  );
+}

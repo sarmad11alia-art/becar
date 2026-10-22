@@ -1,1 +1,76 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBjYWxjT2ZmZXJQcmljaW5nLCBCQ0FSRV9ESVNDT1VOVCwgdHlwZSBQcmljaW5nT2ZmZXIgfSBmcm9tICIuL29mZmVycy5mdW5jdGlvbnMiOwoKY29uc3QgY29tcDogUHJpY2luZ09mZmVyID0gewogIHR5cGU6ICLYtNin2YXZhCIsCiAgcHJpY2U6IDAsCiAgcmF0ZTogMC4wMjc1LAogIG1pbl9wcmljZTogODUwLAogIGZlYXR1cmVzOiBbCiAgICB7IGxhYmVsOiAi2YXYs9in2LnYr9ipINi52YTZiSDYp9mE2LfYsdmK2YIiLCBwcmljZTogMCwgaW5jbHVkZWQ6IHRydWUgfSwKICAgIHsgbGFiZWw6ICLYs9mK2KfYsdipINio2K/ZitmE2KkiLCBwcmljZTogMjAwLCBpbmNsdWRlZDogZmFsc2UgfSwKICAgIHsgbGFiZWw6ICLYrdmI2KfYr9irINi02K7YtdmK2KkiLCBwcmljZTogMTAwLCBpbmNsdWRlZDogZmFsc2UgfSwKICBdLAp9OwoKY29uc3QgdHBsOiBQcmljaW5nT2ZmZXIgPSB7CiAgdHlwZTogIti22K8g2KfZhNi62YrYsSIsCiAgcHJpY2U6IDM3NSwKICByYXRlOiAwLAogIG1pbl9wcmljZTogMCwKICBmZWF0dXJlczogW10sCn07CgpkZXNjcmliZSgiY2FsY09mZmVyUHJpY2luZyAtINi02KfZhdmEIiwgKCkgPT4gewogIGl0KCLZiti32KjZgiDYp9mE2YbYs9io2Kkg2LnZhtiv2YXYpyDYqtiq2KzYp9mI2LIg2YLZitmF2Kkg2KfZhNmF2LHZg9io2Kkg2KfZhNit2K8g2KfZhNij2K/ZhtmJIiwgKCkgPT4gewogICAgY29uc3QgciA9IGNhbGNPZmZlclByaWNpbmcoY29tcCwgMTAwXzAwMCk7CiAgICAvLyBiYXNlID0gbWF4KDg1MCwgMTAwMDAwKjAuMDI3NT0yNzUwKSA9IDI3NTAKICAgIGV4cGVjdChyLm9yaWdpbmFsKS50b0JlKDI3NTApOwogICAgZXhwZWN0KHIuZGlzY291bnRlZCkudG9CZUNsb3NlVG8oMjc1MCAqIEJDQVJFX0RJU0NPVU5ULCA2KTsKICAgIGV4cGVjdChyLnRvdGFsKS50b0JlQ2xvc2VUbygyNzUwICogQkNBUkVfRElTQ09VTlQsIDYpOwogIH0pOwoKICBpdCgi2YrYt9io2ZHZgiDYp9mE2K3YryDYp9mE2KPYr9mG2Ykg2LnZhtiv2YXYpyDYqtmD2YjZhiDZgtmK2YXYqSDYp9mE2YXYsdmD2KjYqSDZhdmG2K7Zgdi22KkiLCAoKSA9PiB7CiAgICBjb25zdCByID0gY2FsY09mZmVyUHJpY2luZyhjb21wLCAxMF8wMDApOyAvLyAyNzUgPCA4NTAKICAgIGV4cGVjdChyLm9yaWdpbmFsKS50b0JlKDg1MCk7CiAgICBleHBlY3Qoci5kaXNjb3VudGVkKS50b0JlQ2xvc2VUbyg4NTAgKiBCQ0FSRV9ESVNDT1VOVCwgNik7CiAgfSk7CgogIGl0KCLZitiz2KrYrtiv2YUg2KfZhNit2K8g2KfZhNij2K/ZhtmJINi52YbYr9mF2Kcg2KrZg9mI2YYg2YLZitmF2Kkg2KfZhNmF2LHZg9io2Kkg2LXZgdix2YvYpyDYo9mIINi62YrYsSDYtdin2YTYrdipIiwgKCkgPT4gewogICAgZXhwZWN0KGNhbGNPZmZlclByaWNpbmcoY29tcCwgMCkub3JpZ2luYWwpLnRvQmUoODUwKTsKICAgIGV4cGVjdChjYWxjT2ZmZXJQcmljaW5nKGNvbXAsIC01KS5vcmlnaW5hbCkudG9CZSg4NTApOwogICAgZXhwZWN0KGNhbGNPZmZlclByaWNpbmcoY29tcCwgTnVtYmVyLk5hTikub3JpZ2luYWwpLnRvQmUoODUwKTsKICB9KTsKCiAgaXQoIti52YbYryDYp9mE2K3YryDYp9mE2YHYp9i12YQg2KrZhdin2YXZi9inINmK2K7Yqtin2LEg2KfZhNmC2YrZhdipINin2YTYo9i52YTZiSIsICgpID0+IHsKICAgIC8vIGNhclZhbHVlKnJhdGUgPT0gbWluX3ByaWNlID0+IDg1MC8wLjAyNzUKICAgIGNvbnN0IGJvdW5kYXJ5ID0gODUwIC8gMC4wMjc1OwogICAgY29uc3QgciA9IGNhbGNPZmZlclByaWNpbmcoY29tcCwgYm91bmRhcnkpOwogICAgZXhwZWN0KHIub3JpZ2luYWwpLnRvQmVDbG9zZVRvKDg1MCwgNik7CiAgICBjb25zdCByMiA9IGNhbGNPZmZlclByaWNpbmcoY29tcCwgYm91bmRhcnkgKyAxKTsKICAgIGV4cGVjdChyMi5vcmlnaW5hbCkudG9CZUdyZWF0ZXJUaGFuKDg1MCk7CiAgfSk7CgogIGl0KCLZitmC2KjZhCDYp9mE2KXYttin2YHYp9iqINin2YTZhdi12LHZkditINio2YfYpyDZgdmC2Lcg2YjZitis2YXYudmH2Kcg2KjYudivINin2YTYrti12YUiLCAoKSA9PiB7CiAgICBjb25zdCByID0gY2FsY09mZmVyUHJpY2luZyhjb21wLCAxMDBfMDAwLCBbItiz2YrYp9ix2Kkg2KjYr9mK2YTYqSIsICLYutmK2LEg2YXZiNis2YjYryIsICLZhdiz2KfYudiv2Kkg2LnZhNmJINin2YTYt9ix2YrZgiJdKTsKICAgIC8vIGV4dHJhczog2LPZitin2LHYqSDYqNiv2YrZhNipID0gMjAwIChpbmNsdWRlZD1mYWxzZSksINmF2LPYp9i52K/YqT0gaW5jbHVkZWQ9dHJ1ZSDZgdmK2Y/Yqtis2KfZh9mECiAgICBleHBlY3Qoci5leHRyYXMpLnRvRXF1YWwoW3sgbGFiZWw6ICLYs9mK2KfYsdipINio2K/ZitmE2KkiLCBwcmljZTogMjAwIH1dKTsKICAgIGV4cGVjdChyLnRvdGFsKS50b0JlQ2xvc2VUbygyNzUwICogQkNBUkVfRElTQ09VTlQgKyAyMDAsIDYpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJjYWxjT2ZmZXJQcmljaW5nIC0g2LbYryDYp9mE2LrZitixIiwgKCkgPT4gewogIGl0KCLZitiz2KrYrtiv2YUg2KfZhNiz2LnYsSDYp9mE2KvYp9io2Kog2YHZgti3INil2LDYpyDZhNmFINiq2Y/Yrdiv2K8g2YbYs9io2Kkg2YTZh9iw2Kcg2KfZhNi52LHYtiIsICgpID0+IHsKICAgIGV4cGVjdChjYWxjT2ZmZXJQcmljaW5nKHRwbCwgMCkub3JpZ2luYWwpLnRvQmUoMzc1KTsKICAgIGV4cGVjdChjYWxjT2ZmZXJQcmljaW5nKHRwbCwgNTAwXzAwMCkub3JpZ2luYWwpLnRvQmUoMzc1KTsKICAgIGV4cGVjdChjYWxjT2ZmZXJQcmljaW5nKHRwbCwgNTAwXzAwMCkuZGlzY291bnRlZCkudG9CZUNsb3NlVG8oMzc1ICogQkNBUkVfRElTQ09VTlQsIDYpOwogIH0pOwoKICBpdCgi2YrYrdiz2Kgg2KfZhNi52LHYtiDYqNmG2LPYqNipINmF2YYg2YLZitmF2Kkg2KfZhNmF2LHZg9io2Kkg2YXYuSDYrdivINij2K/ZhtmJINmI2K7YtdmFINio2Yog2YPZitixIiwgKCkgPT4gewogICAgY29uc3Qgb2ZmZXIgPSB7IC4uLnRwbCwgcmF0ZTogMC4wMTQsIG1pbl9wcmljZTogMzgwIH07CiAgICBleHBlY3QoY2FsY09mZmVyUHJpY2luZyhvZmZlciwgMCkub3JpZ2luYWwpLnRvQmUoMzgwKTsKICAgIGV4cGVjdChjYWxjT2ZmZXJQcmljaW5nKG9mZmVyLCAxMF8wMDApLm9yaWdpbmFsKS50b0JlKDM4MCk7CiAgICBleHBlY3QoY2FsY09mZmVyUHJpY2luZyhvZmZlciwgMTUwXzAwMCkub3JpZ2luYWwpLnRvQmUoMjEwMCk7CiAgICBleHBlY3QoY2FsY09mZmVyUHJpY2luZyhvZmZlciwgMTUwXzAwMCkudG90YWwpLnRvQmVDbG9zZVRvKDIxMDAgKiBCQ0FSRV9ESVNDT1VOVCwgNik7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from "vitest";
+import { calcOfferPricing, BCARE_DISCOUNT, type PricingOffer } from "./offers.functions";
+
+const comp: PricingOffer = {
+  type: "شامل",
+  price: 0,
+  rate: 0.0275,
+  min_price: 850,
+  features: [
+    { label: "مساعدة على الطريق", price: 0, included: true },
+    { label: "سيارة بديلة", price: 200, included: false },
+    { label: "حوادث شخصية", price: 100, included: false },
+  ],
+};
+
+const tpl: PricingOffer = {
+  type: "ضد الغير",
+  price: 375,
+  rate: 0,
+  min_price: 0,
+  features: [],
+};
+
+describe("calcOfferPricing - شامل", () => {
+  it("يطبق النسبة عندما تتجاوز قيمة المركبة الحد الأدنى", () => {
+    const r = calcOfferPricing(comp, 100_000);
+    // base = max(850, 100000*0.0275=2750) = 2750
+    expect(r.original).toBe(2750);
+    expect(r.discounted).toBeCloseTo(2750 * BCARE_DISCOUNT, 6);
+    expect(r.total).toBeCloseTo(2750 * BCARE_DISCOUNT, 6);
+  });
+
+  it("يطبّق الحد الأدنى عندما تكون قيمة المركبة منخفضة", () => {
+    const r = calcOfferPricing(comp, 10_000); // 275 < 850
+    expect(r.original).toBe(850);
+    expect(r.discounted).toBeCloseTo(850 * BCARE_DISCOUNT, 6);
+  });
+
+  it("يستخدم الحد الأدنى عندما تكون قيمة المركبة صفرًا أو غير صالحة", () => {
+    expect(calcOfferPricing(comp, 0).original).toBe(850);
+    expect(calcOfferPricing(comp, -5).original).toBe(850);
+    expect(calcOfferPricing(comp, Number.NaN).original).toBe(850);
+  });
+
+  it("عند الحد الفاصل تمامًا يختار القيمة الأعلى", () => {
+    // carValue*rate == min_price => 850/0.0275
+    const boundary = 850 / 0.0275;
+    const r = calcOfferPricing(comp, boundary);
+    expect(r.original).toBeCloseTo(850, 6);
+    const r2 = calcOfferPricing(comp, boundary + 1);
+    expect(r2.original).toBeGreaterThan(850);
+  });
+
+  it("يقبل الإضافات المصرّح بها فقط ويجمعها بعد الخصم", () => {
+    const r = calcOfferPricing(comp, 100_000, ["سيارة بديلة", "غير موجود", "مساعدة على الطريق"]);
+    // extras: سيارة بديلة = 200 (included=false), مساعدة= included=true فيُتجاهل
+    expect(r.extras).toEqual([{ label: "سيارة بديلة", price: 200 }]);
+    expect(r.total).toBeCloseTo(2750 * BCARE_DISCOUNT + 200, 6);
+  });
+});
+
+describe("calcOfferPricing - ضد الغير", () => {
+  it("يستخدم السعر الثابت فقط إذا لم تُحدد نسبة لهذا العرض", () => {
+    expect(calcOfferPricing(tpl, 0).original).toBe(375);
+    expect(calcOfferPricing(tpl, 500_000).original).toBe(375);
+    expect(calcOfferPricing(tpl, 500_000).discounted).toBeCloseTo(375 * BCARE_DISCOUNT, 6);
+  });
+
+  it("يحسب العرض بنسبة من قيمة المركبة مع حد أدنى وخصم بي كير", () => {
+    const offer = { ...tpl, rate: 0.014, min_price: 380 };
+    expect(calcOfferPricing(offer, 0).original).toBe(380);
+    expect(calcOfferPricing(offer, 10_000).original).toBe(380);
+    expect(calcOfferPricing(offer, 150_000).original).toBe(2100);
+    expect(calcOfferPricing(offer, 150_000).total).toBeCloseTo(2100 * BCARE_DISCOUNT, 6);
+  });
+});

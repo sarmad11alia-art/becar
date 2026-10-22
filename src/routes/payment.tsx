@@ -1,1 +1,15 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBPdXRsZXQgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL3BheW1lbnQiKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogItin2YTYr9mB2LkgfCDYqNmKINmD2YrYsSIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAi2KXYqtmF2KfZhSDYudmF2YTZitipINin2YTYr9mB2Lkg2KjYo9mF2KfZhiIgfSwKICAgIF0sCiAgfSksCiAgY29tcG9uZW50OiBQYXltZW50TGF5b3V0LAp9KTsKCmZ1bmN0aW9uIFBheW1lbnRMYXlvdXQoKSB7CiAgcmV0dXJuIDxPdXRsZXQgLz47Cn0K
+import { createFileRoute, Outlet } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/payment")({
+  head: () => ({
+    meta: [
+      { title: "الدفع | بي كير" },
+      { name: "description", content: "إتمام عملية الدفع بأمان" },
+    ],
+  }),
+  component: PaymentLayout,
+});
+
+function PaymentLayout() {
+  return <Outlet />;
+}

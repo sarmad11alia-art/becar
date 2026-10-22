@@ -1,1 +1,74 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rLCB1c2VOYXZpZ2F0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9hdXRoIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLYqtiz2KzZitmEINin2YTYr9iu2YjZhCB8INio2Yog2YPZitixIiB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLYqtiz2KzZitmEINin2YTYr9iu2YjZhCDYpdmE2Ykg2YTZiNit2Kkg2KrYrdmD2YUg2KjZiiDZg9mK2LEiIH0sCiAgICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiAi2KrYs9is2YrZhCDYp9mE2K/YrtmI2YQgfCDYqNmKINmD2YrYsSIgfSwKICAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLYqtiz2KzZitmEINin2YTYr9iu2YjZhCDYpdmE2Ykg2YTZiNit2Kkg2KrYrdmD2YUg2KjZiiDZg9mK2LEiIH0sCiAgICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LAogICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnkiIH0sCiAgICBdLAogIH0pLAogIGNvbXBvbmVudDogQXV0aFBhZ2UsCn0pOwoKZnVuY3Rpb24gQXV0aFBhZ2UoKSB7CiAgY29uc3QgbmF2aWdhdGUgPSB1c2VOYXZpZ2F0ZSgpOwogIGNvbnN0IEFETUlOX0VNQUlMID0gIm1hamVkQGJjYXJlLnNhIjsKICBjb25zdCBbcGFzc3dvcmQsIHNldFBhc3N3b3JkXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHN1cGFiYXNlLmF1dGguZ2V0VXNlcigpLnRoZW4oKHsgZGF0YSB9KSA9PiB7CiAgICAgIGlmIChkYXRhLnVzZXIpIG5hdmlnYXRlKHsgdG86ICIvZGFzaGJvYXJkIiwgcmVwbGFjZTogdHJ1ZSB9KTsKICAgIH0pOwogIH0sIFtuYXZpZ2F0ZV0pOwoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVTdWJtaXQoZTogUmVhY3QuRm9ybUV2ZW50KSB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBzZXRFcnJvcihudWxsKTsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5hdXRoLnNpZ25JbldpdGhQYXNzd29yZCh7IGVtYWlsOiBBRE1JTl9FTUFJTCwgcGFzc3dvcmQgfSk7CiAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgIGlmIChlcnJvcikgewogICAgICBzZXRFcnJvcigi2YPZhNmF2Kkg2KfZhNmF2LHZiNixINi62YrYsSDYtdit2YrYrdipIik7CiAgICAgIHJldHVybjsKICAgIH0KICAgIG5hdmlnYXRlKHsgdG86ICIvZGFzaGJvYXJkIiwgcmVwbGFjZTogdHJ1ZSB9KTsKICB9CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBtaW4taC1zY3JlZW4gaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLWJjYXJlLXN1cmZhY2UgcHgtNCIgZGlyPSJydGwiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LW1kIHJvdW5kZWQtM3hsIGJnLXdoaXRlIHAtOCBzaGFkb3ctc20iPgogICAgICAgIDxoMSBjbGFzc05hbWU9Im1iLTIgdGV4dC1jZW50ZXIgdGV4dC0yeGwgZm9udC1ib2xkIHRleHQtYmNhcmUtYmx1ZSI+2KrYs9is2YrZhCDYp9mE2K/YrtmI2YQ8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibWItNiB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtYmNhcmUtbXV0ZWQiPtmE2YjYrdipINiq2K3Zg9mFINio2Yog2YPZitixPC9wPgogICAgICAgIDxmb3JtIGNsYXNzTmFtZT0ic3BhY2UteS00IiBvblN1Ym1pdD17aGFuZGxlU3VibWl0fT4KICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICB0eXBlPSJwYXNzd29yZCIKICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgdmFsdWU9e3Bhc3N3b3JkfQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFBhc3N3b3JkKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9ItmD2YTZhdipINin2YTZhdix2YjYsSIKICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTE0IHctZnVsbCByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYmNhcmUtYm9yZGVyIHB4LTQgb3V0bGluZS1ub25lIGZvY3VzOmJvcmRlci1iY2FyZS1ibHVlIgogICAgICAgICAgLz4KICAgICAgICAgIHtlcnJvciAmJiA8cCBjbGFzc05hbWU9InRleHQtY2VudGVyIHRleHQtc20gdGV4dC1yZWQtNjAwIj57ZXJyb3J9PC9wPn0KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgdHlwZT0ic3VibWl0IgogICAgICAgICAgICBkaXNhYmxlZD17bG9hZGluZ30KICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTE0IHctZnVsbCByb3VuZGVkLXhsIGJnLWJjYXJlLWJsdWUgZm9udC1ib2xkIHRleHQtd2hpdGUgZGlzYWJsZWQ6b3BhY2l0eS02MCIKICAgICAgICAgID4KICAgICAgICAgICAge2xvYWRpbmcgPyAi2KzYp9ix2Yog2KfZhNiv2K7ZiNmELi4uIiA6ICLYr9iu2YjZhCJ9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Zvcm0+CiAgICAgICAgPExpbmsgdG89Ii8iIGNsYXNzTmFtZT0ibXQtNCBibG9jayB0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtYmNhcmUtYmx1ZSI+CiAgICAgICAgICDYp9mE2LnZiNiv2Kkg2YTZhNix2KbZitiz2YrYqQogICAgICAgIDwvTGluaz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { supabase } from "@/integrations/supabase/client";
+
+export const Route = createFileRoute("/auth")({
+  head: () => ({
+    meta: [
+      { title: "تسجيل الدخول | بي كير" },
+      { name: "description", content: "تسجيل الدخول إلى لوحة تحكم بي كير" },
+       { property: "og:title", content: "تسجيل الدخول | بي كير" },
+       { property: "og:description", content: "تسجيل الدخول إلى لوحة تحكم بي كير" },
+       { property: "og:type", content: "website" },
+       { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: AuthPage,
+});
+
+function AuthPage() {
+  const navigate = useNavigate();
+  const ADMIN_EMAIL = "majed@bcare.sa";
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => {
+      if (data.user) navigate({ to: "/dashboard", replace: true });
+    });
+  }, [navigate]);
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+    const { error } = await supabase.auth.signInWithPassword({ email: ADMIN_EMAIL, password });
+    setLoading(false);
+    if (error) {
+      setError("كلمة المرور غير صحيحة");
+      return;
+    }
+    navigate({ to: "/dashboard", replace: true });
+  }
+
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-bcare-surface px-4" dir="rtl">
+      <div className="w-full max-w-md rounded-3xl bg-white p-8 shadow-sm">
+        <h1 className="mb-2 text-center text-2xl font-bold text-bcare-blue">تسجيل الدخول</h1>
+        <p className="mb-6 text-center text-sm text-bcare-muted">لوحة تحكم بي كير</p>
+        <form className="space-y-4" onSubmit={handleSubmit}>
+          <input
+            type="password"
+            required
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="كلمة المرور"
+            className="h-14 w-full rounded-xl border border-bcare-border px-4 outline-none focus:border-bcare-blue"
+          />
+          {error && <p className="text-center text-sm text-red-600">{error}</p>}
+          <button
+            type="submit"
+            disabled={loading}
+            className="h-14 w-full rounded-xl bg-bcare-blue font-bold text-white disabled:opacity-60"
+          >
+            {loading ? "جاري الدخول..." : "دخول"}
+          </button>
+        </form>
+        <Link to="/" className="mt-4 block text-center text-sm text-bcare-blue">
+          العودة للرئيسية
+        </Link>
+      </div>
+    </div>
+  );
+}

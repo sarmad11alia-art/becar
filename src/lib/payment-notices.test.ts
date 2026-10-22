@@ -1,1 +1,8 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBQQVlNRU5UX1VOQVZBSUxBQkxFX01FU1NBR0UgfSBmcm9tICIuL3BheW1lbnQtbm90aWNlcyI7CgpkZXNjcmliZSgicGF5bWVudCB1bmF2YWlsYWJsZSBub3RpY2UiLCAoKSA9PiB7CiAgaXQoInNob3dzIHRoZSBleGFjdCBBcmFiaWMgd29yZGluZyByZXF1ZXN0ZWQgZm9yIHVuYXZhaWxhYmxlIG9wdGlvbnMiLCAoKSA9PiB7CiAgICBleHBlY3QoUEFZTUVOVF9VTkFWQUlMQUJMRV9NRVNTQUdFKS50b0JlKCLZh9iw2Kcg2KfZhNiu2YrYp9ixINi62YrYsSDZhdiq2YjZgdixINmB2Yog2KfZhNmI2YLYqiDYp9mE2K3Yp9mE2YoiKTsKICB9KTsKfSk7Cg==
+import { describe, expect, it } from "vitest";
+import { PAYMENT_UNAVAILABLE_MESSAGE } from "./payment-notices";
+
+describe("payment unavailable notice", () => {
+  it("shows the exact Arabic wording requested for unavailable options", () => {
+    expect(PAYMENT_UNAVAILABLE_MESSAGE).toBe("هذا الخيار غير متوفر في الوقت الحالي");
+  });
+});

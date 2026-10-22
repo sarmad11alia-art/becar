@@ -1,1 +1,155 @@
-aW1wb3J0IHsgUXVlcnlDbGllbnQsIFF1ZXJ5Q2xpZW50UHJvdmlkZXIgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgewogIE91dGxldCwKICBMaW5rLAogIGNyZWF0ZVJvb3RSb3V0ZVdpdGhDb250ZXh0LAogIHVzZVJvdXRlciwKICBIZWFkQ29udGVudCwKICBTY3JpcHRzLAogIHR5cGUgRXJyb3JDb21wb25lbnRQcm9wcywKICB1c2VSb3V0ZXJTdGF0ZSwKfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSwgdHlwZSBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CgppbXBvcnQgeyBUb2FzdGVyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Nvbm5lciI7CgppbXBvcnQgYXBwQ3NzIGZyb20gIi4uL3N0eWxlcy5jc3M/dXJsIjsKaW1wb3J0IHsgcmVwb3J0TG92YWJsZUVycm9yIH0gZnJvbSAiLi4vbGliL2xvdmFibGUtZXJyb3ItcmVwb3J0aW5nIjsKCmZ1bmN0aW9uIE5vdEZvdW5kQ29tcG9uZW50KCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBtaW4taC1zY3JlZW4gaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLWJhY2tncm91bmQgcHgtNCIgZGlyPSJydGwiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctbWQgdGV4dC1jZW50ZXIiPgogICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtN3hsIGZvbnQtYm9sZCB0ZXh0LWZvcmVncm91bmQiPtmk2aDZpDwvaDE+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0ibXQtNCB0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1mb3JlZ3JvdW5kIj7Yp9mE2LXZgdit2Kkg2LrZitixINmF2YjYrNmI2K/YqTwvaDI+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgINin2YTYtdmB2K3YqSDYp9mE2KrZiiDYqtio2K3YqyDYudmG2YfYpyDYutmK2LEg2YXZiNis2YjYr9ipINij2Ygg2KrZhSDZhtmC2YTZh9inLgogICAgICAgIDwvcD4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiI+CiAgICAgICAgICA8TGluawogICAgICAgICAgICB0bz0iLyIKICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCBiZy1wcmltYXJ5IHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLXByaW1hcnkvOTAiCiAgICAgICAgICA+CiAgICAgICAgICAgINin2YTYudmI2K/YqSDZhNmE2LHYptmK2LPZitipCiAgICAgICAgICA8L0xpbms+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZnVuY3Rpb24gRXJyb3JDb21wb25lbnQoeyBlcnJvciwgcmVzZXQgfTogRXJyb3JDb21wb25lbnRQcm9wcykgewogIGNvbnNvbGUuZXJyb3IoZXJyb3IpOwogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpOwogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICByZXBvcnRMb3ZhYmxlRXJyb3IoZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yIDogbmV3IEVycm9yKFN0cmluZyhlcnJvcikpLCB7CiAgICAgIGJvdW5kYXJ5OiAidGFuc3RhY2tfcm9vdF9lcnJvcl9jb21wb25lbnQiLAogICAgfSk7CiAgfSwgW2Vycm9yXSk7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBtaW4taC1zY3JlZW4gaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGJnLWJhY2tncm91bmQgcHgtNCIgZGlyPSJydGwiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctbWQgdGV4dC1jZW50ZXIiPgogICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0cmFja2luZy10aWdodCB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgICAg2YTZhSDZhtiq2YXZg9mGINmF2YYg2KrYrdmF2YrZhCDYp9mE2LXZgdit2KkKICAgICAgICA8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICDYrdiv2Ksg2K7Yt9ijINmF2YYg2KzYp9mG2KjZhtinLiDZitmF2YPZhtmDINin2YTZhdit2KfZiNmE2Kkg2YXYsdipINij2K7YsdmJINij2Ygg2KfZhNi52YjYr9ipINmE2YTYsdim2YrYs9mK2KkuCiAgICAgICAgPC9wPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC02IGZsZXggZmxleC13cmFwIGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17KCkgPT4gewogICAgICAgICAgICAgIHJvdXRlci5pbnZhbGlkYXRlKCk7CiAgICAgICAgICAgICAgcmVzZXQoKTsKICAgICAgICAgICAgfX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCBiZy1wcmltYXJ5IHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLXByaW1hcnkvOTAiCiAgICAgICAgICA+CiAgICAgICAgICAgINin2YTZhdit2KfZiNmE2Kkg2YXYsdipINij2K7YsdmJCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDxhCiAgICAgICAgICAgIGhyZWY9Ii8iCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZm9yZWdyb3VuZCB0cmFuc2l0aW9uLWNvbG9ycyBob3ZlcjpiZy1hY2NlbnQiCiAgICAgICAgICA+CiAgICAgICAgICAgINin2YTYudmI2K/YqSDZhNmE2LHYptmK2LPZitipCiAgICAgICAgICA8L2E+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlUm9vdFJvdXRlV2l0aENvbnRleHQ8eyBxdWVyeUNsaWVudDogUXVlcnlDbGllbnQgfT4oKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyBjaGFyU2V0OiAidXRmLTgiIH0sCiAgICAgIHsgbmFtZTogInZpZXdwb3J0IiwgY29udGVudDogIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xIiB9LAogICAgICB7IHRpdGxlOiAi2KjZiiDZg9mK2LEg2YTZhNiq2KPZhdmK2YYgfCBCY2FyZSIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAi2YLYp9ix2YbYjCDYo9mF2YbYjCDYp9iz2KrZhNmFINmI2KvZitmC2KrZgyDigJQg2KPZg9ir2LEg2YXZhiAyMCDYtNix2YPYqSDYqtij2YXZitmGINmB2Yog2YXZg9in2YYg2YjYp9it2K8iIH0sCiAgICAgIHsgbmFtZTogImF1dGhvciIsIGNvbnRlbnQ6ICJCY2FyZSIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogItio2Yog2YPZitixINmE2YTYqtij2YXZitmGIHwgQmNhcmUiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLZgtin2LHZhtiMINij2YXZhtiMINin2LPYqtmE2YUg2YjYq9mK2YLYqtmDIOKAlCDYo9mD2KvYsSDZhdmGIDIwINi02LHZg9ipINiq2KPZhdmK2YYg2YHZiiDZhdmD2KfZhiDZiNin2K3YryIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnlfbGFyZ2VfaW1hZ2UiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6c2l0ZSIsIGNvbnRlbnQ6ICJAYmNhcmUiIH0sCiAgICBdLAogICAgbGlua3M6IFsKICAgICAgewogICAgICAgIHJlbDogInN0eWxlc2hlZXQiLAogICAgICAgIGhyZWY6IGFwcENzcywKICAgICAgfSwKICAgICAgewogICAgICAgIHJlbDogInByZWNvbm5lY3QiLAogICAgICAgIGhyZWY6ICJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tIiwKICAgICAgfSwKICAgICAgewogICAgICAgIHJlbDogInByZWNvbm5lY3QiLAogICAgICAgIGhyZWY6ICJodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tIiwKICAgICAgICBjcm9zc09yaWdpbjogImFub255bW91cyIsCiAgICAgIH0sCiAgICAgIHsKICAgICAgICByZWw6ICJzdHlsZXNoZWV0IiwKICAgICAgICBocmVmOiAiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1DYWlybzp3Z2h0QDMwMDs0MDA7NTAwOzYwMDs3MDA7ODAwOzkwMCZkaXNwbGF5PXN3YXAiLAogICAgICB9LAogICAgICB7IHJlbDogImljb24iLCBocmVmOiAiL2Zhdmljb24ucG5nIiwgdHlwZTogImltYWdlL3BuZyIgfSwKICAgIF0sCiAgfSksCiAgc2hlbGxDb21wb25lbnQ6IFJvb3RTaGVsbCwKICBjb21wb25lbnQ6IFJvb3RDb21wb25lbnQsCiAgbm90Rm91bmRDb21wb25lbnQ6IE5vdEZvdW5kQ29tcG9uZW50LAogIGVycm9yQ29tcG9uZW50OiBFcnJvckNvbXBvbmVudCwKfSk7CgpmdW5jdGlvbiBSb290U2hlbGwoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdE5vZGUgfSkgewogIHJldHVybiAoCiAgICA8aHRtbCBsYW5nPSJhciIgZGlyPSJydGwiPgogICAgICA8aGVhZD4KICAgICAgICA8SGVhZENvbnRlbnQgLz4KICAgICAgPC9oZWFkPgogICAgICA8Ym9keT4KICAgICAgICB7Y2hpbGRyZW59CiAgICAgICAgPFNjcmlwdHMgLz4KICAgICAgPC9ib2R5PgogICAgPC9odG1sPgogICk7Cn0KCmZ1bmN0aW9uIFJvb3RDb21wb25lbnQoKSB7CiAgY29uc3QgeyBxdWVyeUNsaWVudCB9ID0gUm91dGUudXNlUm91dGVDb250ZXh0KCk7CiAgLy8gVGhlIGFkbWluIGFyZWEgbW91bnRzIGl0cyBvd24gYm90dG9tLXJpZ2h0IHRvYXN0IGhvc3QgKF9hdXRoZW50aWNhdGVkL3JvdXRlLnRzeCkuCiAgLy8gU29ubmVyIHNob3dzIGV2ZXJ5IHRvYXN0IGluIGV2ZXJ5IG1vdW50ZWQgaG9zdCwgc28gd2l0aG91dCB0aGlzIGd1YXJkIGVhY2ggYWRtaW4KICAvLyBub3RpZmljYXRpb24gd291bGQgYWxzbyBwb3AgdXAgYXQgdGhlIHRvcCBvZiB0aGUgc2NyZWVuLgogIGNvbnN0IGlzSW5BZG1pbkFyZWEgPSB1c2VSb3V0ZXJTdGF0ZSh7CiAgICBzZWxlY3Q6IChzKSA9PgogICAgICBzLm1hdGNoZXMuc29tZSgobSkgPT4gbS5yb3V0ZUlkID09PSAiL19hdXRoZW50aWNhdGVkIiB8fCBtLnJvdXRlSWQuc3RhcnRzV2l0aCgiL19hdXRoZW50aWNhdGVkLyIpKSwKICB9KTsKICBjb25zdCBbbW91bnRlZCwgc2V0TW91bnRlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgdXNlRWZmZWN0KCgpID0+IHNldE1vdW50ZWQodHJ1ZSksIFtdKTsKCiAgcmV0dXJuICgKICAgIDxRdWVyeUNsaWVudFByb3ZpZGVyIGNsaWVudD17cXVlcnlDbGllbnR9PgogICAgICB7LyogUmVxdWlyZWQ6IG5lc3RlZCByb3V0ZXMgcmVuZGVyIGhlcmUuIFJlbW92aW5nIDxPdXRsZXQgLz4gYnJlYWtzIGFsbCBjaGlsZCByb3V0ZXMuICovfQogICAgICA8T3V0bGV0IC8+CiAgICAgIHsoIW1vdW50ZWQgfHwgIWlzSW5BZG1pbkFyZWEpICYmIDxUb2FzdGVyIHBvc2l0aW9uPSJ0b3AtY2VudGVyIiBkaXI9InJ0bCIgLz59CiAgICA8L1F1ZXJ5Q2xpZW50UHJvdmlkZXI+CiAgKTsKfQo=
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import {
+  Outlet,
+  Link,
+  createRootRouteWithContext,
+  useRouter,
+  HeadContent,
+  Scripts,
+  type ErrorComponentProps,
+  useRouterState,
+} from "@tanstack/react-router";
+import { useEffect, useState, type ReactNode } from "react";
+
+import { Toaster } from "@/components/ui/sonner";
+
+import appCss from "../styles.css?url";
+import { reportLovableError } from "../lib/lovable-error-reporting";
+
+function NotFoundComponent() {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-4" dir="rtl">
+      <div className="max-w-md text-center">
+        <h1 className="text-7xl font-bold text-foreground">٤٠٤</h1>
+        <h2 className="mt-4 text-xl font-semibold text-foreground">الصفحة غير موجودة</h2>
+        <p className="mt-2 text-sm text-muted-foreground">
+          الصفحة التي تبحث عنها غير موجودة أو تم نقلها.
+        </p>
+        <div className="mt-6">
+          <Link
+            to="/"
+            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+          >
+            العودة للرئيسية
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ErrorComponent({ error, reset }: ErrorComponentProps) {
+  console.error(error);
+  const router = useRouter();
+  useEffect(() => {
+    reportLovableError(error instanceof Error ? error : new Error(String(error)), {
+      boundary: "tanstack_root_error_component",
+    });
+  }, [error]);
+
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-4" dir="rtl">
+      <div className="max-w-md text-center">
+        <h1 className="text-xl font-semibold tracking-tight text-foreground">
+          لم نتمكن من تحميل الصفحة
+        </h1>
+        <p className="mt-2 text-sm text-muted-foreground">
+          حدث خطأ من جانبنا. يمكنك المحاولة مرة أخرى أو العودة للرئيسية.
+        </p>
+        <div className="mt-6 flex flex-wrap justify-center gap-2">
+          <button
+            onClick={() => {
+              router.invalidate();
+              reset();
+            }}
+            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+          >
+            المحاولة مرة أخرى
+          </button>
+          <a
+            href="/"
+            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
+          >
+            العودة للرئيسية
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  head: () => ({
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "بي كير للتأمين | Bcare" },
+      { name: "description", content: "قارن، أمن، استلم وثيقتك — أكثر من 20 شركة تأمين في مكان واحد" },
+      { name: "author", content: "Bcare" },
+      { property: "og:title", content: "بي كير للتأمين | Bcare" },
+      { property: "og:description", content: "قارن، أمن، استلم وثيقتك — أكثر من 20 شركة تأمين في مكان واحد" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@bcare" },
+    ],
+    links: [
+      {
+        rel: "stylesheet",
+        href: appCss,
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossOrigin: "anonymous",
+      },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap",
+      },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
+    ],
+  }),
+  shellComponent: RootShell,
+  component: RootComponent,
+  notFoundComponent: NotFoundComponent,
+  errorComponent: ErrorComponent,
+});
+
+function RootShell({ children }: { children: ReactNode }) {
+  return (
+    <html lang="ar" dir="rtl">
+      <head>
+        <HeadContent />
+      </head>
+      <body>
+        {children}
+        <Scripts />
+      </body>
+    </html>
+  );
+}
+
+function RootComponent() {
+  const { queryClient } = Route.useRouteContext();
+  // The admin area mounts its own bottom-right toast host (_authenticated/route.tsx).
+  // Sonner shows every toast in every mounted host, so without this guard each admin
+  // notification would also pop up at the top of the screen.
+  const isInAdminArea = useRouterState({
+    select: (s) =>
+      s.matches.some((m) => m.routeId === "/_authenticated" || m.routeId.startsWith("/_authenticated/")),
+  });
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+      <Outlet />
+      {(!mounted || !isInAdminArea) && <Toaster position="top-center" dir="rtl" />}
+    </QueryClientProvider>
+  );
+}

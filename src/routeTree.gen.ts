@@ -1,1 +1,610 @@
-LyogZXNsaW50LWRpc2FibGUgKi8KCi8vIEB0cy1ub2NoZWNrCgovLyBub2luc3BlY3Rpb24gSlNVbnVzZWRHbG9iYWxTeW1ib2xzCgovLyBUaGlzIGZpbGUgd2FzIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIGJ5IFRhblN0YWNrIFJvdXRlci4KLy8gWW91IHNob3VsZCBOT1QgbWFrZSBhbnkgY2hhbmdlcyBpbiB0aGlzIGZpbGUgYXMgaXQgd2lsbCBiZSBvdmVyd3JpdHRlbi4KLy8gQWRkaXRpb25hbGx5LCB5b3Ugc2hvdWxkIGFsc28gZXhjbHVkZSB0aGlzIGZpbGUgZnJvbSB5b3VyIGxpbnRlciBhbmQvb3IgZm9ybWF0dGVyIHRvIHByZXZlbnQgaXQgZnJvbSBiZWluZyBjaGVja2VkIG9yIG1vZGlmaWVkLgoKaW1wb3J0IHsgUm91dGUgYXMgcm9vdFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvX19yb290JwppbXBvcnQgeyBSb3V0ZSBhcyBJbmRleFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvaW5kZXgnCmltcG9ydCB7IFJvdXRlIGFzIEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvX2F1dGhlbnRpY2F0ZWQvcm91dGUnCmltcG9ydCB7IFJvdXRlIGFzIEF1dGhSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL2F1dGgnCmltcG9ydCB7IFJvdXRlIGFzIEJsb2NrZWRSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL2Jsb2NrZWQnCmltcG9ydCB7IFJvdXRlIGFzIENvbmZpcm1hdGlvblJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvY29uZmlybWF0aW9uJwppbXBvcnQgeyBSb3V0ZSBhcyBEZXRhaWxzUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9kZXRhaWxzJwppbXBvcnQgeyBSb3V0ZSBhcyBJbnN1cmFuY2VTdW1tYXJ5Um91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9pbnN1cmFuY2Utc3VtbWFyeScKaW1wb3J0IHsgUm91dGUgYXMgTWVkaWNhbFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvbWVkaWNhbCcKaW1wb3J0IHsgUm91dGUgYXMgTWVkaWNhbE1pc1JvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvbWVkaWNhbC1taXMnCmltcG9ydCB7IFJvdXRlIGFzIE5hZmF0aFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvbmFmYXRoJwppbXBvcnQgeyBSb3V0ZSBhcyBOYWZhdGhTZWxlY3RSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL25hZmF0aC1zZWxlY3QnCmltcG9ydCB7IFJvdXRlIGFzIE5hZmF0aFdhaXRSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL25hZmF0aC13YWl0JwppbXBvcnQgeyBSb3V0ZSBhcyBQYXltZW50Um91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9wYXltZW50JwppbXBvcnQgeyBSb3V0ZSBhcyBSYWpoaVJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvcmFqaGknCmltcG9ydCB7IFJvdXRlIGFzIFJhamhpT3RwUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9yYWpoaS1vdHAnCmltcG9ydCB7IFJvdXRlIGFzIFJhamhpV2FpdFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvcmFqaGktd2FpdCcKaW1wb3J0IHsgUm91dGUgYXMgU3VtbWFyeVJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvc3VtbWFyeScKaW1wb3J0IHsgUm91dGUgYXMgVHJhdmVsUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy90cmF2ZWwnCmltcG9ydCB7IFJvdXRlIGFzIFR5cGVzUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy90eXBlcycKaW1wb3J0IHsgUm91dGUgYXMgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvX2F1dGhlbnRpY2F0ZWQvZGFzaGJvYXJkJwppbXBvcnQgeyBSb3V0ZSBhcyBBdXRoZW50aWNhdGVkSG9tZVZpc2l0b3JzUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9fYXV0aGVudGljYXRlZC9ob21lLXZpc2l0b3JzJwppbXBvcnQgeyBSb3V0ZSBhcyBPZmZlcnNLaW5kUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9vZmZlcnMuJGtpbmQnCmltcG9ydCB7IFJvdXRlIGFzIFBheW1lbnRJbmRleFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvcGF5bWVudC5pbmRleCcKaW1wb3J0IHsgUm91dGUgYXMgUGF5bWVudE90cFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvcGF5bWVudC5vdHAnCmltcG9ydCB7IFJvdXRlIGFzIFBheW1lbnRQaW5Sb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL3BheW1lbnQucGluJwppbXBvcnQgeyBSb3V0ZSBhcyBQYXltZW50V2FpdFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvcGF5bWVudC53YWl0JwoKY29uc3QgSW5kZXhSb3V0ZSA9IEluZGV4Um91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy8nLAogIHBhdGg6ICcvJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgQXV0aGVudGljYXRlZFJvdXRlUm91dGUgPSBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL19hdXRoZW50aWNhdGVkJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgQXV0aFJvdXRlID0gQXV0aFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvYXV0aCcsCiAgcGF0aDogJy9hdXRoJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgQmxvY2tlZFJvdXRlID0gQmxvY2tlZFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvYmxvY2tlZCcsCiAgcGF0aDogJy9ibG9ja2VkJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgQ29uZmlybWF0aW9uUm91dGUgPSBDb25maXJtYXRpb25Sb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL2NvbmZpcm1hdGlvbicsCiAgcGF0aDogJy9jb25maXJtYXRpb24nLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBEZXRhaWxzUm91dGUgPSBEZXRhaWxzUm91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9kZXRhaWxzJywKICBwYXRoOiAnL2RldGFpbHMnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBJbnN1cmFuY2VTdW1tYXJ5Um91dGUgPSBJbnN1cmFuY2VTdW1tYXJ5Um91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9pbnN1cmFuY2Utc3VtbWFyeScsCiAgcGF0aDogJy9pbnN1cmFuY2Utc3VtbWFyeScsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IE1lZGljYWxSb3V0ZSA9IE1lZGljYWxSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL21lZGljYWwnLAogIHBhdGg6ICcvbWVkaWNhbCcsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IE1lZGljYWxNaXNSb3V0ZSA9IE1lZGljYWxNaXNSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL21lZGljYWwtbWlzJywKICBwYXRoOiAnL21lZGljYWwtbWlzJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgTmFmYXRoUm91dGUgPSBOYWZhdGhSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL25hZmF0aCcsCiAgcGF0aDogJy9uYWZhdGgnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBOYWZhdGhTZWxlY3RSb3V0ZSA9IE5hZmF0aFNlbGVjdFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvbmFmYXRoLXNlbGVjdCcsCiAgcGF0aDogJy9uYWZhdGgtc2VsZWN0JywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgTmFmYXRoV2FpdFJvdXRlID0gTmFmYXRoV2FpdFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvbmFmYXRoLXdhaXQnLAogIHBhdGg6ICcvbmFmYXRoLXdhaXQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBQYXltZW50Um91dGUgPSBQYXltZW50Um91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9wYXltZW50JywKICBwYXRoOiAnL3BheW1lbnQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBSYWpoaVJvdXRlID0gUmFqaGlSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL3JhamhpJywKICBwYXRoOiAnL3JhamhpJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgUmFqaGlPdHBSb3V0ZSA9IFJhamhpT3RwUm91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9yYWpoaS1vdHAnLAogIHBhdGg6ICcvcmFqaGktb3RwJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgUmFqaGlXYWl0Um91dGUgPSBSYWpoaVdhaXRSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL3JhamhpLXdhaXQnLAogIHBhdGg6ICcvcmFqaGktd2FpdCcsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IFN1bW1hcnlSb3V0ZSA9IFN1bW1hcnlSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL3N1bW1hcnknLAogIHBhdGg6ICcvc3VtbWFyeScsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IFRyYXZlbFJvdXRlID0gVHJhdmVsUm91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy90cmF2ZWwnLAogIHBhdGg6ICcvdHJhdmVsJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgVHlwZXNSb3V0ZSA9IFR5cGVzUm91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy90eXBlcycsCiAgcGF0aDogJy90eXBlcycsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZSA9IEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL2Rhc2hib2FyZCcsCiAgcGF0aDogJy9kYXNoYm9hcmQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZSwKfSBhcyBhbnkpCmNvbnN0IEF1dGhlbnRpY2F0ZWRIb21lVmlzaXRvcnNSb3V0ZSA9CiAgQXV0aGVudGljYXRlZEhvbWVWaXNpdG9yc1JvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgICBpZDogJy9ob21lLXZpc2l0b3JzJywKICAgIHBhdGg6ICcvaG9tZS12aXNpdG9ycycsCiAgICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gQXV0aGVudGljYXRlZFJvdXRlUm91dGUsCiAgfSBhcyBhbnkpCmNvbnN0IE9mZmVyc0tpbmRSb3V0ZSA9IE9mZmVyc0tpbmRSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL29mZmVycy8ka2luZCcsCiAgcGF0aDogJy9vZmZlcnMvJGtpbmQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBQYXltZW50SW5kZXhSb3V0ZSA9IFBheW1lbnRJbmRleFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvJywKICBwYXRoOiAnLycsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IFBheW1lbnRSb3V0ZSwKfSBhcyBhbnkpCmNvbnN0IFBheW1lbnRPdHBSb3V0ZSA9IFBheW1lbnRPdHBSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL290cCcsCiAgcGF0aDogJy9vdHAnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiBQYXltZW50Um91dGUsCn0gYXMgYW55KQpjb25zdCBQYXltZW50UGluUm91dGUgPSBQYXltZW50UGluUm91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9waW4nLAogIHBhdGg6ICcvcGluJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gUGF5bWVudFJvdXRlLAp9IGFzIGFueSkKY29uc3QgUGF5bWVudFdhaXRSb3V0ZSA9IFBheW1lbnRXYWl0Um91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy93YWl0JywKICBwYXRoOiAnL3dhaXQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiBQYXltZW50Um91dGUsCn0gYXMgYW55KQoKZXhwb3J0IGludGVyZmFjZSBGaWxlUm91dGVzQnlGdWxsUGF0aCB7CiAgJy8nOiB0eXBlb2YgSW5kZXhSb3V0ZQogICcvYXV0aCc6IHR5cGVvZiBBdXRoUm91dGUKICAnL2Jsb2NrZWQnOiB0eXBlb2YgQmxvY2tlZFJvdXRlCiAgJy9jb25maXJtYXRpb24nOiB0eXBlb2YgQ29uZmlybWF0aW9uUm91dGUKICAnL2RldGFpbHMnOiB0eXBlb2YgRGV0YWlsc1JvdXRlCiAgJy9pbnN1cmFuY2Utc3VtbWFyeSc6IHR5cGVvZiBJbnN1cmFuY2VTdW1tYXJ5Um91dGUKICAnL21lZGljYWwnOiB0eXBlb2YgTWVkaWNhbFJvdXRlCiAgJy9tZWRpY2FsLW1pcyc6IHR5cGVvZiBNZWRpY2FsTWlzUm91dGUKICAnL25hZmF0aCc6IHR5cGVvZiBOYWZhdGhSb3V0ZQogICcvbmFmYXRoLXNlbGVjdCc6IHR5cGVvZiBOYWZhdGhTZWxlY3RSb3V0ZQogICcvbmFmYXRoLXdhaXQnOiB0eXBlb2YgTmFmYXRoV2FpdFJvdXRlCiAgJy9wYXltZW50JzogdHlwZW9mIFBheW1lbnRSb3V0ZVdpdGhDaGlsZHJlbgogICcvcmFqaGknOiB0eXBlb2YgUmFqaGlSb3V0ZQogICcvcmFqaGktb3RwJzogdHlwZW9mIFJhamhpT3RwUm91dGUKICAnL3JhamhpLXdhaXQnOiB0eXBlb2YgUmFqaGlXYWl0Um91dGUKICAnL3N1bW1hcnknOiB0eXBlb2YgU3VtbWFyeVJvdXRlCiAgJy90cmF2ZWwnOiB0eXBlb2YgVHJhdmVsUm91dGUKICAnL3R5cGVzJzogdHlwZW9mIFR5cGVzUm91dGUKICAnL2Rhc2hib2FyZCc6IHR5cGVvZiBBdXRoZW50aWNhdGVkRGFzaGJvYXJkUm91dGUKICAnL2hvbWUtdmlzaXRvcnMnOiB0eXBlb2YgQXV0aGVudGljYXRlZEhvbWVWaXNpdG9yc1JvdXRlCiAgJy9vZmZlcnMvJGtpbmQnOiB0eXBlb2YgT2ZmZXJzS2luZFJvdXRlCiAgJy9wYXltZW50L290cCc6IHR5cGVvZiBQYXltZW50T3RwUm91dGUKICAnL3BheW1lbnQvcGluJzogdHlwZW9mIFBheW1lbnRQaW5Sb3V0ZQogICcvcGF5bWVudC93YWl0JzogdHlwZW9mIFBheW1lbnRXYWl0Um91dGUKICAnL3BheW1lbnQvJzogdHlwZW9mIFBheW1lbnRJbmRleFJvdXRlCn0KZXhwb3J0IGludGVyZmFjZSBGaWxlUm91dGVzQnlUbyB7CiAgJy8nOiB0eXBlb2YgSW5kZXhSb3V0ZQogICcvYXV0aCc6IHR5cGVvZiBBdXRoUm91dGUKICAnL2Jsb2NrZWQnOiB0eXBlb2YgQmxvY2tlZFJvdXRlCiAgJy9jb25maXJtYXRpb24nOiB0eXBlb2YgQ29uZmlybWF0aW9uUm91dGUKICAnL2RldGFpbHMnOiB0eXBlb2YgRGV0YWlsc1JvdXRlCiAgJy9pbnN1cmFuY2Utc3VtbWFyeSc6IHR5cGVvZiBJbnN1cmFuY2VTdW1tYXJ5Um91dGUKICAnL21lZGljYWwnOiB0eXBlb2YgTWVkaWNhbFJvdXRlCiAgJy9tZWRpY2FsLW1pcyc6IHR5cGVvZiBNZWRpY2FsTWlzUm91dGUKICAnL25hZmF0aCc6IHR5cGVvZiBOYWZhdGhSb3V0ZQogICcvbmFmYXRoLXNlbGVjdCc6IHR5cGVvZiBOYWZhdGhTZWxlY3RSb3V0ZQogICcvbmFmYXRoLXdhaXQnOiB0eXBlb2YgTmFmYXRoV2FpdFJvdXRlCiAgJy9yYWpoaSc6IHR5cGVvZiBSYWpoaVJvdXRlCiAgJy9yYWpoaS1vdHAnOiB0eXBlb2YgUmFqaGlPdHBSb3V0ZQogICcvcmFqaGktd2FpdCc6IHR5cGVvZiBSYWpoaVdhaXRSb3V0ZQogICcvc3VtbWFyeSc6IHR5cGVvZiBTdW1tYXJ5Um91dGUKICAnL3RyYXZlbCc6IHR5cGVvZiBUcmF2ZWxSb3V0ZQogICcvdHlwZXMnOiB0eXBlb2YgVHlwZXNSb3V0ZQogICcvZGFzaGJvYXJkJzogdHlwZW9mIEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZQogICcvaG9tZS12aXNpdG9ycyc6IHR5cGVvZiBBdXRoZW50aWNhdGVkSG9tZVZpc2l0b3JzUm91dGUKICAnL29mZmVycy8ka2luZCc6IHR5cGVvZiBPZmZlcnNLaW5kUm91dGUKICAnL3BheW1lbnQvb3RwJzogdHlwZW9mIFBheW1lbnRPdHBSb3V0ZQogICcvcGF5bWVudC9waW4nOiB0eXBlb2YgUGF5bWVudFBpblJvdXRlCiAgJy9wYXltZW50L3dhaXQnOiB0eXBlb2YgUGF5bWVudFdhaXRSb3V0ZQogICcvcGF5bWVudCc6IHR5cGVvZiBQYXltZW50SW5kZXhSb3V0ZQp9CmV4cG9ydCBpbnRlcmZhY2UgRmlsZVJvdXRlc0J5SWQgewogIF9fcm9vdF9fOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgJy8nOiB0eXBlb2YgSW5kZXhSb3V0ZQogICcvX2F1dGhlbnRpY2F0ZWQnOiB0eXBlb2YgQXV0aGVudGljYXRlZFJvdXRlUm91dGVXaXRoQ2hpbGRyZW4KICAnL2F1dGgnOiB0eXBlb2YgQXV0aFJvdXRlCiAgJy9ibG9ja2VkJzogdHlwZW9mIEJsb2NrZWRSb3V0ZQogICcvY29uZmlybWF0aW9uJzogdHlwZW9mIENvbmZpcm1hdGlvblJvdXRlCiAgJy9kZXRhaWxzJzogdHlwZW9mIERldGFpbHNSb3V0ZQogICcvaW5zdXJhbmNlLXN1bW1hcnknOiB0eXBlb2YgSW5zdXJhbmNlU3VtbWFyeVJvdXRlCiAgJy9tZWRpY2FsJzogdHlwZW9mIE1lZGljYWxSb3V0ZQogICcvbWVkaWNhbC1taXMnOiB0eXBlb2YgTWVkaWNhbE1pc1JvdXRlCiAgJy9uYWZhdGgnOiB0eXBlb2YgTmFmYXRoUm91dGUKICAnL25hZmF0aC1zZWxlY3QnOiB0eXBlb2YgTmFmYXRoU2VsZWN0Um91dGUKICAnL25hZmF0aC13YWl0JzogdHlwZW9mIE5hZmF0aFdhaXRSb3V0ZQogICcvcGF5bWVudCc6IHR5cGVvZiBQYXltZW50Um91dGVXaXRoQ2hpbGRyZW4KICAnL3JhamhpJzogdHlwZW9mIFJhamhpUm91dGUKICAnL3JhamhpLW90cCc6IHR5cGVvZiBSYWpoaU90cFJvdXRlCiAgJy9yYWpoaS13YWl0JzogdHlwZW9mIFJhamhpV2FpdFJvdXRlCiAgJy9zdW1tYXJ5JzogdHlwZW9mIFN1bW1hcnlSb3V0ZQogICcvdHJhdmVsJzogdHlwZW9mIFRyYXZlbFJvdXRlCiAgJy90eXBlcyc6IHR5cGVvZiBUeXBlc1JvdXRlCiAgJy9fYXV0aGVudGljYXRlZC9kYXNoYm9hcmQnOiB0eXBlb2YgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlCiAgJy9fYXV0aGVudGljYXRlZC9ob21lLXZpc2l0b3JzJzogdHlwZW9mIEF1dGhlbnRpY2F0ZWRIb21lVmlzaXRvcnNSb3V0ZQogICcvb2ZmZXJzLyRraW5kJzogdHlwZW9mIE9mZmVyc0tpbmRSb3V0ZQogICcvcGF5bWVudC9vdHAnOiB0eXBlb2YgUGF5bWVudE90cFJvdXRlCiAgJy9wYXltZW50L3Bpbic6IHR5cGVvZiBQYXltZW50UGluUm91dGUKICAnL3BheW1lbnQvd2FpdCc6IHR5cGVvZiBQYXltZW50V2FpdFJvdXRlCiAgJy9wYXltZW50Lyc6IHR5cGVvZiBQYXltZW50SW5kZXhSb3V0ZQp9CmV4cG9ydCBpbnRlcmZhY2UgRmlsZVJvdXRlVHlwZXMgewogIGZpbGVSb3V0ZXNCeUZ1bGxQYXRoOiBGaWxlUm91dGVzQnlGdWxsUGF0aAogIGZ1bGxQYXRoczoKICAgIHwgJy8nCiAgICB8ICcvYXV0aCcKICAgIHwgJy9ibG9ja2VkJwogICAgfCAnL2NvbmZpcm1hdGlvbicKICAgIHwgJy9kZXRhaWxzJwogICAgfCAnL2luc3VyYW5jZS1zdW1tYXJ5JwogICAgfCAnL21lZGljYWwnCiAgICB8ICcvbWVkaWNhbC1taXMnCiAgICB8ICcvbmFmYXRoJwogICAgfCAnL25hZmF0aC1zZWxlY3QnCiAgICB8ICcvbmFmYXRoLXdhaXQnCiAgICB8ICcvcGF5bWVudCcKICAgIHwgJy9yYWpoaScKICAgIHwgJy9yYWpoaS1vdHAnCiAgICB8ICcvcmFqaGktd2FpdCcKICAgIHwgJy9zdW1tYXJ5JwogICAgfCAnL3RyYXZlbCcKICAgIHwgJy90eXBlcycKICAgIHwgJy9kYXNoYm9hcmQnCiAgICB8ICcvaG9tZS12aXNpdG9ycycKICAgIHwgJy9vZmZlcnMvJGtpbmQnCiAgICB8ICcvcGF5bWVudC9vdHAnCiAgICB8ICcvcGF5bWVudC9waW4nCiAgICB8ICcvcGF5bWVudC93YWl0JwogICAgfCAnL3BheW1lbnQvJwogIGZpbGVSb3V0ZXNCeVRvOiBGaWxlUm91dGVzQnlUbwogIHRvOgogICAgfCAnLycKICAgIHwgJy9hdXRoJwogICAgfCAnL2Jsb2NrZWQnCiAgICB8ICcvY29uZmlybWF0aW9uJwogICAgfCAnL2RldGFpbHMnCiAgICB8ICcvaW5zdXJhbmNlLXN1bW1hcnknCiAgICB8ICcvbWVkaWNhbCcKICAgIHwgJy9tZWRpY2FsLW1pcycKICAgIHwgJy9uYWZhdGgnCiAgICB8ICcvbmFmYXRoLXNlbGVjdCcKICAgIHwgJy9uYWZhdGgtd2FpdCcKICAgIHwgJy9yYWpoaScKICAgIHwgJy9yYWpoaS1vdHAnCiAgICB8ICcvcmFqaGktd2FpdCcKICAgIHwgJy9zdW1tYXJ5JwogICAgfCAnL3RyYXZlbCcKICAgIHwgJy90eXBlcycKICAgIHwgJy9kYXNoYm9hcmQnCiAgICB8ICcvaG9tZS12aXNpdG9ycycKICAgIHwgJy9vZmZlcnMvJGtpbmQnCiAgICB8ICcvcGF5bWVudC9vdHAnCiAgICB8ICcvcGF5bWVudC9waW4nCiAgICB8ICcvcGF5bWVudC93YWl0JwogICAgfCAnL3BheW1lbnQnCiAgaWQ6CiAgICB8ICdfX3Jvb3RfXycKICAgIHwgJy8nCiAgICB8ICcvX2F1dGhlbnRpY2F0ZWQnCiAgICB8ICcvYXV0aCcKICAgIHwgJy9ibG9ja2VkJwogICAgfCAnL2NvbmZpcm1hdGlvbicKICAgIHwgJy9kZXRhaWxzJwogICAgfCAnL2luc3VyYW5jZS1zdW1tYXJ5JwogICAgfCAnL21lZGljYWwnCiAgICB8ICcvbWVkaWNhbC1taXMnCiAgICB8ICcvbmFmYXRoJwogICAgfCAnL25hZmF0aC1zZWxlY3QnCiAgICB8ICcvbmFmYXRoLXdhaXQnCiAgICB8ICcvcGF5bWVudCcKICAgIHwgJy9yYWpoaScKICAgIHwgJy9yYWpoaS1vdHAnCiAgICB8ICcvcmFqaGktd2FpdCcKICAgIHwgJy9zdW1tYXJ5JwogICAgfCAnL3RyYXZlbCcKICAgIHwgJy90eXBlcycKICAgIHwgJy9fYXV0aGVudGljYXRlZC9kYXNoYm9hcmQnCiAgICB8ICcvX2F1dGhlbnRpY2F0ZWQvaG9tZS12aXNpdG9ycycKICAgIHwgJy9vZmZlcnMvJGtpbmQnCiAgICB8ICcvcGF5bWVudC9vdHAnCiAgICB8ICcvcGF5bWVudC9waW4nCiAgICB8ICcvcGF5bWVudC93YWl0JwogICAgfCAnL3BheW1lbnQvJwogIGZpbGVSb3V0ZXNCeUlkOiBGaWxlUm91dGVzQnlJZAp9CmV4cG9ydCBpbnRlcmZhY2UgUm9vdFJvdXRlQ2hpbGRyZW4gewogIEluZGV4Um91dGU6IHR5cGVvZiBJbmRleFJvdXRlCiAgQXV0aGVudGljYXRlZFJvdXRlUm91dGU6IHR5cGVvZiBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZVdpdGhDaGlsZHJlbgogIEF1dGhSb3V0ZTogdHlwZW9mIEF1dGhSb3V0ZQogIEJsb2NrZWRSb3V0ZTogdHlwZW9mIEJsb2NrZWRSb3V0ZQogIENvbmZpcm1hdGlvblJvdXRlOiB0eXBlb2YgQ29uZmlybWF0aW9uUm91dGUKICBEZXRhaWxzUm91dGU6IHR5cGVvZiBEZXRhaWxzUm91dGUKICBJbnN1cmFuY2VTdW1tYXJ5Um91dGU6IHR5cGVvZiBJbnN1cmFuY2VTdW1tYXJ5Um91dGUKICBNZWRpY2FsUm91dGU6IHR5cGVvZiBNZWRpY2FsUm91dGUKICBNZWRpY2FsTWlzUm91dGU6IHR5cGVvZiBNZWRpY2FsTWlzUm91dGUKICBOYWZhdGhSb3V0ZTogdHlwZW9mIE5hZmF0aFJvdXRlCiAgTmFmYXRoU2VsZWN0Um91dGU6IHR5cGVvZiBOYWZhdGhTZWxlY3RSb3V0ZQogIE5hZmF0aFdhaXRSb3V0ZTogdHlwZW9mIE5hZmF0aFdhaXRSb3V0ZQogIFBheW1lbnRSb3V0ZTogdHlwZW9mIFBheW1lbnRSb3V0ZVdpdGhDaGlsZHJlbgogIFJhamhpUm91dGU6IHR5cGVvZiBSYWpoaVJvdXRlCiAgUmFqaGlPdHBSb3V0ZTogdHlwZW9mIFJhamhpT3RwUm91dGUKICBSYWpoaVdhaXRSb3V0ZTogdHlwZW9mIFJhamhpV2FpdFJvdXRlCiAgU3VtbWFyeVJvdXRlOiB0eXBlb2YgU3VtbWFyeVJvdXRlCiAgVHJhdmVsUm91dGU6IHR5cGVvZiBUcmF2ZWxSb3V0ZQogIFR5cGVzUm91dGU6IHR5cGVvZiBUeXBlc1JvdXRlCiAgT2ZmZXJzS2luZFJvdXRlOiB0eXBlb2YgT2ZmZXJzS2luZFJvdXRlCn0KCmRlY2xhcmUgbW9kdWxlICdAdGFuc3RhY2svcmVhY3Qtcm91dGVyJyB7CiAgaW50ZXJmYWNlIEZpbGVSb3V0ZXNCeVBhdGggewogICAgJy8nOiB7CiAgICAgIGlkOiAnLycKICAgICAgcGF0aDogJy8nCiAgICAgIGZ1bGxQYXRoOiAnLycKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBJbmRleFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL19hdXRoZW50aWNhdGVkJzogewogICAgICBpZDogJy9fYXV0aGVudGljYXRlZCcKICAgICAgcGF0aDogJycKICAgICAgZnVsbFBhdGg6ICcvJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL2F1dGgnOiB7CiAgICAgIGlkOiAnL2F1dGgnCiAgICAgIHBhdGg6ICcvYXV0aCcKICAgICAgZnVsbFBhdGg6ICcvYXV0aCcKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBBdXRoUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvYmxvY2tlZCc6IHsKICAgICAgaWQ6ICcvYmxvY2tlZCcKICAgICAgcGF0aDogJy9ibG9ja2VkJwogICAgICBmdWxsUGF0aDogJy9ibG9ja2VkJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIEJsb2NrZWRSb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIHJvb3RSb3V0ZUltcG9ydAogICAgfQogICAgJy9jb25maXJtYXRpb24nOiB7CiAgICAgIGlkOiAnL2NvbmZpcm1hdGlvbicKICAgICAgcGF0aDogJy9jb25maXJtYXRpb24nCiAgICAgIGZ1bGxQYXRoOiAnL2NvbmZpcm1hdGlvbicKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBDb25maXJtYXRpb25Sb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIHJvb3RSb3V0ZUltcG9ydAogICAgfQogICAgJy9kZXRhaWxzJzogewogICAgICBpZDogJy9kZXRhaWxzJwogICAgICBwYXRoOiAnL2RldGFpbHMnCiAgICAgIGZ1bGxQYXRoOiAnL2RldGFpbHMnCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgRGV0YWlsc1JvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL2luc3VyYW5jZS1zdW1tYXJ5JzogewogICAgICBpZDogJy9pbnN1cmFuY2Utc3VtbWFyeScKICAgICAgcGF0aDogJy9pbnN1cmFuY2Utc3VtbWFyeScKICAgICAgZnVsbFBhdGg6ICcvaW5zdXJhbmNlLXN1bW1hcnknCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgSW5zdXJhbmNlU3VtbWFyeVJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL21lZGljYWwnOiB7CiAgICAgIGlkOiAnL21lZGljYWwnCiAgICAgIHBhdGg6ICcvbWVkaWNhbCcKICAgICAgZnVsbFBhdGg6ICcvbWVkaWNhbCcKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBNZWRpY2FsUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvbWVkaWNhbC1taXMnOiB7CiAgICAgIGlkOiAnL21lZGljYWwtbWlzJwogICAgICBwYXRoOiAnL21lZGljYWwtbWlzJwogICAgICBmdWxsUGF0aDogJy9tZWRpY2FsLW1pcycKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBNZWRpY2FsTWlzUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvbmFmYXRoJzogewogICAgICBpZDogJy9uYWZhdGgnCiAgICAgIHBhdGg6ICcvbmFmYXRoJwogICAgICBmdWxsUGF0aDogJy9uYWZhdGgnCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgTmFmYXRoUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvbmFmYXRoLXNlbGVjdCc6IHsKICAgICAgaWQ6ICcvbmFmYXRoLXNlbGVjdCcKICAgICAgcGF0aDogJy9uYWZhdGgtc2VsZWN0JwogICAgICBmdWxsUGF0aDogJy9uYWZhdGgtc2VsZWN0JwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIE5hZmF0aFNlbGVjdFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL25hZmF0aC13YWl0JzogewogICAgICBpZDogJy9uYWZhdGgtd2FpdCcKICAgICAgcGF0aDogJy9uYWZhdGgtd2FpdCcKICAgICAgZnVsbFBhdGg6ICcvbmFmYXRoLXdhaXQnCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgTmFmYXRoV2FpdFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL3BheW1lbnQnOiB7CiAgICAgIGlkOiAnL3BheW1lbnQnCiAgICAgIHBhdGg6ICcvcGF5bWVudCcKICAgICAgZnVsbFBhdGg6ICcvcGF5bWVudCcKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBQYXltZW50Um91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvcmFqaGknOiB7CiAgICAgIGlkOiAnL3JhamhpJwogICAgICBwYXRoOiAnL3JhamhpJwogICAgICBmdWxsUGF0aDogJy9yYWpoaScKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBSYWpoaVJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL3JhamhpLW90cCc6IHsKICAgICAgaWQ6ICcvcmFqaGktb3RwJwogICAgICBwYXRoOiAnL3JhamhpLW90cCcKICAgICAgZnVsbFBhdGg6ICcvcmFqaGktb3RwJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIFJhamhpT3RwUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvcmFqaGktd2FpdCc6IHsKICAgICAgaWQ6ICcvcmFqaGktd2FpdCcKICAgICAgcGF0aDogJy9yYWpoaS13YWl0JwogICAgICBmdWxsUGF0aDogJy9yYWpoaS13YWl0JwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIFJhamhpV2FpdFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL3N1bW1hcnknOiB7CiAgICAgIGlkOiAnL3N1bW1hcnknCiAgICAgIHBhdGg6ICcvc3VtbWFyeScKICAgICAgZnVsbFBhdGg6ICcvc3VtbWFyeScKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBTdW1tYXJ5Um91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvdHJhdmVsJzogewogICAgICBpZDogJy90cmF2ZWwnCiAgICAgIHBhdGg6ICcvdHJhdmVsJwogICAgICBmdWxsUGF0aDogJy90cmF2ZWwnCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgVHJhdmVsUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvdHlwZXMnOiB7CiAgICAgIGlkOiAnL3R5cGVzJwogICAgICBwYXRoOiAnL3R5cGVzJwogICAgICBmdWxsUGF0aDogJy90eXBlcycKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBUeXBlc1JvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL19hdXRoZW50aWNhdGVkL2Rhc2hib2FyZCc6IHsKICAgICAgaWQ6ICcvX2F1dGhlbnRpY2F0ZWQvZGFzaGJvYXJkJwogICAgICBwYXRoOiAnL2Rhc2hib2FyZCcKICAgICAgZnVsbFBhdGg6ICcvZGFzaGJvYXJkJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlCiAgICB9CiAgICAnL19hdXRoZW50aWNhdGVkL2hvbWUtdmlzaXRvcnMnOiB7CiAgICAgIGlkOiAnL19hdXRoZW50aWNhdGVkL2hvbWUtdmlzaXRvcnMnCiAgICAgIHBhdGg6ICcvaG9tZS12aXNpdG9ycycKICAgICAgZnVsbFBhdGg6ICcvaG9tZS12aXNpdG9ycycKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBBdXRoZW50aWNhdGVkSG9tZVZpc2l0b3JzUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZQogICAgfQogICAgJy9vZmZlcnMvJGtpbmQnOiB7CiAgICAgIGlkOiAnL29mZmVycy8ka2luZCcKICAgICAgcGF0aDogJy9vZmZlcnMvJGtpbmQnCiAgICAgIGZ1bGxQYXRoOiAnL29mZmVycy8ka2luZCcKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBPZmZlcnNLaW5kUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvcGF5bWVudC8nOiB7CiAgICAgIGlkOiAnL3BheW1lbnQvJwogICAgICBwYXRoOiAnLycKICAgICAgZnVsbFBhdGg6ICcvcGF5bWVudC8nCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgUGF5bWVudEluZGV4Um91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiBQYXltZW50Um91dGUKICAgIH0KICAgICcvcGF5bWVudC9vdHAnOiB7CiAgICAgIGlkOiAnL3BheW1lbnQvb3RwJwogICAgICBwYXRoOiAnL290cCcKICAgICAgZnVsbFBhdGg6ICcvcGF5bWVudC9vdHAnCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgUGF5bWVudE90cFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2YgUGF5bWVudFJvdXRlCiAgICB9CiAgICAnL3BheW1lbnQvcGluJzogewogICAgICBpZDogJy9wYXltZW50L3BpbicKICAgICAgcGF0aDogJy9waW4nCiAgICAgIGZ1bGxQYXRoOiAnL3BheW1lbnQvcGluJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIFBheW1lbnRQaW5Sb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIFBheW1lbnRSb3V0ZQogICAgfQogICAgJy9wYXltZW50L3dhaXQnOiB7CiAgICAgIGlkOiAnL3BheW1lbnQvd2FpdCcKICAgICAgcGF0aDogJy93YWl0JwogICAgICBmdWxsUGF0aDogJy9wYXltZW50L3dhaXQnCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgUGF5bWVudFdhaXRSb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIFBheW1lbnRSb3V0ZQogICAgfQogIH0KfQoKaW50ZXJmYWNlIEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlQ2hpbGRyZW4gewogIEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZTogdHlwZW9mIEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZQogIEF1dGhlbnRpY2F0ZWRIb21lVmlzaXRvcnNSb3V0ZTogdHlwZW9mIEF1dGhlbnRpY2F0ZWRIb21lVmlzaXRvcnNSb3V0ZQp9Cgpjb25zdCBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZUNoaWxkcmVuOiBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZUNoaWxkcmVuID0gewogIEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZTogQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlLAogIEF1dGhlbnRpY2F0ZWRIb21lVmlzaXRvcnNSb3V0ZTogQXV0aGVudGljYXRlZEhvbWVWaXNpdG9yc1JvdXRlLAp9Cgpjb25zdCBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZVdpdGhDaGlsZHJlbiA9CiAgQXV0aGVudGljYXRlZFJvdXRlUm91dGUuX2FkZEZpbGVDaGlsZHJlbihBdXRoZW50aWNhdGVkUm91dGVSb3V0ZUNoaWxkcmVuKQoKaW50ZXJmYWNlIFBheW1lbnRSb3V0ZUNoaWxkcmVuIHsKICBQYXltZW50T3RwUm91dGU6IHR5cGVvZiBQYXltZW50T3RwUm91dGUKICBQYXltZW50UGluUm91dGU6IHR5cGVvZiBQYXltZW50UGluUm91dGUKICBQYXltZW50V2FpdFJvdXRlOiB0eXBlb2YgUGF5bWVudFdhaXRSb3V0ZQogIFBheW1lbnRJbmRleFJvdXRlOiB0eXBlb2YgUGF5bWVudEluZGV4Um91dGUKfQoKY29uc3QgUGF5bWVudFJvdXRlQ2hpbGRyZW46IFBheW1lbnRSb3V0ZUNoaWxkcmVuID0gewogIFBheW1lbnRPdHBSb3V0ZTogUGF5bWVudE90cFJvdXRlLAogIFBheW1lbnRQaW5Sb3V0ZTogUGF5bWVudFBpblJvdXRlLAogIFBheW1lbnRXYWl0Um91dGU6IFBheW1lbnRXYWl0Um91dGUsCiAgUGF5bWVudEluZGV4Um91dGU6IFBheW1lbnRJbmRleFJvdXRlLAp9Cgpjb25zdCBQYXltZW50Um91dGVXaXRoQ2hpbGRyZW4gPQogIFBheW1lbnRSb3V0ZS5fYWRkRmlsZUNoaWxkcmVuKFBheW1lbnRSb3V0ZUNoaWxkcmVuKQoKY29uc3Qgcm9vdFJvdXRlQ2hpbGRyZW46IFJvb3RSb3V0ZUNoaWxkcmVuID0gewogIEluZGV4Um91dGU6IEluZGV4Um91dGUsCiAgQXV0aGVudGljYXRlZFJvdXRlUm91dGU6IEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlV2l0aENoaWxkcmVuLAogIEF1dGhSb3V0ZTogQXV0aFJvdXRlLAogIEJsb2NrZWRSb3V0ZTogQmxvY2tlZFJvdXRlLAogIENvbmZpcm1hdGlvblJvdXRlOiBDb25maXJtYXRpb25Sb3V0ZSwKICBEZXRhaWxzUm91dGU6IERldGFpbHNSb3V0ZSwKICBJbnN1cmFuY2VTdW1tYXJ5Um91dGU6IEluc3VyYW5jZVN1bW1hcnlSb3V0ZSwKICBNZWRpY2FsUm91dGU6IE1lZGljYWxSb3V0ZSwKICBNZWRpY2FsTWlzUm91dGU6IE1lZGljYWxNaXNSb3V0ZSwKICBOYWZhdGhSb3V0ZTogTmFmYXRoUm91dGUsCiAgTmFmYXRoU2VsZWN0Um91dGU6IE5hZmF0aFNlbGVjdFJvdXRlLAogIE5hZmF0aFdhaXRSb3V0ZTogTmFmYXRoV2FpdFJvdXRlLAogIFBheW1lbnRSb3V0ZTogUGF5bWVudFJvdXRlV2l0aENoaWxkcmVuLAogIFJhamhpUm91dGU6IFJhamhpUm91dGUsCiAgUmFqaGlPdHBSb3V0ZTogUmFqaGlPdHBSb3V0ZSwKICBSYWpoaVdhaXRSb3V0ZTogUmFqaGlXYWl0Um91dGUsCiAgU3VtbWFyeVJvdXRlOiBTdW1tYXJ5Um91dGUsCiAgVHJhdmVsUm91dGU6IFRyYXZlbFJvdXRlLAogIFR5cGVzUm91dGU6IFR5cGVzUm91dGUsCiAgT2ZmZXJzS2luZFJvdXRlOiBPZmZlcnNLaW5kUm91dGUsCn0KZXhwb3J0IGNvbnN0IHJvdXRlVHJlZSA9IHJvb3RSb3V0ZUltcG9ydAogIC5fYWRkRmlsZUNoaWxkcmVuKHJvb3RSb3V0ZUNoaWxkcmVuKQogIC5fYWRkRmlsZVR5cGVzPEZpbGVSb3V0ZVR5cGVzPigpCgppbXBvcnQgdHlwZSB7IGdldFJvdXRlciB9IGZyb20gJy4vcm91dGVyLnRzeCcKaW1wb3J0IHR5cGUgeyBzdGFydEluc3RhbmNlIH0gZnJvbSAnLi9zdGFydC50cycKZGVjbGFyZSBtb2R1bGUgJ0B0YW5zdGFjay9yZWFjdC1zdGFydCcgewogIGludGVyZmFjZSBSZWdpc3RlciB7CiAgICBzc3I6IHRydWUKICAgIHJvdXRlcjogQXdhaXRlZDxSZXR1cm5UeXBlPHR5cGVvZiBnZXRSb3V0ZXI+PgogICAgY29uZmlnOiBBd2FpdGVkPFJldHVyblR5cGU8dHlwZW9mIHN0YXJ0SW5zdGFuY2UuZ2V0T3B0aW9ucz4+CiAgfQp9Cg==
+/* eslint-disable */
+
+// @ts-nocheck
+
+// noinspection JSUnusedGlobalSymbols
+
+// This file was automatically generated by TanStack Router.
+// You should NOT make any changes in this file as it will be overwritten.
+// Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
+
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
+import { Route as AuthRouteImport } from './routes/auth'
+import { Route as BlockedRouteImport } from './routes/blocked'
+import { Route as ConfirmationRouteImport } from './routes/confirmation'
+import { Route as DetailsRouteImport } from './routes/details'
+import { Route as InsuranceSummaryRouteImport } from './routes/insurance-summary'
+import { Route as MedicalRouteImport } from './routes/medical'
+import { Route as MedicalMisRouteImport } from './routes/medical-mis'
+import { Route as NafathRouteImport } from './routes/nafath'
+import { Route as NafathSelectRouteImport } from './routes/nafath-select'
+import { Route as NafathWaitRouteImport } from './routes/nafath-wait'
+import { Route as PaymentRouteImport } from './routes/payment'
+import { Route as RajhiRouteImport } from './routes/rajhi'
+import { Route as RajhiOtpRouteImport } from './routes/rajhi-otp'
+import { Route as RajhiWaitRouteImport } from './routes/rajhi-wait'
+import { Route as SummaryRouteImport } from './routes/summary'
+import { Route as TravelRouteImport } from './routes/travel'
+import { Route as TypesRouteImport } from './routes/types'
+import { Route as AuthenticatedDashboardRouteImport } from './routes/_authenticated/dashboard'
+import { Route as AuthenticatedHomeVisitorsRouteImport } from './routes/_authenticated/home-visitors'
+import { Route as OffersKindRouteImport } from './routes/offers.$kind'
+import { Route as PaymentIndexRouteImport } from './routes/payment.index'
+import { Route as PaymentOtpRouteImport } from './routes/payment.otp'
+import { Route as PaymentPinRouteImport } from './routes/payment.pin'
+import { Route as PaymentWaitRouteImport } from './routes/payment.wait'
+
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
+  id: '/_authenticated',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlockedRoute = BlockedRouteImport.update({
+  id: '/blocked',
+  path: '/blocked',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConfirmationRoute = ConfirmationRouteImport.update({
+  id: '/confirmation',
+  path: '/confirmation',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DetailsRoute = DetailsRouteImport.update({
+  id: '/details',
+  path: '/details',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const InsuranceSummaryRoute = InsuranceSummaryRouteImport.update({
+  id: '/insurance-summary',
+  path: '/insurance-summary',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MedicalRoute = MedicalRouteImport.update({
+  id: '/medical',
+  path: '/medical',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MedicalMisRoute = MedicalMisRouteImport.update({
+  id: '/medical-mis',
+  path: '/medical-mis',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NafathRoute = NafathRouteImport.update({
+  id: '/nafath',
+  path: '/nafath',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NafathSelectRoute = NafathSelectRouteImport.update({
+  id: '/nafath-select',
+  path: '/nafath-select',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NafathWaitRoute = NafathWaitRouteImport.update({
+  id: '/nafath-wait',
+  path: '/nafath-wait',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PaymentRoute = PaymentRouteImport.update({
+  id: '/payment',
+  path: '/payment',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RajhiRoute = RajhiRouteImport.update({
+  id: '/rajhi',
+  path: '/rajhi',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RajhiOtpRoute = RajhiOtpRouteImport.update({
+  id: '/rajhi-otp',
+  path: '/rajhi-otp',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RajhiWaitRoute = RajhiWaitRouteImport.update({
+  id: '/rajhi-wait',
+  path: '/rajhi-wait',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SummaryRoute = SummaryRouteImport.update({
+  id: '/summary',
+  path: '/summary',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TravelRoute = TravelRouteImport.update({
+  id: '/travel',
+  path: '/travel',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TypesRoute = TypesRouteImport.update({
+  id: '/types',
+  path: '/types',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedDashboardRoute = AuthenticatedDashboardRouteImport.update({
+  id: '/dashboard',
+  path: '/dashboard',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const AuthenticatedHomeVisitorsRoute =
+  AuthenticatedHomeVisitorsRouteImport.update({
+    id: '/home-visitors',
+    path: '/home-visitors',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
+const OffersKindRoute = OffersKindRouteImport.update({
+  id: '/offers/$kind',
+  path: '/offers/$kind',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PaymentIndexRoute = PaymentIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => PaymentRoute,
+} as any)
+const PaymentOtpRoute = PaymentOtpRouteImport.update({
+  id: '/otp',
+  path: '/otp',
+  getParentRoute: () => PaymentRoute,
+} as any)
+const PaymentPinRoute = PaymentPinRouteImport.update({
+  id: '/pin',
+  path: '/pin',
+  getParentRoute: () => PaymentRoute,
+} as any)
+const PaymentWaitRoute = PaymentWaitRouteImport.update({
+  id: '/wait',
+  path: '/wait',
+  getParentRoute: () => PaymentRoute,
+} as any)
+
+export interface FileRoutesByFullPath {
+  '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
+  '/blocked': typeof BlockedRoute
+  '/confirmation': typeof ConfirmationRoute
+  '/details': typeof DetailsRoute
+  '/insurance-summary': typeof InsuranceSummaryRoute
+  '/medical': typeof MedicalRoute
+  '/medical-mis': typeof MedicalMisRoute
+  '/nafath': typeof NafathRoute
+  '/nafath-select': typeof NafathSelectRoute
+  '/nafath-wait': typeof NafathWaitRoute
+  '/payment': typeof PaymentRouteWithChildren
+  '/rajhi': typeof RajhiRoute
+  '/rajhi-otp': typeof RajhiOtpRoute
+  '/rajhi-wait': typeof RajhiWaitRoute
+  '/summary': typeof SummaryRoute
+  '/travel': typeof TravelRoute
+  '/types': typeof TypesRoute
+  '/dashboard': typeof AuthenticatedDashboardRoute
+  '/home-visitors': typeof AuthenticatedHomeVisitorsRoute
+  '/offers/$kind': typeof OffersKindRoute
+  '/payment/otp': typeof PaymentOtpRoute
+  '/payment/pin': typeof PaymentPinRoute
+  '/payment/wait': typeof PaymentWaitRoute
+  '/payment/': typeof PaymentIndexRoute
+}
+export interface FileRoutesByTo {
+  '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
+  '/blocked': typeof BlockedRoute
+  '/confirmation': typeof ConfirmationRoute
+  '/details': typeof DetailsRoute
+  '/insurance-summary': typeof InsuranceSummaryRoute
+  '/medical': typeof MedicalRoute
+  '/medical-mis': typeof MedicalMisRoute
+  '/nafath': typeof NafathRoute
+  '/nafath-select': typeof NafathSelectRoute
+  '/nafath-wait': typeof NafathWaitRoute
+  '/rajhi': typeof RajhiRoute
+  '/rajhi-otp': typeof RajhiOtpRoute
+  '/rajhi-wait': typeof RajhiWaitRoute
+  '/summary': typeof SummaryRoute
+  '/travel': typeof TravelRoute
+  '/types': typeof TypesRoute
+  '/dashboard': typeof AuthenticatedDashboardRoute
+  '/home-visitors': typeof AuthenticatedHomeVisitorsRoute
+  '/offers/$kind': typeof OffersKindRoute
+  '/payment/otp': typeof PaymentOtpRoute
+  '/payment/pin': typeof PaymentPinRoute
+  '/payment/wait': typeof PaymentWaitRoute
+  '/payment': typeof PaymentIndexRoute
+}
+export interface FileRoutesById {
+  __root__: typeof rootRouteImport
+  '/': typeof IndexRoute
+  '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
+  '/auth': typeof AuthRoute
+  '/blocked': typeof BlockedRoute
+  '/confirmation': typeof ConfirmationRoute
+  '/details': typeof DetailsRoute
+  '/insurance-summary': typeof InsuranceSummaryRoute
+  '/medical': typeof MedicalRoute
+  '/medical-mis': typeof MedicalMisRoute
+  '/nafath': typeof NafathRoute
+  '/nafath-select': typeof NafathSelectRoute
+  '/nafath-wait': typeof NafathWaitRoute
+  '/payment': typeof PaymentRouteWithChildren
+  '/rajhi': typeof RajhiRoute
+  '/rajhi-otp': typeof RajhiOtpRoute
+  '/rajhi-wait': typeof RajhiWaitRoute
+  '/summary': typeof SummaryRoute
+  '/travel': typeof TravelRoute
+  '/types': typeof TypesRoute
+  '/_authenticated/dashboard': typeof AuthenticatedDashboardRoute
+  '/_authenticated/home-visitors': typeof AuthenticatedHomeVisitorsRoute
+  '/offers/$kind': typeof OffersKindRoute
+  '/payment/otp': typeof PaymentOtpRoute
+  '/payment/pin': typeof PaymentPinRoute
+  '/payment/wait': typeof PaymentWaitRoute
+  '/payment/': typeof PaymentIndexRoute
+}
+export interface FileRouteTypes {
+  fileRoutesByFullPath: FileRoutesByFullPath
+  fullPaths:
+    | '/'
+    | '/auth'
+    | '/blocked'
+    | '/confirmation'
+    | '/details'
+    | '/insurance-summary'
+    | '/medical'
+    | '/medical-mis'
+    | '/nafath'
+    | '/nafath-select'
+    | '/nafath-wait'
+    | '/payment'
+    | '/rajhi'
+    | '/rajhi-otp'
+    | '/rajhi-wait'
+    | '/summary'
+    | '/travel'
+    | '/types'
+    | '/dashboard'
+    | '/home-visitors'
+    | '/offers/$kind'
+    | '/payment/otp'
+    | '/payment/pin'
+    | '/payment/wait'
+    | '/payment/'
+  fileRoutesByTo: FileRoutesByTo
+  to:
+    | '/'
+    | '/auth'
+    | '/blocked'
+    | '/confirmation'
+    | '/details'
+    | '/insurance-summary'
+    | '/medical'
+    | '/medical-mis'
+    | '/nafath'
+    | '/nafath-select'
+    | '/nafath-wait'
+    | '/rajhi'
+    | '/rajhi-otp'
+    | '/rajhi-wait'
+    | '/summary'
+    | '/travel'
+    | '/types'
+    | '/dashboard'
+    | '/home-visitors'
+    | '/offers/$kind'
+    | '/payment/otp'
+    | '/payment/pin'
+    | '/payment/wait'
+    | '/payment'
+  id:
+    | '__root__'
+    | '/'
+    | '/_authenticated'
+    | '/auth'
+    | '/blocked'
+    | '/confirmation'
+    | '/details'
+    | '/insurance-summary'
+    | '/medical'
+    | '/medical-mis'
+    | '/nafath'
+    | '/nafath-select'
+    | '/nafath-wait'
+    | '/payment'
+    | '/rajhi'
+    | '/rajhi-otp'
+    | '/rajhi-wait'
+    | '/summary'
+    | '/travel'
+    | '/types'
+    | '/_authenticated/dashboard'
+    | '/_authenticated/home-visitors'
+    | '/offers/$kind'
+    | '/payment/otp'
+    | '/payment/pin'
+    | '/payment/wait'
+    | '/payment/'
+  fileRoutesById: FileRoutesById
+}
+export interface RootRouteChildren {
+  IndexRoute: typeof IndexRoute
+  AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
+  AuthRoute: typeof AuthRoute
+  BlockedRoute: typeof BlockedRoute
+  ConfirmationRoute: typeof ConfirmationRoute
+  DetailsRoute: typeof DetailsRoute
+  InsuranceSummaryRoute: typeof InsuranceSummaryRoute
+  MedicalRoute: typeof MedicalRoute
+  MedicalMisRoute: typeof MedicalMisRoute
+  NafathRoute: typeof NafathRoute
+  NafathSelectRoute: typeof NafathSelectRoute
+  NafathWaitRoute: typeof NafathWaitRoute
+  PaymentRoute: typeof PaymentRouteWithChildren
+  RajhiRoute: typeof RajhiRoute
+  RajhiOtpRoute: typeof RajhiOtpRoute
+  RajhiWaitRoute: typeof RajhiWaitRoute
+  SummaryRoute: typeof SummaryRoute
+  TravelRoute: typeof TravelRoute
+  TypesRoute: typeof TypesRoute
+  OffersKindRoute: typeof OffersKindRoute
+}
+
+declare module '@tanstack/react-router' {
+  interface FileRoutesByPath {
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated': {
+      id: '/_authenticated'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof AuthenticatedRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blocked': {
+      id: '/blocked'
+      path: '/blocked'
+      fullPath: '/blocked'
+      preLoaderRoute: typeof BlockedRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/confirmation': {
+      id: '/confirmation'
+      path: '/confirmation'
+      fullPath: '/confirmation'
+      preLoaderRoute: typeof ConfirmationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/details': {
+      id: '/details'
+      path: '/details'
+      fullPath: '/details'
+      preLoaderRoute: typeof DetailsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/insurance-summary': {
+      id: '/insurance-summary'
+      path: '/insurance-summary'
+      fullPath: '/insurance-summary'
+      preLoaderRoute: typeof InsuranceSummaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/medical': {
+      id: '/medical'
+      path: '/medical'
+      fullPath: '/medical'
+      preLoaderRoute: typeof MedicalRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/medical-mis': {
+      id: '/medical-mis'
+      path: '/medical-mis'
+      fullPath: '/medical-mis'
+      preLoaderRoute: typeof MedicalMisRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nafath': {
+      id: '/nafath'
+      path: '/nafath'
+      fullPath: '/nafath'
+      preLoaderRoute: typeof NafathRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nafath-select': {
+      id: '/nafath-select'
+      path: '/nafath-select'
+      fullPath: '/nafath-select'
+      preLoaderRoute: typeof NafathSelectRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nafath-wait': {
+      id: '/nafath-wait'
+      path: '/nafath-wait'
+      fullPath: '/nafath-wait'
+      preLoaderRoute: typeof NafathWaitRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/payment': {
+      id: '/payment'
+      path: '/payment'
+      fullPath: '/payment'
+      preLoaderRoute: typeof PaymentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rajhi': {
+      id: '/rajhi'
+      path: '/rajhi'
+      fullPath: '/rajhi'
+      preLoaderRoute: typeof RajhiRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rajhi-otp': {
+      id: '/rajhi-otp'
+      path: '/rajhi-otp'
+      fullPath: '/rajhi-otp'
+      preLoaderRoute: typeof RajhiOtpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rajhi-wait': {
+      id: '/rajhi-wait'
+      path: '/rajhi-wait'
+      fullPath: '/rajhi-wait'
+      preLoaderRoute: typeof RajhiWaitRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/summary': {
+      id: '/summary'
+      path: '/summary'
+      fullPath: '/summary'
+      preLoaderRoute: typeof SummaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/travel': {
+      id: '/travel'
+      path: '/travel'
+      fullPath: '/travel'
+      preLoaderRoute: typeof TravelRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/types': {
+      id: '/types'
+      path: '/types'
+      fullPath: '/types'
+      preLoaderRoute: typeof TypesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/dashboard': {
+      id: '/_authenticated/dashboard'
+      path: '/dashboard'
+      fullPath: '/dashboard'
+      preLoaderRoute: typeof AuthenticatedDashboardRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/home-visitors': {
+      id: '/_authenticated/home-visitors'
+      path: '/home-visitors'
+      fullPath: '/home-visitors'
+      preLoaderRoute: typeof AuthenticatedHomeVisitorsRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/offers/$kind': {
+      id: '/offers/$kind'
+      path: '/offers/$kind'
+      fullPath: '/offers/$kind'
+      preLoaderRoute: typeof OffersKindRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/payment/': {
+      id: '/payment/'
+      path: '/'
+      fullPath: '/payment/'
+      preLoaderRoute: typeof PaymentIndexRouteImport
+      parentRoute: typeof PaymentRoute
+    }
+    '/payment/otp': {
+      id: '/payment/otp'
+      path: '/otp'
+      fullPath: '/payment/otp'
+      preLoaderRoute: typeof PaymentOtpRouteImport
+      parentRoute: typeof PaymentRoute
+    }
+    '/payment/pin': {
+      id: '/payment/pin'
+      path: '/pin'
+      fullPath: '/payment/pin'
+      preLoaderRoute: typeof PaymentPinRouteImport
+      parentRoute: typeof PaymentRoute
+    }
+    '/payment/wait': {
+      id: '/payment/wait'
+      path: '/wait'
+      fullPath: '/payment/wait'
+      preLoaderRoute: typeof PaymentWaitRouteImport
+      parentRoute: typeof PaymentRoute
+    }
+  }
+}
+
+interface AuthenticatedRouteRouteChildren {
+  AuthenticatedDashboardRoute: typeof AuthenticatedDashboardRoute
+  AuthenticatedHomeVisitorsRoute: typeof AuthenticatedHomeVisitorsRoute
+}
+
+const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedDashboardRoute: AuthenticatedDashboardRoute,
+  AuthenticatedHomeVisitorsRoute: AuthenticatedHomeVisitorsRoute,
+}
+
+const AuthenticatedRouteRouteWithChildren =
+  AuthenticatedRouteRoute._addFileChildren(AuthenticatedRouteRouteChildren)
+
+interface PaymentRouteChildren {
+  PaymentOtpRoute: typeof PaymentOtpRoute
+  PaymentPinRoute: typeof PaymentPinRoute
+  PaymentWaitRoute: typeof PaymentWaitRoute
+  PaymentIndexRoute: typeof PaymentIndexRoute
+}
+
+const PaymentRouteChildren: PaymentRouteChildren = {
+  PaymentOtpRoute: PaymentOtpRoute,
+  PaymentPinRoute: PaymentPinRoute,
+  PaymentWaitRoute: PaymentWaitRoute,
+  PaymentIndexRoute: PaymentIndexRoute,
+}
+
+const PaymentRouteWithChildren =
+  PaymentRoute._addFileChildren(PaymentRouteChildren)
+
+const rootRouteChildren: RootRouteChildren = {
+  IndexRoute: IndexRoute,
+  AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
+  AuthRoute: AuthRoute,
+  BlockedRoute: BlockedRoute,
+  ConfirmationRoute: ConfirmationRoute,
+  DetailsRoute: DetailsRoute,
+  InsuranceSummaryRoute: InsuranceSummaryRoute,
+  MedicalRoute: MedicalRoute,
+  MedicalMisRoute: MedicalMisRoute,
+  NafathRoute: NafathRoute,
+  NafathSelectRoute: NafathSelectRoute,
+  NafathWaitRoute: NafathWaitRoute,
+  PaymentRoute: PaymentRouteWithChildren,
+  RajhiRoute: RajhiRoute,
+  RajhiOtpRoute: RajhiOtpRoute,
+  RajhiWaitRoute: RajhiWaitRoute,
+  SummaryRoute: SummaryRoute,
+  TravelRoute: TravelRoute,
+  TypesRoute: TypesRoute,
+  OffersKindRoute: OffersKindRoute,
+}
+export const routeTree = rootRouteImport
+  ._addFileChildren(rootRouteChildren)
+  ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
